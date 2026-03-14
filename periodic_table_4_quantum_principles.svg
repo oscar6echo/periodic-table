@@ -653,19 +653,19 @@
 <text x="117" y="2476" font-size="7" fill="#e6edf3" font-weight="600" font-family="sans-serif" text-anchor="middle">Fr</text>
 <text x="387" y="2374" font-size="7" fill="#f0b030" font-weight="600" font-family="sans-serif" text-anchor="middle">Cr*</text>
 <text x="657" y="2374" font-size="7" fill="#f0b030" font-weight="600" font-family="sans-serif" text-anchor="middle">Cu*</text>
-<rect x="90" y="2488" width="972" height="8" fill="#0d1117"/>
-<rect x="198" y="2488" width="756" height="8" rx="2" fill="#d2a8ff" opacity="0.35"/>
+<rect x="90" y="2488" width="972" height="14" fill="#0d1117"/>
+<rect x="198" y="2488" width="756" height="14" rx="2" fill="#d2a8ff" opacity="0.35"/>
 <text x="576" y="2498" font-size="7" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">f  &#x00B7;  (n&#x2212;2)f  &#x00B7;  Lanthanides &amp; Actinides  (groups 3&#x2212;16, periods 6&#x2212;7)</text>
-<rect x="198" y="2494" width="756" height="32" rx="3" fill="#d2a8ff" opacity="0.18"/>
-<text x="576" y="2514" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif" text-anchor="middle">4f  Lanthanides  (La&#x2192;Lu)</text>
-<rect x="198" y="2530" width="756" height="32" rx="3" fill="#d2a8ff" opacity="0.18"/>
-<text x="576" y="2550" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif" text-anchor="middle">5f  Actinides  (Ac&#x2192;Lr)</text>
+<rect x="198" y="2504" width="756" height="32" rx="3" fill="#d2a8ff" opacity="0.18"/>
+<text x="576" y="2524" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif" text-anchor="middle">4f  Lanthanides  (La&#x2192;Lu)</text>
+<rect x="198" y="2540" width="756" height="32" rx="3" fill="#d2a8ff" opacity="0.18"/>
+<text x="576" y="2560" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif" text-anchor="middle">5f  Actinides  (Ac&#x2192;Lr)</text>
 <line x1="90" y1="2438" x2="85" y2="2438" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
-<line x1="85" y1="2438" x2="85" y2="2510" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
-<line x1="85" y1="2510" x2="198" y2="2510" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
+<line x1="85" y1="2438" x2="85" y2="2520" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
+<line x1="85" y1="2520" x2="198" y2="2520" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
 <line x1="90" y1="2472" x2="85" y2="2472" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
-<line x1="85" y1="2472" x2="85" y2="2546" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
-<line x1="85" y1="2546" x2="198" y2="2546" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
+<line x1="85" y1="2472" x2="85" y2="2556" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
+<line x1="85" y1="2556" x2="198" y2="2556" stroke="#d2a8ff" stroke-width="0.8" stroke-dasharray="3 2" opacity="0.5"/>
 <rect x="30" y="2572" width="1040" height="40" rx="5" fill="#130d1a" stroke="#7030c0" stroke-width="1.0"/>
 <line x1="55" y1="2589" x2="55" y2="2579" stroke="#79c0ff" stroke-width="2"/>
 <polygon points="52,2581 58,2581 55,2576" fill="#79c0ff"/>
