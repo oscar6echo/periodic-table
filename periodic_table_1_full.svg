@@ -1,0 +1,1621 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1072" height="1196" viewBox="0 0 1072 1196">
+<rect width="1072" height="1192" fill="#0d1117"/>
+<text x="536" y="19" font-size="15" font-weight="700" fill="#e6edf3" font-family="sans-serif" text-anchor="middle">Periodic Table of the Elements</text>
+<circle cx="250" cy="33" r="4" fill="#58a6ff"/>
+<text x="257" y="36" font-size="8" fill="#6e7681" font-family="sans-serif">gas</text>
+<polygon points="304,29 308,33 304,37 300,33" fill="#f78166"/>
+<text x="312" y="36" font-size="8" fill="#6e7681" font-family="sans-serif">liquid</text>
+<rect x="352" y="29" width="8" height="8" rx="1" fill="#555e6a"/>
+<text x="363" y="36" font-size="8" fill="#6e7681" font-family="sans-serif">solid</text>
+<text x="401" y="36" font-size="8" fill="#6e7681" font-family="sans-serif" opacity="0.5">|</text>
+<text x="409" y="36" font-size="9" fill="#f0b030" font-family="sans-serif">☢</text>
+<rect x="419" y="28" width="14" height="10" rx="2" fill="none" stroke="#f0b030" stroke-width="1" opacity="0.7"/>
+<text x="436" y="36" font-size="8" fill="#6e7681" font-family="sans-serif">radioactive (amber border + T½ → decay product)</text>
+<text x="10" y="93" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="end" dominant-baseline="central">1</text>
+<text x="10" y="177" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="end" dominant-baseline="central">2</text>
+<text x="10" y="261" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="end" dominant-baseline="central">3</text>
+<text x="10" y="345" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="end" dominant-baseline="central">4</text>
+<text x="10" y="429" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="end" dominant-baseline="central">5</text>
+<text x="10" y="513" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="end" dominant-baseline="central">6</text>
+<text x="10" y="597" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="end" dominant-baseline="central">7</text>
+<text x="42" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">1</text>
+<text x="100" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">2</text>
+<text x="158" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="216" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">4</text>
+<text x="274" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">5</text>
+<text x="332" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">6</text>
+<text x="390" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">7</text>
+<text x="448" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">8</text>
+<text x="506" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">9</text>
+<text x="564" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">10</text>
+<text x="622" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">11</text>
+<text x="680" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">12</text>
+<text x="738" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">13</text>
+<text x="796" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">14</text>
+<text x="854" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">15</text>
+<text x="912" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">16</text>
+<text x="970" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">17</text>
+<text x="1028" y="46" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle">18</text>
+<rect x="14" y="124" width="56" height="10" rx="0" fill="#5e9862" opacity="0.35"/>
+<rect x="14" y="124" width="56" height="10" rx="0" fill="none"/>
+<rect x="14" y="128" width="56" height="6" rx="3" fill="#5e9862" opacity="0.35"/>
+<rect x="14" y="52" width="56" height="82" rx="4" fill="#162200" stroke="#508010" stroke-width="0.7"/>
+<text x="17" y="61" font-size="7" fill="#b0e860" opacity="0.7" font-family="sans-serif">1</text>
+<circle cx="64" cy="58" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="42" y="86" font-size="17" fill="#b0e860" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">H</text>
+<text x="42" y="98" font-size="6.5" fill="#b0e860" opacity="0.85" font-family="sans-serif" text-anchor="middle">Hydrogen</text>
+<text x="42" y="106" font-size="6" fill="#b0e860" opacity="0.65" font-family="sans-serif" text-anchor="middle">1.008 u</text>
+<text x="42" y="114" font-size="5.5" fill="#b0e860" opacity="0.75" font-family="sans-serif" text-anchor="middle">1s¹</text>
+<text x="18" y="122" font-size="5.5" fill="#b0e860" opacity="0.6" font-family="sans-serif">EN:2.20</text>
+<text x="67" y="122" font-size="5.5" fill="#b0e860" opacity="0.5" font-family="sans-serif" text-anchor="end">1766</text>
+<rect x="1000" y="52" width="56" height="82" rx="4" fill="#1e0840" stroke="#7030c0" stroke-width="0.7"/>
+<text x="1003" y="61" font-size="7" fill="#d098ff" opacity="0.7" font-family="sans-serif">2</text>
+<circle cx="1050" cy="58" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="1028" y="86" font-size="17" fill="#d098ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">He</text>
+<text x="1028" y="98" font-size="6.5" fill="#d098ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Helium</text>
+<text x="1028" y="106" font-size="6" fill="#d098ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">4.003 u</text>
+<text x="1028" y="114" font-size="5.5" fill="#d098ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">1s²</text>
+<text x="1004" y="122" font-size="5.5" fill="#d098ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="1053" y="122" font-size="5.5" fill="#d098ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1868</text>
+<rect x="14" y="208" width="56" height="10" rx="0" fill="#3273a9" opacity="0.35"/>
+<rect x="14" y="208" width="56" height="10" rx="0" fill="none"/>
+<rect x="14" y="212" width="56" height="6" rx="3" fill="#3273a9" opacity="0.35"/>
+<rect x="14" y="136" width="56" height="82" rx="4" fill="#4a1010" stroke="#c04040" stroke-width="0.7"/>
+<text x="17" y="145" font-size="7" fill="#ffb0b0" opacity="0.7" font-family="sans-serif">3</text>
+<rect x="61" y="139" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="42" y="170" font-size="17" fill="#ffb0b0" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Li</text>
+<text x="42" y="182" font-size="6.5" fill="#ffb0b0" opacity="0.85" font-family="sans-serif" text-anchor="middle">Lithium</text>
+<text x="42" y="190" font-size="6" fill="#ffb0b0" opacity="0.65" font-family="sans-serif" text-anchor="middle">6.941 u</text>
+<text x="42" y="198" font-size="5.5" fill="#ffb0b0" opacity="0.75" font-family="sans-serif" text-anchor="middle">[He] 2s¹</text>
+<text x="18" y="206" font-size="5.5" fill="#ffb0b0" opacity="0.6" font-family="sans-serif">EN:0.98</text>
+<text x="67" y="206" font-size="5.5" fill="#ffb0b0" opacity="0.5" font-family="sans-serif" text-anchor="end">1817</text>
+<rect x="72" y="208" width="56" height="10" rx="0" fill="#239394" opacity="0.35"/>
+<rect x="72" y="208" width="56" height="10" rx="0" fill="none"/>
+<rect x="72" y="212" width="56" height="6" rx="3" fill="#239394" opacity="0.35"/>
+<rect x="72" y="136" width="56" height="82" rx="4" fill="#3a0840" stroke="#b040a0" stroke-width="0.7"/>
+<text x="75" y="145" font-size="7" fill="#f0a8e8" opacity="0.7" font-family="sans-serif">4</text>
+<rect x="119" y="139" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="100" y="170" font-size="17" fill="#f0a8e8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Be</text>
+<text x="100" y="182" font-size="6.5" fill="#f0a8e8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Beryllium</text>
+<text x="100" y="190" font-size="6" fill="#f0a8e8" opacity="0.65" font-family="sans-serif" text-anchor="middle">9.012 u</text>
+<text x="100" y="198" font-size="5.5" fill="#f0a8e8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[He] 2s²</text>
+<text x="76" y="206" font-size="5.5" fill="#f0a8e8" opacity="0.6" font-family="sans-serif">EN:1.57</text>
+<text x="125" y="206" font-size="5.5" fill="#f0a8e8" opacity="0.5" font-family="sans-serif" text-anchor="end">1798</text>
+<rect x="710" y="208" width="56" height="10" rx="0" fill="#459b72" opacity="0.35"/>
+<rect x="710" y="208" width="56" height="10" rx="0" fill="none"/>
+<rect x="710" y="212" width="56" height="6" rx="3" fill="#459b72" opacity="0.35"/>
+<rect x="710" y="136" width="56" height="82" rx="4" fill="#2a1a00" stroke="#a07010" stroke-width="0.7"/>
+<text x="713" y="145" font-size="7" fill="#f0d060" opacity="0.7" font-family="sans-serif">5</text>
+<rect x="757" y="139" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="738" y="170" font-size="17" fill="#f0d060" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">B</text>
+<text x="738" y="182" font-size="6.5" fill="#f0d060" opacity="0.85" font-family="sans-serif" text-anchor="middle">Boron</text>
+<text x="738" y="190" font-size="6" fill="#f0d060" opacity="0.65" font-family="sans-serif" text-anchor="middle">10.81 u</text>
+<text x="738" y="198" font-size="5.5" fill="#f0d060" opacity="0.75" font-family="sans-serif" text-anchor="middle">[He] 2s² 2p¹</text>
+<text x="714" y="206" font-size="5.5" fill="#f0d060" opacity="0.6" font-family="sans-serif">EN:2.04</text>
+<text x="763" y="206" font-size="5.5" fill="#f0d060" opacity="0.5" font-family="sans-serif" text-anchor="end">1808</text>
+<rect x="768" y="208" width="56" height="10" rx="0" fill="#94923f" opacity="0.35"/>
+<rect x="768" y="208" width="56" height="10" rx="0" fill="none"/>
+<rect x="768" y="212" width="56" height="6" rx="3" fill="#94923f" opacity="0.35"/>
+<rect x="768" y="136" width="56" height="82" rx="4" fill="#162200" stroke="#508010" stroke-width="0.7"/>
+<text x="771" y="145" font-size="7" fill="#b0e860" opacity="0.7" font-family="sans-serif">6</text>
+<rect x="815" y="139" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="796" y="170" font-size="17" fill="#b0e860" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">C</text>
+<text x="796" y="182" font-size="6.5" fill="#b0e860" opacity="0.85" font-family="sans-serif" text-anchor="middle">Carbon</text>
+<text x="796" y="190" font-size="6" fill="#b0e860" opacity="0.65" font-family="sans-serif" text-anchor="middle">12.01 u</text>
+<text x="796" y="198" font-size="5.5" fill="#b0e860" opacity="0.75" font-family="sans-serif" text-anchor="middle">[He] 2s² 2p²</text>
+<text x="772" y="206" font-size="5.5" fill="#b0e860" opacity="0.6" font-family="sans-serif">EN:2.55</text>
+<text x="821" y="206" font-size="5.5" fill="#b0e860" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="826" y="208" width="56" height="10" rx="0" fill="#ca801f" opacity="0.35"/>
+<rect x="826" y="208" width="56" height="10" rx="0" fill="none"/>
+<rect x="826" y="212" width="56" height="6" rx="3" fill="#ca801f" opacity="0.35"/>
+<rect x="826" y="136" width="56" height="82" rx="4" fill="#162200" stroke="#508010" stroke-width="0.7"/>
+<text x="829" y="145" font-size="7" fill="#b0e860" opacity="0.7" font-family="sans-serif">7</text>
+<circle cx="876" cy="142" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="854" y="170" font-size="17" fill="#b0e860" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">N</text>
+<text x="854" y="182" font-size="6.5" fill="#b0e860" opacity="0.85" font-family="sans-serif" text-anchor="middle">Nitrogen</text>
+<text x="854" y="190" font-size="6" fill="#b0e860" opacity="0.65" font-family="sans-serif" text-anchor="middle">14.01 u</text>
+<text x="854" y="198" font-size="5.5" fill="#b0e860" opacity="0.75" font-family="sans-serif" text-anchor="middle">[He] 2s² 2p³</text>
+<text x="830" y="206" font-size="5.5" fill="#b0e860" opacity="0.6" font-family="sans-serif">EN:3.04</text>
+<text x="879" y="206" font-size="5.5" fill="#b0e860" opacity="0.5" font-family="sans-serif" text-anchor="end">1772</text>
+<rect x="884" y="208" width="56" height="10" rx="0" fill="#d26323" opacity="0.35"/>
+<rect x="884" y="208" width="56" height="10" rx="0" fill="none"/>
+<rect x="884" y="212" width="56" height="6" rx="3" fill="#d26323" opacity="0.35"/>
+<rect x="884" y="136" width="56" height="82" rx="4" fill="#162200" stroke="#508010" stroke-width="0.7"/>
+<text x="887" y="145" font-size="7" fill="#b0e860" opacity="0.7" font-family="sans-serif">8</text>
+<circle cx="934" cy="142" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="912" y="170" font-size="17" fill="#b0e860" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">O</text>
+<text x="912" y="182" font-size="6.5" fill="#b0e860" opacity="0.85" font-family="sans-serif" text-anchor="middle">Oxygen</text>
+<text x="912" y="190" font-size="6" fill="#b0e860" opacity="0.65" font-family="sans-serif" text-anchor="middle">16.00 u</text>
+<text x="912" y="198" font-size="5.5" fill="#b0e860" opacity="0.75" font-family="sans-serif" text-anchor="middle">[He] 2s² 2p⁴</text>
+<text x="888" y="206" font-size="5.5" fill="#b0e860" opacity="0.6" font-family="sans-serif">EN:3.44</text>
+<text x="937" y="206" font-size="5.5" fill="#b0e860" opacity="0.5" font-family="sans-serif" text-anchor="end">1774</text>
+<rect x="942" y="208" width="56" height="10" rx="0" fill="#db3d27" opacity="0.35"/>
+<rect x="942" y="208" width="56" height="10" rx="0" fill="none"/>
+<rect x="942" y="212" width="56" height="6" rx="3" fill="#db3d27" opacity="0.35"/>
+<rect x="942" y="136" width="56" height="82" rx="4" fill="#3a1000" stroke="#c05020" stroke-width="0.7"/>
+<text x="945" y="145" font-size="7" fill="#ffb870" opacity="0.7" font-family="sans-serif">9</text>
+<circle cx="992" cy="142" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="970" y="170" font-size="17" fill="#ffb870" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">F</text>
+<text x="970" y="182" font-size="6.5" fill="#ffb870" opacity="0.85" font-family="sans-serif" text-anchor="middle">Fluorine</text>
+<text x="970" y="190" font-size="6" fill="#ffb870" opacity="0.65" font-family="sans-serif" text-anchor="middle">19.00 u</text>
+<text x="970" y="198" font-size="5.5" fill="#ffb870" opacity="0.75" font-family="sans-serif" text-anchor="middle">[He] 2s² 2p⁵</text>
+<text x="946" y="206" font-size="5.5" fill="#ffb870" opacity="0.6" font-family="sans-serif">EN:3.98</text>
+<text x="995" y="206" font-size="5.5" fill="#ffb870" opacity="0.5" font-family="sans-serif" text-anchor="end">1886</text>
+<rect x="1000" y="136" width="56" height="82" rx="4" fill="#1e0840" stroke="#7030c0" stroke-width="0.7"/>
+<text x="1003" y="145" font-size="7" fill="#d098ff" opacity="0.7" font-family="sans-serif">10</text>
+<circle cx="1050" cy="142" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="1028" y="170" font-size="17" fill="#d098ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ne</text>
+<text x="1028" y="182" font-size="6.5" fill="#d098ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Neon</text>
+<text x="1028" y="190" font-size="6" fill="#d098ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">20.18 u</text>
+<text x="1028" y="198" font-size="5.5" fill="#d098ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[He] 2s² 2p⁶</text>
+<text x="1004" y="206" font-size="5.5" fill="#d098ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="1053" y="206" font-size="5.5" fill="#d098ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1898</text>
+<rect x="14" y="292" width="56" height="10" rx="0" fill="#3470ab" opacity="0.35"/>
+<rect x="14" y="292" width="56" height="10" rx="0" fill="none"/>
+<rect x="14" y="296" width="56" height="6" rx="3" fill="#3470ab" opacity="0.35"/>
+<rect x="14" y="220" width="56" height="82" rx="4" fill="#4a1010" stroke="#c04040" stroke-width="0.7"/>
+<text x="17" y="229" font-size="7" fill="#ffb0b0" opacity="0.7" font-family="sans-serif">11</text>
+<rect x="61" y="223" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="42" y="254" font-size="17" fill="#ffb0b0" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Na</text>
+<text x="42" y="266" font-size="6.5" fill="#ffb0b0" opacity="0.85" font-family="sans-serif" text-anchor="middle">Sodium</text>
+<text x="42" y="274" font-size="6" fill="#ffb0b0" opacity="0.65" font-family="sans-serif" text-anchor="middle">22.99 u</text>
+<text x="42" y="282" font-size="5.5" fill="#ffb0b0" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ne] 3s¹</text>
+<text x="18" y="290" font-size="5.5" fill="#ffb0b0" opacity="0.6" font-family="sans-serif">EN:0.93</text>
+<text x="67" y="290" font-size="5.5" fill="#ffb0b0" opacity="0.5" font-family="sans-serif" text-anchor="end">1807</text>
+<rect x="72" y="292" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="72" y="292" width="56" height="10" rx="0" fill="none"/>
+<rect x="72" y="296" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="72" y="220" width="56" height="82" rx="4" fill="#3a0840" stroke="#b040a0" stroke-width="0.7"/>
+<text x="75" y="229" font-size="7" fill="#f0a8e8" opacity="0.7" font-family="sans-serif">12</text>
+<rect x="119" y="223" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="100" y="254" font-size="17" fill="#f0a8e8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Mg</text>
+<text x="100" y="266" font-size="6.5" fill="#f0a8e8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Magnesium</text>
+<text x="100" y="274" font-size="6" fill="#f0a8e8" opacity="0.65" font-family="sans-serif" text-anchor="middle">24.31 u</text>
+<text x="100" y="282" font-size="5.5" fill="#f0a8e8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ne] 3s²</text>
+<text x="76" y="290" font-size="5.5" fill="#f0a8e8" opacity="0.6" font-family="sans-serif">EN:1.31</text>
+<text x="125" y="290" font-size="5.5" fill="#f0a8e8" opacity="0.5" font-family="sans-serif" text-anchor="end">1755</text>
+<rect x="710" y="292" width="56" height="10" rx="0" fill="#229692" opacity="0.35"/>
+<rect x="710" y="292" width="56" height="10" rx="0" fill="none"/>
+<rect x="710" y="296" width="56" height="6" rx="3" fill="#229692" opacity="0.35"/>
+<rect x="710" y="220" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="713" y="229" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">13</text>
+<rect x="757" y="223" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="738" y="254" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Al</text>
+<text x="738" y="266" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Aluminum</text>
+<text x="738" y="274" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">26.98 u</text>
+<text x="738" y="282" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ne] 3s² 3p¹</text>
+<text x="714" y="290" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:1.61</text>
+<text x="763" y="290" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">1825</text>
+<rect x="768" y="292" width="56" height="10" rx="0" fill="#2f9d80" opacity="0.35"/>
+<rect x="768" y="292" width="56" height="10" rx="0" fill="none"/>
+<rect x="768" y="296" width="56" height="6" rx="3" fill="#2f9d80" opacity="0.35"/>
+<rect x="768" y="220" width="56" height="82" rx="4" fill="#2a1a00" stroke="#a07010" stroke-width="0.7"/>
+<text x="771" y="229" font-size="7" fill="#f0d060" opacity="0.7" font-family="sans-serif">14</text>
+<rect x="815" y="223" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="796" y="254" font-size="17" fill="#f0d060" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Si</text>
+<text x="796" y="266" font-size="6.5" fill="#f0d060" opacity="0.85" font-family="sans-serif" text-anchor="middle">Silicon</text>
+<text x="796" y="274" font-size="6" fill="#f0d060" opacity="0.65" font-family="sans-serif" text-anchor="middle">28.09 u</text>
+<text x="796" y="282" font-size="5.5" fill="#f0d060" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ne] 3s² 3p²</text>
+<text x="772" y="290" font-size="5.5" fill="#f0d060" opacity="0.6" font-family="sans-serif">EN:1.90</text>
+<text x="821" y="290" font-size="5.5" fill="#f0d060" opacity="0.5" font-family="sans-serif" text-anchor="end">1824</text>
+<rect x="826" y="292" width="56" height="10" rx="0" fill="#5c9863" opacity="0.35"/>
+<rect x="826" y="292" width="56" height="10" rx="0" fill="none"/>
+<rect x="826" y="296" width="56" height="6" rx="3" fill="#5c9863" opacity="0.35"/>
+<rect x="826" y="220" width="56" height="82" rx="4" fill="#162200" stroke="#508010" stroke-width="0.7"/>
+<text x="829" y="229" font-size="7" fill="#b0e860" opacity="0.7" font-family="sans-serif">15</text>
+<rect x="873" y="223" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="854" y="254" font-size="17" fill="#b0e860" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">P</text>
+<text x="854" y="266" font-size="6.5" fill="#b0e860" opacity="0.85" font-family="sans-serif" text-anchor="middle">Phosphorus</text>
+<text x="854" y="274" font-size="6" fill="#b0e860" opacity="0.65" font-family="sans-serif" text-anchor="middle">30.97 u</text>
+<text x="854" y="282" font-size="5.5" fill="#b0e860" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ne] 3s² 3p³</text>
+<text x="830" y="290" font-size="5.5" fill="#b0e860" opacity="0.6" font-family="sans-serif">EN:2.19</text>
+<text x="879" y="290" font-size="5.5" fill="#b0e860" opacity="0.5" font-family="sans-serif" text-anchor="end">1669</text>
+<rect x="884" y="292" width="56" height="10" rx="0" fill="#99913c" opacity="0.35"/>
+<rect x="884" y="292" width="56" height="10" rx="0" fill="none"/>
+<rect x="884" y="296" width="56" height="6" rx="3" fill="#99913c" opacity="0.35"/>
+<rect x="884" y="220" width="56" height="82" rx="4" fill="#162200" stroke="#508010" stroke-width="0.7"/>
+<text x="887" y="229" font-size="7" fill="#b0e860" opacity="0.7" font-family="sans-serif">16</text>
+<rect x="931" y="223" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="912" y="254" font-size="17" fill="#b0e860" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">S</text>
+<text x="912" y="266" font-size="6.5" fill="#b0e860" opacity="0.85" font-family="sans-serif" text-anchor="middle">Sulfur</text>
+<text x="912" y="274" font-size="6" fill="#b0e860" opacity="0.65" font-family="sans-serif" text-anchor="middle">32.06 u</text>
+<text x="912" y="282" font-size="5.5" fill="#b0e860" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ne] 3s² 3p⁴</text>
+<text x="888" y="290" font-size="5.5" fill="#b0e860" opacity="0.6" font-family="sans-serif">EN:2.58</text>
+<text x="937" y="290" font-size="5.5" fill="#b0e860" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="942" y="292" width="56" height="10" rx="0" fill="#cd7720" opacity="0.35"/>
+<rect x="942" y="292" width="56" height="10" rx="0" fill="none"/>
+<rect x="942" y="296" width="56" height="6" rx="3" fill="#cd7720" opacity="0.35"/>
+<rect x="942" y="220" width="56" height="82" rx="4" fill="#3a1000" stroke="#c05020" stroke-width="0.7"/>
+<text x="945" y="229" font-size="7" fill="#ffb870" opacity="0.7" font-family="sans-serif">17</text>
+<circle cx="992" cy="226" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="970" y="254" font-size="17" fill="#ffb870" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Cl</text>
+<text x="970" y="266" font-size="6.5" fill="#ffb870" opacity="0.85" font-family="sans-serif" text-anchor="middle">Chlorine</text>
+<text x="970" y="274" font-size="6" fill="#ffb870" opacity="0.65" font-family="sans-serif" text-anchor="middle">35.45 u</text>
+<text x="970" y="282" font-size="5.5" fill="#ffb870" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ne] 3s² 3p⁵</text>
+<text x="946" y="290" font-size="5.5" fill="#ffb870" opacity="0.6" font-family="sans-serif">EN:3.16</text>
+<text x="995" y="290" font-size="5.5" fill="#ffb870" opacity="0.5" font-family="sans-serif" text-anchor="end">1774</text>
+<rect x="1000" y="220" width="56" height="82" rx="4" fill="#1e0840" stroke="#7030c0" stroke-width="0.7"/>
+<text x="1003" y="229" font-size="7" fill="#d098ff" opacity="0.7" font-family="sans-serif">18</text>
+<circle cx="1050" cy="226" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="1028" y="254" font-size="17" fill="#d098ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ar</text>
+<text x="1028" y="266" font-size="6.5" fill="#d098ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Argon</text>
+<text x="1028" y="274" font-size="6" fill="#d098ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">39.95 u</text>
+<text x="1028" y="282" font-size="5.5" fill="#d098ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ne] 3s² 3p⁶</text>
+<text x="1004" y="290" font-size="5.5" fill="#d098ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="1053" y="290" font-size="5.5" fill="#d098ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1894</text>
+<rect x="14" y="376" width="56" height="10" rx="0" fill="#366aaf" opacity="0.35"/>
+<rect x="14" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="14" y="380" width="56" height="6" rx="3" fill="#366aaf" opacity="0.35"/>
+<rect x="14" y="304" width="56" height="82" rx="4" fill="#4a1010" stroke="#c04040" stroke-width="0.7"/>
+<text x="17" y="313" font-size="7" fill="#ffb0b0" opacity="0.7" font-family="sans-serif">19</text>
+<rect x="61" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="42" y="338" font-size="17" fill="#ffb0b0" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">K</text>
+<text x="42" y="350" font-size="6.5" fill="#ffb0b0" opacity="0.85" font-family="sans-serif" text-anchor="middle">Potassium</text>
+<text x="42" y="358" font-size="6" fill="#ffb0b0" opacity="0.65" font-family="sans-serif" text-anchor="middle">39.10 u</text>
+<text x="42" y="366" font-size="5.5" fill="#ffb0b0" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 4s¹</text>
+<text x="18" y="374" font-size="5.5" fill="#ffb0b0" opacity="0.6" font-family="sans-serif">EN:0.82</text>
+<text x="67" y="374" font-size="5.5" fill="#ffb0b0" opacity="0.5" font-family="sans-serif" text-anchor="end">1807</text>
+<rect x="72" y="376" width="56" height="10" rx="0" fill="#3274a8" opacity="0.35"/>
+<rect x="72" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="72" y="380" width="56" height="6" rx="3" fill="#3274a8" opacity="0.35"/>
+<rect x="72" y="304" width="56" height="82" rx="4" fill="#3a0840" stroke="#b040a0" stroke-width="0.7"/>
+<text x="75" y="313" font-size="7" fill="#f0a8e8" opacity="0.7" font-family="sans-serif">20</text>
+<rect x="119" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="100" y="338" font-size="17" fill="#f0a8e8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ca</text>
+<text x="100" y="350" font-size="6.5" fill="#f0a8e8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Calcium</text>
+<text x="100" y="358" font-size="6" fill="#f0a8e8" opacity="0.65" font-family="sans-serif" text-anchor="middle">40.08 u</text>
+<text x="100" y="366" font-size="5.5" fill="#f0a8e8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 4s²</text>
+<text x="76" y="374" font-size="5.5" fill="#f0a8e8" opacity="0.6" font-family="sans-serif">EN:1.00</text>
+<text x="125" y="374" font-size="5.5" fill="#f0a8e8" opacity="0.5" font-family="sans-serif" text-anchor="end">1808</text>
+<rect x="130" y="376" width="56" height="10" rx="0" fill="#29889b" opacity="0.35"/>
+<rect x="130" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="130" y="380" width="56" height="6" rx="3" fill="#29889b" opacity="0.35"/>
+<rect x="130" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="133" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">21</text>
+<rect x="177" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="158" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Sc</text>
+<text x="158" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Scandium</text>
+<text x="158" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">44.96 u</text>
+<text x="158" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹ 4s²</text>
+<text x="134" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.36</text>
+<text x="183" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1879</text>
+<rect x="188" y="376" width="56" height="10" rx="0" fill="#249295" opacity="0.35"/>
+<rect x="188" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="188" y="380" width="56" height="6" rx="3" fill="#249295" opacity="0.35"/>
+<rect x="188" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="191" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">22</text>
+<rect x="235" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="216" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ti</text>
+<text x="216" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Titanium</text>
+<text x="216" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">47.87 u</text>
+<text x="216" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d² 4s²</text>
+<text x="192" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.54</text>
+<text x="241" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1791</text>
+<rect x="246" y="376" width="56" height="10" rx="0" fill="#229791" opacity="0.35"/>
+<rect x="246" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="246" y="380" width="56" height="6" rx="3" fill="#229791" opacity="0.35"/>
+<rect x="246" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="249" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">23</text>
+<rect x="293" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="274" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">V</text>
+<text x="274" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Vanadium</text>
+<text x="274" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">50.94 u</text>
+<text x="274" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d³ 4s²</text>
+<text x="250" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.63</text>
+<text x="299" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1801</text>
+<rect x="304" y="376" width="56" height="10" rx="0" fill="#219890" opacity="0.35"/>
+<rect x="304" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="304" y="380" width="56" height="6" rx="3" fill="#219890" opacity="0.35"/>
+<rect x="304" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="307" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">24</text>
+<rect x="351" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="332" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Cr</text>
+<text x="332" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Chromium</text>
+<text x="332" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">52.00 u</text>
+<text x="332" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d⁵ 4s¹</text>
+<text x="308" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.66</text>
+<text x="357" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1798</text>
+<rect x="362" y="376" width="56" height="10" rx="0" fill="#249294" opacity="0.35"/>
+<rect x="362" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="362" y="380" width="56" height="6" rx="3" fill="#249294" opacity="0.35"/>
+<rect x="362" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="365" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">25</text>
+<rect x="409" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="390" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Mn</text>
+<text x="390" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Manganese</text>
+<text x="390" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">54.94 u</text>
+<text x="390" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d⁵ 4s²</text>
+<text x="366" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.55</text>
+<text x="415" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1774</text>
+<rect x="420" y="376" width="56" height="10" rx="0" fill="#249f87" opacity="0.35"/>
+<rect x="420" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="420" y="380" width="56" height="6" rx="3" fill="#249f87" opacity="0.35"/>
+<rect x="420" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="423" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">26</text>
+<rect x="467" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="448" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Fe</text>
+<text x="448" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Iron</text>
+<text x="448" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">55.85 u</text>
+<text x="448" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d⁶ 4s²</text>
+<text x="424" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.83</text>
+<text x="473" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="478" y="376" width="56" height="10" rx="0" fill="#2c9e82" opacity="0.35"/>
+<rect x="478" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="478" y="380" width="56" height="6" rx="3" fill="#2c9e82" opacity="0.35"/>
+<rect x="478" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="481" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">27</text>
+<rect x="525" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="506" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Co</text>
+<text x="506" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Cobalt</text>
+<text x="506" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">58.93 u</text>
+<text x="506" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d⁷ 4s²</text>
+<text x="482" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.88</text>
+<text x="531" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1735</text>
+<rect x="536" y="376" width="56" height="10" rx="0" fill="#309d7f" opacity="0.35"/>
+<rect x="536" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="536" y="380" width="56" height="6" rx="3" fill="#309d7f" opacity="0.35"/>
+<rect x="536" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="539" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">28</text>
+<rect x="583" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="564" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ni</text>
+<text x="564" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Nickel</text>
+<text x="564" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">58.69 u</text>
+<text x="564" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d⁸ 4s²</text>
+<text x="540" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.91</text>
+<text x="589" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1751</text>
+<rect x="594" y="376" width="56" height="10" rx="0" fill="#2f9d80" opacity="0.35"/>
+<rect x="594" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="594" y="380" width="56" height="6" rx="3" fill="#2f9d80" opacity="0.35"/>
+<rect x="594" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="597" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">29</text>
+<rect x="641" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="622" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Cu</text>
+<text x="622" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Copper</text>
+<text x="622" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">63.55 u</text>
+<text x="622" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹⁰ 4s¹</text>
+<text x="598" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.90</text>
+<text x="647" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="652" y="376" width="56" height="10" rx="0" fill="#219891" opacity="0.35"/>
+<rect x="652" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="652" y="380" width="56" height="6" rx="3" fill="#219891" opacity="0.35"/>
+<rect x="652" y="304" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="655" y="313" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">30</text>
+<rect x="699" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="680" y="338" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Zn</text>
+<text x="680" y="350" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Zinc</text>
+<text x="680" y="358" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">65.38 u</text>
+<text x="680" y="366" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹⁰ 4s²</text>
+<text x="656" y="374" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.65</text>
+<text x="705" y="374" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1746</text>
+<rect x="710" y="376" width="56" height="10" rx="0" fill="#219f89" opacity="0.35"/>
+<rect x="710" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="710" y="380" width="56" height="6" rx="3" fill="#219f89" opacity="0.35"/>
+<rect x="710" y="304" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="713" y="313" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">31</text>
+<rect x="757" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="738" y="338" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ga</text>
+<text x="738" y="350" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Gallium</text>
+<text x="738" y="358" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">69.72 u</text>
+<text x="738" y="366" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹⁰ 4s² 4p¹</text>
+<text x="714" y="374" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:1.81</text>
+<text x="763" y="374" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">1875</text>
+<rect x="768" y="376" width="56" height="10" rx="0" fill="#409b75" opacity="0.35"/>
+<rect x="768" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="768" y="380" width="56" height="6" rx="3" fill="#409b75" opacity="0.35"/>
+<rect x="768" y="304" width="56" height="82" rx="4" fill="#2a1a00" stroke="#a07010" stroke-width="0.7"/>
+<text x="771" y="313" font-size="7" fill="#f0d060" opacity="0.7" font-family="sans-serif">32</text>
+<rect x="815" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="796" y="338" font-size="17" fill="#f0d060" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ge</text>
+<text x="796" y="350" font-size="6.5" fill="#f0d060" opacity="0.85" font-family="sans-serif" text-anchor="middle">Germanium</text>
+<text x="796" y="358" font-size="6" fill="#f0d060" opacity="0.65" font-family="sans-serif" text-anchor="middle">72.63 u</text>
+<text x="796" y="366" font-size="5.5" fill="#f0d060" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹⁰ 4s² 4p²</text>
+<text x="772" y="374" font-size="5.5" fill="#f0d060" opacity="0.6" font-family="sans-serif">EN:2.01</text>
+<text x="821" y="374" font-size="5.5" fill="#f0d060" opacity="0.5" font-family="sans-serif" text-anchor="end">1886</text>
+<rect x="826" y="376" width="56" height="10" rx="0" fill="#5b9864" opacity="0.35"/>
+<rect x="826" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="826" y="380" width="56" height="6" rx="3" fill="#5b9864" opacity="0.35"/>
+<rect x="826" y="304" width="56" height="82" rx="4" fill="#2a1a00" stroke="#a07010" stroke-width="0.7"/>
+<text x="829" y="313" font-size="7" fill="#f0d060" opacity="0.7" font-family="sans-serif">33</text>
+<rect x="873" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="854" y="338" font-size="17" fill="#f0d060" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">As</text>
+<text x="854" y="350" font-size="6.5" fill="#f0d060" opacity="0.85" font-family="sans-serif" text-anchor="middle">Arsenic</text>
+<text x="854" y="358" font-size="6" fill="#f0d060" opacity="0.65" font-family="sans-serif" text-anchor="middle">74.92 u</text>
+<text x="854" y="366" font-size="5.5" fill="#f0d060" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹⁰ 4s² 4p³</text>
+<text x="830" y="374" font-size="5.5" fill="#f0d060" opacity="0.6" font-family="sans-serif">EN:2.18</text>
+<text x="879" y="374" font-size="5.5" fill="#f0d060" opacity="0.5" font-family="sans-serif" text-anchor="end">1250</text>
+<rect x="884" y="376" width="56" height="10" rx="0" fill="#94923f" opacity="0.35"/>
+<rect x="884" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="884" y="380" width="56" height="6" rx="3" fill="#94923f" opacity="0.35"/>
+<rect x="884" y="304" width="56" height="82" rx="4" fill="#162200" stroke="#508010" stroke-width="0.7"/>
+<text x="887" y="313" font-size="7" fill="#b0e860" opacity="0.7" font-family="sans-serif">34</text>
+<rect x="931" y="307" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="912" y="338" font-size="17" fill="#b0e860" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Se</text>
+<text x="912" y="350" font-size="6.5" fill="#b0e860" opacity="0.85" font-family="sans-serif" text-anchor="middle">Selenium</text>
+<text x="912" y="358" font-size="6" fill="#b0e860" opacity="0.65" font-family="sans-serif" text-anchor="middle">78.97 u</text>
+<text x="912" y="366" font-size="5.5" fill="#b0e860" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹⁰ 4s² 4p⁴</text>
+<text x="888" y="374" font-size="5.5" fill="#b0e860" opacity="0.6" font-family="sans-serif">EN:2.55</text>
+<text x="937" y="374" font-size="5.5" fill="#b0e860" opacity="0.5" font-family="sans-serif" text-anchor="end">1817</text>
+<rect x="942" y="376" width="56" height="10" rx="0" fill="#c9861e" opacity="0.35"/>
+<rect x="942" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="942" y="380" width="56" height="6" rx="3" fill="#c9861e" opacity="0.35"/>
+<rect x="942" y="304" width="56" height="82" rx="4" fill="#3a1000" stroke="#c05020" stroke-width="0.7"/>
+<text x="945" y="313" font-size="7" fill="#ffb870" opacity="0.7" font-family="sans-serif">35</text>
+<polygon points="992,306 995.5,310 992,314 988.5,310" fill="#f78166" opacity="0.9"/>
+<text x="970" y="338" font-size="17" fill="#ffb870" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Br</text>
+<text x="970" y="350" font-size="6.5" fill="#ffb870" opacity="0.85" font-family="sans-serif" text-anchor="middle">Bromine</text>
+<text x="970" y="358" font-size="6" fill="#ffb870" opacity="0.65" font-family="sans-serif" text-anchor="middle">79.90 u</text>
+<text x="970" y="366" font-size="5.5" fill="#ffb870" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹⁰ 4s² 4p⁵</text>
+<text x="946" y="374" font-size="5.5" fill="#ffb870" opacity="0.6" font-family="sans-serif">EN:2.96</text>
+<text x="995" y="374" font-size="5.5" fill="#ffb870" opacity="0.5" font-family="sans-serif" text-anchor="end">1826</text>
+<rect x="1000" y="376" width="56" height="10" rx="0" fill="#ca831f" opacity="0.35"/>
+<rect x="1000" y="376" width="56" height="10" rx="0" fill="none"/>
+<rect x="1000" y="380" width="56" height="6" rx="3" fill="#ca831f" opacity="0.35"/>
+<rect x="1000" y="304" width="56" height="82" rx="4" fill="#1e0840" stroke="#7030c0" stroke-width="0.7"/>
+<text x="1003" y="313" font-size="7" fill="#d098ff" opacity="0.7" font-family="sans-serif">36</text>
+<circle cx="1050" cy="310" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="1028" y="338" font-size="17" fill="#d098ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Kr</text>
+<text x="1028" y="350" font-size="6.5" fill="#d098ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Krypton</text>
+<text x="1028" y="358" font-size="6" fill="#d098ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">83.80 u</text>
+<text x="1028" y="366" font-size="5.5" fill="#d098ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Ar] 3d¹⁰ 4s² 4p⁶</text>
+<text x="1004" y="374" font-size="5.5" fill="#d098ff" opacity="0.6" font-family="sans-serif">EN:3.00</text>
+<text x="1053" y="374" font-size="5.5" fill="#d098ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1898</text>
+<rect x="14" y="460" width="56" height="10" rx="0" fill="#366aaf" opacity="0.35"/>
+<rect x="14" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="14" y="464" width="56" height="6" rx="3" fill="#366aaf" opacity="0.35"/>
+<rect x="14" y="388" width="56" height="82" rx="4" fill="#4a1010" stroke="#c04040" stroke-width="0.7"/>
+<text x="17" y="397" font-size="7" fill="#ffb0b0" opacity="0.7" font-family="sans-serif">37</text>
+<rect x="61" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="42" y="422" font-size="17" fill="#ffb0b0" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Rb</text>
+<text x="42" y="434" font-size="6.5" fill="#ffb0b0" opacity="0.85" font-family="sans-serif" text-anchor="middle">Rubidium</text>
+<text x="42" y="442" font-size="6" fill="#ffb0b0" opacity="0.65" font-family="sans-serif" text-anchor="middle">85.47 u</text>
+<text x="42" y="450" font-size="5.5" fill="#ffb0b0" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 5s¹</text>
+<text x="18" y="458" font-size="5.5" fill="#ffb0b0" opacity="0.6" font-family="sans-serif">EN:0.82</text>
+<text x="67" y="458" font-size="5.5" fill="#ffb0b0" opacity="0.5" font-family="sans-serif" text-anchor="end">1861</text>
+<rect x="72" y="460" width="56" height="10" rx="0" fill="#3371aa" opacity="0.35"/>
+<rect x="72" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="72" y="464" width="56" height="6" rx="3" fill="#3371aa" opacity="0.35"/>
+<rect x="72" y="388" width="56" height="82" rx="4" fill="#3a0840" stroke="#b040a0" stroke-width="0.7"/>
+<text x="75" y="397" font-size="7" fill="#f0a8e8" opacity="0.7" font-family="sans-serif">38</text>
+<rect x="119" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="100" y="422" font-size="17" fill="#f0a8e8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Sr</text>
+<text x="100" y="434" font-size="6.5" fill="#f0a8e8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Strontium</text>
+<text x="100" y="442" font-size="6" fill="#f0a8e8" opacity="0.65" font-family="sans-serif" text-anchor="middle">87.62 u</text>
+<text x="100" y="450" font-size="5.5" fill="#f0a8e8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 5s²</text>
+<text x="76" y="458" font-size="5.5" fill="#f0a8e8" opacity="0.6" font-family="sans-serif">EN:0.95</text>
+<text x="125" y="458" font-size="5.5" fill="#f0a8e8" opacity="0.5" font-family="sans-serif" text-anchor="end">1790</text>
+<rect x="130" y="460" width="56" height="10" rx="0" fill="#2c80a0" opacity="0.35"/>
+<rect x="130" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="130" y="464" width="56" height="6" rx="3" fill="#2c80a0" opacity="0.35"/>
+<rect x="130" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="133" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">39</text>
+<rect x="177" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="158" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Y</text>
+<text x="158" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Yttrium</text>
+<text x="158" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">88.91 u</text>
+<text x="158" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹ 5s²</text>
+<text x="134" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.22</text>
+<text x="183" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1794</text>
+<rect x="188" y="460" width="56" height="10" rx="0" fill="#29869c" opacity="0.35"/>
+<rect x="188" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="188" y="464" width="56" height="6" rx="3" fill="#29869c" opacity="0.35"/>
+<rect x="188" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="191" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">40</text>
+<rect x="235" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="216" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Zr</text>
+<text x="216" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Zirconium</text>
+<text x="216" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">91.22 u</text>
+<text x="216" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d² 5s²</text>
+<text x="192" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.33</text>
+<text x="241" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1789</text>
+<rect x="246" y="460" width="56" height="10" rx="0" fill="#229592" opacity="0.35"/>
+<rect x="246" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="246" y="464" width="56" height="6" rx="3" fill="#229592" opacity="0.35"/>
+<rect x="246" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="249" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">41</text>
+<rect x="293" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="274" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Nb</text>
+<text x="274" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Niobium</text>
+<text x="274" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">92.91 u</text>
+<text x="274" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d⁴ 5s¹</text>
+<text x="250" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.60</text>
+<text x="299" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1801</text>
+<rect x="304" y="460" width="56" height="10" rx="0" fill="#579966" opacity="0.35"/>
+<rect x="304" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="304" y="464" width="56" height="6" rx="3" fill="#579966" opacity="0.35"/>
+<rect x="304" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="307" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">42</text>
+<rect x="351" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="332" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Mo</text>
+<text x="332" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Molybdenum</text>
+<text x="332" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">95.95 u</text>
+<text x="332" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d⁵ 5s¹</text>
+<text x="308" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.16</text>
+<text x="357" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1778</text>
+<rect x="361" y="387" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="362" y="460" width="56" height="10" rx="0" fill="#2f9d80" opacity="0.35"/>
+<rect x="362" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="362" y="464" width="56" height="6" rx="3" fill="#2f9d80" opacity="0.35"/>
+<rect x="362" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="365" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">43</text>
+<rect x="409" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="390" y="397" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="390" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Tc</text>
+<text x="390" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Technetium</text>
+<text x="390" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[98] u</text>
+<text x="390" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d⁵ 5s²</text>
+<text x="366" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.90</text>
+<text x="415" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1937</text>
+<text x="390" y="467" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:4.2 My→Ru</text>
+<rect x="420" y="460" width="56" height="10" rx="0" fill="#5e9862" opacity="0.35"/>
+<rect x="420" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="420" y="464" width="56" height="6" rx="3" fill="#5e9862" opacity="0.35"/>
+<rect x="420" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="423" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">44</text>
+<rect x="467" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="448" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ru</text>
+<text x="448" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Ruthenium</text>
+<text x="448" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">101.1 u</text>
+<text x="448" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d⁷ 5s¹</text>
+<text x="424" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.20</text>
+<text x="473" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1844</text>
+<rect x="478" y="460" width="56" height="10" rx="0" fill="#6a965a" opacity="0.35"/>
+<rect x="478" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="478" y="464" width="56" height="6" rx="3" fill="#6a965a" opacity="0.35"/>
+<rect x="478" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="481" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">45</text>
+<rect x="525" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="506" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Rh</text>
+<text x="506" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Rhodium</text>
+<text x="506" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">102.9 u</text>
+<text x="506" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d⁸ 5s¹</text>
+<text x="482" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.28</text>
+<text x="531" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1803</text>
+<rect x="536" y="460" width="56" height="10" rx="0" fill="#5e9862" opacity="0.35"/>
+<rect x="536" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="536" y="464" width="56" height="6" rx="3" fill="#5e9862" opacity="0.35"/>
+<rect x="536" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="539" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">46</text>
+<rect x="583" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="564" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Pd</text>
+<text x="564" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Palladium</text>
+<text x="564" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">106.4 u</text>
+<text x="564" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰</text>
+<text x="540" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.20</text>
+<text x="589" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1803</text>
+<rect x="594" y="460" width="56" height="10" rx="0" fill="#349d7d" opacity="0.35"/>
+<rect x="594" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="594" y="464" width="56" height="6" rx="3" fill="#349d7d" opacity="0.35"/>
+<rect x="594" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="597" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">47</text>
+<rect x="641" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="622" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ag</text>
+<text x="622" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Silver</text>
+<text x="622" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">107.9 u</text>
+<text x="622" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰ 5s¹</text>
+<text x="598" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.93</text>
+<text x="647" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="652" y="460" width="56" height="10" rx="0" fill="#209a8f" opacity="0.35"/>
+<rect x="652" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="652" y="464" width="56" height="6" rx="3" fill="#209a8f" opacity="0.35"/>
+<rect x="652" y="388" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="655" y="397" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">48</text>
+<rect x="699" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="680" y="422" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Cd</text>
+<text x="680" y="434" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Cadmium</text>
+<text x="680" y="442" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">112.4 u</text>
+<text x="680" y="450" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰ 5s²</text>
+<text x="656" y="458" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.69</text>
+<text x="705" y="458" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1817</text>
+<rect x="710" y="460" width="56" height="10" rx="0" fill="#1e9f8c" opacity="0.35"/>
+<rect x="710" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="710" y="464" width="56" height="6" rx="3" fill="#1e9f8c" opacity="0.35"/>
+<rect x="710" y="388" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="713" y="397" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">49</text>
+<rect x="757" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="738" y="422" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">In</text>
+<text x="738" y="434" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Indium</text>
+<text x="738" y="442" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">114.8 u</text>
+<text x="738" y="450" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰ 5s² 5p¹</text>
+<text x="714" y="458" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:1.78</text>
+<text x="763" y="458" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">1863</text>
+<rect x="768" y="460" width="56" height="10" rx="0" fill="#389c7a" opacity="0.35"/>
+<rect x="768" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="768" y="464" width="56" height="6" rx="3" fill="#389c7a" opacity="0.35"/>
+<rect x="768" y="388" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="771" y="397" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">50</text>
+<rect x="815" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="796" y="422" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Sn</text>
+<text x="796" y="434" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Tin</text>
+<text x="796" y="442" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">118.7 u</text>
+<text x="796" y="450" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰ 5s² 5p²</text>
+<text x="772" y="458" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:1.96</text>
+<text x="821" y="458" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="826" y="460" width="56" height="10" rx="0" fill="#469b71" opacity="0.35"/>
+<rect x="826" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="826" y="464" width="56" height="6" rx="3" fill="#469b71" opacity="0.35"/>
+<rect x="826" y="388" width="56" height="82" rx="4" fill="#2a1a00" stroke="#a07010" stroke-width="0.7"/>
+<text x="829" y="397" font-size="7" fill="#f0d060" opacity="0.7" font-family="sans-serif">51</text>
+<rect x="873" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="854" y="422" font-size="17" fill="#f0d060" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Sb</text>
+<text x="854" y="434" font-size="6.5" fill="#f0d060" opacity="0.85" font-family="sans-serif" text-anchor="middle">Antimony</text>
+<text x="854" y="442" font-size="6" fill="#f0d060" opacity="0.65" font-family="sans-serif" text-anchor="middle">121.8 u</text>
+<text x="854" y="450" font-size="5.5" fill="#f0d060" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰ 5s² 5p³</text>
+<text x="830" y="458" font-size="5.5" fill="#f0d060" opacity="0.6" font-family="sans-serif">EN:2.05</text>
+<text x="879" y="458" font-size="5.5" fill="#f0d060" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="884" y="460" width="56" height="10" rx="0" fill="#4e9a6c" opacity="0.35"/>
+<rect x="884" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="884" y="464" width="56" height="6" rx="3" fill="#4e9a6c" opacity="0.35"/>
+<rect x="884" y="388" width="56" height="82" rx="4" fill="#2a1a00" stroke="#a07010" stroke-width="0.7"/>
+<text x="887" y="397" font-size="7" fill="#f0d060" opacity="0.7" font-family="sans-serif">52</text>
+<rect x="931" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="912" y="422" font-size="17" fill="#f0d060" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Te</text>
+<text x="912" y="434" font-size="6.5" fill="#f0d060" opacity="0.85" font-family="sans-serif" text-anchor="middle">Tellurium</text>
+<text x="912" y="442" font-size="6" fill="#f0d060" opacity="0.65" font-family="sans-serif" text-anchor="middle">127.6 u</text>
+<text x="912" y="450" font-size="5.5" fill="#f0d060" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰ 5s² 5p⁴</text>
+<text x="888" y="458" font-size="5.5" fill="#f0d060" opacity="0.6" font-family="sans-serif">EN:2.10</text>
+<text x="937" y="458" font-size="5.5" fill="#f0d060" opacity="0.5" font-family="sans-serif" text-anchor="end">1782</text>
+<rect x="942" y="460" width="56" height="10" rx="0" fill="#a59034" opacity="0.35"/>
+<rect x="942" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="942" y="464" width="56" height="6" rx="3" fill="#a59034" opacity="0.35"/>
+<rect x="942" y="388" width="56" height="82" rx="4" fill="#3a1000" stroke="#c05020" stroke-width="0.7"/>
+<text x="945" y="397" font-size="7" fill="#ffb870" opacity="0.7" font-family="sans-serif">53</text>
+<rect x="989" y="391" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="970" y="422" font-size="17" fill="#ffb870" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">I</text>
+<text x="970" y="434" font-size="6.5" fill="#ffb870" opacity="0.85" font-family="sans-serif" text-anchor="middle">Iodine</text>
+<text x="970" y="442" font-size="6" fill="#ffb870" opacity="0.65" font-family="sans-serif" text-anchor="middle">126.9 u</text>
+<text x="970" y="450" font-size="5.5" fill="#ffb870" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰ 5s² 5p⁵</text>
+<text x="946" y="458" font-size="5.5" fill="#ffb870" opacity="0.6" font-family="sans-serif">EN:2.66</text>
+<text x="995" y="458" font-size="5.5" fill="#ffb870" opacity="0.5" font-family="sans-serif" text-anchor="end">1811</text>
+<rect x="1000" y="460" width="56" height="10" rx="0" fill="#9c913a" opacity="0.35"/>
+<rect x="1000" y="460" width="56" height="10" rx="0" fill="none"/>
+<rect x="1000" y="464" width="56" height="6" rx="3" fill="#9c913a" opacity="0.35"/>
+<rect x="1000" y="388" width="56" height="82" rx="4" fill="#1e0840" stroke="#7030c0" stroke-width="0.7"/>
+<text x="1003" y="397" font-size="7" fill="#d098ff" opacity="0.7" font-family="sans-serif">54</text>
+<circle cx="1050" cy="394" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="1028" y="422" font-size="17" fill="#d098ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Xe</text>
+<text x="1028" y="434" font-size="6.5" fill="#d098ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Xenon</text>
+<text x="1028" y="442" font-size="6" fill="#d098ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">131.3 u</text>
+<text x="1028" y="450" font-size="5.5" fill="#d098ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Kr] 4d¹⁰ 5s² 5p⁶</text>
+<text x="1004" y="458" font-size="5.5" fill="#d098ff" opacity="0.6" font-family="sans-serif">EN:2.60</text>
+<text x="1053" y="458" font-size="5.5" fill="#d098ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1898</text>
+<rect x="14" y="544" width="56" height="10" rx="0" fill="#3768b0" opacity="0.35"/>
+<rect x="14" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="14" y="548" width="56" height="6" rx="3" fill="#3768b0" opacity="0.35"/>
+<rect x="14" y="472" width="56" height="82" rx="4" fill="#4a1010" stroke="#c04040" stroke-width="0.7"/>
+<text x="17" y="481" font-size="7" fill="#ffb0b0" opacity="0.7" font-family="sans-serif">55</text>
+<rect x="61" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="42" y="506" font-size="17" fill="#ffb0b0" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Cs</text>
+<text x="42" y="518" font-size="6.5" fill="#ffb0b0" opacity="0.85" font-family="sans-serif" text-anchor="middle">Caesium</text>
+<text x="42" y="526" font-size="6" fill="#ffb0b0" opacity="0.65" font-family="sans-serif" text-anchor="middle">132.9 u</text>
+<text x="42" y="534" font-size="5.5" fill="#ffb0b0" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 6s¹</text>
+<text x="18" y="542" font-size="5.5" fill="#ffb0b0" opacity="0.6" font-family="sans-serif">EN:0.79</text>
+<text x="67" y="542" font-size="5.5" fill="#ffb0b0" opacity="0.5" font-family="sans-serif" text-anchor="end">1860</text>
+<rect x="72" y="544" width="56" height="10" rx="0" fill="#356ead" opacity="0.35"/>
+<rect x="72" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="72" y="548" width="56" height="6" rx="3" fill="#356ead" opacity="0.35"/>
+<rect x="72" y="472" width="56" height="82" rx="4" fill="#3a0840" stroke="#b040a0" stroke-width="0.7"/>
+<text x="75" y="481" font-size="7" fill="#f0a8e8" opacity="0.7" font-family="sans-serif">56</text>
+<rect x="119" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="100" y="506" font-size="17" fill="#f0a8e8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ba</text>
+<text x="100" y="518" font-size="6.5" fill="#f0a8e8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Barium</text>
+<text x="100" y="526" font-size="6" fill="#f0a8e8" opacity="0.65" font-family="sans-serif" text-anchor="middle">137.3 u</text>
+<text x="100" y="534" font-size="5.5" fill="#f0a8e8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 6s²</text>
+<text x="76" y="542" font-size="5.5" fill="#f0a8e8" opacity="0.6" font-family="sans-serif">EN:0.89</text>
+<text x="125" y="542" font-size="5.5" fill="#f0a8e8" opacity="0.5" font-family="sans-serif" text-anchor="end">1808</text>
+<rect x="188" y="544" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="188" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="188" y="548" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="188" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="191" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">72</text>
+<rect x="235" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="216" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Hf</text>
+<text x="216" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Hafnium</text>
+<text x="216" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">178.5 u</text>
+<text x="216" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d² 6s²</text>
+<text x="192" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="241" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1923</text>
+<rect x="246" y="544" width="56" height="10" rx="0" fill="#259096" opacity="0.35"/>
+<rect x="246" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="246" y="548" width="56" height="6" rx="3" fill="#259096" opacity="0.35"/>
+<rect x="246" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="249" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">73</text>
+<rect x="293" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="274" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ta</text>
+<text x="274" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Tantalum</text>
+<text x="274" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">180.9 u</text>
+<text x="274" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d³ 6s²</text>
+<text x="250" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.50</text>
+<text x="299" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1802</text>
+<rect x="304" y="544" width="56" height="10" rx="0" fill="#779552" opacity="0.35"/>
+<rect x="304" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="304" y="548" width="56" height="6" rx="3" fill="#779552" opacity="0.35"/>
+<rect x="304" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="307" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">74</text>
+<rect x="351" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="332" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">W</text>
+<text x="332" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Tungsten</text>
+<text x="332" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">183.8 u</text>
+<text x="332" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d⁴ 6s²</text>
+<text x="308" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.36</text>
+<text x="357" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1783</text>
+<rect x="362" y="544" width="56" height="10" rx="0" fill="#2f9d80" opacity="0.35"/>
+<rect x="362" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="362" y="548" width="56" height="6" rx="3" fill="#2f9d80" opacity="0.35"/>
+<rect x="362" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="365" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">75</text>
+<rect x="409" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="390" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Re</text>
+<text x="390" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Rhenium</text>
+<text x="390" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">186.2 u</text>
+<text x="390" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d⁵ 6s²</text>
+<text x="366" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:1.90</text>
+<text x="415" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1925</text>
+<rect x="420" y="544" width="56" height="10" rx="0" fill="#5e9862" opacity="0.35"/>
+<rect x="420" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="420" y="548" width="56" height="6" rx="3" fill="#5e9862" opacity="0.35"/>
+<rect x="420" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="423" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">76</text>
+<rect x="467" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="448" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Os</text>
+<text x="448" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Osmium</text>
+<text x="448" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">190.2 u</text>
+<text x="448" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d⁶ 6s²</text>
+<text x="424" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.20</text>
+<text x="473" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1803</text>
+<rect x="478" y="544" width="56" height="10" rx="0" fill="#5e9862" opacity="0.35"/>
+<rect x="478" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="478" y="548" width="56" height="6" rx="3" fill="#5e9862" opacity="0.35"/>
+<rect x="478" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="481" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">77</text>
+<rect x="525" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="506" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ir</text>
+<text x="506" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Iridium</text>
+<text x="506" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">192.2 u</text>
+<text x="506" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d⁷ 6s²</text>
+<text x="482" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.20</text>
+<text x="531" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1803</text>
+<rect x="536" y="544" width="56" height="10" rx="0" fill="#6a965a" opacity="0.35"/>
+<rect x="536" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="536" y="548" width="56" height="6" rx="3" fill="#6a965a" opacity="0.35"/>
+<rect x="536" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="539" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">78</text>
+<rect x="583" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="564" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Pt</text>
+<text x="564" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Platinum</text>
+<text x="564" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">195.1 u</text>
+<text x="564" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d⁹ 6s¹</text>
+<text x="540" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.28</text>
+<text x="589" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1735</text>
+<rect x="594" y="544" width="56" height="10" rx="0" fill="#939240" opacity="0.35"/>
+<rect x="594" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="594" y="548" width="56" height="6" rx="3" fill="#939240" opacity="0.35"/>
+<rect x="594" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="597" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">79</text>
+<rect x="641" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="622" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Au</text>
+<text x="622" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Gold</text>
+<text x="622" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">197.0 u</text>
+<text x="622" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹⁰ 6s¹</text>
+<text x="598" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.54</text>
+<text x="647" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="652" y="544" width="56" height="10" rx="0" fill="#3e9c76" opacity="0.35"/>
+<rect x="652" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="652" y="548" width="56" height="6" rx="3" fill="#3e9c76" opacity="0.35"/>
+<rect x="652" y="472" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="655" y="481" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">80</text>
+<polygon points="702,474 705.5,478 702,482 698.5,478" fill="#f78166" opacity="0.9"/>
+<text x="680" y="506" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Hg</text>
+<text x="680" y="518" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Mercury</text>
+<text x="680" y="526" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">200.6 u</text>
+<text x="680" y="534" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹⁰ 6s²</text>
+<text x="656" y="542" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:2.00</text>
+<text x="705" y="542" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="710" y="544" width="56" height="10" rx="0" fill="#229692" opacity="0.35"/>
+<rect x="710" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="710" y="548" width="56" height="6" rx="3" fill="#229692" opacity="0.35"/>
+<rect x="710" y="472" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="713" y="481" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">81</text>
+<rect x="757" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="738" y="506" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Tl</text>
+<text x="738" y="518" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Thallium</text>
+<text x="738" y="526" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">204.4 u</text>
+<text x="738" y="534" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹⁰ 6s² …</text>
+<text x="714" y="542" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:1.62</text>
+<text x="763" y="542" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">1861</text>
+<rect x="768" y="544" width="56" height="10" rx="0" fill="#729655" opacity="0.35"/>
+<rect x="768" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="768" y="548" width="56" height="6" rx="3" fill="#729655" opacity="0.35"/>
+<rect x="768" y="472" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="771" y="481" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">82</text>
+<rect x="815" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="796" y="506" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Pb</text>
+<text x="796" y="518" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Lead</text>
+<text x="796" y="526" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">207.2 u</text>
+<text x="796" y="534" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹⁰ 6s² …</text>
+<text x="772" y="542" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:2.33</text>
+<text x="821" y="542" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">anc</text>
+<rect x="825" y="471" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="826" y="544" width="56" height="10" rx="0" fill="#429b74" opacity="0.35"/>
+<rect x="826" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="826" y="548" width="56" height="6" rx="3" fill="#429b74" opacity="0.35"/>
+<rect x="826" y="472" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="829" y="481" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">83</text>
+<rect x="873" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="854" y="481" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="854" y="506" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Bi</text>
+<text x="854" y="518" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Bismuth</text>
+<text x="854" y="526" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">209.0 u</text>
+<text x="854" y="534" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹⁰ 6s² …</text>
+<text x="830" y="542" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:2.02</text>
+<text x="879" y="542" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">1400</text>
+<text x="854" y="551" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:2×10¹⁹y→Tl</text>
+<rect x="883" y="471" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="884" y="544" width="56" height="10" rx="0" fill="#3e9c76" opacity="0.35"/>
+<rect x="884" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="884" y="548" width="56" height="6" rx="3" fill="#3e9c76" opacity="0.35"/>
+<rect x="884" y="472" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="887" y="481" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">84</text>
+<rect x="931" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="912" y="481" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="912" y="506" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Po</text>
+<text x="912" y="518" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Polonium</text>
+<text x="912" y="526" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">[209] u</text>
+<text x="912" y="534" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹⁰ 6s² …</text>
+<text x="888" y="542" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:2.00</text>
+<text x="937" y="542" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">1898</text>
+<text x="912" y="551" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:138 d→Pb</text>
+<rect x="941" y="471" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="942" y="544" width="56" height="10" rx="0" fill="#5e9862" opacity="0.35"/>
+<rect x="942" y="544" width="56" height="10" rx="0" fill="none"/>
+<rect x="942" y="548" width="56" height="6" rx="3" fill="#5e9862" opacity="0.35"/>
+<rect x="942" y="472" width="56" height="82" rx="4" fill="#3a1000" stroke="#c05020" stroke-width="0.7"/>
+<text x="945" y="481" font-size="7" fill="#ffb870" opacity="0.7" font-family="sans-serif">85</text>
+<rect x="989" y="475" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="970" y="481" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="970" y="506" font-size="17" fill="#ffb870" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">At</text>
+<text x="970" y="518" font-size="6.5" fill="#ffb870" opacity="0.85" font-family="sans-serif" text-anchor="middle">Astatine</text>
+<text x="970" y="526" font-size="6" fill="#ffb870" opacity="0.65" font-family="sans-serif" text-anchor="middle">[210] u</text>
+<text x="970" y="534" font-size="5.5" fill="#ffb870" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹⁰ 6s² …</text>
+<text x="946" y="542" font-size="5.5" fill="#ffb870" opacity="0.6" font-family="sans-serif">EN:2.20</text>
+<text x="995" y="542" font-size="5.5" fill="#ffb870" opacity="0.5" font-family="sans-serif" text-anchor="end">1940</text>
+<text x="970" y="551" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:8.1 h→Bi</text>
+<rect x="999" y="471" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="1000" y="472" width="56" height="82" rx="4" fill="#1e0840" stroke="#7030c0" stroke-width="0.7"/>
+<text x="1003" y="481" font-size="7" fill="#d098ff" opacity="0.7" font-family="sans-serif">86</text>
+<circle cx="1050" cy="478" r="3.5" fill="#58a6ff" opacity="0.9"/>
+<text x="1028" y="481" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="1028" y="506" font-size="17" fill="#d098ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Rn</text>
+<text x="1028" y="518" font-size="6.5" fill="#d098ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Radon</text>
+<text x="1028" y="526" font-size="6" fill="#d098ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[222] u</text>
+<text x="1028" y="534" font-size="5.5" fill="#d098ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹⁰ 6s² …</text>
+<text x="1004" y="542" font-size="5.5" fill="#d098ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="1053" y="542" font-size="5.5" fill="#d098ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1900</text>
+<text x="1028" y="551" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:3.8 d→Po</text>
+<rect x="13" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="14" y="628" width="56" height="10" rx="0" fill="#3a64b4" opacity="0.35"/>
+<rect x="14" y="628" width="56" height="10" rx="0" fill="none"/>
+<rect x="14" y="632" width="56" height="6" rx="3" fill="#3a64b4" opacity="0.35"/>
+<rect x="14" y="556" width="56" height="82" rx="4" fill="#4a1010" stroke="#c04040" stroke-width="0.7"/>
+<text x="17" y="565" font-size="7" fill="#ffb0b0" opacity="0.7" font-family="sans-serif">87</text>
+<rect x="61" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="42" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="42" y="590" font-size="17" fill="#ffb0b0" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Fr</text>
+<text x="42" y="602" font-size="6.5" fill="#ffb0b0" opacity="0.85" font-family="sans-serif" text-anchor="middle">Francium</text>
+<text x="42" y="610" font-size="6" fill="#ffb0b0" opacity="0.65" font-family="sans-serif" text-anchor="middle">[223] u</text>
+<text x="42" y="618" font-size="5.5" fill="#ffb0b0" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 7s¹</text>
+<text x="18" y="626" font-size="5.5" fill="#ffb0b0" opacity="0.6" font-family="sans-serif">EN:0.70</text>
+<text x="67" y="626" font-size="5.5" fill="#ffb0b0" opacity="0.5" font-family="sans-serif" text-anchor="end">1939</text>
+<text x="42" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:22 min→Ra</text>
+<rect x="71" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="72" y="628" width="56" height="10" rx="0" fill="#346fac" opacity="0.35"/>
+<rect x="72" y="628" width="56" height="10" rx="0" fill="none"/>
+<rect x="72" y="632" width="56" height="6" rx="3" fill="#346fac" opacity="0.35"/>
+<rect x="72" y="556" width="56" height="82" rx="4" fill="#3a0840" stroke="#b040a0" stroke-width="0.7"/>
+<text x="75" y="565" font-size="7" fill="#f0a8e8" opacity="0.7" font-family="sans-serif">88</text>
+<rect x="119" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="100" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="100" y="590" font-size="17" fill="#f0a8e8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ra</text>
+<text x="100" y="602" font-size="6.5" fill="#f0a8e8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Radium</text>
+<text x="100" y="610" font-size="6" fill="#f0a8e8" opacity="0.65" font-family="sans-serif" text-anchor="middle">[226] u</text>
+<text x="100" y="618" font-size="5.5" fill="#f0a8e8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 7s²</text>
+<text x="76" y="626" font-size="5.5" fill="#f0a8e8" opacity="0.6" font-family="sans-serif">EN:0.90</text>
+<text x="125" y="626" font-size="5.5" fill="#f0a8e8" opacity="0.5" font-family="sans-serif" text-anchor="end">1898</text>
+<text x="100" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:1600 y→Rn</text>
+<rect x="187" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="188" y="556" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="191" y="565" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">104</text>
+<rect x="235" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="216" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="216" y="590" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Rf</text>
+<text x="216" y="602" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Rutherfordi.</text>
+<text x="216" y="610" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[267] u</text>
+<text x="216" y="618" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d² 7s²</text>
+<text x="192" y="626" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="241" y="626" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1969</text>
+<text x="216" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:1.3 h→No</text>
+<rect x="245" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="246" y="556" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="249" y="565" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">105</text>
+<rect x="293" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="274" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="274" y="590" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Db</text>
+<text x="274" y="602" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Dubnium</text>
+<text x="274" y="610" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[268] u</text>
+<text x="274" y="618" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d³ 7s²</text>
+<text x="250" y="626" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="299" y="626" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1970</text>
+<text x="274" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:28 h→Rf</text>
+<rect x="303" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="304" y="556" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="307" y="565" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">106</text>
+<rect x="351" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="332" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="332" y="590" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Sg</text>
+<text x="332" y="602" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Seaborgium</text>
+<text x="332" y="610" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[269] u</text>
+<text x="332" y="618" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d⁴ 7s²</text>
+<text x="308" y="626" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="357" y="626" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1974</text>
+<text x="332" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:14 min→Db</text>
+<rect x="361" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="362" y="556" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="365" y="565" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">107</text>
+<rect x="409" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="390" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="390" y="590" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Bh</text>
+<text x="390" y="602" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Bohrium</text>
+<text x="390" y="610" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[270] u</text>
+<text x="390" y="618" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d⁵ 7s²</text>
+<text x="366" y="626" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="415" y="626" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1981</text>
+<text x="390" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:61 s→Sg</text>
+<rect x="419" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="420" y="556" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="423" y="565" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">108</text>
+<rect x="467" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="448" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="448" y="590" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Hs</text>
+<text x="448" y="602" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Hassium</text>
+<text x="448" y="610" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[277] u</text>
+<text x="448" y="618" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d⁶ 7s²</text>
+<text x="424" y="626" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="473" y="626" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1984</text>
+<text x="448" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:16 s→Sg</text>
+<rect x="477" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="478" y="556" width="56" height="82" rx="4" fill="#222222" stroke="#555555" stroke-width="0.7"/>
+<text x="481" y="565" font-size="7" fill="#aaaaaa" opacity="0.7" font-family="sans-serif">109</text>
+<rect x="525" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="506" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="506" y="590" font-size="17" fill="#aaaaaa" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Mt</text>
+<text x="506" y="602" font-size="6.5" fill="#aaaaaa" opacity="0.85" font-family="sans-serif" text-anchor="middle">Meitnerium</text>
+<text x="506" y="610" font-size="6" fill="#aaaaaa" opacity="0.65" font-family="sans-serif" text-anchor="middle">[278] u</text>
+<text x="506" y="618" font-size="5.5" fill="#aaaaaa" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d⁷ 7s²</text>
+<text x="482" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="531" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.5" font-family="sans-serif" text-anchor="end">1982</text>
+<text x="506" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:7.6 s→Hs</text>
+<rect x="535" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="536" y="556" width="56" height="82" rx="4" fill="#222222" stroke="#555555" stroke-width="0.7"/>
+<text x="539" y="565" font-size="7" fill="#aaaaaa" opacity="0.7" font-family="sans-serif">110</text>
+<rect x="583" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="564" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="564" y="590" font-size="17" fill="#aaaaaa" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ds</text>
+<text x="564" y="602" font-size="6.5" fill="#aaaaaa" opacity="0.85" font-family="sans-serif" text-anchor="middle">Darmst.</text>
+<text x="564" y="610" font-size="6" fill="#aaaaaa" opacity="0.65" font-family="sans-serif" text-anchor="middle">[281] u</text>
+<text x="564" y="618" font-size="5.5" fill="#aaaaaa" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d⁸ 7s²</text>
+<text x="540" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="589" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.5" font-family="sans-serif" text-anchor="end">1994</text>
+<text x="564" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:12.7 s→Mt</text>
+<rect x="593" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="594" y="556" width="56" height="82" rx="4" fill="#222222" stroke="#555555" stroke-width="0.7"/>
+<text x="597" y="565" font-size="7" fill="#aaaaaa" opacity="0.7" font-family="sans-serif">111</text>
+<rect x="641" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="622" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="622" y="590" font-size="17" fill="#aaaaaa" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Rg</text>
+<text x="622" y="602" font-size="6.5" fill="#aaaaaa" opacity="0.85" font-family="sans-serif" text-anchor="middle">Roentgenium</text>
+<text x="622" y="610" font-size="6" fill="#aaaaaa" opacity="0.65" font-family="sans-serif" text-anchor="middle">[282] u</text>
+<text x="622" y="618" font-size="5.5" fill="#aaaaaa" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d¹⁰ 7s¹</text>
+<text x="598" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="647" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.5" font-family="sans-serif" text-anchor="end">1994</text>
+<text x="622" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:26 s→Mt</text>
+<rect x="651" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="652" y="556" width="56" height="82" rx="4" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="655" y="565" font-size="7" fill="#90c0ff" opacity="0.7" font-family="sans-serif">112</text>
+<rect x="699" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="680" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="680" y="590" font-size="17" fill="#90c0ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Cn</text>
+<text x="680" y="602" font-size="6.5" fill="#90c0ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Copernicium</text>
+<text x="680" y="610" font-size="6" fill="#90c0ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[285] u</text>
+<text x="680" y="618" font-size="5.5" fill="#90c0ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d¹⁰ 7s²</text>
+<text x="656" y="626" font-size="5.5" fill="#90c0ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="705" y="626" font-size="5.5" fill="#90c0ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1996</text>
+<text x="680" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:29 s→Rg</text>
+<rect x="709" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="710" y="556" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="713" y="565" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">113</text>
+<rect x="757" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="738" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="738" y="590" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Nh</text>
+<text x="738" y="602" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Nihonium</text>
+<text x="738" y="610" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">[286] u</text>
+<text x="738" y="618" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d¹⁰ 7s² …</text>
+<text x="714" y="626" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="763" y="626" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">2004</text>
+<text x="738" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:10 s→Cn</text>
+<rect x="767" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="768" y="556" width="56" height="82" rx="4" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="771" y="565" font-size="7" fill="#80e8a8" opacity="0.7" font-family="sans-serif">114</text>
+<rect x="815" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="796" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="796" y="590" font-size="17" fill="#80e8a8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Fl</text>
+<text x="796" y="602" font-size="6.5" fill="#80e8a8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Flerovium</text>
+<text x="796" y="610" font-size="6" fill="#80e8a8" opacity="0.65" font-family="sans-serif" text-anchor="middle">[289] u</text>
+<text x="796" y="618" font-size="5.5" fill="#80e8a8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d¹⁰ 7s² …</text>
+<text x="772" y="626" font-size="5.5" fill="#80e8a8" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="821" y="626" font-size="5.5" fill="#80e8a8" opacity="0.5" font-family="sans-serif" text-anchor="end">1999</text>
+<text x="796" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:2.1 s→Cn</text>
+<rect x="825" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="826" y="556" width="56" height="82" rx="4" fill="#222222" stroke="#555555" stroke-width="0.7"/>
+<text x="829" y="565" font-size="7" fill="#aaaaaa" opacity="0.7" font-family="sans-serif">115</text>
+<rect x="873" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="854" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="854" y="590" font-size="17" fill="#aaaaaa" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Mc</text>
+<text x="854" y="602" font-size="6.5" fill="#aaaaaa" opacity="0.85" font-family="sans-serif" text-anchor="middle">Moscovium</text>
+<text x="854" y="610" font-size="6" fill="#aaaaaa" opacity="0.65" font-family="sans-serif" text-anchor="middle">[290] u</text>
+<text x="854" y="618" font-size="5.5" fill="#aaaaaa" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d¹⁰ 7s² …</text>
+<text x="830" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="879" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.5" font-family="sans-serif" text-anchor="end">2003</text>
+<text x="854" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:220 ms→Nh</text>
+<rect x="883" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="884" y="556" width="56" height="82" rx="4" fill="#222222" stroke="#555555" stroke-width="0.7"/>
+<text x="887" y="565" font-size="7" fill="#aaaaaa" opacity="0.7" font-family="sans-serif">116</text>
+<rect x="931" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="912" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="912" y="590" font-size="17" fill="#aaaaaa" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Lv</text>
+<text x="912" y="602" font-size="6.5" fill="#aaaaaa" opacity="0.85" font-family="sans-serif" text-anchor="middle">Livermorium</text>
+<text x="912" y="610" font-size="6" fill="#aaaaaa" opacity="0.65" font-family="sans-serif" text-anchor="middle">[293] u</text>
+<text x="912" y="618" font-size="5.5" fill="#aaaaaa" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d¹⁰ 7s² …</text>
+<text x="888" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="937" y="626" font-size="5.5" fill="#aaaaaa" opacity="0.5" font-family="sans-serif" text-anchor="end">2000</text>
+<text x="912" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:53 ms→Fl</text>
+<rect x="941" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="942" y="556" width="56" height="82" rx="4" fill="#3a1000" stroke="#c05020" stroke-width="0.7"/>
+<text x="945" y="565" font-size="7" fill="#ffb870" opacity="0.7" font-family="sans-serif">117</text>
+<rect x="989" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="970" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="970" y="590" font-size="17" fill="#ffb870" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ts</text>
+<text x="970" y="602" font-size="6.5" fill="#ffb870" opacity="0.85" font-family="sans-serif" text-anchor="middle">Tennessine</text>
+<text x="970" y="610" font-size="6" fill="#ffb870" opacity="0.65" font-family="sans-serif" text-anchor="middle">[294] u</text>
+<text x="970" y="618" font-size="5.5" fill="#ffb870" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d¹⁰ 7s² …</text>
+<text x="946" y="626" font-size="5.5" fill="#ffb870" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="995" y="626" font-size="5.5" fill="#ffb870" opacity="0.5" font-family="sans-serif" text-anchor="end">2010</text>
+<text x="970" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:51 ms→Mc</text>
+<rect x="999" y="555" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="1000" y="556" width="56" height="82" rx="4" fill="#1e0840" stroke="#7030c0" stroke-width="0.7"/>
+<text x="1003" y="565" font-size="7" fill="#d098ff" opacity="0.7" font-family="sans-serif">118</text>
+<rect x="1047" y="559" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="1028" y="565" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="1028" y="590" font-size="17" fill="#d098ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Og</text>
+<text x="1028" y="602" font-size="6.5" fill="#d098ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Oganesson</text>
+<text x="1028" y="610" font-size="6" fill="#d098ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[294] u</text>
+<text x="1028" y="618" font-size="5.5" fill="#d098ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 6d¹⁰ 7s² …</text>
+<text x="1004" y="626" font-size="5.5" fill="#d098ff" opacity="0.6" font-family="sans-serif">EN:—</text>
+<text x="1053" y="626" font-size="5.5" fill="#d098ff" opacity="0.5" font-family="sans-serif" text-anchor="end">2002</text>
+<text x="1028" y="635" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:0.7 ms→Lv</text>
+<rect x="130" y="472" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7" stroke-dasharray="3 2"/>
+<text x="158" y="498" font-size="7" fill="#70d8f8" font-family="sans-serif" text-anchor="middle">57–71</text>
+<text x="158" y="511" font-size="7" fill="#70d8f8" font-family="sans-serif" text-anchor="middle">Lantha-</text>
+<text x="158" y="524" font-size="7" fill="#70d8f8" font-family="sans-serif" text-anchor="middle">nides</text>
+<rect x="130" y="556" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7" stroke-dasharray="3 2"/>
+<text x="158" y="582" font-size="7" fill="#d898ff" font-family="sans-serif" text-anchor="middle">89–103</text>
+<text x="158" y="595" font-size="7" fill="#d898ff" font-family="sans-serif" text-anchor="middle">Acti-</text>
+<text x="158" y="608" font-size="7" fill="#d898ff" font-family="sans-serif" text-anchor="middle">nides</text>
+<line x1="188" y1="682" x2="1056" y2="682" stroke="#30363d" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="184" y="765" font-size="7" fill="#70d8f8" font-family="sans-serif" text-anchor="end" dominant-baseline="central" font-weight="600">Lanthanides</text>
+<text x="184" y="849" font-size="7" fill="#d898ff" font-family="sans-serif" text-anchor="end" dominant-baseline="central" font-weight="600">Actinides</text>
+<rect x="188" y="796" width="56" height="10" rx="0" fill="#2f7aa5" opacity="0.35"/>
+<rect x="188" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="188" y="800" width="56" height="6" rx="3" fill="#2f7aa5" opacity="0.35"/>
+<rect x="188" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="191" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">57</text>
+<rect x="235" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="216" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">La</text>
+<text x="216" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Lanthanum</text>
+<text x="216" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">138.9 u</text>
+<text x="216" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 5d¹ 6s²</text>
+<text x="192" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.10</text>
+<text x="241" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1839</text>
+<rect x="246" y="796" width="56" height="10" rx="0" fill="#2f7ba4" opacity="0.35"/>
+<rect x="246" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="246" y="800" width="56" height="6" rx="3" fill="#2f7ba4" opacity="0.35"/>
+<rect x="246" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="249" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">58</text>
+<rect x="293" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="274" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ce</text>
+<text x="274" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Cerium</text>
+<text x="274" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">140.1 u</text>
+<text x="274" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹ 5d¹ 6s²</text>
+<text x="250" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.12</text>
+<text x="299" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1803</text>
+<rect x="304" y="796" width="56" height="10" rx="0" fill="#2e7ba4" opacity="0.35"/>
+<rect x="304" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="304" y="800" width="56" height="6" rx="3" fill="#2e7ba4" opacity="0.35"/>
+<rect x="304" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="307" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">59</text>
+<rect x="351" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="332" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Pr</text>
+<text x="332" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Praseodymium</text>
+<text x="332" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">140.9 u</text>
+<text x="332" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f³ 6s²</text>
+<text x="308" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.13</text>
+<text x="357" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1885</text>
+<rect x="362" y="796" width="56" height="10" rx="0" fill="#2e7ca3" opacity="0.35"/>
+<rect x="362" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="362" y="800" width="56" height="6" rx="3" fill="#2e7ca3" opacity="0.35"/>
+<rect x="362" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="365" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">60</text>
+<rect x="409" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="390" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Nd</text>
+<text x="390" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Neodymium</text>
+<text x="390" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">144.2 u</text>
+<text x="390" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f⁴ 6s²</text>
+<text x="366" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.14</text>
+<text x="415" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1885</text>
+<rect x="419" y="723" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="420" y="796" width="56" height="10" rx="0" fill="#2e7ba4" opacity="0.35"/>
+<rect x="420" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="420" y="800" width="56" height="6" rx="3" fill="#2e7ba4" opacity="0.35"/>
+<rect x="420" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="423" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">61</text>
+<rect x="467" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="448" y="733" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="448" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Pm</text>
+<text x="448" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Promethium</text>
+<text x="448" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">[145] u</text>
+<text x="448" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f⁵ 6s²</text>
+<text x="424" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.13</text>
+<text x="473" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1945</text>
+<text x="448" y="803" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:17.7 y→Nd</text>
+<rect x="478" y="796" width="56" height="10" rx="0" fill="#2d7da2" opacity="0.35"/>
+<rect x="478" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="478" y="800" width="56" height="6" rx="3" fill="#2d7da2" opacity="0.35"/>
+<rect x="478" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="481" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">62</text>
+<rect x="525" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="506" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Sm</text>
+<text x="506" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Samarium</text>
+<text x="506" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">150.4 u</text>
+<text x="506" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f⁶ 6s²</text>
+<text x="482" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.17</text>
+<text x="531" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1879</text>
+<rect x="536" y="796" width="56" height="10" rx="0" fill="#2d7fa1" opacity="0.35"/>
+<rect x="536" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="536" y="800" width="56" height="6" rx="3" fill="#2d7fa1" opacity="0.35"/>
+<rect x="536" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="539" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">63</text>
+<rect x="583" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="564" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Eu</text>
+<text x="564" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Europium</text>
+<text x="564" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">152.0 u</text>
+<text x="564" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f⁷ 6s²</text>
+<text x="540" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.20</text>
+<text x="589" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1901</text>
+<rect x="594" y="796" width="56" height="10" rx="0" fill="#2d7fa1" opacity="0.35"/>
+<rect x="594" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="594" y="800" width="56" height="6" rx="3" fill="#2d7fa1" opacity="0.35"/>
+<rect x="594" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="597" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">64</text>
+<rect x="641" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="622" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Gd</text>
+<text x="622" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Gadolinium</text>
+<text x="622" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">157.3 u</text>
+<text x="622" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f⁷ 5d¹ 6s²</text>
+<text x="598" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.20</text>
+<text x="647" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1880</text>
+<rect x="652" y="796" width="56" height="10" rx="0" fill="#2f7aa5" opacity="0.35"/>
+<rect x="652" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="652" y="800" width="56" height="6" rx="3" fill="#2f7aa5" opacity="0.35"/>
+<rect x="652" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="655" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">65</text>
+<rect x="699" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="680" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Tb</text>
+<text x="680" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Terbium</text>
+<text x="680" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">158.9 u</text>
+<text x="680" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f⁹ 6s²</text>
+<text x="656" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.10</text>
+<text x="705" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1843</text>
+<rect x="710" y="796" width="56" height="10" rx="0" fill="#2c80a0" opacity="0.35"/>
+<rect x="710" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="710" y="800" width="56" height="6" rx="3" fill="#2c80a0" opacity="0.35"/>
+<rect x="710" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="713" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">66</text>
+<rect x="757" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="738" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Dy</text>
+<text x="738" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Dysprosium</text>
+<text x="738" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">162.5 u</text>
+<text x="738" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁰ 6s²</text>
+<text x="714" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.22</text>
+<text x="763" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1886</text>
+<rect x="768" y="796" width="56" height="10" rx="0" fill="#2c81a0" opacity="0.35"/>
+<rect x="768" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="768" y="800" width="56" height="6" rx="3" fill="#2c81a0" opacity="0.35"/>
+<rect x="768" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="771" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">67</text>
+<rect x="815" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="796" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ho</text>
+<text x="796" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Holmium</text>
+<text x="796" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">164.9 u</text>
+<text x="796" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹¹ 6s²</text>
+<text x="772" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.23</text>
+<text x="821" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1878</text>
+<rect x="826" y="796" width="56" height="10" rx="0" fill="#2c81a0" opacity="0.35"/>
+<rect x="826" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="826" y="800" width="56" height="6" rx="3" fill="#2c81a0" opacity="0.35"/>
+<rect x="826" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="829" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">68</text>
+<rect x="873" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="854" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Er</text>
+<text x="854" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Erbium</text>
+<text x="854" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">167.3 u</text>
+<text x="854" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹² 6s²</text>
+<text x="830" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.24</text>
+<text x="879" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1843</text>
+<rect x="884" y="796" width="56" height="10" rx="0" fill="#2b829f" opacity="0.35"/>
+<rect x="884" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="884" y="800" width="56" height="6" rx="3" fill="#2b829f" opacity="0.35"/>
+<rect x="884" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="887" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">69</text>
+<rect x="931" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="912" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Tm</text>
+<text x="912" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Thulium</text>
+<text x="912" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">168.9 u</text>
+<text x="912" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹³ 6s²</text>
+<text x="888" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.25</text>
+<text x="937" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1879</text>
+<rect x="942" y="796" width="56" height="10" rx="0" fill="#2f7aa5" opacity="0.35"/>
+<rect x="942" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="942" y="800" width="56" height="6" rx="3" fill="#2f7aa5" opacity="0.35"/>
+<rect x="942" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="945" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">70</text>
+<rect x="989" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="970" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Yb</text>
+<text x="970" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Ytterbium</text>
+<text x="970" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">173.1 u</text>
+<text x="970" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 6s²</text>
+<text x="946" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.10</text>
+<text x="995" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1878</text>
+<rect x="1000" y="796" width="56" height="10" rx="0" fill="#2b839f" opacity="0.35"/>
+<rect x="1000" y="796" width="56" height="10" rx="0" fill="none"/>
+<rect x="1000" y="800" width="56" height="6" rx="3" fill="#2b839f" opacity="0.35"/>
+<rect x="1000" y="724" width="56" height="82" rx="4" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="1003" y="733" font-size="7" fill="#70d8f8" opacity="0.7" font-family="sans-serif">71</text>
+<rect x="1047" y="727" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="1028" y="758" font-size="17" fill="#70d8f8" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Lu</text>
+<text x="1028" y="770" font-size="6.5" fill="#70d8f8" opacity="0.85" font-family="sans-serif" text-anchor="middle">Lutetium</text>
+<text x="1028" y="778" font-size="6" fill="#70d8f8" opacity="0.65" font-family="sans-serif" text-anchor="middle">175.0 u</text>
+<text x="1028" y="786" font-size="5.5" fill="#70d8f8" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Xe] 4f¹⁴ 5d¹ 6s²</text>
+<text x="1004" y="794" font-size="5.5" fill="#70d8f8" opacity="0.6" font-family="sans-serif">EN:1.27</text>
+<text x="1053" y="794" font-size="5.5" fill="#70d8f8" opacity="0.5" font-family="sans-serif" text-anchor="end">1907</text>
+<rect x="187" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="188" y="880" width="56" height="10" rx="0" fill="#2f7aa5" opacity="0.35"/>
+<rect x="188" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="188" y="884" width="56" height="6" rx="3" fill="#2f7aa5" opacity="0.35"/>
+<rect x="188" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="191" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">89</text>
+<rect x="235" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="216" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="216" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Ac</text>
+<text x="216" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Actinium</text>
+<text x="216" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[227] u</text>
+<text x="216" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 6d¹ 7s²</text>
+<text x="192" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.10</text>
+<text x="241" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1899</text>
+<text x="216" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:21.8 y→Fr</text>
+<rect x="245" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="246" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="246" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="246" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="246" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="249" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">90</text>
+<rect x="293" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="274" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="274" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Th</text>
+<text x="274" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Thorium</text>
+<text x="274" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">232.0 u</text>
+<text x="274" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 6d² 7s²</text>
+<text x="250" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="299" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1829</text>
+<text x="274" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:14 Gy→Ra</text>
+<rect x="303" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="304" y="880" width="56" height="10" rx="0" fill="#259096" opacity="0.35"/>
+<rect x="304" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="304" y="884" width="56" height="6" rx="3" fill="#259096" opacity="0.35"/>
+<rect x="304" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="307" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">91</text>
+<rect x="351" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="332" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="332" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Pa</text>
+<text x="332" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Protactinium</text>
+<text x="332" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">231.0 u</text>
+<text x="332" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f² 6d¹ 7s²</text>
+<text x="308" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.50</text>
+<text x="357" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1913</text>
+<text x="332" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:32.8 ky→Ac</text>
+<rect x="361" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="362" y="880" width="56" height="10" rx="0" fill="#28899b" opacity="0.35"/>
+<rect x="362" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="362" y="884" width="56" height="6" rx="3" fill="#28899b" opacity="0.35"/>
+<rect x="362" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="365" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">92</text>
+<rect x="409" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="390" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="390" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">U</text>
+<text x="390" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Uranium</text>
+<text x="390" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">238.0 u</text>
+<text x="390" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f³ 6d¹ 7s²</text>
+<text x="366" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.38</text>
+<text x="415" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1789</text>
+<text x="390" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:4.5 Gy→Th</text>
+<rect x="419" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="420" y="880" width="56" height="10" rx="0" fill="#29889b" opacity="0.35"/>
+<rect x="420" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="420" y="884" width="56" height="6" rx="3" fill="#29889b" opacity="0.35"/>
+<rect x="420" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="423" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">93</text>
+<rect x="467" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="448" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="448" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Np</text>
+<text x="448" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Neptunium</text>
+<text x="448" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[237] u</text>
+<text x="448" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f⁴ 6d¹ 7s²</text>
+<text x="424" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.36</text>
+<text x="473" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1940</text>
+<text x="448" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:2.1 My→Pa</text>
+<rect x="477" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="478" y="880" width="56" height="10" rx="0" fill="#2b839e" opacity="0.35"/>
+<rect x="478" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="478" y="884" width="56" height="6" rx="3" fill="#2b839e" opacity="0.35"/>
+<rect x="478" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="481" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">94</text>
+<rect x="525" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="506" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="506" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Pu</text>
+<text x="506" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Plutonium</text>
+<text x="506" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[244] u</text>
+<text x="506" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f⁶ 7s²</text>
+<text x="482" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.28</text>
+<text x="531" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1940</text>
+<text x="506" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:80 My→U</text>
+<rect x="535" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="536" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="536" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="536" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="536" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="539" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">95</text>
+<rect x="583" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="564" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="564" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Am</text>
+<text x="564" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Americium</text>
+<text x="564" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[243] u</text>
+<text x="564" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f⁷ 7s²</text>
+<text x="540" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="589" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1944</text>
+<text x="564" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:7370 y→Np</text>
+<rect x="593" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="594" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="594" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="594" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="594" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="597" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">96</text>
+<rect x="641" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="622" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="622" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Cm</text>
+<text x="622" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Curium</text>
+<text x="622" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[247] u</text>
+<text x="622" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f⁷ 6d¹ 7s²</text>
+<text x="598" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="647" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1944</text>
+<text x="622" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:15.6 My→Pu</text>
+<rect x="651" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="652" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="652" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="652" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="652" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="655" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">97</text>
+<rect x="699" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="680" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="680" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Bk</text>
+<text x="680" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Berkelium</text>
+<text x="680" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[247] u</text>
+<text x="680" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f⁹ 7s²</text>
+<text x="656" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="705" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1949</text>
+<text x="680" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:1380 y→Am</text>
+<rect x="709" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="710" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="710" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="710" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="710" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="713" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">98</text>
+<rect x="757" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="738" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="738" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Cf</text>
+<text x="738" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Californium</text>
+<text x="738" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[251] u</text>
+<text x="738" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁰ 7s²</text>
+<text x="714" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="763" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1950</text>
+<text x="738" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:898 y→Cm</text>
+<rect x="767" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="768" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="768" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="768" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="768" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="771" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">99</text>
+<rect x="815" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="796" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="796" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Es</text>
+<text x="796" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Einsteinium</text>
+<text x="796" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[252] u</text>
+<text x="796" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹¹ 7s²</text>
+<text x="772" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="821" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1952</text>
+<text x="796" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:472 d→Bk</text>
+<rect x="825" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="826" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="826" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="826" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="826" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="829" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">100</text>
+<rect x="873" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="854" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="854" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Fm</text>
+<text x="854" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Fermium</text>
+<text x="854" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[257] u</text>
+<text x="854" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹² 7s²</text>
+<text x="830" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="879" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1952</text>
+<text x="854" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:100 d→Es</text>
+<rect x="883" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="884" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="884" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="884" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="884" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="887" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">101</text>
+<rect x="931" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="912" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="912" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Md</text>
+<text x="912" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Mendelevium</text>
+<text x="912" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[258] u</text>
+<text x="912" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹³ 7s²</text>
+<text x="888" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="937" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1955</text>
+<text x="912" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:51.5 d→Fm</text>
+<rect x="941" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="942" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="942" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="942" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="942" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="945" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">102</text>
+<rect x="989" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="970" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="970" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">No</text>
+<text x="970" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Nobelium</text>
+<text x="970" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[259] u</text>
+<text x="970" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 7s²</text>
+<text x="946" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="995" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1958</text>
+<text x="970" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:58 min→Md</text>
+<rect x="999" y="807" width="58" height="84" rx="5" fill="none" stroke="#f0b030" stroke-width="1.5" opacity="0.7"/>
+<rect x="1000" y="880" width="56" height="10" rx="0" fill="#2a859d" opacity="0.35"/>
+<rect x="1000" y="880" width="56" height="10" rx="0" fill="none"/>
+<rect x="1000" y="884" width="56" height="6" rx="3" fill="#2a859d" opacity="0.35"/>
+<rect x="1000" y="808" width="56" height="82" rx="4" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="1003" y="817" font-size="7" fill="#d898ff" opacity="0.7" font-family="sans-serif">103</text>
+<rect x="1047" y="811" width="6" height="6" rx="1" fill="#555e6a" opacity="0.9"/>
+<text x="1028" y="817" font-size="8" fill="#f0b030" font-family="sans-serif" text-anchor="middle" opacity="0.9">☢</text>
+<text x="1028" y="842" font-size="17" fill="#d898ff" font-family="sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="central">Lr</text>
+<text x="1028" y="854" font-size="6.5" fill="#d898ff" opacity="0.85" font-family="sans-serif" text-anchor="middle">Lawrencium</text>
+<text x="1028" y="862" font-size="6" fill="#d898ff" opacity="0.65" font-family="sans-serif" text-anchor="middle">[266] u</text>
+<text x="1028" y="870" font-size="5.5" fill="#d898ff" opacity="0.75" font-family="sans-serif" text-anchor="middle">[Rn] 5f¹⁴ 7s² 7p¹</text>
+<text x="1004" y="878" font-size="5.5" fill="#d898ff" opacity="0.6" font-family="sans-serif">EN:1.30</text>
+<text x="1053" y="878" font-size="5.5" fill="#d898ff" opacity="0.5" font-family="sans-serif" text-anchor="end">1961</text>
+<text x="1028" y="887" font-size="5" fill="#f0b030" opacity="0.85" font-family="sans-serif" text-anchor="middle">T½:11 h→No</text>
+<text x="14" y="904" font-size="8" font-weight="600" fill="#8b949e" font-family="sans-serif">Electronegativity (Pauling scale):</text>
+<rect x="14.0" y="914" width="26.6" height="12" fill="#3a64b4"/>
+<rect x="40.1" y="914" width="26.6" height="12" fill="#3768b0"/>
+<rect x="66.2" y="914" width="26.6" height="12" fill="#356dad"/>
+<rect x="92.3" y="914" width="26.6" height="12" fill="#3371aa"/>
+<rect x="118.4" y="914" width="26.6" height="12" fill="#3176a7"/>
+<rect x="144.5" y="914" width="26.6" height="12" fill="#2f7ba4"/>
+<rect x="170.6" y="914" width="26.6" height="12" fill="#2c7fa1"/>
+<rect x="196.7" y="914" width="26.6" height="12" fill="#2a849e"/>
+<rect x="222.8" y="914" width="26.6" height="12" fill="#28899b"/>
+<rect x="248.9" y="914" width="26.6" height="12" fill="#268d98"/>
+<rect x="275.0" y="914" width="26.6" height="12" fill="#249294"/>
+<rect x="301.1" y="914" width="26.6" height="12" fill="#229791"/>
+<rect x="327.2" y="914" width="26.6" height="12" fill="#1f9b8e"/>
+<rect x="353.3" y="914" width="26.6" height="12" fill="#1f9f8a"/>
+<rect x="379.4" y="914" width="26.6" height="12" fill="#2c9e82"/>
+<rect x="405.5" y="914" width="26.6" height="12" fill="#3a9c79"/>
+<rect x="431.6" y="914" width="26.6" height="12" fill="#479b71"/>
+<rect x="457.7" y="914" width="26.6" height="12" fill="#549968"/>
+<rect x="483.8" y="914" width="26.6" height="12" fill="#619860"/>
+<rect x="509.9" y="914" width="26.6" height="12" fill="#6e9657"/>
+<rect x="536.0" y="914" width="26.6" height="12" fill="#7c944f"/>
+<rect x="562.1" y="914" width="26.6" height="12" fill="#899346"/>
+<rect x="588.2" y="914" width="26.6" height="12" fill="#96913d"/>
+<rect x="614.3" y="914" width="26.6" height="12" fill="#a39035"/>
+<rect x="640.4" y="914" width="26.6" height="12" fill="#b18e2c"/>
+<rect x="666.5" y="914" width="26.6" height="12" fill="#be8d24"/>
+<rect x="692.6" y="914" width="26.6" height="12" fill="#c88a1e"/>
+<rect x="718.7" y="914" width="26.6" height="12" fill="#c9841e"/>
+<rect x="744.8" y="914" width="26.6" height="12" fill="#cb7e1f"/>
+<rect x="770.9" y="914" width="26.6" height="12" fill="#cc7820"/>
+<rect x="797.0" y="914" width="26.6" height="12" fill="#ce7221"/>
+<rect x="823.1" y="914" width="26.6" height="12" fill="#cf6c21"/>
+<rect x="849.2" y="914" width="26.6" height="12" fill="#d16622"/>
+<rect x="875.3" y="914" width="26.6" height="12" fill="#d26023"/>
+<rect x="901.4" y="914" width="26.6" height="12" fill="#d45a24"/>
+<rect x="927.5" y="914" width="26.6" height="12" fill="#d55424"/>
+<rect x="953.6" y="914" width="26.6" height="12" fill="#d74e25"/>
+<rect x="979.7" y="914" width="26.6" height="12" fill="#d84826"/>
+<rect x="1005.8" y="914" width="26.6" height="12" fill="#da4227"/>
+<rect x="1031.9" y="914" width="26.6" height="12" fill="#dc3c28"/>
+<rect x="14" y="914" width="1044" height="12" fill="none" stroke="#444" stroke-width="0.5" rx="2"/>
+<line x1="42.5" y1="914" x2="42.5" y2="929" stroke="#8b949e" stroke-width="0.6"/>
+<text x="42.5" y="938" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">Cs</text>
+<text x="42.5" y="947" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">0.79</text>
+<line x1="267.1" y1="914" x2="267.1" y2="929" stroke="#8b949e" stroke-width="0.6"/>
+<text x="267.1" y="938" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">1.5</text>
+<line x1="425.3" y1="914" x2="425.3" y2="929" stroke="#8b949e" stroke-width="0.6"/>
+<text x="425.3" y="938" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">2.0</text>
+<line x1="583.5" y1="914" x2="583.5" y2="929" stroke="#8b949e" stroke-width="0.6"/>
+<text x="583.5" y="938" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">2.5</text>
+<line x1="741.6" y1="914" x2="741.6" y2="929" stroke="#8b949e" stroke-width="0.6"/>
+<text x="741.6" y="938" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">3.0</text>
+<line x1="899.8" y1="914" x2="899.8" y2="929" stroke="#8b949e" stroke-width="0.6"/>
+<text x="899.8" y="938" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">3.5</text>
+<line x1="1051.7" y1="914" x2="1051.7" y2="929" stroke="#8b949e" stroke-width="0.6"/>
+<text x="1051.7" y="938" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">F</text>
+<text x="1051.7" y="947" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle">3.98</text>
+<text x="14" y="966" font-size="9" font-weight="700" fill="#e6edf3" font-family="sans-serif">Understanding Electron Configurations &amp; the Table's Shape</text>
+<text x="14" y="981" font-size="8" fill="#8b949e" font-family="sans-serif">Electrons orbit the nucleus in shells, divided into subshells (s, p, d, f). Each subshell holds a fixed max number of electrons.</text>
+<text x="14" y="994" font-size="8" fill="#8b949e" font-family="sans-serif">The periodic table is literally a map of which subshell is being filled — its geometry is driven by quantum mechanics:</text>
+<rect x="14" y="1002" width="22" height="11" rx="2" fill="#4a1010" stroke="#c04040" stroke-width="0.6"/><text x="25" y="1010" font-size="7" fill="#ffb0b0" font-weight="700" font-family="sans-serif" text-anchor="middle">s</text>
+<text x="42" y="1010" font-size="8" fill="#ffb0b0" font-family="sans-serif">s-block  (cols 1–2)  —  2 electrons max</text>
+<rect x="14" y="1017" width="22" height="11" rx="2" fill="#162200" stroke="#508010" stroke-width="0.6"/><text x="25" y="1025" font-size="7" fill="#b0e860" font-weight="700" font-family="sans-serif" text-anchor="middle">p</text>
+<text x="42" y="1025" font-size="8" fill="#b0e860" font-family="sans-serif">p-block  (cols 13–18)  —  6 electrons max</text>
+<rect x="14" y="1032" width="22" height="11" rx="2" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.6"/><text x="25" y="1040" font-size="7" fill="#90c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">d</text>
+<text x="42" y="1040" font-size="8" fill="#90c0ff" font-family="sans-serif">d-block  (cols 3–12  (transition metals))  —  10 electrons max</text>
+<rect x="14" y="1047" width="22" height="11" rx="2" fill="#002030" stroke="#1880b0" stroke-width="0.6"/><text x="25" y="1055" font-size="7" fill="#70d8f8" font-weight="700" font-family="sans-serif" text-anchor="middle">f</text>
+<text x="42" y="1055" font-size="8" fill="#70d8f8" font-family="sans-serif">f-block  (lanthanides + actinides)  —  14 electrons max</text>
+<text x="14" y="1072" font-size="8" fill="#8b949e" font-family="sans-serif">Noble gas shorthand: configs are abbreviated starting from the nearest preceding noble gas.</text>
+<text x="14" y="1085" font-size="8" fill="#c8c0a0" font-family="sans-serif">E.g. Gold (Au, Z=79): full config is 1s² 2s² 2p⁶ … 5d¹⁰ — written as [Xe] 4f¹⁴ 5d¹⁰ 6s¹</text>
+<text x="14" y="1098" font-size="8" fill="#c8c0a0" font-family="sans-serif">where [Xe] stands for all 54 electrons of Xenon's complete configuration.</text>
+<text x="14" y="1114" font-size="8" fill="#8b949e" font-family="sans-serif">Why are lanthanides &amp; actinides in a sub-table?  In periods 6 and 7, the 4f / 5f subshell fills</text>
+<text x="14" y="1127" font-size="8" fill="#8b949e" font-family="sans-serif">between the s-block (cols 1–2) and the d-block (col 4 onward). Inserting them inline would</text>
+<text x="14" y="1140" font-size="8" fill="#8b949e" font-family="sans-serif">make the table 32 columns wide. By convention they are extracted into a separate f-block panel below.</text>
+<text x="14" y="1170" font-size="7.5" font-weight="600" fill="#8b949e" font-family="sans-serif">Categories:</text>
+<rect x="94" y="1162" width="13" height="13" rx="2" fill="#4a1010" stroke="#c04040" stroke-width="0.7"/>
+<text x="111" y="1171" font-size="7.5" fill="#8b949e" font-family="sans-serif">Alkali metals</text>
+<rect x="284" y="1162" width="13" height="13" rx="2" fill="#3a0840" stroke="#b040a0" stroke-width="0.7"/>
+<text x="301" y="1171" font-size="7.5" fill="#8b949e" font-family="sans-serif">Alkaline earth metals</text>
+<rect x="474" y="1162" width="13" height="13" rx="2" fill="#0a1e40" stroke="#3a70c0" stroke-width="0.7"/>
+<text x="491" y="1171" font-size="7.5" fill="#8b949e" font-family="sans-serif">Transition metals</text>
+<rect x="664" y="1162" width="13" height="13" rx="2" fill="#062818" stroke="#208050" stroke-width="0.7"/>
+<text x="681" y="1171" font-size="7.5" fill="#8b949e" font-family="sans-serif">Post-transition metals</text>
+<rect x="854" y="1162" width="13" height="13" rx="2" fill="#2a1a00" stroke="#a07010" stroke-width="0.7"/>
+<text x="871" y="1171" font-size="7.5" fill="#8b949e" font-family="sans-serif">Metalloids</text>
+<rect x="94" y="1177" width="13" height="13" rx="2" fill="#162200" stroke="#508010" stroke-width="0.7"/>
+<text x="111" y="1186" font-size="7.5" fill="#8b949e" font-family="sans-serif">Reactive nonmetals</text>
+<rect x="284" y="1177" width="13" height="13" rx="2" fill="#3a1000" stroke="#c05020" stroke-width="0.7"/>
+<text x="301" y="1186" font-size="7.5" fill="#8b949e" font-family="sans-serif">Halogens</text>
+<rect x="474" y="1177" width="13" height="13" rx="2" fill="#1e0840" stroke="#7030c0" stroke-width="0.7"/>
+<text x="491" y="1186" font-size="7.5" fill="#8b949e" font-family="sans-serif">Noble gases</text>
+<rect x="664" y="1177" width="13" height="13" rx="2" fill="#002030" stroke="#1880b0" stroke-width="0.7"/>
+<text x="681" y="1186" font-size="7.5" fill="#8b949e" font-family="sans-serif">Lanthanides</text>
+<rect x="854" y="1177" width="13" height="13" rx="2" fill="#200038" stroke="#8828b8" stroke-width="0.7"/>
+<text x="871" y="1186" font-size="7.5" fill="#8b949e" font-family="sans-serif">Actinides</text>
+<rect x="94" y="1192" width="13" height="13" rx="2" fill="#222222" stroke="#555555" stroke-width="0.7"/>
+<text x="111" y="1201" font-size="7.5" fill="#8b949e" font-family="sans-serif">Unknown properties</text>
+</svg>

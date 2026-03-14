@@ -1,0 +1,397 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1592" viewBox="0 0 1100 1592">
+<defs>
+  <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5"
+    markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 2L8 5L2 8" fill="none" stroke="#f0b030" stroke-width="1.5"
+      stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="ag_grey" viewBox="0 0 10 10" refX="9" refY="5"
+    markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 2L8 5L2 8" fill="none" stroke="#8b949e" stroke-width="1.5"
+      stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<rect width="1100" height="1592" fill="#0d1117"/>
+<text x="550" y="36" font-size="14" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">1.  Orbital Shapes &#x2014; Why Each Subshell Has a Fixed Capacity</text>
+<text x="550" y="52" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">Each orbital = 1 region of space holding exactly 2 electrons (opposite spins).  Capacity = 2 × number of orientations.</text>
+<rect x="30" y="64" width="240" height="210" rx="5" fill="#21262d" stroke="#f78166" stroke-width="1.0" opacity="1.0"/>
+<rect x="36" y="70" width="70" height="16" rx="3" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.2"/>
+<text x="71" y="81" font-size="9" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">s-orbital</text>
+<circle cx="150" cy="154" r="38" fill="#f78166" opacity="0.12"/>
+<circle cx="150" cy="154" r="28" fill="#f78166" opacity="0.22"/>
+<circle cx="150" cy="154" r="18" fill="#f78166" opacity="0.45"/>
+<circle cx="150" cy="154" r="10" fill="#f78166" opacity="0.8"/>
+<circle cx="150" cy="154" r="38" fill="none" stroke="#f78166" stroke-width="1.2" opacity="0.6"/>
+<circle cx="150" cy="154" r="3.5" fill="#fff" opacity="0.9"/>
+<text x="150" y="216" font-size="11" fill="#e6edf3" font-weight="600" font-family="sans-serif" text-anchor="middle">Sphere</text>
+<text x="150" y="230" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">1 orientation</text>
+<text x="150" y="241" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">(no axis)</text>
+<rect x="98" y="246" width="104" height="16" rx="3" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.2"/>
+<text x="150" y="257" font-size="8" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">1 orbital × 2 = 2e max</text>
+<rect x="292" y="64" width="240" height="210" rx="5" fill="#21262d" stroke="#79c0ff" stroke-width="1.0" opacity="1.0"/>
+<rect x="298" y="70" width="70" height="16" rx="3" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.2"/>
+<text x="333" y="81" font-size="9" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">p-orbital</text>
+<ellipse cx="436.0" cy="154.0" rx="11" ry="20" transform="rotate(90,436.0,154.0)" fill="#79c0ff" opacity="0.9"/>
+<ellipse cx="388.0" cy="154.0" rx="11" ry="20" transform="rotate(90,388.0,154.0)" fill="#79c0ff" opacity="0.9"/>
+<ellipse cx="424.0" cy="133.2" rx="11" ry="20" transform="rotate(30,424.0,133.2)" fill="#79c0ff" opacity="0.45"/>
+<ellipse cx="400.0" cy="174.8" rx="11" ry="20" transform="rotate(30,400.0,174.8)" fill="#79c0ff" opacity="0.45"/>
+<ellipse cx="424.0" cy="174.8" rx="11" ry="20" transform="rotate(150,424.0,174.8)" fill="#79c0ff" opacity="0.45"/>
+<ellipse cx="400.0" cy="133.2" rx="11" ry="20" transform="rotate(150,400.0,133.2)" fill="#79c0ff" opacity="0.45"/>
+<circle cx="412" cy="154" r="3.5" fill="#fff" opacity="0.9"/>
+<text x="416" y="104" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">pz</text>
+<text x="456" y="166" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">px</text>
+<text x="370" y="166" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">py</text>
+<text x="412" y="216" font-size="11" fill="#e6edf3" font-weight="600" font-family="sans-serif" text-anchor="middle">Dumbbells</text>
+<text x="412" y="230" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">3 orientations</text>
+<text x="412" y="241" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">(x, y, z)</text>
+<rect x="360" y="246" width="104" height="16" rx="3" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.2"/>
+<text x="412" y="257" font-size="8" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">3 orbitals × 2 = 6e max</text>
+<rect x="554" y="64" width="240" height="210" rx="5" fill="#21262d" stroke="#56d364" stroke-width="1.0" opacity="1.0"/>
+<rect x="560" y="70" width="70" height="16" rx="3" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.2"/>
+<text x="595" y="81" font-size="9" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">d-orbital</text>
+<ellipse cx="689.6" cy="169.6" rx="17" ry="9" transform="rotate(45,689.6,169.6)" fill="#56d364" opacity="0.8"/>
+<ellipse cx="658.4" cy="169.6" rx="17" ry="9" transform="rotate(135,658.4,169.6)" fill="#56d364" opacity="0.8"/>
+<ellipse cx="658.4" cy="138.4" rx="17" ry="9" transform="rotate(225,658.4,138.4)" fill="#56d364" opacity="0.8"/>
+<ellipse cx="689.6" cy="138.4" rx="17" ry="9" transform="rotate(315,689.6,138.4)" fill="#56d364" opacity="0.8"/>
+<ellipse cx="674" cy="154" rx="33" ry="9" fill="none" stroke="#56d364" stroke-width="2" opacity="0.4"/>
+<ellipse cx="674" cy="176" rx="9" ry="16" fill="#56d364" opacity="0.45"/>
+<ellipse cx="674" cy="132" rx="9" ry="16" fill="#56d364" opacity="0.45"/>
+<circle cx="674" cy="154" r="3.5" fill="#fff" opacity="0.9"/>
+<text x="674" y="216" font-size="11" fill="#e6edf3" font-weight="600" font-family="sans-serif" text-anchor="middle">Cloverleafs</text>
+<text x="674" y="230" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">5 orientations</text>
+<text x="674" y="241" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">(4+ring shapes)</text>
+<rect x="622" y="246" width="104" height="16" rx="3" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.2"/>
+<text x="674" y="257" font-size="8" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">5 orbitals × 2 = 10e max</text>
+<rect x="816" y="64" width="240" height="210" rx="5" fill="#21262d" stroke="#d2a8ff" stroke-width="1.0" opacity="1.0"/>
+<rect x="822" y="70" width="70" height="16" rx="3" fill="#d2a8ff" stroke="#d2a8ff" stroke-width="0.6" opacity="0.2"/>
+<text x="857" y="81" font-size="9" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">f-orbital</text>
+<ellipse cx="961.0" cy="154.0" rx="14" ry="7" transform="rotate(0.0,961.0,154.0)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="951.6" cy="173.5" rx="14" ry="7" transform="rotate(51.42857142857143,951.6,173.5)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="930.4" cy="178.4" rx="14" ry="7" transform="rotate(102.85714285714286,930.4,178.4)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="913.5" cy="164.8" rx="14" ry="7" transform="rotate(154.28571428571428,913.5,164.8)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="913.5" cy="143.2" rx="14" ry="7" transform="rotate(205.71428571428572,913.5,143.2)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="930.4" cy="129.6" rx="14" ry="7" transform="rotate(257.14285714285717,930.4,129.6)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="951.6" cy="134.5" rx="14" ry="7" transform="rotate(308.57142857142856,951.6,134.5)" fill="#d2a8ff" opacity="0.70"/>
+<circle cx="936" cy="154" r="3.5" fill="#fff" opacity="0.9"/>
+<text x="936" y="216" font-size="11" fill="#e6edf3" font-weight="600" font-family="sans-serif" text-anchor="middle">Complex lobes</text>
+<text x="936" y="230" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">7 orientations</text>
+<text x="936" y="241" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">(7 shapes)</text>
+<rect x="884" y="246" width="104" height="16" rx="3" fill="#d2a8ff" stroke="#d2a8ff" stroke-width="0.6" opacity="0.2"/>
+<text x="936" y="257" font-size="8" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">7 orbitals × 2 = 14e max</text>
+<text x="550" y="288" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">Each orbital holds exactly 2 electrons with opposite spins (Pauli exclusion principle).</text>
+<text x="550" y="302" font-size="9" fill="#c8c0a0" font-weight="400" font-family="sans-serif" text-anchor="middle">1 s-orbital × 2 = 2   |   3 p-orbitals × 2 = 6   |   5 d-orbitals × 2 = 10   |   7 f-orbitals × 2 = 14</text>
+<line x1="30" y1="320" x2="1070" y2="320" stroke="#30363d" stroke-width="0.7"/>
+<text x="550" y="338" font-size="14" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">2.  The Aufbau Principle &#x2014; Filling Order</text>
+<text x="550" y="354" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">Electrons fill the lowest available energy subshell first. The diagonal grid (left) shows which subshells exist. The numbered list (right) gives the correct filling order.</text>
+<text x="87" y="366" font-size="11" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">s</text>
+<text x="151" y="366" font-size="11" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">p</text>
+<text x="215" y="366" font-size="11" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">d</text>
+<text x="279" y="366" font-size="11" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">f</text>
+<text x="52" y="395" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">n=1</text>
+<text x="52" y="441" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">n=2</text>
+<text x="52" y="487" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">n=3</text>
+<text x="52" y="533" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">n=4</text>
+<text x="52" y="579" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">n=5</text>
+<text x="52" y="625" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">n=6</text>
+<text x="52" y="671" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">n=7</text>
+<rect x="60" y="372" width="54" height="38" rx="5" fill="#21262d" stroke="#f78166" stroke-width="1.0" opacity="1.0"/>
+<text x="87" y="396" font-size="13" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">1s</text>
+<rect x="60" y="418" width="54" height="38" rx="5" fill="#21262d" stroke="#f78166" stroke-width="1.0" opacity="1.0"/>
+<text x="87" y="442" font-size="13" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">2s</text>
+<rect x="124" y="418" width="54" height="38" rx="5" fill="#21262d" stroke="#79c0ff" stroke-width="1.0" opacity="1.0"/>
+<text x="151" y="442" font-size="13" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">2p</text>
+<rect x="60" y="464" width="54" height="38" rx="5" fill="#21262d" stroke="#f78166" stroke-width="1.0" opacity="1.0"/>
+<text x="87" y="488" font-size="13" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">3s</text>
+<rect x="124" y="464" width="54" height="38" rx="5" fill="#21262d" stroke="#79c0ff" stroke-width="1.0" opacity="1.0"/>
+<text x="151" y="488" font-size="13" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">3p</text>
+<rect x="188" y="464" width="54" height="38" rx="5" fill="#21262d" stroke="#56d364" stroke-width="1.0" opacity="1.0"/>
+<text x="215" y="488" font-size="13" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">3d</text>
+<rect x="60" y="510" width="54" height="38" rx="5" fill="#21262d" stroke="#f78166" stroke-width="1.0" opacity="1.0"/>
+<text x="87" y="534" font-size="13" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">4s</text>
+<rect x="124" y="510" width="54" height="38" rx="5" fill="#21262d" stroke="#79c0ff" stroke-width="1.0" opacity="1.0"/>
+<text x="151" y="534" font-size="13" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">4p</text>
+<rect x="188" y="510" width="54" height="38" rx="5" fill="#21262d" stroke="#56d364" stroke-width="1.0" opacity="1.0"/>
+<text x="215" y="534" font-size="13" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">4d</text>
+<rect x="252" y="510" width="54" height="38" rx="5" fill="#21262d" stroke="#d2a8ff" stroke-width="1.0" opacity="1.0"/>
+<text x="279" y="534" font-size="13" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">4f</text>
+<rect x="60" y="556" width="54" height="38" rx="5" fill="#21262d" stroke="#f78166" stroke-width="1.0" opacity="1.0"/>
+<text x="87" y="580" font-size="13" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">5s</text>
+<rect x="124" y="556" width="54" height="38" rx="5" fill="#21262d" stroke="#79c0ff" stroke-width="1.0" opacity="1.0"/>
+<text x="151" y="580" font-size="13" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">5p</text>
+<rect x="188" y="556" width="54" height="38" rx="5" fill="#21262d" stroke="#56d364" stroke-width="1.0" opacity="1.0"/>
+<text x="215" y="580" font-size="13" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">5d</text>
+<rect x="252" y="556" width="54" height="38" rx="5" fill="#21262d" stroke="#d2a8ff" stroke-width="1.0" opacity="1.0"/>
+<text x="279" y="580" font-size="13" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">5f</text>
+<rect x="60" y="602" width="54" height="38" rx="5" fill="#21262d" stroke="#f78166" stroke-width="1.0" opacity="1.0"/>
+<text x="87" y="626" font-size="13" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">6s</text>
+<rect x="124" y="602" width="54" height="38" rx="5" fill="#21262d" stroke="#79c0ff" stroke-width="1.0" opacity="1.0"/>
+<text x="151" y="626" font-size="13" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">6p</text>
+<rect x="188" y="602" width="54" height="38" rx="5" fill="#21262d" stroke="#56d364" stroke-width="1.0" opacity="1.0"/>
+<text x="215" y="626" font-size="13" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">6d</text>
+<rect x="60" y="648" width="54" height="38" rx="5" fill="#21262d" stroke="#f78166" stroke-width="1.0" opacity="1.0"/>
+<text x="87" y="672" font-size="13" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">7s</text>
+<rect x="124" y="648" width="54" height="38" rx="5" fill="#21262d" stroke="#79c0ff" stroke-width="1.0" opacity="1.0"/>
+<text x="151" y="672" font-size="13" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">7p</text>
+<line x1="151" y1="437" x2="102" y2="472" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="151" y1="483" x2="102" y2="518" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="215" y1="483" x2="166" y2="518" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="151" y1="529" x2="102" y2="564" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="215" y1="529" x2="166" y2="564" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="151" y1="575" x2="102" y2="610" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="279" y1="529" x2="230" y2="564" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="215" y1="575" x2="166" y2="610" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="151" y1="621" x2="102" y2="656" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="279" y1="575" x2="230" y2="610" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<line x1="215" y1="621" x2="166" y2="656" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
+<text x="733" y="366" font-size="11" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">Filling order:</text>
+<rect x="406" y="372" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="392" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">1.</text>
+<text x="574" y="392" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">1s</text>
+<text x="717" y="392" font-size="8" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 1s²</text>
+<rect x="406" y="402" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="422" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">2.</text>
+<text x="574" y="422" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">2s</text>
+<text x="717" y="422" font-size="8" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 2s²</text>
+<rect x="406" y="432" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="452" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">3.</text>
+<text x="574" y="452" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">2p</text>
+<text x="717" y="452" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 2p⁶</text>
+<rect x="406" y="462" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="482" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">4.</text>
+<text x="574" y="482" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">3s</text>
+<text x="717" y="482" font-size="8" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 3s²</text>
+<rect x="406" y="492" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="512" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">5.</text>
+<text x="574" y="512" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">3p</text>
+<text x="717" y="512" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 3p⁶</text>
+<rect x="406" y="522" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="542" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">6.</text>
+<text x="574" y="542" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">4s</text>
+<text x="717" y="542" font-size="8" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 4s²</text>
+<rect x="406" y="552" width="317" height="26" rx="4" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="572" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">7.</text>
+<text x="574" y="572" font-size="12" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">3d</text>
+<text x="717" y="572" font-size="8" fill="#56d364" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 3d¹⁰</text>
+<rect x="406" y="582" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="602" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">8.</text>
+<text x="574" y="602" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">4p</text>
+<text x="717" y="602" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 4p⁶</text>
+<rect x="406" y="612" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="632" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">9.</text>
+<text x="574" y="632" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">5s</text>
+<text x="717" y="632" font-size="8" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 5s²</text>
+<rect x="406" y="642" width="317" height="26" rx="4" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.12"/>
+<text x="424" y="662" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">10.</text>
+<text x="574" y="662" font-size="12" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">4d</text>
+<text x="717" y="662" font-size="8" fill="#56d364" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 4d¹⁰</text>
+<rect x="743" y="372" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="392" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">11.</text>
+<text x="911" y="392" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">5p</text>
+<text x="1054" y="392" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 5p⁶</text>
+<rect x="743" y="402" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="422" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">12.</text>
+<text x="911" y="422" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">6s</text>
+<text x="1054" y="422" font-size="8" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 6s²</text>
+<rect x="743" y="432" width="317" height="26" rx="4" fill="#d2a8ff" stroke="#d2a8ff" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="452" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">13.</text>
+<text x="911" y="452" font-size="12" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">4f</text>
+<text x="1054" y="452" font-size="8" fill="#d2a8ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 4f¹⁴</text>
+<rect x="743" y="462" width="317" height="26" rx="4" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="482" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">14.</text>
+<text x="911" y="482" font-size="12" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">5d</text>
+<text x="1054" y="482" font-size="8" fill="#56d364" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 5d¹⁰</text>
+<rect x="743" y="492" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="512" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">15.</text>
+<text x="911" y="512" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">6p</text>
+<text x="1054" y="512" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 6p⁶</text>
+<rect x="743" y="522" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="542" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">16.</text>
+<text x="911" y="542" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">7s</text>
+<text x="1054" y="542" font-size="8" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 7s²</text>
+<rect x="743" y="552" width="317" height="26" rx="4" fill="#d2a8ff" stroke="#d2a8ff" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="572" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">17.</text>
+<text x="911" y="572" font-size="12" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">5f</text>
+<text x="1054" y="572" font-size="8" fill="#d2a8ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 5f¹⁴</text>
+<rect x="743" y="582" width="317" height="26" rx="4" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="602" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">18.</text>
+<text x="911" y="602" font-size="12" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">6d</text>
+<text x="1054" y="602" font-size="8" fill="#56d364" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 6d¹⁰</text>
+<rect x="743" y="612" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
+<text x="761" y="632" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">19.</text>
+<text x="911" y="632" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">7p</text>
+<text x="1054" y="632" font-size="8" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 7p⁶</text>
+<rect x="30" y="686" width="1040" height="44" rx="5" fill="#0e1a2e" stroke="#3a70c0" stroke-width="1.0" opacity="1.0"/>
+<text x="550" y="702" font-size="10" fill="#90c0ff" font-weight="600" font-family="sans-serif" text-anchor="middle">Key insight: 4s fills BEFORE 3d (#6 vs #7 in the list) &#x2014; because 4s has lower energy for Z &lt; 21.</text>
+<text x="550" y="717" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">This is why K (Z=19) is [Ar]4s¹ and not [Ar]3d¹. The energy ordering is not simply "shell number".</text>
+<line x1="30" y1="748" x2="1070" y2="748" stroke="#30363d" stroke-width="0.7"/>
+<text x="550" y="766" font-size="14" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">3.  Energy Level Crossing &#x2014; Why 4s Fills Before 3d (but Empties First)</text>
+<text x="550" y="780" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">As atomic number Z increases, subshell energies shift. 4s dips below 3d for light atoms, then 3d drops back below 4s for heavier atoms. This resembles &#x2014; but is NOT &#x2014; hysteresis: it is a smooth, one-way energy inversion as Z increases.</text>
+<text x="550" y="793" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">Hysteresis would require the system to return via a different path. Here the crossing is permanent and monotonic &#x2014; it is an energy level inversion, not a cycle.</text>
+<rect x="60" y="810" width="420" height="240" rx="6" fill="#1a2a10" stroke="#508010" stroke-width="1.0" opacity="0.4"/>
+<text x="270" y="824" font-size="11" fill="#b0e860" font-weight="700" font-family="sans-serif" text-anchor="middle">Light atoms  (Z ≤ 20)</text>
+<text x="270" y="837" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">e.g. K (Z=19): [Ar] 4s¹</text>
+<line x1="140" y1="846" x2="140" y2="1046" stroke="#8b949e" stroke-width="0.8" marker-end="url(#ag_grey)"/>
+<text x="134" y="856" font-size="8" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">higher E</text>
+<text x="134" y="1040" font-size="8" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">lower E</text>
+<line x1="160" y1="856" x2="250" y2="856" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="860" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">4p</text>
+<line x1="160" y1="890" x2="250" y2="890" stroke="#f78166" stroke-width="2.5" opacity="1.0"/>
+<text x="154" y="894" font-size="9" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="end">4s</text>
+<rect x="158" y="883" width="94" height="14" rx="2" fill="#f78166" stroke="#f78166" stroke-width="0" opacity="0.12"/>
+<line x1="160" y1="914" x2="250" y2="914" stroke="#56d364" stroke-width="2.5" opacity="1.0"/>
+<text x="154" y="918" font-size="9" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="end">3d</text>
+<rect x="158" y="907" width="94" height="14" rx="2" fill="#56d364" stroke="#56d364" stroke-width="0" opacity="0.12"/>
+<line x1="160" y1="958" x2="250" y2="958" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="962" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">3p</text>
+<line x1="160" y1="986" x2="250" y2="986" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="990" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">3s</text>
+<line x1="160" y1="1006" x2="250" y2="1006" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1010" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">2p</text>
+<line x1="160" y1="1024" x2="250" y2="1024" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1028" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">2s</text>
+<line x1="160" y1="1040" x2="250" y2="1040" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1044" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">1s</text>
+<rect x="560" y="810" width="420" height="240" rx="6" fill="#0a1e30" stroke="#3a70c0" stroke-width="1.0" opacity="0.4"/>
+<text x="770" y="824" font-size="11" fill="#90c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">Heavier atoms  (Z &gt; 20)</text>
+<text x="770" y="837" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">e.g. Fe (Z=26): [Ar] 3d⁶4s²</text>
+<line x1="640" y1="846" x2="640" y2="1046" stroke="#8b949e" stroke-width="0.8" marker-end="url(#ag_grey)"/>
+<text x="634" y="856" font-size="8" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">higher E</text>
+<text x="634" y="1040" font-size="8" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">lower E</text>
+<line x1="660" y1="856" x2="750" y2="856" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="654" y="860" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">4p</text>
+<line x1="660" y1="882" x2="750" y2="882" stroke="#56d364" stroke-width="2.5" opacity="1.0"/>
+<text x="654" y="886" font-size="9" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="end">3d</text>
+<rect x="658" y="875" width="94" height="14" rx="2" fill="#56d364" stroke="#56d364" stroke-width="0" opacity="0.12"/>
+<line x1="660" y1="906" x2="750" y2="906" stroke="#f78166" stroke-width="2.5" opacity="1.0"/>
+<text x="654" y="910" font-size="9" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="end">4s</text>
+<rect x="658" y="899" width="94" height="14" rx="2" fill="#f78166" stroke="#f78166" stroke-width="0" opacity="0.12"/>
+<line x1="660" y1="958" x2="750" y2="958" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="654" y="962" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">3p</text>
+<line x1="660" y1="986" x2="750" y2="986" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="654" y="990" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">3s</text>
+<line x1="660" y1="1006" x2="750" y2="1006" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="654" y="1010" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">2p</text>
+<line x1="660" y1="1024" x2="750" y2="1024" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="654" y="1028" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">2s</text>
+<line x1="660" y1="1040" x2="750" y2="1040" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="654" y="1044" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">1s</text>
+<path d="M254,890 C284,890 626,906 656,906" fill="none" stroke="#f78166" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.8"/>
+<path d="M254,914 C284,914 626,882 656,882" fill="none" stroke="#56d364" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.8"/>
+<rect x="468" y="892" width="104" height="18" rx="4" fill="#0d1117" stroke="#f0b030" stroke-width="1.0" opacity="1.0"/>
+<text x="520" y="907" font-size="8" fill="#f0b030" font-weight="700" font-family="sans-serif" text-anchor="middle">energy inversion</text>
+<rect x="30" y="1058" width="1040" height="52" rx="5" fill="#1e1a00" stroke="#f0b030" stroke-width="1.0" opacity="1.0"/>
+<text x="550" y="1072" font-size="10" fill="#f0b030" font-weight="700" font-family="sans-serif" text-anchor="middle">Ionization paradox:</text>
+<text x="550" y="1086" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">Fe is [Ar]3d⁶4s² &#x2014; but when ionised to Fe²⁺, it loses the 4s electrons FIRST, giving [Ar]3d⁶ (not [Ar]3d⁴4s²).</text>
+<text x="550" y="1099" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">Once 3d starts filling, it drops below 4s in energy. The 4s electrons become the highest-energy ones &#x2014; they leave first.</text>
+<line x1="30" y1="1128" x2="1070" y2="1128" stroke="#30363d" stroke-width="0.7"/>
+<text x="550" y="1146" font-size="14" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">4.  Hund's Rule &#x2014; How Electrons Fill a Subshell</text>
+<text x="550" y="1161" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">Within a subshell, each orbital is occupied singly before any pairing (electrons prefer empty seats). Two electrons sharing an orbital must have opposite spins ↑↓ (Pauli exclusion).</text>
+<text x="210" y="1192" font-size="12" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">B  (Z=5)</text>
+<text x="210" y="1206" font-size="10" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">2p¹</text>
+<rect x="141" y="1214" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="162" y1="1249" x2="162" y2="1222" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="157,1224 167,1224 162,1217" fill="#79c0ff"/>
+<text x="162" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">1</text>
+<rect x="189" y="1214" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<text x="210" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">2</text>
+<rect x="237" y="1214" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<text x="258" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="210" y="1278" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">1st electron &#x2014; enters singly</text>
+<text x="550" y="1192" font-size="12" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">C  (Z=6)</text>
+<text x="550" y="1206" font-size="10" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">2p²</text>
+<rect x="481" y="1214" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="502" y1="1249" x2="502" y2="1222" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="497,1224 507,1224 502,1217" fill="#79c0ff"/>
+<text x="502" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">1</text>
+<rect x="529" y="1214" width="42" height="42" rx="4" fill="#1e1800" stroke="#f0b030" stroke-width="1.8" opacity="1.0"/>
+<line x1="550" y1="1249" x2="550" y2="1222" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="545,1224 555,1224 550,1217" fill="#79c0ff"/>
+<text x="550" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">2</text>
+<rect x="577" y="1214" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<text x="598" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="550" y="1278" font-size="9" fill="#f0b030" font-weight="400" font-family="sans-serif" text-anchor="middle">2nd electron &#x2014; new orbital (Hund's rule)</text>
+<text x="890" y="1192" font-size="12" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">N  (Z=7)</text>
+<text x="890" y="1206" font-size="10" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">2p³</text>
+<rect x="821" y="1214" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="842" y1="1249" x2="842" y2="1222" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="837,1224 847,1224 842,1217" fill="#79c0ff"/>
+<text x="842" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">1</text>
+<rect x="869" y="1214" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="890" y1="1249" x2="890" y2="1222" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="885,1224 895,1224 890,1217" fill="#79c0ff"/>
+<text x="890" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">2</text>
+<rect x="917" y="1214" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="938" y1="1249" x2="938" y2="1222" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="933,1224 943,1224 938,1217" fill="#79c0ff"/>
+<text x="938" y="1267" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="890" y="1278" font-size="9" fill="#f0b030" font-weight="400" font-family="sans-serif" text-anchor="middle">Half-filled &#x2014; maximum stability</text>
+<text x="210" y="1332" font-size="12" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">O  (Z=8)</text>
+<text x="210" y="1346" font-size="10" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">2p⁴</text>
+<rect x="141" y="1354" width="42" height="42" rx="4" fill="#1e1800" stroke="#f0b030" stroke-width="1.8" opacity="1.0"/>
+<line x1="158" y1="1389" x2="158" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="153,1364 163,1364 158,1357" fill="#79c0ff"/>
+<line x1="166" y1="1361" x2="166" y2="1388" stroke="#f78166" stroke-width="2.5"/>
+<polygon points="161,1386 171,1386 166,1393" fill="#f78166"/>
+<text x="162" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">1</text>
+<rect x="189" y="1354" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="210" y1="1389" x2="210" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="205,1364 215,1364 210,1357" fill="#79c0ff"/>
+<text x="210" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">2</text>
+<rect x="237" y="1354" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="258" y1="1389" x2="258" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="253,1364 263,1364 258,1357" fill="#79c0ff"/>
+<text x="258" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="210" y="1418" font-size="9" fill="#f0b030" font-weight="400" font-family="sans-serif" text-anchor="middle">Must now pair &#x2014; 4th e⁻ pairs up</text>
+<text x="550" y="1332" font-size="12" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">F  (Z=9)</text>
+<text x="550" y="1346" font-size="10" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">2p⁵</text>
+<rect x="481" y="1354" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="498" y1="1389" x2="498" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="493,1364 503,1364 498,1357" fill="#79c0ff"/>
+<line x1="506" y1="1361" x2="506" y2="1388" stroke="#f78166" stroke-width="2.5"/>
+<polygon points="501,1386 511,1386 506,1393" fill="#f78166"/>
+<text x="502" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">1</text>
+<rect x="529" y="1354" width="42" height="42" rx="4" fill="#1e1800" stroke="#f0b030" stroke-width="1.8" opacity="1.0"/>
+<line x1="546" y1="1389" x2="546" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="541,1364 551,1364 546,1357" fill="#79c0ff"/>
+<line x1="554" y1="1361" x2="554" y2="1388" stroke="#f78166" stroke-width="2.5"/>
+<polygon points="549,1386 559,1386 554,1393" fill="#f78166"/>
+<text x="550" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">2</text>
+<rect x="577" y="1354" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="598" y1="1389" x2="598" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="593,1364 603,1364 598,1357" fill="#79c0ff"/>
+<text x="598" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="550" y="1418" font-size="9" fill="#f0b030" font-weight="400" font-family="sans-serif" text-anchor="middle">5th electron pairs</text>
+<text x="890" y="1332" font-size="12" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">Ne  (Z=10)</text>
+<text x="890" y="1346" font-size="10" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="middle">2p⁶</text>
+<rect x="821" y="1354" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="838" y1="1389" x2="838" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="833,1364 843,1364 838,1357" fill="#79c0ff"/>
+<line x1="846" y1="1361" x2="846" y2="1388" stroke="#f78166" stroke-width="2.5"/>
+<polygon points="841,1386 851,1386 846,1393" fill="#f78166"/>
+<text x="842" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">1</text>
+<rect x="869" y="1354" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="886" y1="1389" x2="886" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="881,1364 891,1364 886,1357" fill="#79c0ff"/>
+<line x1="894" y1="1361" x2="894" y2="1388" stroke="#f78166" stroke-width="2.5"/>
+<polygon points="889,1386 899,1386 894,1393" fill="#f78166"/>
+<text x="890" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">2</text>
+<rect x="917" y="1354" width="42" height="42" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" opacity="1.0"/>
+<line x1="934" y1="1389" x2="934" y2="1362" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="929,1364 939,1364 934,1357" fill="#79c0ff"/>
+<line x1="942" y1="1361" x2="942" y2="1388" stroke="#f78166" stroke-width="2.5"/>
+<polygon points="937,1386 947,1386 942,1393" fill="#f78166"/>
+<text x="938" y="1407" font-size="8" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="890" y="1418" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">Full subshell &#x2014; noble gas config</text>
+<rect x="350" y="1470" width="400" height="36" rx="5" fill="#101820" stroke="#3a70c0" stroke-width="0.8" opacity="1.0"/>
+<line x1="390" y1="1484" x2="390" y2="1496" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="385,1486 395,1486 390,1479" fill="#79c0ff"/>
+<text x="410" y="1491" font-size="9" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="start">spin-up (↑)</text>
+<line x1="590" y1="1480" x2="590" y2="1492" stroke="#f78166" stroke-width="2.5"/>
+<polygon points="585,1490 595,1490 590,1497" fill="#f78166"/>
+<text x="610" y="1491" font-size="9" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="start">spin-down (↓)</text>
+<rect x="30" y="1516" width="1040" height="60" rx="5" fill="#130d1a" stroke="#7030c0" stroke-width="1.0" opacity="1.0"/>
+<text x="550" y="1531" font-size="10" fill="#d098ff" font-weight="600" font-family="sans-serif" text-anchor="middle">Hund's Rule &#x2014; electrons are like bus passengers: they take an empty seat before sitting next to someone.</text>
+<text x="550" y="1545" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">This minimises repulsion &#x2014; same-spin electrons in separate orbitals stay physically further apart.</text>
+<text x="550" y="1558" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">Special cases: Cr (Z=24) → [Ar]3d⁵4s¹ (not 3d⁴4s²) and Cu (Z=29) → [Ar]3d¹⁰4s¹ (not 3d⁹4s²).</text>
+<text x="550" y="1571" font-size="9" fill="#f0b030" font-weight="400" font-family="sans-serif" text-anchor="middle">Half-filled (3d⁵) and fully-filled (3d¹⁰) subshells have extra stability &#x2014; one electron "steals" from 4s.</text>
+</svg>
