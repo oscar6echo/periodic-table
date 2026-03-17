@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Periodic Table Viewer</title>
+        <style>
+            *, *::before, *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background: #0d1117;
+                color: #e6edf3;
+                font-family: sans-serif;
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                overflow: hidden;
+            }
+
+            /* ── toolbar ── */
+            #toolbar {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 6px 14px;
+                background: #161b22;
+                border-bottom: 1px solid #30363d;
+                flex-shrink: 0;
+                flex-wrap: wrap;
+            }
+
+            #toolbar label {
+                font-size: 12px;
+                color: #8b949e;
+            }
+
+            #file-select {
+                background: #21262d;
+                color: #e6edf3;
+                border: 1px solid #30363d;
+                border-radius: 6px;
+                padding: 4px 8px;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            #file-select:hover {
+                border-color: #58a6ff;
+            }
+
+            .btn {
+                background: #21262d;
+                color: #e6edf3;
+                border: 1px solid #30363d;
+                border-radius: 6px;
+                padding: 4px 10px;
+                font-size: 12px;
+                cursor: pointer;
+                user-select: none;
+            }
+            .btn:hover {
+                background: #30363d;
+                border-color: #58a6ff;
+            }
+
+            #zoom-level {
+                font-size: 11px;
+                color: #6e7681;
+                min-width: 52px;
+                text-align: right;
+            }
+
+            #hint {
+                font-size: 11px;
+                color: #6e7681;
+                margin-left: auto;
+            }
+
+            /* ── SVG viewer ── */
+            #viewport {
+                flex: 1;
+                overflow: hidden;
+                cursor: grab;
+            }
+            #viewport:active {
+                cursor: grabbing;
+            }
+
+            #viewer {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+
+            /* ── loading overlay ── */
+            #loading {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #0d1117cc;
+                font-size: 14px;
+                color: #8b949e;
+                pointer-events: none;
+                transition: opacity 0.2s;
+            }
+            #loading.hidden {
+                opacity: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="toolbar">
+            <span style="font-size:14px;font-weight:700;color:#e6edf3;letter-spacing:.03em;">Periodic Table</span>
+            <span style="color:#30363d;">|</span>
+            <label for="file-select">File:</label>
+            <select id="file-select">
+                <option value="periodic_table_1_full.svg">
+                    periodic_table_1_full
+                </option>
+                <option value="periodic_table_2_32col.svg">
+                    periodic_table_2_32col
+                </option>
+                <option value="periodic_table_3_orbital_shells.svg">
+                    periodic_table_3_orbital_shells
+                </option>
+                <option value="periodic_table_4_quantum_principles.svg">
+                    periodic_table_4_quantum_principles
+                </option>
+            </select>
+
+            <button class="btn" id="btn-fit">Fit</button>
+            <button class="btn" id="btn-100">100%</button>
+            <button class="btn" id="btn-in">＋</button>
+            <button class="btn" id="btn-out">－</button>
+            <span id="zoom-level">100%</span>
+            <span id="hint">scroll to zoom · drag to pan</span>
+        </div>
+
+        <div id="viewport">
+            <svg id="viewer"></svg>
+            <div id="loading">Loading…</div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+        <script src="view_svg.js"></script>
+    </body>
+</html>
