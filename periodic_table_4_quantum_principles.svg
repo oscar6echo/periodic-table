@@ -135,7 +135,7 @@
 <text x="550" y="598" font-size="9" fill="#c8c0a0" font-weight="400" font-family="sans-serif" text-anchor="middle">1 s-orbital × 2 = 2   |   3 p-orbitals × 2 = 6   |   5 d-orbitals × 2 = 10   |   7 f-orbitals × 2 = 14</text>
 <line x1="30" y1="616" x2="1070" y2="616" stroke="#30363d" stroke-width="0.7"/>
 <text x="550" y="634" font-size="14" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">2.  The Aufbau Principle &#x2014; Filling Order</text>
-<text x="550" y="650" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">Electrons fill the lowest available energy subshell first. The diagonal grid (left) shows which subshells exist. The numbered list (right) gives the correct filling order.</text>
+<text x="550" y="650" font-size="9" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">Electrons fill the lowest available energy subshell first. The diagonal grid (left) shows which subshells exist. The energy level diagram (right) shows their actual energy ordering: s/p solid lines, d/f dashed.</text>
 <text x="87" y="662" font-size="11" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">s</text>
 <text x="151" y="662" font-size="11" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">p</text>
 <text x="215" y="662" font-size="11" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">d</text>
@@ -196,83 +196,75 @@
 <line x1="151" y1="917" x2="102" y2="952" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
 <line x1="279" y1="871" x2="230" y2="906" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
 <line x1="215" y1="917" x2="166" y2="952" stroke="#f0b030" stroke-width="1.4" opacity="0.65" marker-end="url(#ag)"/>
-<text x="733" y="662" font-size="11" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">Filling order:</text>
-<rect x="406" y="668" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="688" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">1.</text>
-<text x="574" y="688" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">1s</text>
-<text x="717" y="688" font-size="9" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 1s²</text>
-<rect x="406" y="698" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="718" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">2.</text>
-<text x="574" y="718" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">2s</text>
-<text x="717" y="718" font-size="9" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 2s²</text>
-<rect x="406" y="728" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="748" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">3.</text>
-<text x="574" y="748" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">2p</text>
-<text x="717" y="748" font-size="9" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 2p⁶</text>
-<rect x="406" y="758" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="778" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">4.</text>
-<text x="574" y="778" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">3s</text>
-<text x="717" y="778" font-size="9" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 3s²</text>
-<rect x="406" y="788" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="808" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">5.</text>
-<text x="574" y="808" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">3p</text>
-<text x="717" y="808" font-size="9" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 3p⁶</text>
-<rect x="406" y="818" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="838" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">6.</text>
-<text x="574" y="838" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">4s</text>
-<text x="717" y="838" font-size="9" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 4s²</text>
-<rect x="406" y="848" width="317" height="26" rx="4" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="868" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">7.</text>
-<text x="574" y="868" font-size="12" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">3d</text>
-<text x="717" y="868" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 3d¹⁰</text>
-<rect x="406" y="878" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="898" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">8.</text>
-<text x="574" y="898" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">4p</text>
-<text x="717" y="898" font-size="9" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 4p⁶</text>
-<rect x="406" y="908" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="928" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">9.</text>
-<text x="574" y="928" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">5s</text>
-<text x="717" y="928" font-size="9" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 5s²</text>
-<rect x="406" y="938" width="317" height="26" rx="4" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.12"/>
-<text x="424" y="958" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">10.</text>
-<text x="574" y="958" font-size="12" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">4d</text>
-<text x="717" y="958" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 4d¹⁰</text>
-<rect x="743" y="668" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="688" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">11.</text>
-<text x="911" y="688" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">5p</text>
-<text x="1054" y="688" font-size="9" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 5p⁶</text>
-<rect x="743" y="698" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="718" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">12.</text>
-<text x="911" y="718" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">6s</text>
-<text x="1054" y="718" font-size="9" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 6s²</text>
-<rect x="743" y="728" width="317" height="26" rx="4" fill="#d2a8ff" stroke="#d2a8ff" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="748" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">13.</text>
-<text x="911" y="748" font-size="12" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">4f</text>
-<text x="1054" y="748" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 4f¹⁴</text>
-<rect x="743" y="758" width="317" height="26" rx="4" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="778" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">14.</text>
-<text x="911" y="778" font-size="12" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">5d</text>
-<text x="1054" y="778" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 5d¹⁰</text>
-<rect x="743" y="788" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="808" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">15.</text>
-<text x="911" y="808" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">6p</text>
-<text x="1054" y="808" font-size="9" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 6p⁶</text>
-<rect x="743" y="818" width="317" height="26" rx="4" fill="#f78166" stroke="#f78166" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="838" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">16.</text>
-<text x="911" y="838" font-size="12" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">7s</text>
-<text x="1054" y="838" font-size="9" fill="#f78166" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 7s²</text>
-<rect x="743" y="848" width="317" height="26" rx="4" fill="#d2a8ff" stroke="#d2a8ff" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="868" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">17.</text>
-<text x="911" y="868" font-size="12" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">5f</text>
-<text x="1054" y="868" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 5f¹⁴</text>
-<rect x="743" y="878" width="317" height="26" rx="4" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="898" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">18.</text>
-<text x="911" y="898" font-size="12" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">6d</text>
-<text x="1054" y="898" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 6d¹⁰</text>
-<rect x="743" y="908" width="317" height="26" rx="4" fill="#79c0ff" stroke="#79c0ff" stroke-width="0.6" opacity="0.12"/>
-<text x="761" y="928" font-size="10" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">19.</text>
-<text x="911" y="928" font-size="12" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">7p</text>
-<text x="1054" y="928" font-size="9" fill="#79c0ff" font-weight="400" font-family="sans-serif" text-anchor="end">fills: 7p⁶</text>
+<text x="760" y="662" font-size="11" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">Energy levels (filling order ↑):</text>
+<!-- Column type headers -->
+<text x="522" y="676" font-size="10" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">s</text>
+<text x="618" y="676" font-size="10" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">p</text>
+<text x="720" y="676" font-size="10" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">d</text>
+<text x="832" y="676" font-size="10" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">f</text>
+<!-- Energy axis: vertical magenta line with arrowhead pointing up (low E at bottom, high E at top) -->
+<line x1="478" y1="976" x2="478" y2="684" stroke="#e060b0" stroke-width="1.5"/>
+<polygon points="473,689 483,689 478,680" fill="#e060b0"/>
+<text x="474" y="673" font-size="8" fill="#e060b0" font-weight="600" font-family="sans-serif" text-anchor="middle">energy</text>
+<!-- Energy levels, 16px spacing, 19 levels 1s→7p in filling order -->
+<!-- y=970 (lowest energy) … y=682 (highest shown). Higher on diagram = higher energy. -->
+<!-- 1s  y=970 -->
+<line x1="497" y1="970" x2="547" y2="970" stroke="#f78166" stroke-width="2.2"/>
+<text x="554" y="974" font-size="9" fill="#f78166" font-weight="700" font-family="sans-serif">1s</text>
+<!-- 2s  y=954 -->
+<line x1="497" y1="954" x2="547" y2="954" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="958" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">2s</text>
+<!-- 2p  y=938 -->
+<line x1="595" y1="938" x2="645" y2="938" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="942" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">2p</text>
+<!-- 3s  y=922 -->
+<line x1="497" y1="922" x2="547" y2="922" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="926" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">3s</text>
+<!-- 3p  y=906 -->
+<line x1="595" y1="906" x2="645" y2="906" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="910" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">3p</text>
+<!-- 4s  y=890 (KEY: lower on axis than 3d → fills first) -->
+<line x1="497" y1="890" x2="547" y2="890" stroke="#f78166" stroke-width="2.2"/>
+<text x="554" y="894" font-size="9" fill="#f78166" font-weight="700" font-family="sans-serif">4s</text>
+<!-- 3d  y=874 (higher energy than 4s — sits ABOVE 4s on axis) -->
+<line x1="700" y1="874" x2="750" y2="874" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="757" y="878" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif">3d</text>
+<!-- 4p  y=858 -->
+<line x1="595" y1="858" x2="645" y2="858" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="862" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">4p</text>
+<!-- 5s  y=842 -->
+<line x1="497" y1="842" x2="547" y2="842" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="846" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">5s</text>
+<!-- 4d  y=826 -->
+<line x1="700" y1="826" x2="750" y2="826" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="757" y="830" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif">4d</text>
+<!-- 5p  y=810 -->
+<line x1="595" y1="810" x2="645" y2="810" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="814" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">5p</text>
+<!-- 6s  y=794 -->
+<line x1="497" y1="794" x2="547" y2="794" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="798" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">6s</text>
+<!-- 4f  y=778 -->
+<line x1="810" y1="778" x2="860" y2="778" stroke="#d2a8ff" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="867" y="782" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif">4f</text>
+<!-- 5d  y=762 -->
+<line x1="700" y1="762" x2="750" y2="762" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="757" y="766" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif">5d</text>
+<!-- 6p  y=746 -->
+<line x1="595" y1="746" x2="645" y2="746" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="750" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">6p</text>
+<!-- 7s  y=730 -->
+<line x1="497" y1="730" x2="547" y2="730" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="734" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">7s</text>
+<!-- 5f  y=714 -->
+<line x1="810" y1="714" x2="860" y2="714" stroke="#d2a8ff" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="867" y="718" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif">5f</text>
+<!-- 6d  y=698 -->
+<line x1="700" y1="698" x2="750" y2="698" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="757" y="702" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif">6d</text>
+<!-- 7p  y=682 -->
+<line x1="595" y1="682" x2="645" y2="682" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="686" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">7p</text>
 <rect x="30" y="994" width="1040" height="44" rx="5" fill="#0e1a2e" stroke="#3a70c0" stroke-width="1.0" opacity="1.0"/>
 <text x="550" y="1010" font-size="10" fill="#90c0ff" font-weight="600" font-family="sans-serif" text-anchor="middle">Key insight: 4s fills BEFORE 3d (#6 vs #7 in the list) &#x2014; because 4s has lower energy for Z &lt; 21.</text>
 <text x="550" y="1025" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">This is why K (Z=19) is [Ar]4s¹ and not [Ar]3d¹. The energy ordering is not simply "shell number".</text>

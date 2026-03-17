@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1500" viewBox="0 0 1100 1500">
-<rect width="1100" height="1500" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1782" viewBox="0 0 1100 1782">
+<rect width="1100" height="1782" fill="#0d1117"/>
 <text x="550" y="20" font-size="13" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" font-weight="700">Electron Shell Diagrams</text>
 <text x="550" y="34" font-size="8" fill="#6e7681" font-family="sans-serif" text-anchor="middle">Full Bohr-model diagrams for H, Ne, Ar, C, Fe, Se, Nd &#x2014; colored dots = electrons by subshell &#xB7; empty circles = unfilled slots</text>
 <circle cx="395" cy="46" r="5" fill="#f78166"/>
@@ -412,6 +412,133 @@
 <text x="1070" y="579" font-size="5.5" fill="#8b949e" font-family="sans-serif">n=5</text>
 <text x="1092" y="579" font-size="5.5" fill="#8b949e" font-family="sans-serif">n=6</text>
 <text x="962" y="726" font-size="6.5" fill="#6e7681" font-family="sans-serif" text-anchor="middle">1s&#xB2; 2s&#xB2; 2p&#x2076; 3s&#xB2; 3p&#x2076; 3d&#xB9;&#x2070; 4s&#xB2; 4p&#x2076; 4d&#xB9;&#x2070; 4f&#x2074; 5s&#xB2; 5p&#x2076; 6s&#xB2;</text>
+<text x="550" y="769" font-size="11" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" font-weight="700" >Orbital Box Diagrams — Unpaired Electrons, Paramagnetism &amp; Diamagnetism</text>
+<text x="550" y="783" font-size="7.5" fill="#6e7681" font-family="sans-serif" text-anchor="middle" font-weight="400" >Each box = one orbital (max 2 electrons).  ↑ spin-up  ↓ spin-down.  Unpaired electrons create a net magnetic moment.</text>
+<rect x="20" y="790" width="248" height="168" rx="5" fill="#13181f" opacity="1.0" stroke="#e05050" stroke-width="1.0"/>
+<rect x="20" y="790" width="248" height="19" rx="5" fill="#1c0d0d" opacity="1.0"/>
+<rect x="20" y="804" width="248" height="5" rx="0" fill="#1c0d0d" opacity="1.0"/>
+<text x="48" y="804" font-size="13" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" font-weight="700" >K</text>
+<text x="70" y="799" font-size="6.5" fill="#6e7681" font-family="sans-serif" text-anchor="start" font-weight="400" >Z=19</text>
+<text x="70" y="807" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="start" font-weight="400" >Potassium</text>
+<text x="144" y="822" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle" font-weight="400" >[Ar] 4s¹</text>
+<text x="40" y="848" font-size="9" fill="#f78166" font-family="sans-serif" text-anchor="middle" font-weight="700" >4s</text>
+<rect x="56" y="830" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="68" y1="850" x2="68" y2="836" stroke="#79c0ff" stroke-width="2.0"/><polygon points="64,838 72,838 68,832" fill="#79c0ff"/>
+<text x="40" y="881" font-size="9" fill="#56d364" font-family="sans-serif" text-anchor="middle" font-weight="700" >3d</text>
+<rect x="56" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<rect x="84" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<rect x="112" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<rect x="140" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<rect x="168" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="28" y1="898" x2="260" y2="898" stroke="#30363d" stroke-width="0.7" />
+<rect x="28" y="904" width="232" height="44" rx="4" fill="#1c0d0d" opacity="1.0" stroke="#e05050" stroke-width="0.8"/>
+<text x="144" y="919" font-size="8" fill="#e05050" font-family="sans-serif" text-anchor="middle" font-weight="700" >PARAMAGNETIC</text>
+<text x="144" y="933" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle" font-weight="400" >1 unpaired electron</text>
+<line x1="143" y1="943" x2="143" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="140,938 146,938 143,934" fill="#79c0ff"/>
+<rect x="290" y="790" width="248" height="168" rx="5" fill="#13181f" opacity="1.0" stroke="#f0b030" stroke-width="1.4"/>
+<rect x="290" y="790" width="248" height="19" rx="5" fill="#251a00" opacity="1.0"/>
+<rect x="290" y="804" width="248" height="5" rx="0" fill="#251a00" opacity="1.0"/>
+<text x="318" y="804" font-size="13" fill="#f0b030" font-family="sans-serif" text-anchor="middle" font-weight="700" >Cr</text>
+<text x="340" y="799" font-size="6.5" fill="#6e7681" font-family="sans-serif" text-anchor="start" font-weight="400" >Z=24</text>
+<text x="340" y="807" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="start" font-weight="400" >Chromium</text>
+<rect x="480" y="792" width="52" height="13" rx="3" fill="#2a2000" opacity="1.0" stroke="#f0b030" stroke-width="0.6"/>
+<text x="506" y="802" font-size="6" fill="#f0b030" font-family="sans-serif" text-anchor="middle" font-weight="600" >exception</text>
+<text x="414" y="822" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle" font-weight="400" >[Ar] 3d⁵ 4s¹</text>
+<text x="310" y="848" font-size="9" fill="#f78166" font-family="sans-serif" text-anchor="middle" font-weight="700" >4s</text>
+<rect x="326" y="830" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="338" y1="850" x2="338" y2="836" stroke="#79c0ff" stroke-width="2.0"/><polygon points="334,838 342,838 338,832" fill="#79c0ff"/>
+<text x="310" y="881" font-size="9" fill="#56d364" font-family="sans-serif" text-anchor="middle" font-weight="700" >3d</text>
+<rect x="326" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="338" y1="883" x2="338" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="334,871 342,871 338,865" fill="#79c0ff"/>
+<rect x="354" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="366" y1="883" x2="366" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="362,871 370,871 366,865" fill="#79c0ff"/>
+<rect x="382" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="394" y1="883" x2="394" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="390,871 398,871 394,865" fill="#79c0ff"/>
+<rect x="410" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="422" y1="883" x2="422" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="418,871 426,871 422,865" fill="#79c0ff"/>
+<rect x="438" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="450" y1="883" x2="450" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="446,871 454,871 450,865" fill="#79c0ff"/>
+<line x1="298" y1="898" x2="530" y2="898" stroke="#30363d" stroke-width="0.7" />
+<rect x="298" y="904" width="232" height="44" rx="4" fill="#1c0d0d" opacity="1.0" stroke="#e05050" stroke-width="0.8"/>
+<text x="414" y="919" font-size="8" fill="#e05050" font-family="sans-serif" text-anchor="middle" font-weight="700" >PARAMAGNETIC</text>
+<text x="414" y="933" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle" font-weight="400" >6 unpaired electrons</text>
+<line x1="390" y1="943" x2="390" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="387,938 393,938 390,934" fill="#79c0ff"/>
+<line x1="399" y1="943" x2="399" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="396,938 402,938 399,934" fill="#79c0ff"/>
+<line x1="408" y1="943" x2="408" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="405,938 411,938 408,934" fill="#79c0ff"/>
+<line x1="417" y1="943" x2="417" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="414,938 420,938 417,934" fill="#79c0ff"/>
+<line x1="426" y1="943" x2="426" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="423,938 429,938 426,934" fill="#79c0ff"/>
+<line x1="435" y1="943" x2="435" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="432,938 438,938 435,934" fill="#79c0ff"/>
+<rect x="560" y="790" width="248" height="168" rx="5" fill="#13181f" opacity="1.0" stroke="#e05050" stroke-width="1.0"/>
+<rect x="560" y="790" width="248" height="19" rx="5" fill="#1c0d0d" opacity="1.0"/>
+<rect x="560" y="804" width="248" height="5" rx="0" fill="#1c0d0d" opacity="1.0"/>
+<text x="588" y="804" font-size="13" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" font-weight="700" >Co</text>
+<text x="610" y="799" font-size="6.5" fill="#6e7681" font-family="sans-serif" text-anchor="start" font-weight="400" >Z=27</text>
+<text x="610" y="807" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="start" font-weight="400" >Cobalt</text>
+<text x="684" y="822" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle" font-weight="400" >[Ar] 3d⁷ 4s²</text>
+<text x="580" y="848" font-size="9" fill="#f78166" font-family="sans-serif" text-anchor="middle" font-weight="700" >4s</text>
+<rect x="596" y="830" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="608" y1="850" x2="608" y2="836" stroke="#79c0ff" stroke-width="2.0"/><polygon points="604,838 612,838 608,832" fill="#79c0ff"/>
+<line x1="611" y1="834" x2="611" y2="848" stroke="#f78166" stroke-width="2.0"/><polygon points="607,846 615,846 611,852" fill="#f78166"/>
+<text x="580" y="881" font-size="9" fill="#56d364" font-family="sans-serif" text-anchor="middle" font-weight="700" >3d</text>
+<rect x="596" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="608" y1="883" x2="608" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="604,871 612,871 608,865" fill="#79c0ff"/>
+<line x1="611" y1="867" x2="611" y2="881" stroke="#f78166" stroke-width="2.0"/><polygon points="607,879 615,879 611,885" fill="#f78166"/>
+<rect x="624" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="636" y1="883" x2="636" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="632,871 640,871 636,865" fill="#79c0ff"/>
+<line x1="639" y1="867" x2="639" y2="881" stroke="#f78166" stroke-width="2.0"/><polygon points="635,879 643,879 639,885" fill="#f78166"/>
+<rect x="652" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="664" y1="883" x2="664" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="660,871 668,871 664,865" fill="#79c0ff"/>
+<rect x="680" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="692" y1="883" x2="692" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="688,871 696,871 692,865" fill="#79c0ff"/>
+<rect x="708" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="720" y1="883" x2="720" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="716,871 724,871 720,865" fill="#79c0ff"/>
+<line x1="568" y1="898" x2="800" y2="898" stroke="#30363d" stroke-width="0.7" />
+<rect x="568" y="904" width="232" height="44" rx="4" fill="#1c0d0d" opacity="1.0" stroke="#e05050" stroke-width="0.8"/>
+<text x="684" y="919" font-size="8" fill="#e05050" font-family="sans-serif" text-anchor="middle" font-weight="700" >PARAMAGNETIC</text>
+<text x="684" y="933" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle" font-weight="400" >3 unpaired electrons</text>
+<line x1="674" y1="943" x2="674" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="671,938 677,938 674,934" fill="#79c0ff"/>
+<line x1="683" y1="943" x2="683" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="680,938 686,938 683,934" fill="#79c0ff"/>
+<line x1="692" y1="943" x2="692" y2="936" stroke="#79c0ff" stroke-width="1.5"/><polygon points="689,938 695,938 692,934" fill="#79c0ff"/>
+<rect x="830" y="790" width="248" height="168" rx="5" fill="#13181f" opacity="1.0" stroke="#5090e0" stroke-width="1.0"/>
+<rect x="830" y="790" width="248" height="19" rx="5" fill="#0a0d1c" opacity="1.0"/>
+<rect x="830" y="804" width="248" height="5" rx="0" fill="#0a0d1c" opacity="1.0"/>
+<text x="858" y="804" font-size="13" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" font-weight="700" >Zn</text>
+<text x="880" y="799" font-size="6.5" fill="#6e7681" font-family="sans-serif" text-anchor="start" font-weight="400" >Z=30</text>
+<text x="880" y="807" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="start" font-weight="400" >Zinc</text>
+<text x="954" y="822" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="middle" font-weight="400" >[Ar] 3d¹° 4s²</text>
+<text x="850" y="848" font-size="9" fill="#f78166" font-family="sans-serif" text-anchor="middle" font-weight="700" >4s</text>
+<rect x="866" y="830" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="878" y1="850" x2="878" y2="836" stroke="#79c0ff" stroke-width="2.0"/><polygon points="874,838 882,838 878,832" fill="#79c0ff"/>
+<line x1="881" y1="834" x2="881" y2="848" stroke="#f78166" stroke-width="2.0"/><polygon points="877,846 885,846 881,852" fill="#f78166"/>
+<text x="850" y="881" font-size="9" fill="#56d364" font-family="sans-serif" text-anchor="middle" font-weight="700" >3d</text>
+<rect x="866" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="878" y1="883" x2="878" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="874,871 882,871 878,865" fill="#79c0ff"/>
+<line x1="881" y1="867" x2="881" y2="881" stroke="#f78166" stroke-width="2.0"/><polygon points="877,879 885,879 881,885" fill="#f78166"/>
+<rect x="894" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="906" y1="883" x2="906" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="902,871 910,871 906,865" fill="#79c0ff"/>
+<line x1="909" y1="867" x2="909" y2="881" stroke="#f78166" stroke-width="2.0"/><polygon points="905,879 913,879 909,885" fill="#f78166"/>
+<rect x="922" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="934" y1="883" x2="934" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="930,871 938,871 934,865" fill="#79c0ff"/>
+<line x1="937" y1="867" x2="937" y2="881" stroke="#f78166" stroke-width="2.0"/><polygon points="933,879 941,879 937,885" fill="#f78166"/>
+<rect x="950" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="962" y1="883" x2="962" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="958,871 966,871 962,865" fill="#79c0ff"/>
+<line x1="965" y1="867" x2="965" y2="881" stroke="#f78166" stroke-width="2.0"/><polygon points="961,879 969,879 965,885" fill="#f78166"/>
+<rect x="978" y="863" width="24" height="24" rx="3" fill="#21262d" opacity="1.0" stroke="#30363d" stroke-width="0.8"/>
+<line x1="990" y1="883" x2="990" y2="869" stroke="#79c0ff" stroke-width="2.0"/><polygon points="986,871 994,871 990,865" fill="#79c0ff"/>
+<line x1="993" y1="867" x2="993" y2="881" stroke="#f78166" stroke-width="2.0"/><polygon points="989,879 997,879 993,885" fill="#f78166"/>
+<line x1="838" y1="898" x2="1070" y2="898" stroke="#30363d" stroke-width="0.7" />
+<rect x="838" y="904" width="232" height="44" rx="4" fill="#0a0d1c" opacity="1.0" stroke="#5090e0" stroke-width="0.8"/>
+<text x="954" y="919" font-size="8" fill="#5090e0" font-family="sans-serif" text-anchor="middle" font-weight="700" >DIAMAGNETIC</text>
+<text x="954" y="933" font-size="7" fill="#8b949e" font-family="sans-serif" text-anchor="middle" font-weight="400" >all electrons paired  ↑↓ ↑↓ …</text>
+<rect x="20" y="970" width="515" height="46" rx="5" fill="#1c0d0d" opacity="1.0" stroke="#e05050" stroke-width="1.0"/>
+<text x="30" y="984" font-size="9" fill="#e05050" font-family="sans-serif" text-anchor="start" font-weight="700" >Paramagnetic</text>
+<text x="30" y="996" font-size="7.5" fill="#8b949e" font-family="sans-serif" text-anchor="start" font-weight="400" >Has ≥ 1 unpaired electron → net magnetic moment → attracted to an external field.</text>
+<text x="30" y="1007" font-size="7" fill="#6e7681" font-family="sans-serif" text-anchor="start" font-weight="400" >Examples above: K (1 e⁻), Co (3 e⁻), Cr* (6 e⁻), Cu* (1 e⁻)</text>
+<rect x="565" y="970" width="515" height="46" rx="5" fill="#0a0d1c" opacity="1.0" stroke="#5090e0" stroke-width="1.0"/>
+<text x="575" y="984" font-size="9" fill="#5090e0" font-family="sans-serif" text-anchor="start" font-weight="700" >Diamagnetic</text>
+<text x="575" y="996" font-size="7.5" fill="#8b949e" font-family="sans-serif" text-anchor="start" font-weight="400" >All electrons paired → magnetic moments cancel → weakly repelled by field.</text>
+<text x="575" y="1007" font-size="7" fill="#6e7681" font-family="sans-serif" text-anchor="start" font-weight="400" >Examples: Zn [Ar]3d¹⁰ 4s² (above),  Cu⁺ [Ar]3d¹⁰,  Ca [Ar]4s²  (all ↑↓ paired)</text>
+<g transform="translate(0,282)">
 <line x1="20" y1="754" x2="1080" y2="754" stroke="#30363d" stroke-width="0.6"/>
 <text x="550" y="766" font-size="11" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" font-weight="700">Valence Electron Fills &#x2014; All 118 Elements</text>
 <text x="550" y="779" font-size="7.5" fill="#6e7681" font-family="sans-serif" text-anchor="middle">Each column = one element. Colored squares = electrons added beyond the previous noble gas core. Rows = subshells s/p/d/f. Brightness = filled vs empty slot.</text>
@@ -1481,4 +1608,5 @@
 <text x="20" y="1438" font-size="8" fill="#e6edf3" font-family="sans-serif" text-anchor="start">Cross-reference:</text>
 <text x="20" y="1451" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="start">The full electron configs (abbreviated) are shown in each cell of the enriched 18-column dark table (periodic_table_v3_dark.svg).</text>
 <text x="20" y="1464" font-size="8" fill="#8b949e" font-family="sans-serif" text-anchor="start">The 32-column table (periodic_table_32col.svg) shows the blocks in their natural order: s | f | d | p &#x2014; directly reflecting the Aufbau filling sequence.</text>
+</g>
 </svg>
