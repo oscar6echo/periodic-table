@@ -8,7 +8,7 @@ A set of hand-crafted SVG reference sheets covering atomic structure, quantum me
 
 ## SVG sheets
 
-| File  Contents |
+| File | Contents |
 | ------ | ---------- |
 | `periodic_table_1_full.svg` | Full 18-column periodic table with electron configurations, blocks, and periods |
 | `periodic_table_2_32col.svg` | 32-column (Janet) layout — s/f/d/p blocks in natural Aufbau order |
