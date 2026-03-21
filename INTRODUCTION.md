@@ -49,11 +49,27 @@ $$E=\frac{p^2}{2m}+V$$
 
 To translate this classical equation into the quantum realm, Schrödinger applied mathematical "operators" to it, allowing the equation to act on de Broglie's matter waves. In quantum mechanics, momentum and energy are not static numbers; they are translated into instructions (derivatives) that tell the wave function what to do.
 
-To understand why this is the case, consider a "free particle" moving through empty space with constant momentum and energy. Mathematically, a plane wave traveling in one direction ($x$) over time ($t$) is described by a complex exponential function:
+To understand why this is the case, consider a "free particle" moving through empty space. In wave physics, a simple wave traveling in one direction is characterized by two values:
+
+* **$k$ (Wave Number):** Defined as $k = \frac{2\pi}{\lambda}$ (measured in radians per meter). It describes how many wave cycles fit into a unit of space.
+* **$\omega$ (Angular Frequency):** Defined as $\omega = 2\pi f = \frac{2\pi}{T}$ (measured in radians per second). It describes how fast the wave oscillates in time.
+
+#### The Role of $2\pi$
+
+Why the $2\pi$? Mathematically, a full cycle of a sine wave or a complex exponential ($e^{i\theta}$) repeats every $2\pi$ radians. By multiplying the spatial frequency ($1/\lambda$) and temporal frequency ($f$) by $2\pi$, we "normalize" the physical units of the wave so they fit perfectly into the geometry of a circle, allowing us to use the elegant complex exponential form:
 $$\Psi(x,t)=Ae^{i(kx-\omega t)}$$
 
-By injecting the fundamental quantum rules discovered by de Broglie ($p=\hbar k$) and Einstein ($E=\hbar\omega$), we can rewrite this wave function in terms of momentum and energy:
-$$\Psi(x,t)=Ae^{\frac{i}{\hbar}(px-Et)}$$
+#### Substituting Quantum Values
+
+We can now bridge de Broglie's and Einstein's discoveries into this wave. We use the **reduced Planck constant** ($\hbar = \frac{h}{2\pi}$), which conveniently absorbs that $2\pi$ factor:
+
+1. **For Momentum ($p$):**
+    $$p = \frac{h}{\lambda} \implies p = \frac{h}{2\pi} \cdot \frac{2\pi}{\lambda} \implies p = \hbar k \implies \mathbf{k = \frac{p}{\hbar}}$$
+2. **For Energy ($E$):**
+    $$E = hf \implies E = \frac{h}{2\pi} \cdot 2\pi f \implies E = \hbar \omega \implies \mathbf{\omega = \frac{E}{\hbar}}$$
+
+By substituting these expressions for $k$ and $\omega$ back into our plane wave equation, we get the wave function in terms of the particle's physical properties:
+$$\Psi(x,t)=Ae^{i\left(\frac{p}{\hbar}x - \frac{E}{\hbar}t\right)} = Ae^{\frac{i}{\hbar}(px-Et)}$$
 
 #### Deriving the Energy Operator
 
