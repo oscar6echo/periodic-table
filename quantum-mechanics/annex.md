@@ -136,7 +136,7 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 > **Title:** 3D Radial Node Visualizer (Energy Shells)  
 > **Description:** This graph visualizes the radial wavefunction $R_{nl}(r)$. By plotting isosurfaces where $(R_{nl})^2$ is constant, we reveal the internal "onion-layer" structure and radial nodes of the atom.
 
-**Important:** First define $r = \sqrt{x^2 + y^2 + z^2}$. Then plot the probability density squared $(R_{nl})^2 = c$ (try $c=0.01$). These formulas use atomic units ($a_0=1$).
+**Important:** First define $r = \sqrt{x^2 + y^2 + z^2}$. These formulas are valid for **$r \ge 0$** and use atomic units ($a_0=1$). Then plot the probability density squared $(R_{nl})^2 = c$ (try $c=0.01$).
 
 **$n=1$:**
 
@@ -144,13 +144,42 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 
 **$n=2$:**
 
-- **$2s$ ($l=0$):** `R_20 = 0.353 * (2 - r) * exp(-r/2)`
-- **$2p$ ($l=1$):** `R_21 = 0.204 * r * exp(-r/2)`
+- **$2s$ ($l=0$):** `R_20 = (1/sqrt(8)) * (2 - r) * exp(-r/2)`
+- **$2p$ ($l=1$):** `R_21 = (1/sqrt(24)) * r * exp(-r/2)`
 
 **$n=3$:**
 
-- **$3s$ ($l=0$):** `R_30 = 0.0128 * (27 - 18*r + 2*r^2) * exp(-r/3)`
-- **$3p$ ($l=1$):** `R_31 = 0.023 * r * (6 - r) * exp(-r/3)`
-- **$3d$ ($l=2$):** `R_32 = 0.009 * r^2 * exp(-r/3)`
+- **$3s$ ($l=0$):** `R_30 = (2 / (81*sqrt(3))) * (27 - 18*r + 2*r^2) * exp(-r/3)`
+- **$3p$ ($l=1$):** `R_31 = (4 / (81*sqrt(6))) * r * (6 - r) * exp(-r/3)`
+- **$3d$ ($l=2$):** `R_32 = (4 / (81*sqrt(30))) * r^2 * exp(-r/3)`
 
-*(The coefficients above are decimal approximations of the normalization factors like $1/\sqrt{8}$, etc. The exponential term $e^{-r/n}$ ensures these functions decay to zero at large distances rather than diverging.)*
+---
+
+## A.6 Most Probable Radius ($r_{mp}$)
+
+While the wavefunction $\psi$ gives the probability amplitude at a specific point, we are often interested in the probability of finding the electron at a certain **distance** $r$ from the nucleus, regardless of direction.
+
+### The Radial Probability Density, $P(r)$
+
+The probability of finding the electron in a thin spherical shell of thickness $dr$ at radius $r$ is:
+$$P(r) \, dr = |R_{nl}(r)|^2 \cdot (4\pi r^2 \, dr)$$
+Therefore, the **Radial Probability Density** is defined as $P(r) = r^2 |R_{nl}(r)|^2$.
+
+### Calculating the Maximum Likelihood
+
+The most probable radius $r_{mp}$ (where you are most likely to find the electron) corresponds to the peaks of the $P(r)$ curve. To find these peaks, we solve for:
+$$\frac{dP}{dr} = 0$$
+
+### Values for Hydrogen ($a_0 = 1$)
+
+For orbitals where the electron is "furthest out" for a given $n$ ($l = n-1$), there is only one peak:
+
+- **$1s$ ($n=1, l=0$):** $r_{mp} = 1$ (The Bohr radius)
+- **$2p$ ($n=2, l=1$):** $r_{mp} = 4$
+- **$3d$ ($n=3, l=2$):** $r_{mp} = 9$
+*(General rule for $l=n-1$: $r_{mp} = n^2$)*
+
+For orbitals with radial nodes ($s$-orbitals like $2s, 3s$), there are multiple peaks. The **outermost peak** is the most significant:
+
+- **$2s$ ($n=2, l=0$):** $r_{mp} = 3 + \sqrt{5} \approx 5.236$
+- **$3s$ ($n=3, l=0$):** $r_{mp} \approx 13.07$
