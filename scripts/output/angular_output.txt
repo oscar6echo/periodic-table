@@ -1,0 +1,28 @@
+Angular Wavefunctions (Spherical Harmonics - Real Forms)
+Convention: phi=polar, theta=azimuthal
+========================================================
+
+--- s-orbitals (l=0) ---
+m=0: 1/(2*sqrt(pi))
+
+--- p-orbitals (l=1) ---
+m=-1: -sqrt(3)*sin(atan2(0, sin(phi)**2)/2)*cos(theta)*Abs(sin(phi))/(2*sqrt(pi))
+m=0: sqrt(3)*cos(phi)/(2*sqrt(pi))
+m=1: -sqrt(3)*cos(theta)*cos(atan2(0, sin(phi)**2)/2)*Abs(sin(phi))/(2*sqrt(pi))
+
+--- d-orbitals (l=2) ---
+m=-2: 0
+m=-1: -sqrt(15)*sin(atan2(0, sin(phi)**2)/2)*cos(phi)*cos(theta)*Abs(sin(phi))/(2*sqrt(pi))
+m=0: sqrt(5)*(2 - 3*sin(phi)**2)/(4*sqrt(pi))
+m=1: -sqrt(15)*cos(phi)*cos(theta)*cos(atan2(0, sin(phi)**2)/2)*Abs(sin(phi))/(2*sqrt(pi))
+m=2: sqrt(15)*sin(phi)**2*cos(2*theta)/(4*sqrt(pi))
+
+--- f-orbitals (l=3) ---
+m=-3: sqrt(70)*(sin(3*(theta - atan2(0, sin(phi)**2)/2)) - sin(3*theta + atan2(0, sin(phi)**2)/2))*sin(phi)**2*Abs(sin(phi))/(16*sqrt(pi))
+m=-2: 0
+m=-1: sqrt(42)*(5*sin(phi)**2 - 4)*sin(atan2(0, sin(phi)**2)/2)*cos(theta)*Abs(sin(phi))/(8*sqrt(pi))
+m=0: sqrt(7)*(3*cos(phi) + 5*cos(3*phi))/(16*sqrt(pi))
+m=1: sqrt(42)*(5*sin(phi)**2 - 4)*cos(theta)*cos(atan2(0, sin(phi)**2)/2)*Abs(sin(phi))/(8*sqrt(pi))
+m=2: sqrt(105)*sin(phi)**2*cos(phi)*cos(2*theta)/(4*sqrt(pi))
+m=3: -sqrt(70)*(cos(3*(theta - atan2(0, sin(phi)**2)/2)) + cos(3*theta + atan2(0, sin(phi)**2)/2))*sin(phi)**2*Abs(sin(phi))/(16*sqrt(pi))
+

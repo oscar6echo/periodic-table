@@ -106,4 +106,4 @@ By solving the Schrödinger equation and applying the rules of Spin and Exclusio
 **References:**
 
 * **[Annex A.4 & A.5](annex.md)**: Mathematical formulas and 3D visualizations.
-* **[scripts/hydrogen_wavefunctions.py](../scripts/hydrogen_wavefunctions.py)**: Python tool for generating orbital data.
+* **[scripts/radial_wavefunctions.py](../scripts/radial_wavefunctions.py)**: Python tool for generating orbital data.

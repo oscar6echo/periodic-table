@@ -28,6 +28,9 @@ A deep dive into the physics that builds the periodic table.
 | **[Chapter 5](quantum-mechanics/chap_5.md)** | Radial Solutions | Laguerre Polynomials, Energy Shells, $r_{mp}$ |
 | **[Chapter 6](quantum-mechanics/chap_6.md)** | The Final Piece | Spin, Pauli Principle, Aufbau, Hund's Rule |
 | **[Annex](quantum-mechanics/annex.md)** | Mathematical Annex | Vector Calculus, Formal Definitions, 3D Visuals |
+| **[Python Scripts](scripts/)** | Scripting & Data | Symbolic wavefunction generation (SymPy) |
+
+The series is supported by a set of **[Python scripts](scripts/)** (`radial_wavefunctions.py` and `angular_wavefunctions.py`) used to generate the symbolic radial and angular wavefunctions.
 
 ---
 
@@ -54,6 +57,8 @@ Or visit the [GitHub Pages deployment](https://oscar6echo.github.io/periodic-tab
 | `gen_orbital_section.py` | Generate the orbital box diagram section in sheet 3 |
 | `gen_32col.py` | Generate the 32-column layout (sheet 2) |
 | `gen_orbital.py` | Generate Bohr shell diagrams (sheet 3) |
+| `scripts/radial_wavefunctions.py` | Generate symbolic radial wavefunctions $R_{nl}(r)$ |
+| `scripts/angular_wavefunctions.py` | Generate symbolic angular wavefunctions $Y_{lm}(\theta, \phi)$ |
 
 ```bash
 # Example: render all sheets to PNG at 2× resolution

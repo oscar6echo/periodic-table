@@ -20,4 +20,5 @@ This directory contains a deep dive into the physics that builds the periodic ta
 ## Tools & Annex
 
 - **[Mathematical Annex](annex.md)**: Formal definitions, derivations, and interactive 3D visualizations.
-- **[Wavefunction Generator](../scripts/hydrogen_wavefunctions.py)**: A SymPy-based Python script to generate radial wavefunctions for any shell.
+- **[Radial Wavefunction Generator](../scripts/radial_wavefunctions.py)**: SymPy script to generate $R_{nl}(r)$ formulas for any shell.
+- **[Angular Wavefunction Generator](../scripts/angular_wavefunctions.py)**: SymPy script to generate $Y_{lm}(\theta, \phi)$ real-form formulas.

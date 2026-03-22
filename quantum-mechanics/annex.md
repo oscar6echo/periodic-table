@@ -125,6 +125,9 @@ In standard physics textbooks (and Chapter 4), $\theta$ is the polar angle and $
 - $m_l=+3$ ($f_{x(x^2-3y^2)}$): `rho = |sin^3(phi)*cos(3*theta)|`
 - $m_l=-3$ ($f_{y(3x^2-y^2)}$): `rho = |sin^3(phi)*sin(3*theta)|`
 
+> **Computational Note:**  
+> These simplified angular forms are optimized for Desmos. For the full real spherical harmonic derivations, you can use the provided script: **[scripts/angular_wavefunctions.py](../scripts/angular_wavefunctions.py)**.
+
 ---
 
 ## A.5 Associated Laguerre Polynomials, $L_q^p(x)$
@@ -154,43 +157,44 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 
 **$n=2$ (L Shell):**
 
-- **$2s$ ($l=0$):** `R_20 = (1/sqrt(8)) * (2 - r) * exp(-r/2)`
-- **$2p$ ($l=1$):** `R_21 = (1/sqrt(24)) * r * exp(-r/2)`
+- **$2s$ ($l=0$):** `R_20 = (sqrt(2)/4) * (2 - r) * exp(-r/2)`
+- **$2p$ ($l=1$):** `R_21 = (sqrt(6)/12) * r * exp(-r/2)`
 
 **$n=3$ (M Shell):**
 
-- **$3s$ ($l=0$):** `R_30 = (2 / (81*sqrt(3))) * (27 - 18*r + 2*r^2) * exp(-r/3)`
-- **$3p$ ($l=1$):** `R_31 = (4 / (81*sqrt(6))) * r * (6 - r) * exp(-r/3)`
-- **$3d$ ($l=2$):** `R_32 = (4 / (81*sqrt(30))) * r^2 * exp(-r/3)`
+- **$3s$ ($l=0$):** `R_30 = (2*sqrt(3)/27) * (3 - 2*r) * exp(-r/3)`
+- **$3p$ ($l=1$):** `R_31 = (2*sqrt(6)/243) * r * (6 - r) * exp(-r/3)`
+- **$3d$ ($l=2$):** `R_32 = (2*sqrt(30)/1215) * r^2 * exp(-r/3)`
 
 **$n=4$ (N Shell):**
 
-- **$4s$ ($l=0$):** `R_40 = (1/4) * (2 - (3/2)*r + (1/4)*r^2 - (1/96)*r^3) * exp(-r/4)`
-- **$4p$ ($l=1$):** `R_41 = (1/(32*sqrt(3))) * r * (10 - (5/2)*r + (1/8)*r^2) * exp(-r/4)`
-- **$4d$ ($l=2$):** `R_42 = (1/(64*sqrt(30))) * r^2 * (6 - r/2) * exp(-r/4)`
-- **$4f$ ($l=3$):** `R_43 = (1/(768*sqrt(5))) * r^3 * exp(-r/4)`
+- **$4s$ ($l=0$):** `R_40 = (1/32) * (r^2 - 6*r + 8) * exp(-r/4)`
+- **$4p$ ($l=1$):** `R_41 = (sqrt(15)/192) * r * (4 - r) * exp(-r/4)`
+- **$4d$ ($l=2$):** `R_42 = (sqrt(5)/3840) * r^2 * (12 - r) * exp(-r/4)`
+- **$4f$ ($l=3$):** `R_43 = (sqrt(35)/26880) * r^3 * exp(-r/4)`
 
 **$n=5$ (O Shell):**
 
-- **$5s$ ($l=0$):** `R_50 = (1/(300*sqrt(5))) * (120 - 240*(r/5) + 120*(r/5)^2 - 20*(r/5)^3 + (r/5)^4) * exp(-r/5)`
-- **$5p$ ($l=1$):** `R_51 = (1/(150*sqrt(30))) * (2r/5) * (120 - 90*(2r/5) + 18*(2r/5)^2 - (2r/5)^3) * exp(-r/5)`
-- **$5d$ ($l=2$):** `R_52 = (1/(150*sqrt(70))) * (2r/5)^2 * (42 - 14*(2r/5) + (2r/5)^2) * exp(-r/5)`
-- **$5f$ ($l=3$):** `R_53 = (1/(300*sqrt(70))) * (2r/5)^3 * (8 - (2r/5)) * exp(-r/5)`
+- **$5s$ ($l=0$):** `R_50 = (2*sqrt(5)/625) * (4*r^2 - 20*r + 25) * exp(-r/5)`
+- **$5p$ ($l=1$):** `R_51 = (2*sqrt(30)/46875) * r * (6*r^2 - 75*r + 250) * exp(-r/5)`
+- **$5d$ ($l=2$):** `R_52 = (2*sqrt(70)/46875) * r^2 * (15 - 2*r) * exp(-r/5)`
+- **$5f$ ($l=3$):** `R_53 = (2*sqrt(70)/1640625) * r^3 * (20 - r) * exp(-r/5)`
 - **$5g$ ($l=4$):** `R_54 = (1/(15000*sqrt(70))) * (2r/5)^4 * exp(-r/5)` *(Note: This is the first subshell never occupied in the ground state of any known element.)*
 
 **$n=6$ (P Shell):**
 
-- **$6s$ ($l=0$):** `R_60 = (sqrt(6)/3149280) * (174960 - 145800*r + 32400*r^2 - 2700*r^3 + 90*r^4 - r^5) * exp(-r/6)`
-- **$6p$ ($l=1$):** `R_61 = (sqrt(210)*r/22044960) * (68040 - 22680*r + 2268*r^2 - 84*r^3 + r^4) * exp(-r/6)`
+- **$6s$ ($l=0$):** `R_60 = (sqrt(6)/2916) * (-2*r^3 + 30*r^2 - 135*r + 162) * exp(-r/6)`
+- **$6p$ ($l=1$):** `R_61 = (sqrt(210)/306180) * r * (-r^3 + 30*r^2 - 315*r + 945) * exp(-r/6)`
+- **$6d$ ($l=2$):** `R_62 = (sqrt(105)/306180) * r^2 * (r^2 - 21*r + 126) * exp(-r/6)`
 
 **$n=7$ (Q Shell):**
 
-- **$7s$ ($l=0$):** `R_70 = (2*sqrt(7)/1815912315) * (37059435 - 31765230*r + 7563150*r^2 - 720300*r^3 + 30870*r^4 - 588*r^5 + 4*r^6) * exp(-r/7)`
-- **$7p$ ($l=1$):** `R_71 = (4*sqrt(21)*r/1815912315) * (3529470 - 1260525*r + 144060*r^2 - 6860*r^3 + 140*r^4 - r^5) * exp(-r/7)`
+- **$7s$ ($l=0$):** `R_70 = (2*sqrt(7)/117649) * (-40*r^3 + 476*r^2 - 2058*r + 2401) * exp(-r/7)`
+- **$7p$ ($l=1$):** `R_71 = (4*sqrt(21)/2470629) * r * (-8*r^3 + 196*r^2 - 1715*r + 4802) * exp(-r/7)`
 
 > **Computational Note:**  
 > These high-level radial functions were generated using a SymPy script.  
-You can explore the derivations or generate other states (like $6d$ or $7d$) using the provided script: **[scripts/hydrogen_wavefunctions.py](../scripts/hydrogen_wavefunctions.py)**.
+You can explore the derivations or generate other states (like $6d$ or $7d$) using the provided script: **[scripts/radial_wavefunctions.py](../scripts/radial_wavefunctions.py)**.
 
 ---
 
