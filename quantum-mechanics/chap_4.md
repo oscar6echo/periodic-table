@@ -44,7 +44,11 @@ This is only true if **$m_l$ is an integer** ($\dots -2, -1, 0, 1, 2 \dots$). Th
 The equation for $\Theta(\theta)$ is much more challenging:
 $$\sin \theta \frac{d}{d \theta} \left(\sin \theta \frac{d\Theta}{d \theta}\right) + [l(l+1)\sin^2 \theta - m_l^2]\Theta = 0$$
 
-This is a famous mathematical equation known as the **Associated Legendre Equation**. Its solutions are the **Associated Legendre Polynomials**, $P_l^{m_l}(\cos\theta)$ (see **[Annex](annex.md)**).
+This is a famous mathematical equation known as the **Associated Legendre Equation**. Its solutions are the **Associated Legendre Polynomials**, $P_l^{m_l}(\cos\theta)$:
+
+$$P_l^{m_l}(x) = \frac{(-1)^{m_l}}{2^l l!} (1-x^2)^{m_l/2} \frac{d^{l+m_l}}{dx^{l+m_l}} (x^2-1)^l$$
+
+For a detailed derivation and historical context of these polynomials, see **[Annex A.4](annex.md#a4-associated-legendre-polynomials)**.
 
 **The Physical Constraint:**
 For these polynomials to remain finite (not blow up to infinity at the poles), the constant $l$ must be an integer, and it must satisfy:
