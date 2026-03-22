@@ -72,22 +72,33 @@ The negative sign tells us the electron is "trapped" in the atom's potential wel
 | **6** | P | -0.38 eV |
 | **7** | Q | -0.28 eV |
 
-This energy quantization is a direct result of the boundary conditions imposed on the **Associated Laguerre Polynomials** ($L_{n-l-1}^{2l+1}$):
-$$L_q^p(x) = \frac{e^x x^{-p}}{q!} \frac{d^q}{dx^q} (e^{-x} x^{q+p})$$
+## 5.5 The Reality: Multi-Electron Atoms
 
-> **Interactive Visualization:**  
-You can visualize these "onion layers" and radial nodes in 2D using this **[Custom Desmos Radial Grapher](https://www.desmos.com/calculator/yngjiz1sk0)**.  
-Set a higher value for $n$ and $l=0$ to see the radial shells clearly.  
-For the explicit formulas used to generate them, see the **[Annex A.5](annex.md#a5-associated-laguerre-polynomials)**.
+In the Hydrogen model we've discussed, the energy depends **only** on the principal quantum number $n$. This means a $2s$ electron and a $2p$ electron would have the exact same energy (they are "degenerate").
 
-## 5.5 Connection to the Visuals
+However, in reality, most atoms have more than one electron. This introduces two critical effects that break this degeneracy:
+
+1. **Electron-Electron Repulsion:** Electrons don't just feel the "pull" of the nucleus; they also feel the "push" of other electrons.
+2. **Shielding (Screening):** Inner electrons "shield" outer electrons from the full positive charge of the nucleus. An outer electron feels an **Effective Nuclear Charge ($Z_{eff}$)** that is lower than the actual $Z$.
+3. **Penetration:** It is a common misconception that subshell shapes ($s, p, d, f$) only affect the *direction* of the electron. In fact, $l$ also changes the **radial probability distribution** (the likelihood of finding the electron at a certain distance).
+    * **The Centrifugal Barrier:** High angular momentum ($l$) acts like an outward "force" that keeps electrons away from the center.
+    * **Inner Lobes:** Lower $l$ orbitals (especially $s$) have small "peaks" of probability very close to the nucleus (see the "Secondary Peaks" in section 5.7). These "inner lobes" allow the electron to **penetrate** the shielding cloud of inner electrons and feel the full, unshielded pull of the nucleus.
+    * **Ultimate Penetration (r=0):** Most importantly, **$s$-orbitals** are the only ones with a non-zero probability of finding the electron *at the very center* of the nucleus. All other orbitals ($p, d, f$) have a "node" at $r=0$, meaning they are strictly forbidden from the center.
+
+    Because $s$-orbitals penetrate deeper than $p$-orbitals (and $p$ deeper than $d$), they are more "tightly bound" and have **lower energy** for the same value of $n$. This creates the subshell splitting seen in the **[Aufbau Principle Diagram](../periodic_table_4_quantum_principles.svg)**:
+
+$$E_{ns} < E_{np} < E_{nd} < E_{nf}$$
+
+This splitting is what causes the "overlap" in the periodic table, such as why the $4s$ subshell fills before the $3d$ subshell.
+
+## 5.6 Connection to the Visuals
 
 These radial solutions define the "Layers" of the atom shown in your reference sheets:
 
 1. **[periodic_table_3_orbital_shells.svg](../periodic_table_3_orbital_shells.svg)**: Look at the Bohr shell diagrams. Each circle ($K, L, M, N \dots$) represents a different value of $n$.
-2. **[periodic_table_4_quantum_principles.svg](../periodic_table_4_quantum_principles.svg)**: See the "Aufbau Energy Levels" diagram. The vertical spacing of those levels is determined exactly by the $1/n^2$ energy formula we just derived.
+2. **[periodic_table_4_quantum_principles.svg](../periodic_table_4_quantum_principles.svg)**: See the "Aufbau Energy Levels" diagram. The vertical spacing of those levels is determined by the combination of the $1/n^2$ base energy and the $l$-dependent splitting we just described.
 
-## 5.6 Most Probable Radius ($r_{mp}$)
+## 5.7 Most Probable Radius ($r_{mp}$)
 
 While the wavefunction $\psi$ gives the probability amplitude at a specific point, we are often interested in the probability of finding the electron at a certain **distance** $r$ from the nucleus, regardless of direction.
 
@@ -106,22 +117,22 @@ $$\frac{dP}{dr} = 0$$
 
 The following table summarizes the key radial characteristics of the hydrogen atom up to $n=5$.
 
-| $n$ | $l$ | Orbital | Radial Nodes | Main $r_{mp}$ | Secondary Peaks |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | 0 | 1s | False | 1.00 | None |
-| **2** | 0 | 2s | True (1) | 5.236 | 0.764 |
-| | 1 | 2p | False | 4.00 | None |
-| **3** | 0 | 3s | True (2) | 13.07 | 3.82, 0.71 |
-| | 1 | 3p | True (1) | 12.00 | 3.00 |
-| | 2 | 3d | False | 9.00 | None |
-| **4** | 0 | 4s | True (3) | 21.92 | 11.44, 5.14, 1.50 |
-| | 1 | 4p | True (2) | 20.92 | 10.68, 4.40 |
-| | 2 | 4d | True (1) | 18.62 | 9.38 |
-| | 3 | 4f | False | 16.00 | None |
-| **5** | 0 | 5s | True (4) | 33.00 | 19.55, 10.90, 5.07, 1.48 |
-| | 4 | 5g | False | 25.00 | None |
+| $n$ | $l$ | Orbital | Node at $r=0$ | Radial Nodes | Main $r_{mp}$ | Secondary Peaks |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | 0 | 1s | False | False | 1.00 | None |
+| **2** | 0 | 2s | False | True (1) | 5.236 | 0.764 |
+| | 1 | 2p | True | False | 4.00 | None |
+| **3** | 0 | 3s | False | True (2) | 13.07 | 3.82, 0.71 |
+| | 1 | 3p | True | True (1) | 12.00 | 3.00 |
+| | 2 | 3d | True | False | 9.00 | None |
+| **4** | 0 | 4s | False | True (3) | 21.92 | 11.44, 5.14, 1.50 |
+| | 1 | 4p | True | True (2) | 20.92 | 10.68, 4.40 |
+| | 2 | 4d | True | True (1) | 18.62 | 9.38 |
+| | 3 | 4f | True | False | 16.00 | None |
+| **5** | 0 | 5s | False | True (4) | 33.00 | 19.55, 10.90, 5.07, 1.48 |
+| | 4 | 5g | True | False | 25.00 | None |
 
-## 5.7 Summary of the Radial Logic
+## 5.8 Summary of the Radial Logic
 
 1. **Boundary Condition (Infinity):** The electron must stay near the nucleus, forcing an exponential decay.
 2. **Boundary Condition (Origin):** Angular momentum ($l$) creates a "centrifugal barrier" that keeps the electron away from the center.
