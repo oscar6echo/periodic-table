@@ -4,25 +4,41 @@ Convention: phi=polar, theta=azimuthal
 
 --- s-orbitals (l=0) ---
 m=0: 1/(2*sqrt(pi))
+LaTeX: \rho = \left| \frac{1}{2 \sqrt{\pi}} \right|
 
 --- p-orbitals (l=1) ---
 m=-1: -sqrt(3)*sin(atan2(0, sin(phi)**2)/2)*cos(theta)*Abs(sin(phi))/(2*sqrt(pi))
+LaTeX: \rho = \left| - \frac{\sqrt{3} \sin{\left(\frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2} \right)} \cos{\left(\theta \right)} \left|{\sin{\left(\phi \right)}}\right|}{2 \sqrt{\pi}} \right|
 m=0: sqrt(3)*cos(phi)/(2*sqrt(pi))
+LaTeX: \rho = \left| \frac{\sqrt{3} \cos{\left(\phi \right)}}{2 \sqrt{\pi}} \right|
 m=1: -sqrt(3)*cos(theta)*cos(atan2(0, sin(phi)**2)/2)*Abs(sin(phi))/(2*sqrt(pi))
+LaTeX: \rho = \left| - \frac{\sqrt{3} \cos{\left(\theta \right)} \cos{\left(\frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2} \right)} \left|{\sin{\left(\phi \right)}}\right|}{2 \sqrt{\pi}} \right|
 
 --- d-orbitals (l=2) ---
 m=-2: 0
+LaTeX: \rho = \left| 0 \right|
 m=-1: -sqrt(15)*sin(atan2(0, sin(phi)**2)/2)*cos(phi)*cos(theta)*Abs(sin(phi))/(2*sqrt(pi))
+LaTeX: \rho = \left| - \frac{\sqrt{15} \sin{\left(\frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2} \right)} \cos{\left(\phi \right)} \cos{\left(\theta \right)} \left|{\sin{\left(\phi \right)}}\right|}{2 \sqrt{\pi}} \right|
 m=0: sqrt(5)*(2 - 3*sin(phi)**2)/(4*sqrt(pi))
+LaTeX: \rho = \left| \frac{\sqrt{5} \left(2 - 3 \sin^{2}{\left(\phi \right)}\right)}{4 \sqrt{\pi}} \right|
 m=1: -sqrt(15)*cos(phi)*cos(theta)*cos(atan2(0, sin(phi)**2)/2)*Abs(sin(phi))/(2*sqrt(pi))
+LaTeX: \rho = \left| - \frac{\sqrt{15} \cos{\left(\phi \right)} \cos{\left(\theta \right)} \cos{\left(\frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2} \right)} \left|{\sin{\left(\phi \right)}}\right|}{2 \sqrt{\pi}} \right|
 m=2: sqrt(15)*sin(phi)**2*cos(2*theta)/(4*sqrt(pi))
+LaTeX: \rho = \left| \frac{\sqrt{15} \sin^{2}{\left(\phi \right)} \cos{\left(2 \theta \right)}}{4 \sqrt{\pi}} \right|
 
 --- f-orbitals (l=3) ---
 m=-3: sqrt(70)*(sin(3*(theta - atan2(0, sin(phi)**2)/2)) - sin(3*theta + atan2(0, sin(phi)**2)/2))*sin(phi)**2*Abs(sin(phi))/(16*sqrt(pi))
+LaTeX: \rho = \left| \frac{\sqrt{70} \left(\sin{\left(3 \left(\theta - \frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2}\right) \right)} - \sin{\left(3 \theta + \frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2} \right)}\right) \sin^{2}{\left(\phi \right)} \left|{\sin{\left(\phi \right)}}\right|}{16 \sqrt{\pi}} \right|
 m=-2: 0
+LaTeX: \rho = \left| 0 \right|
 m=-1: sqrt(42)*(5*sin(phi)**2 - 4)*sin(atan2(0, sin(phi)**2)/2)*cos(theta)*Abs(sin(phi))/(8*sqrt(pi))
+LaTeX: \rho = \left| \frac{\sqrt{42} \left(5 \sin^{2}{\left(\phi \right)} - 4\right) \sin{\left(\frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2} \right)} \cos{\left(\theta \right)} \left|{\sin{\left(\phi \right)}}\right|}{8 \sqrt{\pi}} \right|
 m=0: sqrt(7)*(3*cos(phi) + 5*cos(3*phi))/(16*sqrt(pi))
+LaTeX: \rho = \left| \frac{\sqrt{7} \left(3 \cos{\left(\phi \right)} + 5 \cos{\left(3 \phi \right)}\right)}{16 \sqrt{\pi}} \right|
 m=1: sqrt(42)*(5*sin(phi)**2 - 4)*cos(theta)*cos(atan2(0, sin(phi)**2)/2)*Abs(sin(phi))/(8*sqrt(pi))
+LaTeX: \rho = \left| \frac{\sqrt{42} \left(5 \sin^{2}{\left(\phi \right)} - 4\right) \cos{\left(\theta \right)} \cos{\left(\frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2} \right)} \left|{\sin{\left(\phi \right)}}\right|}{8 \sqrt{\pi}} \right|
 m=2: sqrt(105)*sin(phi)**2*cos(phi)*cos(2*theta)/(4*sqrt(pi))
+LaTeX: \rho = \left| \frac{\sqrt{105} \sin^{2}{\left(\phi \right)} \cos{\left(\phi \right)} \cos{\left(2 \theta \right)}}{4 \sqrt{\pi}} \right|
 m=3: -sqrt(70)*(cos(3*(theta - atan2(0, sin(phi)**2)/2)) + cos(3*theta + atan2(0, sin(phi)**2)/2))*sin(phi)**2*Abs(sin(phi))/(16*sqrt(pi))
+LaTeX: \rho = \left| - \frac{\sqrt{70} \left(\cos{\left(3 \left(\theta - \frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2}\right) \right)} + \cos{\left(3 \theta + \frac{\operatorname{atan}_{2}{\left(0,\sin^{2}{\left(\phi \right)} \right)}}{2} \right)}\right) \sin^{2}{\left(\phi \right)} \left|{\sin{\left(\phi \right)}}\right|}{16 \sqrt{\pi}} \right|
 

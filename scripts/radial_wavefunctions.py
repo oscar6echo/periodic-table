@@ -28,27 +28,26 @@ def generalized_laguerre(n: int, alpha: int, x: sp.Expr) -> sp.Expr:
     return cast(sp.Expr, expr)
 
 
-def radial_wavefunction(n: int, _l: int) -> sp.Expr:
+def radial_wavefunction(n: int, ell: int) -> sp.Expr:
     """
     Computes the normalized radial wavefunction R_nl(r) for the Hydrogen atom.
     Assumes a0 = 1 for simplicity in output.
     """
     r = sp.Symbol("r", real=True, positive=True)
-    # a0 = sp.S.One  # Setting a0 = 1
 
     # Dimensionless variable rho = 2r / (n * a0)
     rho: Any = sp.S(2) * r / sp.S(n)
 
     # Normalization constant N_nl
-    num_val = fact(n - _l - 1)
-    den_val = 2 * n * fact(n + _l)
+    num_val = fact(n - ell - 1)
+    den_val = 2 * n * fact(n + ell)
     norm: Any = sp.sqrt((sp.S(2) / sp.S(n)) ** 3 * sp.S(num_val) / sp.S(den_val))
 
     # Associated Laguerre part
-    poly: Any = generalized_laguerre(n - _l - 1, 2 * _l + 1, cast(sp.Expr, rho))
+    poly: Any = generalized_laguerre(n - ell - 1, 2 * ell + 1, cast(sp.Expr, rho))
 
     exponent: Any = -rho / sp.S(2)
-    rho_pwr: Any = rho**_l
+    rho_pwr: Any = rho**ell
     wf_exp: Any = sp.exp(exponent)
 
     wf: Any = norm * wf_exp * rho_pwr * poly
@@ -58,7 +57,8 @@ def radial_wavefunction(n: int, _l: int) -> sp.Expr:
 
 def main() -> None:
     """
-    Generates all ground-state radial _l (up to Z=118).
+    Generates all ground-state radial subshells (up to Z=118).
+    Outputs both plain text and Desmos-friendly LaTeX.
     """
     states: List[Tuple[int, int, str]] = [
         (1, 0, "1s"),
@@ -85,10 +85,13 @@ def main() -> None:
     print("Hydrogenic Radial Wavefunctions (R_nl) with a0=1")
     print("================================================\n")
 
-    for n, _l, label in states:
-        wf = radial_wavefunction(n, _l)
+    for n, ell, label in states:
+        wf = radial_wavefunction(n, ell)
         print(f"--- {label} ---")
-        print(wf)
+        print(f"Text:  {wf}")
+        # Generate LaTeX for Desmos
+        latex_str = sp.latex(wf)
+        print(f"LaTeX: R_{{{n}{ell}}} = {latex_str}")
         print("")
 
 

@@ -54,6 +54,7 @@ def get_real_spherical_harmonic(ell: int, m: int) -> sp.Expr:
 def main() -> None:
     """
     Generates the angular part formulas for s, p, d, f orbitals.
+    Outputs both plain text and Desmos-friendly LaTeX (normalized).
     """
     print("Angular Wavefunctions (Spherical Harmonics - Real Forms)")
     print("Convention: phi=polar, theta=azimuthal")
@@ -68,6 +69,11 @@ def main() -> None:
             trigsimp_func: Any = sp.trigsimp
             simplified: Any = trigsimp_func(expr)
             print(f"m={m}: {simplified}")
+
+            # Generate LaTeX for Desmos (absolute value)
+            latex_str = sp.latex(simplified)
+            # Desmos uses |...| for absolute value
+            print(f"LaTeX: \\rho = \\left| {latex_str} \\right|")
         print("")
 
 
