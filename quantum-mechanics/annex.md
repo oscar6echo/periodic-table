@@ -191,3 +191,16 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 > **Computational Note:**  
 > These high-level radial functions were generated using a SymPy script.  
 You can explore the derivations or generate other states (like $6d$ or $7d$) using the provided script: **[scripts/hydrogen_wavefunctions.py](../scripts/hydrogen_wavefunctions.py)**.
+
+---
+
+## A.6 Summary: The Four Quantum Numbers
+
+The following table summarizes the four quantum numbers that completely describe an electron in an atom.
+
+| Number | Symbol | Allowed Values | Physical Meaning |
+| :--- | :---: | :--- | :--- |
+| **Principal** | $n$ | $1, 2, 3, \dots$ | Shell number, size and energy of the orbital. |
+| **Azimuthal** | $l$ | $0, 1, \dots, n-1$ | Subshell shape ($s, p, d, f$). Orbital angular momentum. |
+| **Magnetic** | $m_l$ | $-l, \dots, +l$ | Orbital orientation in space. |
+| **Spin** | $m_s$ | $+\frac{1}{2}, -\frac{1}{2}$ | Intrinsic angular momentum (Spin-Up or Spin-Down). |

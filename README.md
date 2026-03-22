@@ -15,6 +15,20 @@ A set of hand-crafted SVG reference sheets covering atomic structure, quantum me
 | `periodic_table_3_orbital_shells.svg` | Bohr shell diagrams, orbital box diagrams (paramagnetism), valence electron fills for all 118 elements |
 | `periodic_table_4_quantum_principles.svg` | The four quantum numbers, orbital shapes, Aufbau energy levels, Hund's rule, exceptions (Cr, Cu), block map |
 
+## Educational Series: Quantum Mechanics
+
+A deep dive into the physics that builds the periodic table.
+
+| Chapter | Title | Key Topics |
+| :--- | :--- | :--- |
+| **[Chapter 1](quantum-mechanics/chap_1.md)** | The Heart of QM | Schrödinger Equation, Wave Functions, Operators |
+| **[Chapter 2](quantum-mechanics/chap_2.md)** | Particle in a 1D Box | Boundary Conditions, Quantization |
+| **[Chapter 3](quantum-mechanics/chap_3.md)** | The 3D Hydrogen Atom | Spherical Coordinates, Separation of Variables |
+| **[Chapter 4](quantum-mechanics/chap_4.md)** | Angular Solutions | Legendre Polynomials, Orbital Shapes ($s, p, d, f$) |
+| **[Chapter 5](quantum-mechanics/chap_5.md)** | Radial Solutions | Laguerre Polynomials, Energy Shells, $r_{mp}$ |
+| **[Chapter 6](quantum-mechanics/chap_6.md)** | The Final Piece | Spin, Pauli Principle, Aufbau, Hund's Rule |
+| **[Annex](quantum-mechanics/annex.md)** | Mathematical Annex | Vector Calculus, Formal Definitions, 3D Visuals |
+
 ---
 
 ## Viewer

@@ -138,4 +138,4 @@ The following table summarizes the key radial characteristics of the hydrogen at
 2. **Boundary Condition (Origin):** Angular momentum ($l$) creates a "centrifugal barrier" that keeps the electron away from the center.
 3. **The Result:** The interaction between these two forces quantizes the atom's energy, creating the structured "rows" (periods) of the periodic table.
 
-In the final **Chapter 6**, we will add the very last piece of the puzzle—**Spin**—and see how all these pieces click together to build the 118 elements.
+In the final **[Chapter 6](chap_6.md)**, we add the very last piece of the puzzle—**Spin**—and see how all these pieces click together to build the 118 elements.
