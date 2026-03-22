@@ -91,7 +91,7 @@ The angular part of the wavefunction, $Y(\theta, \phi)$, depends only on two ang
 
 > **Custom Viewer Introduction:**  
 > **Title:** 3D Atomic Orbital Visualizer (Angular Harmonics)  
-> **Description:** This interactive graph plots the angular probability density $|Y_l^{m_l}|^2$. By mapping probability to the radius $\rho$, we reveal the characteristic lobes of the $s, p, d,$ and $f$ subshells.
+> **Description:** This interactive graph plots the angular probability density $|Y_l^{m_l}|^2$. By mapping probability to the radius $\rho$, we reveal the characteristic lobes of the $s, p, d,$ and $f$ subshells.  
 
 **⚠️ Notation Alert (Convention Swap):**  
 In standard physics textbooks (and Chapter 4), $\theta$ is the polar angle and $\phi$ is the azimuthal angle. **In Desmos 3D, these names are swapped**: `phi` is polar and `theta` is azimuthal. The formulas below are written using the Desmos convention (`phi` for polar) to ensure they render correctly.
@@ -114,17 +114,25 @@ In standard physics textbooks (and Chapter 4), $\theta$ is the polar angle and $
 - $m_l=+2$ ($d_{x^2-y^2}$): `rho = |sin^2(phi)*cos(2*theta)|`
 - $m_l=-2$ ($d_{xy}$): `rho = |sin^2(phi)*sin(2*theta)|`
 
+**$l=3$ ($f$):**
+
+- $m_l=0$ ($f_{z^3}$): `rho = 0.5 * |5*cos^3(phi) - 3*cos(phi)|`
+- $m_l=+1$ ($f_{xz^2}$): `rho = 0.73 * |sin(phi)*(5*cos^2(phi) - 1)*cos(theta)|`
+- $m_l=-1$ ($f_{yz^2}$): `rho = 0.73 * |sin(phi)*(5*cos^2(phi) - 1)*sin(theta)|`
+- $m_l=+2$ ($f_{z(x^2-y^2)}$): `rho = 2.6 * |sin^2(phi)*cos(phi)*cos(2*theta)|`
+- $m_l=-2$ ($f_{zxy}$): `rho = 2.6 * |sin^2(phi)*cos(phi)*sin(2*theta)|`
+- $m_l=+3$ ($f_{x(x^2-3y^2)}$): `rho = |sin^3(phi)*cos(3*theta)|`
+- $m_l=-3$ ($f_{y(3x^2-y^2)}$): `rho = |sin^3(phi)*sin(3*theta)|`
+
 ---
 
 ## A.5 Associated Laguerre Polynomials, $L_q^p(x)$
 
 In Chapter 5, the solution to the radial equation involves **Associated Laguerre Polynomials**, $L_{n-l-1}^{2l+1}(x)$.
 
-### Formal Definition
+### Historical Context
 
-As derived in Chapter 5, these polynomials are defined by:
-$$L_q^p(x) = \frac{e^x x^{-p}}{q!} \frac{d^q}{dx^q} (e^{-x} x^{q+p})$$
-*(Note: Although the formula contains $x^{-p}$, the preceding derivatives of $x^{q+p}$ ensure the final result is a finite polynomial with no divergence at the origin.)*
+These were developed by the French mathematician **Edmond Laguerre (1834–1886)**. His polynomials are the only solutions that satisfy the radial Schrödinger equation while remaining finite at the origin ($r=0$) and decaying to zero at infinity ($r \to \infty$).
 
 ### Physical Interpretation: Onion Layers
 
@@ -134,24 +142,36 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 
 > **Custom Viewer Introduction:**  
 > **Title:** 3D Radial Node Visualizer (Energy Shells)  
-> **Description:** This graph visualizes the radial wavefunction $R_{nl}(r)$. By plotting isosurfaces where $(R_{nl})^2$ is constant, we reveal the internal "onion-layer" structure and radial nodes of the atom.
+> **Description:** This graph visualizes the radial wavefunction $R_{nl}(r)$. By plotting isosurfaces where $(R_{nl})^2$ is constant, we reveal the internal "onion-layer" structure and radial nodes of the atom.  
 
 **Important:** First define $r = \sqrt{x^2 + y^2 + z^2}$. These formulas are valid for **$r \ge 0$** and use atomic units ($a_0=1$). Then plot the probability density squared $(R_{nl})^2 = c$ (try $c=0.01$).
 
-**$n=1$:**
+**$n=1$ (K Shell):**
 
 - **$1s$ ($l=0$):** `R_10 = 2 * exp(-r)`
 
-**$n=2$:**
+**$n=2$ (L Shell):**
 
 - **$2s$ ($l=0$):** `R_20 = (1/sqrt(8)) * (2 - r) * exp(-r/2)`
 - **$2p$ ($l=1$):** `R_21 = (1/sqrt(24)) * r * exp(-r/2)`
 
-**$n=3$:**
+**$n=3$ (M Shell):**
 
 - **$3s$ ($l=0$):** `R_30 = (2 / (81*sqrt(3))) * (27 - 18*r + 2*r^2) * exp(-r/3)`
 - **$3p$ ($l=1$):** `R_31 = (4 / (81*sqrt(6))) * r * (6 - r) * exp(-r/3)`
 - **$3d$ ($l=2$):** `R_32 = (4 / (81*sqrt(30))) * r^2 * exp(-r/3)`
+
+**$n=4$ (N Shell):**
+
+- **$4s$ ($l=0$):** `R_40 = (1/4) * (2 - (3/2)*r + (1/4)*r^2 - (1/96)*r^3) * exp(-r/4)`
+- **$4p$ ($l=1$):** `R_41 = (1/(32*sqrt(3))) * r * (10 - (5/2)*r + (1/8)*r^2) * exp(-r/4)`
+- **$4d$ ($l=2$):** `R_42 = (1/(64*sqrt(30))) * r^2 * (6 - r/2) * exp(-r/4)`
+- **$4f$ ($l=3$):** `R_43 = (1/(768*sqrt(5))) * r^3 * exp(-r/4)`
+
+**$n=5$ (O Shell):**
+
+- **$5s$ ($l=0$):** `R_50 = (1/(300*sqrt(5))) * (120 - 240*(r/5) + 120*(r/5)^2 - 20*(r/5)^3 + (r/5)^4) * exp(-r/5)`
+- **$5g$ ($l=4$):** `R_54 = (1/(15000*sqrt(70))) * (2*r/5)^4 * exp(-r/5)`
 
 ---
 
@@ -170,16 +190,21 @@ Therefore, the **Radial Probability Density** is defined as $P(r) = r^2 |R_{nl}(
 The most probable radius $r_{mp}$ (where you are most likely to find the electron) corresponds to the peaks of the $P(r)$ curve. To find these peaks, we solve for:
 $$\frac{dP}{dr} = 0$$
 
-### Values for Hydrogen ($a_0 = 1$)
+### Summary of Radial Properties ($a_0 = 1$)
 
-For orbitals where the electron is "furthest out" for a given $n$ ($l = n-1$), there is only one peak:
+The following table summarizes the key radial characteristics of the hydrogen atom up to $n=5$.
 
-- **$1s$ ($n=1, l=0$):** $r_{mp} = 1$ (The Bohr radius)
-- **$2p$ ($n=2, l=1$):** $r_{mp} = 4$
-- **$3d$ ($n=3, l=2$):** $r_{mp} = 9$
-*(General rule for $l=n-1$: $r_{mp} = n^2$)*
-
-For orbitals with radial nodes ($s$-orbitals like $2s, 3s$), there are multiple peaks. The **outermost peak** is the most significant:
-
-- **$2s$ ($n=2, l=0$):** $r_{mp} = 3 + \sqrt{5} \approx 5.236$
-- **$3s$ ($n=3, l=0$):** $r_{mp} \approx 13.07$
+| $n$ | $l$ | Orbital | Radial Nodes | Main $r_{mp}$ | Secondary Peaks |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | 0 | 1s | False | 1.00 | None |
+| **2** | 0 | 2s | True (1) | 5.236 | 0.764 |
+| | 1 | 2p | False | 4.00 | None |
+| **3** | 0 | 3s | True (2) | 13.07 | 3.82, 0.71 |
+| | 1 | 3p | True (1) | 12.00 | 3.00 |
+| | 2 | 3d | False | 9.00 | None |
+| **4** | 0 | 4s | True (3) | 21.92 | 11.44, 5.14, 1.50 |
+| | 1 | 4p | True (2) | 20.92 | 10.68, 4.40 |
+| | 2 | 4d | True (1) | 18.62 | 9.38 |
+| | 3 | 4f | False | 16.00 | None |
+| **5** | 0 | 5s | True (4) | 33.00 | 19.55, 10.90, 5.07, 1.48 |
+| | 4 | 5g | False | 25.00 | None |

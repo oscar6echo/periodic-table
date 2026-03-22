@@ -59,7 +59,10 @@ The negative sign tells us the electron is "trapped" in the atom's potential wel
 This energy quantization is a direct result of the boundary conditions imposed on the **Associated Laguerre Polynomials** ($L_{n-l-1}^{2l+1}$):
 $$L_q^p(x) = \frac{e^x x^{-p}}{q!} \frac{d^q}{dx^q} (e^{-x} x^{q+p})$$
 
-> **Interactive Visualization:** You can visualize these "onion layers" and radial nodes in 3D using this **[Custom Desmos 3D Radial Grapher](https://TBD)**. Set a higher value for $n$ and $l=0$ to see the radial shells clearly. For the explicit formulas used to generate them, see the **[Annex A.5](annex.md#a5-associated-laguerre-polynomials)**.
+> **Interactive Visualization:**  
+You can visualize these "onion layers" and radial nodes in 2D using this **[Custom Desmos Radial Grapher](https://www.desmos.com/calculator/yngjiz1sk0)**.  
+Set a higher value for $n$ and $l=0$ to see the radial shells clearly.  
+For the explicit formulas used to generate them, see the **[Annex A.5](annex.md#a5-associated-laguerre-polynomials)**.
 
 ## 5.5 Connection to the Visuals
 

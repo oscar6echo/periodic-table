@@ -75,7 +75,9 @@ $$Y_l^{m_l}(\theta, \phi) \propto P_l^{m_l}(\cos\theta) e^{im_l\phi}$$
 
 These functions are the "building blocks" of atomic shapes. By plotting the probability density ($|Y|^2$), we reveal the specific geometries of the subshells.
 
-> **Interactive Visualization:** You can interact with and rotate these exact mathematical shapes using this **[Custom Desmos 3D Orbital Grapher](https://www.desmos.com/3d/qhbfggpwst)**. For the explicit formulas used to generate them, see the **[Annex](annex.md)**.
+> **Interactive Visualization:**  
+You can interact with and rotate these exact mathematical shapes using this **[Custom Desmos 3D Orbital Grapher](https://www.desmos.com/3d/qhbfggpwst)**.  
+For the explicit formulas used to generate them, see the **[Annex A.4](annex.md#a4-associated-legendre-polynomials)**.
 
 * **$l=0$ ($s$-orbital):** Spherically symmetric. There are no angular nodes, so the probability of finding the electron is identical in every direction from the nucleus.
 * **$l=1$ ($p$-orbitals):** Lobed symmetry. Each has a single nodal plane passing through the nucleus, dividing the orbital into two distinct lobes. These align perfectly along the $x, y,$ or $z$ axes ($p_x, p_y, p_z$).
