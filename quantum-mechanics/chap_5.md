@@ -91,6 +91,14 @@ $$E_{ns} < E_{np} < E_{nd} < E_{nf}$$
 
 This splitting is what causes the "overlap" in the periodic table, such as why the $4s$ subshell fills before the $3d$ subshell.
 
+### Simplified Multi-Electron Energy
+
+While the exact energy levels for multi-electron atoms require complex computer simulations, we can approximate them using the **Effective Nuclear Charge ($Z_{eff}$)**:
+
+$$E_n \approx - \frac{Z_{eff}^2 \cdot 13.6 \text{ eV}}{n^2}$$
+
+Here, $Z_{eff} = Z - \sigma$, where $\sigma$ is a "shielding constant" that represents the push-back from other electrons. For example, a $2s$ electron in Lithium ($Z=3$) might feel a $Z_{eff} \approx 1.28$ because the two $1s$ electrons shield it from the nucleus.
+
 ## 5.6 Connection to the Visuals
 
 These radial solutions define the "Layers" of the atom shown in your reference sheets:

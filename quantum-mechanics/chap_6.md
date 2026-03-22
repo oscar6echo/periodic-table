@@ -43,11 +43,29 @@ As discussed in **[Chapter 5.5](chap_5.md#55-the-reality-multi-electron-atoms)**
 
 You can see this full progression in the **[Aufbau Principle Diagram](../periodic_table_4_quantum_principles.svg)**.
 
+> **Mnemonic: The $(n + l)$ Rule**  
+> To quickly find which subshell has lower energy, calculate the sum of $n$ and $l$.
+>
+> 1. The subshell with the **lower $(n + l)$** value fills first.
+> 2. If the values are equal, the subshell with the **lower $n$** fills first.
+>
+> *Example:* 4s ($4+0=4$) vs. 3d ($3+2=5$). Since $4 < 5$, 4s fills first.  
+> *Example:* 3d ($3+2=5$) vs. 4p ($4+1=5$). Since the sums are equal, 3d fills first ($n=3$ is lower than $n=4$).  
+
 ### 2. Hund's Rule (The Bus Passenger Rule)
 
 When filling a subshell with multiple orbitals (like the three $2p$ orbitals), electrons prefer to occupy empty orbitals singly with parallel spins before they start pairing up.
 
 **Analogy:** Like passengers on a bus, electrons take an empty seat before sitting next to someone else. This minimizes electron-electron repulsion and makes the atom more stable.
+
+### 3. Exceptions to the Rule
+
+Nature occasionally breaks the Aufbau sequence to achieve even greater stability. The most famous examples are **Chromium (Cr)** and **Copper (Cu)**.
+
+* **Half-filled Stability:** Chromium ($Z=24$) is expected to be $[Ar] 3d^4 4s^2$, but it is actually **$[Ar] 3d^5 4s^1$**. Having five electrons in the $d$-subshell (one in each orbital) provides extra "exchange energy" stability.
+* **Fully-filled Stability:** Copper ($Z=29$) is expected to be $[Ar] 3d^9 4s^2$, but it is actually **$[Ar] 3d^{10} 4s^1$**. A completely full $d$-subshell is more symmetric and stable.
+
+You can see these visualized in section 5 of the **[Quantum Principles sheet](../periodic_table_4_quantum_principles.svg)**.
 
 ## 6.4 The Periodic Table Emerges
 
