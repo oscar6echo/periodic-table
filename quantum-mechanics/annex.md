@@ -173,4 +173,21 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 **$n=5$ (O Shell):**
 
 - **$5s$ ($l=0$):** `R_50 = (1/(300*sqrt(5))) * (120 - 240*(r/5) + 120*(r/5)^2 - 20*(r/5)^3 + (r/5)^4) * exp(-r/5)`
-- **$5g$ ($l=4$):** `R_54 = (1/(15000*sqrt(70))) * (2*r/5)^4 * exp(-r/5)`
+- **$5p$ ($l=1$):** `R_51 = (1/(150*sqrt(30))) * (2r/5) * (120 - 90*(2r/5) + 18*(2r/5)^2 - (2r/5)^3) * exp(-r/5)`
+- **$5d$ ($l=2$):** `R_52 = (1/(150*sqrt(70))) * (2r/5)^2 * (42 - 14*(2r/5) + (2r/5)^2) * exp(-r/5)`
+- **$5f$ ($l=3$):** `R_53 = (1/(300*sqrt(70))) * (2r/5)^3 * (8 - (2r/5)) * exp(-r/5)`
+- **$5g$ ($l=4$):** `R_54 = (1/(15000*sqrt(70))) * (2r/5)^4 * exp(-r/5)` *(Note: This is the first subshell never occupied in the ground state of any known element.)*
+
+**$n=6$ (P Shell):**
+
+- **$6s$ ($l=0$):** `R_60 = (sqrt(6)/3149280) * (174960 - 145800*r + 32400*r^2 - 2700*r^3 + 90*r^4 - r^5) * exp(-r/6)`
+- **$6p$ ($l=1$):** `R_61 = (sqrt(210)*r/22044960) * (68040 - 22680*r + 2268*r^2 - 84*r^3 + r^4) * exp(-r/6)`
+
+**$n=7$ (Q Shell):**
+
+- **$7s$ ($l=0$):** `R_70 = (2*sqrt(7)/1815912315) * (37059435 - 31765230*r + 7563150*r^2 - 720300*r^3 + 30870*r^4 - 588*r^5 + 4*r^6) * exp(-r/7)`
+- **$7p$ ($l=1$):** `R_71 = (4*sqrt(21)*r/1815912315) * (3529470 - 1260525*r + 144060*r^2 - 6860*r^3 + 140*r^4 - r^5) * exp(-r/7)`
+
+> **Computational Note:**  
+> These high-level radial functions were generated using a SymPy script.  
+You can explore the derivations or generate other states (like $6d$ or $7d$) using the provided script: **[scripts/hydrogen_wavefunctions.py](../scripts/hydrogen_wavefunctions.py)**.

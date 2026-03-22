@@ -9,7 +9,7 @@ Solving this final equation will reveal the "Energy Shells" that form the rows o
 From our separation in Chapter 3, we have the following equation for $R(r)$:
 $$\frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) - \frac{2mr^2}{\hbar^2} [V(r) - E]R = l(l+1)R$$
 
-Here, $V(r)$ is the **Coulomb Potential**, the electrostatic "pull" of the nucleus:
+Here, $V(r)$ is the **Coulomb Potential**, the electrostatic "pull" of the nucleus: 
 $$V(r) = -\frac{Ze^2}{4\pi\epsilon_0 r}$$
 
 Unlike the angular equation, which was universal for all spheres, the radial equation depends on the specific physical properties of the atom: the charge of the nucleus ($Z$) and the total energy ($E$).
@@ -55,6 +55,18 @@ For Hydrogen ($Z=1$), this simplifies to the famous value:
 $$E_n = - \frac{13.6 \text{ eV}}{n^2}$$
 
 The negative sign tells us the electron is "trapped" in the atom's potential well. To escape, it must absorb exactly enough energy to reach $E=0$.
+
+### Summary of Energy Levels (Hydrogen, $Z=1$)
+
+| $n$ | Shell | Energy ($E_n$) |
+| :--- | :--- | :--- |
+| **1** | K | -13.60 eV |
+| **2** | L | -3.40 eV |
+| **3** | M | -1.51 eV |
+| **4** | N | -0.85 eV |
+| **5** | O | -0.54 eV |
+| **6** | P | -0.38 eV |
+| **7** | Q | -0.28 eV |
 
 This energy quantization is a direct result of the boundary conditions imposed on the **Associated Laguerre Polynomials** ($L_{n-l-1}^{2l+1}$):
 $$L_q^p(x) = \frac{e^x x^{-p}}{q!} \frac{d^q}{dx^q} (e^{-x} x^{q+p})$$
