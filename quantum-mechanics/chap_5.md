@@ -43,8 +43,12 @@ For the math to stay stable, $n$ must be an integer, and it must always be large
 * **$n=3$ ($M$ shell):** $l=0, 1, 2$ ($s, p, d$). Three subshells ($3s, 3p, 3d$).
 * **$n=4$ ($N$ shell):** $l=0, 1, 2, 3$ ($s, p, d, f$). Four subshells ($4s, 4p, 4d, 4f$).
 * **$n=5$ ($O$ shell):** $l=0, 1, 2, 3, 4$ ($s, p, d, f, g$). Five subshells ($5s, 5p, 5d, 5f, 5g$).
+* **$n=6$ ($P$ shell):** $l=0, \dots, 5$ ($s, p, d, f, g, h$). Six subshells ($6s, 6p, 6d, 6f, 6g, 6h$).
+* **$n=7$ ($Q$ shell):** $l=0, \dots, 6$ ($s, p, d, f, g, h, i$). Seven subshells ($7s, 7p, 7d, 7f, 7g, 7h, 7i$).
 
-*(Note: Although $n=5$ can mathematically hold a $g$-orbital, as mentioned in Chapter 4, no known element actually fills a $g$ subshell in its ground state.)*
+*NOTE*:  
+Although higher shells mathematically contain many subshells, no known element in its ground state occupies orbitals beyond $7p$.  
+For example, $5g, 6f, 7d$, and above are never used in ground-state chemistry.
 
 ## 5.4 The Result: Quantized Energy
 
