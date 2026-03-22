@@ -91,6 +91,7 @@ The angular part of the wavefunction, $Y(\theta, \phi)$, depends only on two ang
 
 > **Custom Viewer Introduction:**  
 > **Title:** 3D Atomic Orbital Visualizer (Angular Harmonics)  
+> **Link:** <https://www.desmos.com/3d/qhbfggpwst>  
 > **Description:** This interactive graph plots the angular probability density $|Y_l^{m_l}|^2$. By mapping probability to the radius $\rho$, we reveal the characteristic lobes of the $s, p, d,$ and $f$ subshells.  
 
 **⚠️ Notation Alert (Convention Swap):**  
@@ -142,6 +143,7 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 
 > **Custom Viewer Introduction:**  
 > **Title:** 3D Radial Node Visualizer (Energy Shells)  
+> **Link:** <https://www.desmos.com/calculator/yngjiz1sk0>  
 > **Description:** This graph visualizes the radial wavefunction $R_{nl}(r)$. By plotting isosurfaces where $(R_{nl})^2$ is constant, we reveal the internal "onion-layer" structure and radial nodes of the atom.  
 
 **Important:** First define $r = \sqrt{x^2 + y^2 + z^2}$. These formulas are valid for **$r \ge 0$** and use atomic units ($a_0=1$). Then plot the probability density squared $(R_{nl})^2 = c$ (try $c=0.01$).
@@ -172,39 +174,3 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 
 - **$5s$ ($l=0$):** `R_50 = (1/(300*sqrt(5))) * (120 - 240*(r/5) + 120*(r/5)^2 - 20*(r/5)^3 + (r/5)^4) * exp(-r/5)`
 - **$5g$ ($l=4$):** `R_54 = (1/(15000*sqrt(70))) * (2*r/5)^4 * exp(-r/5)`
-
----
-
-## A.6 Most Probable Radius ($r_{mp}$)
-
-While the wavefunction $\psi$ gives the probability amplitude at a specific point, we are often interested in the probability of finding the electron at a certain **distance** $r$ from the nucleus, regardless of direction.
-
-### The Radial Probability Density, $P(r)$
-
-The probability of finding the electron in a thin spherical shell of thickness $dr$ at radius $r$ is:
-$$P(r) \, dr = |R_{nl}(r)|^2 \cdot (4\pi r^2 \, dr)$$
-Therefore, the **Radial Probability Density** is defined as $P(r) = r^2 |R_{nl}(r)|^2$.
-
-### Calculating the Maximum Likelihood
-
-The most probable radius $r_{mp}$ (where you are most likely to find the electron) corresponds to the peaks of the $P(r)$ curve. To find these peaks, we solve for:
-$$\frac{dP}{dr} = 0$$
-
-### Summary of Radial Properties ($a_0 = 1$)
-
-The following table summarizes the key radial characteristics of the hydrogen atom up to $n=5$.
-
-| $n$ | $l$ | Orbital | Radial Nodes | Main $r_{mp}$ | Secondary Peaks |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | 0 | 1s | False | 1.00 | None |
-| **2** | 0 | 2s | True (1) | 5.236 | 0.764 |
-| | 1 | 2p | False | 4.00 | None |
-| **3** | 0 | 3s | True (2) | 13.07 | 3.82, 0.71 |
-| | 1 | 3p | True (1) | 12.00 | 3.00 |
-| | 2 | 3d | False | 9.00 | None |
-| **4** | 0 | 4s | True (3) | 21.92 | 11.44, 5.14, 1.50 |
-| | 1 | 4p | True (2) | 20.92 | 10.68, 4.40 |
-| | 2 | 4d | True (1) | 18.62 | 9.38 |
-| | 3 | 4f | False | 16.00 | None |
-| **5** | 0 | 5s | True (4) | 33.00 | 19.55, 10.90, 5.07, 1.48 |
-| | 4 | 5g | False | 25.00 | None |

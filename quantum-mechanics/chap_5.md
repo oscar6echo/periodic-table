@@ -71,7 +71,41 @@ These radial solutions define the "Layers" of the atom shown in your reference s
 1. **[periodic_table_3_orbital_shells.svg](../periodic_table_3_orbital_shells.svg)**: Look at the Bohr shell diagrams. Each circle ($K, L, M, N \dots$) represents a different value of $n$.
 2. **[periodic_table_4_quantum_principles.svg](../periodic_table_4_quantum_principles.svg)**: See the "Aufbau Energy Levels" diagram. The vertical spacing of those levels is determined exactly by the $1/n^2$ energy formula we just derived.
 
-## 5.6 Summary of the Radial Logic
+## 5.6 Most Probable Radius ($r_{mp}$)
+
+While the wavefunction $\psi$ gives the probability amplitude at a specific point, we are often interested in the probability of finding the electron at a certain **distance** $r$ from the nucleus, regardless of direction.
+
+### The Radial Probability Density, $P(r)$
+
+The probability of finding the electron in a thin spherical shell of thickness $dr$ at radius $r$ is:
+$$P(r) \, dr = |R_{nl}(r)|^2 \cdot (4\pi r^2 \, dr)$$
+Therefore, the **Radial Probability Density** is defined as $P(r) = r^2 |R_{nl}(r)|^2$.
+
+### Calculating the Maximum Likelihood
+
+The most probable radius $r_{mp}$ (where you are most likely to find the electron) corresponds to the peaks of the $P(r)$ curve. To find these peaks, we solve for:
+$$\frac{dP}{dr} = 0$$
+
+### Summary of Radial Properties ($a_0 = 1$)
+
+The following table summarizes the key radial characteristics of the hydrogen atom up to $n=5$.
+
+| $n$ | $l$ | Orbital | Radial Nodes | Main $r_{mp}$ | Secondary Peaks |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | 0 | 1s | False | 1.00 | None |
+| **2** | 0 | 2s | True (1) | 5.236 | 0.764 |
+| | 1 | 2p | False | 4.00 | None |
+| **3** | 0 | 3s | True (2) | 13.07 | 3.82, 0.71 |
+| | 1 | 3p | True (1) | 12.00 | 3.00 |
+| | 2 | 3d | False | 9.00 | None |
+| **4** | 0 | 4s | True (3) | 21.92 | 11.44, 5.14, 1.50 |
+| | 1 | 4p | True (2) | 20.92 | 10.68, 4.40 |
+| | 2 | 4d | True (1) | 18.62 | 9.38 |
+| | 3 | 4f | False | 16.00 | None |
+| **5** | 0 | 5s | True (4) | 33.00 | 19.55, 10.90, 5.07, 1.48 |
+| | 4 | 5g | False | 25.00 | None |
+
+## 5.7 Summary of the Radial Logic
 
 1. **Boundary Condition (Infinity):** The electron must stay near the nucleus, forcing an exponential decay.
 2. **Boundary Condition (Origin):** Angular momentum ($l$) creates a "centrifugal barrier" that keeps the electron away from the center.
