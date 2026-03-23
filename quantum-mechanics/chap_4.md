@@ -7,6 +7,7 @@ Solving this equation will reveal why electrons don't just sit in simple spheres
 ## 4.1 The Angular Equation
 
 From our separation in Chapter 3, we have the following equation for $Y(\theta, \phi)$:
+
 $$\frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2 \theta} \frac{\partial^2 Y}{\partial \phi^2} = -l(l+1)Y$$
 
 Notice that this equation is independent of the nucleus's charge ($Z$) or the particle's mass ($m$). This means the *shapes* of orbitals are universal—a $p$-orbital in Hydrogen looks exactly like a $p$-orbital in Gold.
@@ -14,12 +15,14 @@ Notice that this equation is independent of the nucleus's charge ($Z$) or the pa
 ## 4.2 Splitting the Angles Again
 
 To solve for $Y(\theta, \phi)$, we apply **Separation of Variables** one more time. We assume that the angular function is itself a product of two independent functions:
+
 $$Y(\theta, \phi) = \Theta(\theta) \cdot \Phi(\phi)$$
 
 **Why is this separation valid?**
 This works because the $\theta$ and $\phi$ operators in the Laplacian are "orthogonal." Changing the angle around the equator ($\phi$) doesn't change the radius or the angle from the pole ($\theta$). Mathematically, the variables are independent parts of the same spherical surface.
 
 By substituting this product into our angular equation and multiplying by $\sin^2\theta / (\Theta\Phi)$, we can pull the $\phi$ terms to one side:
+
 $$\underbrace{\frac{\sin \theta}{\Theta} \frac{d}{d \theta} \left(\sin \theta \frac{d\Theta}{d \theta}\right) + l(l+1)\sin^2 \theta}_{\text{Depends only on } \theta} = \underbrace{-\frac{1}{\Phi} \frac{d^2\Phi}{d\phi^2}}_{\text{Depends only on } \phi}$$
 
 Just as before, for both sides to stay equal, they must equal a constant. We call this constant **$m_l^2$**.
@@ -30,18 +33,24 @@ Mathematically, a second-order derivative that returns the negative of itself ($
 ## 4.3 Solving for $\phi$: The Magnetic Quantum Number ($m_l$)
 
 The equation for $\Phi$ is the simplest differential equation in quantum mechanics:
+
 $$\frac{d^2\Phi}{d\phi^2} = -m_l^2\Phi$$
 
-The solution is a complex exponential: $\Phi(\phi) = e^{im_l\phi}$.
+The solution is a complex exponential:
+
+$$\Phi(\phi) = e^{im_l\phi}$$
 
 **The Physical Constraint:**
 If you rotate $360^\circ$ ($2\pi$ radians) around an atom, you must end up exactly where you started. Therefore, $\Phi(\phi)$ must equal $\Phi(\phi + 2\pi)$.
+
 $$e^{im_l\phi} = e^{im_l(\phi + 2\pi)} \implies e^{i2\pi m_l} = 1$$
+
 This is only true if **$m_l$ is an integer** ($\dots -2, -1, 0, 1, 2 \dots$). This $m_l$ is our second **Quantum Number**, the Magnetic Quantum Number, which determines the orbital's orientation in space.
 
 ## 4.4 Solving for $\theta$: The Orbital Quantum Number ($l$)
 
 The equation for $\Theta(\theta)$ is much more challenging:
+
 $$\sin \theta \frac{d}{d \theta} \left(\sin \theta \frac{d\Theta}{d \theta}\right) + [l(l+1)\sin^2 \theta - m_l^2]\Theta = 0$$
 
 This is a famous mathematical equation known as the **Associated Legendre Equation**. Its solutions are the **Associated Legendre Polynomials**, $P_l^{m_l}(\cos\theta)$:
@@ -52,6 +61,7 @@ For a detailed derivation and historical context of these polynomials, see **[An
 
 **The Physical Constraint:**
 For these polynomials to remain finite (not blow up to infinity at the poles), the constant $l$ must be an integer, and it must satisfy:
+
 $$l \geq |m_l|$$
 
 This gives us our third **Quantum Number**, the Orbital Angular Momentum Quantum Number ($l$). It determines the "subshell" ($s, p, d, f$).
@@ -71,12 +81,13 @@ Mathematically, $l$ can be $4, 5, 6 \dots$ ($g, h, i$ subshells). However, none 
 ## 4.5 The Spherical Harmonics ($Y_l^{m_l}$)
 
 When we combine $\Theta$ and $\Phi$, we get the **Spherical Harmonics**:
+
 $$Y_l^{m_l}(\theta, \phi) \propto P_l^{m_l}(\cos\theta) e^{im_l\phi}$$
 
 These functions are the "building blocks" of atomic shapes. By plotting the probability density ($|Y|^2$), we reveal the specific geometries of the subshells.
 
 > **Interactive Visualization:**  
-You can interact with and rotate these exact mathematical shapes using this **[Custom Desmos 3D Orbital Grapher](https://www.desmos.com/3d/qhbfggpwst)**.  
+You can interact with and rotate these exact mathematical shapes using this **[Custom Desmos 3D Orbital Grapher](https://www.desmos.com/3d/qhbfggpwst)**.
 For the explicit formulas used to generate them, see the **[Annex A.4](annex.md#a4-associated-legendre-polynomials)**.
 
 * **$l=0$ ($s$-orbital):** Spherically symmetric. There are no angular nodes, so the probability of finding the electron is identical in every direction from the nucleus.

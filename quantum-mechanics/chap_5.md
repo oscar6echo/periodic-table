@@ -7,9 +7,11 @@ Solving this final equation will reveal the "Energy Shells" that form the rows o
 ## 5.1 The Radial Equation
 
 From our separation in Chapter 3, we have the following equation for $R(r)$:
+
 $$\frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) - \frac{2mr^2}{\hbar^2} [V(r) - E]R = l(l+1)R$$
 
 Here, $V(r)$ is the **Coulomb Potential**, the electrostatic "pull" of the nucleus:
+
 $$V(r) = -\frac{Ze^2}{4\pi\epsilon_0 r}$$
 
 Unlike the angular equation, which was universal for all spheres, the radial equation depends on the specific physical properties of the atom: the charge of the nucleus ($Z$) and the total energy ($E$).
@@ -46,16 +48,18 @@ For the math to stay stable, $n$ must be an integer, and it must always be large
 * **$n=6$ ($P$ shell):** $l=0, \dots, 5$ ($s, p, d, f, g, h$). Six subshells ($6s, 6p, 6d, 6f, 6g, 6h$).
 * **$n=7$ ($Q$ shell):** $l=0, \dots, 6$ ($s, p, d, f, g, h, i$). Seven subshells ($7s, 7p, 7d, 7f, 7g, 7h, 7i$).
 
-*NOTE*:  
-Although higher shells mathematically contain many subshells, no known element in its ground state occupies orbitals beyond $7p$.  
+*NOTE:*
+Although higher shells mathematically contain many subshells, no known element in its ground state occupies orbitals beyond $7p$.
 For example, $5g, 6f, 7d$, and above are never used in ground-state chemistry.
 
 ## 5.4 The Result: Quantized Energy
 
 By solving the radial equation, we finally derive the exact formula for the energy levels of a Hydrogen-like atom:
+
 $$E_n = -\frac{Z^2 m e^4}{32 \pi^2 \epsilon_0^2 \hbar^2} \frac{1}{n^2}$$
 
 For Hydrogen ($Z=1$), this simplifies to the famous value:
+
 $$E_n = - \frac{13.6 \text{ eV}}{n^2}$$
 
 The negative sign tells us the electron is "trapped" in the atom's potential well. To escape, it must absorb exactly enough energy to reach $E=0$.
@@ -113,12 +117,17 @@ While the wavefunction $\psi$ gives the probability amplitude at a specific poin
 ### The Radial Probability Density, $P(r)$
 
 The probability of finding the electron in a thin spherical shell of thickness $dr$ at radius $r$ is:
+
 $$P(r) \, dr = |R_{nl}(r)|^2 \cdot (4\pi r^2 \, dr)$$
-Therefore, the **Radial Probability Density** is defined as $P(r) = r^2 |R_{nl}(r)|^2$.
+
+Therefore, the **Radial Probability Density** is defined as:
+
+$$P(r) = r^2 |R_{nl}(r)|^2$$
 
 ### Calculating the Maximum Likelihood
 
 The most probable radius $r_{mp}$ (where you are most likely to find the electron) corresponds to the peaks of the $P(r)$ curve. To find these peaks, we solve for:
+
 $$\frac{dP}{dr} = 0$$
 
 ### Summary of Radial Properties ($a_0 = 1$)

@@ -9,11 +9,13 @@ In the familiar 3D grid, the operators are straightforward:
 ### The Gradient ($\nabla$)
 
 Used for the momentum operator ($\mathbf{p} = -i\hbar\nabla$):
+
 $$\nabla = \mathbf{\hat{x}}\frac{\partial}{\partial x} + \mathbf{\hat{y}}\frac{\partial}{\partial y} + \mathbf{\hat{z}}\frac{\partial}{\partial z}$$
 
 ### The Laplacian ($\nabla^2$)
 
 Used for kinetic energy in the Schrödinger equation:
+
 $$\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}$$
 
 ---
@@ -38,24 +40,33 @@ Imagine moving a point by a tiny amount in each of the three directions. The tot
 
 1. **Radial Displacement ($dr$):**
     Moving "outward" by $dr$ moves you exactly $dr$ units in space.
+
     $$\text{Arc length}_r = 1 \cdot dr \implies \mathbf{h_r = 1}$$
+
 2. **Polar Displacement ($d\theta$):**
     Rotating "down" by $d\theta$ at a distance $r$ traces an arc on a circle of radius $r$.
+
     $$\text{Arc length}_\theta = r \cdot d\theta \implies \mathbf{h_\theta = r}$$
+
 3. **Azimuthal Displacement ($d\phi$):**
     Rotating "around" the z-axis by $d\phi$. However, your distance from the z-axis is not $r$; it is the "horizontal" projection $r\sin\theta$.
+
     $$\text{Arc length}_\phi = (r\sin\theta) \cdot d\phi \implies \mathbf{h_\phi = r\sin\theta}$$
 
 ### 2. The Gradient
 
 In any orthogonal coordinate system ($q_1, q_2, q_3$), the gradient is defined as:
+
 $$\nabla f = \frac{\mathbf{\hat{q}_1}}{h_1}\frac{\partial f}{\partial q_1} + \frac{\mathbf{\hat{q}_2}}{h_2}\frac{\partial f}{\partial q_2} + \frac{\mathbf{\hat{q}_3}}{h_3}\frac{\partial f}{\partial q_3}$$
+
 Substituting our $h$ factors:
+
 $$\nabla = \mathbf{\hat{r}}\frac{\partial}{\partial r} + \mathbf{\hat{\theta}}\frac{1}{r}\frac{\partial}{\partial \theta} + \mathbf{\hat{\phi}}\frac{1}{r\sin\theta}\frac{\partial}{\partial \phi}$$
 
 ### 3. The Laplacian
 
 The Laplacian is the divergence of the gradient ($\nabla \cdot \nabla$). The general formula for a coordinate system with scale factors $h_1, h_2, h_3$ is:
+
 $$\nabla^2 f = \frac{1}{h_1 h_2 h_3} \left[ \frac{\partial}{\partial q_1}\left(\frac{h_2 h_3}{h_1}\frac{\partial f}{\partial q_1}\right) + \frac{\partial}{\partial q_2}\left(\frac{h_1 h_3}{h_2}\frac{\partial f}{\partial q_2}\right) + \frac{\partial}{\partial q_3}\left(\frac{h_1 h_2}{h_3}\frac{\partial f}{\partial q_3}\right) \right]$$
 
 For spherical coordinates, the product $h_r h_\theta h_\phi = r^2\sin\theta$.
@@ -73,6 +84,7 @@ In Chapter 4, the solution to the $\theta$ equation involves **Associated Legend
 ### Formal Definition
 
 As derived in Chapter 4, these polynomials can be expressed using **Rodrigues' Formula**:
+
 $$P_l^{m_l}(x) = \frac{(-1)^{m_l}}{2^l l!} (1-x^2)^{m_l/2} \frac{d^{l+m_l}}{dx^{l+m_l}} (x^2-1)^l$$
 
 ### Historical Context
@@ -89,12 +101,12 @@ The angular part of the wavefunction, $Y(\theta, \phi)$, depends only on two ang
 
 ### Visualizing the Solutions in Desmos 3D
 
-> **Custom Viewer Introduction:**  
-> **Title:** 3D Atomic Orbital Visualizer (Angular Harmonics)  
-> **Link:** <https://www.desmos.com/3d/qhbfggpwst>  
-> **Description:** This interactive graph plots the angular probability density $|Y_l^{m_l}|^2$. By mapping probability to the radius $\rho$, we reveal the characteristic lobes of the $s, p, d,$ and $f$ subshells.  
+> **Custom Viewer Introduction:**
+> **Title:** 3D Atomic Orbital Visualizer (Angular Harmonics)
+> **Link:** <https://www.desmos.com/3d/qhbfggpwst>
+> **Description:** This interactive graph plots the angular probability density $|Y_l^{m_l}|^2$. By mapping probability to the radius $\rho$, we reveal the characteristic lobes of the $s, p, d,$ and $f$ subshells.
 
-**⚠️ Notation Alert (Convention Swap):**  
+**⚠️ Notation Alert (Convention Swap):**
 In standard physics textbooks (and Chapter 4), $\theta$ is the polar angle and $\phi$ is the azimuthal angle. **In Desmos 3D, these names are swapped**: `phi` is polar and `theta` is azimuthal. The formulas below are written using the Desmos convention (`phi` for polar) to ensure they render correctly.
 
 **Important:** In Desmos, use the absolute value `|...|` to ensure $\rho$ is positive. Formulas are normalized to a maximum radius of 1.
@@ -125,7 +137,7 @@ In standard physics textbooks (and Chapter 4), $\theta$ is the polar angle and $
 - $m_l=+3$ ($f_{x(x^2-3y^2)}$): `rho = |sin^3(phi)*cos(3*theta)|`
 - $m_l=-3$ ($f_{y(3x^2-y^2)}$): `rho = |sin^3(phi)*sin(3*theta)|`
 
-> **Computational Note:**  
+> **Computational Note:**
 > These simplified angular forms are optimized for Desmos. For the full real spherical harmonic derivations, you can use the provided script: **[scripts/angular_wavefunctions.py](../scripts/angular_wavefunctions.py)**.
 
 ---
@@ -144,10 +156,10 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 
 ### Visualizing the Radial Solutions in Desmos 3D
 
-> **Custom Viewer Introduction:**  
-> **Title:** 3D Radial Node Visualizer (Energy Shells)  
-> **Link:** <https://www.desmos.com/calculator/yngjiz1sk0>  
-> **Description:** This graph visualizes the radial wavefunction $R_{nl}(r)$. By plotting isosurfaces where $(R_{nl})^2$ is constant, we reveal the internal "onion-layer" structure and radial nodes of the atom.  
+> **Custom Viewer Introduction:**
+> **Title:** 3D Radial Node Visualizer (Energy Shells)
+> **Link:** <https://www.desmos.com/calculator/yngjiz1sk0>
+> **Description:** This graph visualizes the radial wavefunction $R_{nl}(r)$. By plotting isosurfaces where $(R_{nl})^2$ is constant, we reveal the internal "onion-layer" structure and radial nodes of the atom.
 
 **Important:** First define $r = \sqrt{x^2 + y^2 + z^2}$. These formulas are valid for **$r \ge 0$** and use atomic units ($a_0=1$). Then plot the probability density squared $(R_{nl})^2 = c$ (try $c=0.01$).
 
@@ -192,8 +204,8 @@ The number of **radial nodes** is $n - l - 1$. These are spherical shells where 
 - **$7s$ ($l=0$):** `R_70 = (2*sqrt(7)/117649) * (-40*r^3 + 476*r^2 - 2058*r + 2401) * exp(-r/7)`
 - **$7p$ ($l=1$):** `R_71 = (4*sqrt(21)/2470629) * r * (-8*r^3 + 196*r^2 - 1715*r + 4802) * exp(-r/7)`
 
-> **Computational Note:**  
-> These high-level radial functions were generated using a SymPy script.  
+> **Computational Note:**
+> These high-level radial functions were generated using a SymPy script.
 You can explore the derivations or generate other states (like $6d$ or $7d$) using the provided script: **[scripts/radial_wavefunctions.py](../scripts/radial_wavefunctions.py)**.
 
 ---

@@ -7,12 +7,15 @@ To solve the Hydrogen atom, we must upgrade our math from a simple line to a thr
 ## 3.1 The Problem with Cartesian Coordinates
 
 In Chapter 1, we saw the general 3D Schrödinger Equation:
+
 $$-\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi = E\Psi$$
 
 If we use standard Cartesian coordinates ($x, y, z$), the Laplacian operator $\nabla^2$ is simple:
+
 $$\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}$$
 
 However, the **Potential Energy ($V$)** of an atom is defined by the attraction between the positive nucleus and the negative electron (the Coulomb potential):
+
 $$V(r) = -\frac{e^2}{4\pi\epsilon_0 r}$$
 
 Notice that this potential depends *only* on the distance $r$ from the center. In $x, y, z$, that distance is $r = \sqrt{x^2 + y^2 + z^2}$. If we tried to solve the equation this way, the variables would be hopelessly tangled together. The math would be a nightmare.
@@ -26,6 +29,7 @@ Because atoms are naturally spherical, we switch to **Spherical Coordinates**. I
 * **$\phi$ (Azimuthal Angle):** Angle around the "Equator" ($0 \to 2\pi$).
 
 In these coordinates, the Laplacian operator ($\nabla^2$) looks much more intimidating:
+
 $$\nabla^2 = \frac{1}{r^2} \frac{\partial}{\partial r} \left(r^2 \frac{\partial}{\partial r}\right) + \frac{1}{r^2 \sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial}{\partial \theta}\right) + \frac{1}{r^2 \sin^2 \theta} \frac{\partial^2}{\partial \phi^2}$$
 
 For the full mathematical context and derivation of these operators, please see the **[Annex](annex.md)**.
@@ -33,6 +37,7 @@ For the full mathematical context and derivation of these operators, please see 
 ## 3.3 The Math of Separation
 
 We employ **Separation of Variables** by assuming the wave function $\Psi$ is a product of two independent parts:
+
 $$\Psi(r, \theta, \phi) = R(r) \cdot Y(\theta, \phi)$$
 
 **Why is this separation valid?**
@@ -41,6 +46,7 @@ This is not just a guess; it's a consequence of **Spherical Symmetry**. In an at
 ### Step 1: Substitution
 
 Now, we substitute this product into the Time-Independent Schrödinger Equation:
+
 $$-\frac{\hbar^2}{2m} \nabla^2(RY) + V(r)(RY) = E(RY)$$
 
 When the derivatives in $\nabla^2$ act on the product $RY$:
@@ -51,24 +57,29 @@ When the derivatives in $\nabla^2$ act on the product $RY$:
 ### Step 2: Isolating the Variables
 
 To simplify the algebra, we define the **Angular Term** ($\mathcal{A}$) as the part of the Laplacian that acts only on the angles (see Annex):
+
 $$\mathcal{A} = \frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial}{\partial \theta}\right) + \frac{1}{\sin^2 \theta} \frac{\partial^2}{\partial \phi^2}$$
 
 Now, we perform the untangling:
 
 1. **Expand with the Angular Term:**
     We write the Laplacian as $\nabla^2 = \frac{1}{r^2} \frac{\partial}{\partial r} \left(r^2 \frac{\partial}{\partial r}\right) + \frac{1}{r^2} \mathcal{A}$. Substituting $RY$:
+
     $$-\frac{\hbar^2}{2m} \left[ \frac{Y}{r^2} \frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) + \frac{R}{r^2} \mathcal{A}Y \right] + V(r)RY = ERY$$
 
 2. **Multiply by $-2mr^2 / \hbar^2$:**
     This removes the $1/r^2$ from the Laplacian terms and clears the kinetic energy constants:
+
     $$Y \frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) + R \mathcal{A}Y - \frac{2mr^2}{\hbar^2} V(r)RY = -\frac{2mr^2}{\hbar^2} ERY$$
 
 3. **Divide by $RY$:**
     This "shuffles" the variables into their respective corners:
+
     $$\frac{1}{R} \frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) + \frac{1}{Y} \mathcal{A}Y - \frac{2mr^2}{\hbar^2} V(r) = -\frac{2mr^2}{\hbar^2} E$$
 
 4. **Final Rearrangement and Substitution of $\mathcal{A}$:**
     We move everything related to $r$ to the left and everything related to the angles to the right, and substitute the full definition of $\mathcal{A}$ back in:
+
     $$\underbrace{\frac{1}{R} \frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) + \frac{2mr^2}{\hbar^2} [E - V(r)]}_{\text{Radial Side (only } r)} = \underbrace{-\frac{1}{Y} \left[ \frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2 \theta} \frac{\partial^2 Y}{\partial \phi^2} \right]}_{\text{Angular Side (only } \theta, \phi)}$$
 
 ### Step 3: The Logic of the Separation Constant
@@ -89,13 +100,17 @@ We have now successfully "ripped" the Schrödinger equation into two manageable 
 ### 1. The Angular Equation (Shapes)
 
 This equation determines the geometry of the orbital:
+
 $$\frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2 \theta} \frac{\partial^2 Y}{\partial \phi^2} = -l(l+1)Y$$
+
 Solving this will give us the **Spherical Harmonics**, which define the $s, p, d, f$ shapes.
 
 ### 2. The Radial Equation (Energy)
 
 This equation determines the electron's distance and total energy:
+
 $$\frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) - \frac{2mr^2}{\hbar^2} [V(r) - E]R = l(l+1)R$$
+
 Solving this will give us the **Energy Shells** ($n=1, 2, 3 \dots$) and the "rows" of your periodic table.
 
 ## 3.4 What's Next?

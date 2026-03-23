@@ -24,6 +24,7 @@ Imagine if $\psi(x)$ *was* discontinuous—meaning it had a sharp, vertical jump
 3. If we look back at the Schrödinger equation, the kinetic energy is directly proportional to this second derivative. An infinite spike in the derivative would mean the particle has **infinite energy**.
 
 Since no real physical system can have infinite energy, we must conclude that a jump is impossible. The wave function *must* be continuous, meeting the zero-value of the outside world smoothly right at the boundary:
+
 $$\psi(0) = 0 \quad \text{and} \quad \psi(L) = 0$$
 
 These are our **Boundary Conditions**. In quantum mechanics, boundary conditions are the magic mathematical ingredient that creates quantization.
@@ -31,20 +32,26 @@ These are our **Boundary Conditions**. In quantum mechanics, boundary conditions
 ## 2.2 Solving the Schrödinger Equation
 
 We start with the Time-Independent Schrödinger Equation (TISE) derived in Chapter 1, tailored for one dimension:
+
 $$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)$$
 
 Since we are only looking *inside* the box, we set $V(x) = 0$. The equation simplifies beautifully to:
+
 $$-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} = E\psi$$
 
 Rearranging this to isolate the derivative:
+
 $$\frac{d^2\psi}{dx^2} = -\frac{2mE}{\hbar^2}\psi$$
 
 To make the math cleaner, physicists group the constants on the right side into a single squared term, $k^2$ (where $k = \frac{\sqrt{2mE}}{\hbar}$).
+
 $$\frac{d^2\psi}{dx^2} = -k^2\psi$$
 
 This is a classic differential equation. It asks: *What function, when differentiated twice, returns the negative of itself (multiplied by a constant)?*
 The mathematical answer is a combination of trigonometric sine and cosine waves. The general solution is:
+
 $$\psi(x) = A\sin(kx) + B\cos(kx)$$
+
 *(where $A$ and $B$ are constants we need to figure out).*
 
 ## 2.3 Applying the Boundary Conditions
@@ -53,26 +60,34 @@ Now we apply our physical reality (the boundary conditions) to this mathematical
 
 **1. The Left Wall ($x = 0$):**
 We know $\psi(0) = 0$. Plugging $x=0$ into our general equation:
+
 $$\psi(0) = A\sin(0) + B\cos(0)$$
+
 $$0 = 0 + B(1) \implies B = 0$$
 
 Since $B=0$, the cosine term completely vanishes! Our wave function is now just:
+
 $$\psi(x) = A\sin(kx)$$
 
 **2. The Right Wall ($x = L$):**
 We know $\psi(L) = 0$. Plugging $x=L$ into our updated equation:
+
 $$\psi(L) = A\sin(kL) = 0$$
 
 For this equation to equal zero, either $A=0$ or $\sin(kL)=0$.
 If $A=0$, the entire wave function is zero everywhere—meaning the particle doesn't exist. Since the particle *does* exist, it must be true that:
+
 $$\sin(kL) = 0$$
 
 A sine wave is mathematically zero only at integer multiples of $\pi$ (i.e., $0, \pi, 2\pi, 3\pi \dots$). Therefore:
+
 $$kL = n\pi$$
+
 $$k = \frac{n\pi}{L}$$
+
 *(where $n = 1, 2, 3 \dots$)*
 
-**What about $n=0$ (or $k=0$) ?**  
+**What about $n=0$ (or $k=0$)?**  
 If we set $n=0$, then $k$ becomes 0. If $k=0$, the wave function becomes $\psi(x) = A\sin(0) = 0$ for all values of $x$. A wave function that is zero everywhere means the particle has a $0\%$ chance of being anywhere—it essentially doesn't exist. Since our premise is that a particle *is* in the box, we must discard the $n=0$ case as a "trivial" (physically impossible) solution.
 
 ## 2.4 The Birth of the Quantum Number
@@ -86,9 +101,11 @@ Because $n$ can only be a whole integer, $k$ can only take on specific, discrete
 Earlier, we defined $k^2 = \frac{2mE}{\hbar^2}$. Now that we know $k = \frac{n\pi}{L}$, we can substitute it back to find the allowed energy ($E$) of the particle:
 
 $$\left(\frac{n\pi}{L}\right)^2 = \frac{2mE}{\hbar^2}$$
+
 $$\frac{n^2\pi^2}{L^2} = \frac{2mE}{\hbar^2}$$
 
 Solving for $E$, we get the final energy equation for a particle in a 1D box:
+
 $$E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}$$
 
 ### The Takeaway
