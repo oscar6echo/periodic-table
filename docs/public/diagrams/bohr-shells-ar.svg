@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="788 53 184 184">
+<rect x="788" y="53" width="184" height="184" fill="#0d1117"/>
+<circle cx="880" cy="145.0" r="18" fill="none" stroke="#30363d" stroke-width="0.8"/>
+<circle cx="880" cy="145.0" r="40" fill="none" stroke="#30363d" stroke-width="0.8"/>
+<circle cx="880" cy="145.0" r="62" fill="none" stroke="#30363d" stroke-width="0.8"/>
+<circle cx="880" cy="145.0" r="12.1" fill="#1c2a1c" stroke="#40a040" stroke-width="1"/>
+<text x="880" y="146.0" font-size="7" fill="#80e080" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">18p</text>
+<circle cx="898.0" cy="145.0" r="3.5" fill="#f78166" opacity="0.9"/>
+<text x="910.0" y="145.0" font-size="5.5" fill="#f78166" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">1s</text>
+<circle cx="862.0" cy="145.0" r="3.5" fill="#f78166" opacity="0.9"/>
+<circle cx="895.3" cy="108.0" r="3.5" fill="#f78166" opacity="0.9"/>
+<text x="899.9" y="97.0" font-size="5.5" fill="#f78166" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">2s</text>
+<circle cx="917.0" cy="129.7" r="3.5" fill="#f78166" opacity="0.9"/>
+<circle cx="917.0" cy="160.3" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<text x="928.0" y="164.9" font-size="5.5" fill="#79c0ff" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">2p</text>
+<circle cx="895.3" cy="182.0" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="864.7" cy="182.0" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="843.0" cy="160.3" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="843.0" cy="129.7" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="864.7" cy="108.0" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="890.8" cy="83.9" r="3.5" fill="#f78166" opacity="0.9"/>
+<text x="892.8" y="72.1" font-size="5.5" fill="#f78166" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">3s</text>
+<circle cx="911.0" cy="91.3" r="3.5" fill="#f78166" opacity="0.9"/>
+<circle cx="927.5" cy="105.1" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<text x="936.7" y="97.4" font-size="5.5" fill="#79c0ff" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">3p</text>
+<circle cx="938.3" cy="123.8" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="942.0" cy="145.0" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="938.3" cy="166.2" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="927.5" cy="184.9" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="911.0" cy="198.7" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="890.8" cy="206.1" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<text x="892.8" y="217.9" font-size="5.5" fill="#56d364" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">3d</text>
+<circle cx="869.2" cy="206.1" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<circle cx="849.0" cy="198.7" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<circle cx="832.5" cy="184.9" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<circle cx="821.7" cy="166.2" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<circle cx="818.0" cy="145.0" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<circle cx="821.7" cy="123.8" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<circle cx="832.5" cy="105.1" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<circle cx="849.0" cy="91.3" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<circle cx="869.2" cy="83.9" r="2.5" fill="none" stroke="#30363d" stroke-width="0.6" opacity="0.5"/>
+<text x="900" y="148.0" font-size="5.5" fill="#8b949e" font-family="sans-serif">n=1</text>
+<text x="922" y="148.0" font-size="5.5" fill="#8b949e" font-family="sans-serif">n=2</text>
+<text x="944" y="148.0" font-size="5.5" fill="#8b949e" font-family="sans-serif">n=3</text>
+</svg>

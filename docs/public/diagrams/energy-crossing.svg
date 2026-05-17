@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="25 1097 605 313">
+<defs>
+  <marker id="ag_grey" viewBox="0 0 10 10" refX="9" refY="5"
+    markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 2L8 5L2 8" fill="none" stroke="#8b949e" stroke-width="1.5"
+      stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<rect x="25" y="1097" width="605" height="313" fill="#0d1117"/>
+<!-- LEFT PANEL: Light atoms (Z ≤ 20) -->
+<rect x="60" y="1106" width="230" height="294" rx="6" fill="#1a2a10" stroke="#508010" stroke-width="1.0" opacity="0.4"/>
+<text x="175" y="1120" font-size="13" fill="#b0e860" font-weight="700" font-family="sans-serif" text-anchor="middle">Light atoms  (Z &#x2264; 20)</text>
+<text x="175" y="1133" font-size="11" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">e.g. K (Z=19): [Ar] 4s&#xb9;</text>
+<line x1="140" y1="1142" x2="140" y2="1392" stroke="#8b949e" stroke-width="0.8" marker-end="url(#ag_grey)"/>
+<text x="134" y="1155" font-size="10" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">higher E</text>
+<text x="134" y="1385" font-size="10" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">lower E</text>
+<line x1="160" y1="1155" x2="250" y2="1155" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1160" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">4p</text>
+<line x1="160" y1="1197" x2="250" y2="1197" stroke="#f78166" stroke-width="2.5" opacity="1.0"/>
+<text x="154" y="1202" font-size="11" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="end">3d</text>
+<rect x="158" y="1190" width="94" height="14" rx="2" fill="#f78166" stroke="#f78166" stroke-width="0" opacity="0.12"/>
+<line x1="160" y1="1227" x2="250" y2="1227" stroke="#56d364" stroke-width="2.5" opacity="1.0"/>
+<text x="154" y="1232" font-size="11" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="end">4s</text>
+<rect x="158" y="1220" width="94" height="14" rx="2" fill="#56d364" stroke="#56d364" stroke-width="0" opacity="0.12"/>
+<line x1="160" y1="1282" x2="250" y2="1282" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1287" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">3p</text>
+<line x1="160" y1="1317" x2="250" y2="1317" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1322" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">3s</text>
+<line x1="160" y1="1342" x2="250" y2="1342" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1347" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">2p</text>
+<line x1="160" y1="1365" x2="250" y2="1365" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1370" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">2s</text>
+<line x1="160" y1="1385" x2="250" y2="1385" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="154" y="1390" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">1s</text>
+<!-- RIGHT PANEL: Heavier atoms (Z > 20) — x shifted −190 from original -->
+<rect x="370" y="1106" width="230" height="294" rx="6" fill="#0a1e30" stroke="#3a70c0" stroke-width="1.0" opacity="0.4"/>
+<text x="485" y="1120" font-size="13" fill="#90c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">Heavier atoms  (Z &gt; 20)</text>
+<text x="485" y="1133" font-size="11" fill="#6e7681" font-weight="400" font-family="sans-serif" text-anchor="middle">e.g. Fe (Z=26): [Ar] 3d&#x2076;4s&#xb2;</text>
+<line x1="450" y1="1142" x2="450" y2="1392" stroke="#8b949e" stroke-width="0.8" marker-end="url(#ag_grey)"/>
+<text x="444" y="1155" font-size="10" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">higher E</text>
+<text x="444" y="1385" font-size="10" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">lower E</text>
+<line x1="470" y1="1155" x2="560" y2="1155" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="464" y="1160" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">4p</text>
+<line x1="470" y1="1187" x2="560" y2="1187" stroke="#56d364" stroke-width="2.5" opacity="1.0"/>
+<text x="464" y="1192" font-size="11" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="end">4s</text>
+<rect x="468" y="1180" width="94" height="14" rx="2" fill="#56d364" stroke="#56d364" stroke-width="0" opacity="0.12"/>
+<line x1="470" y1="1217" x2="560" y2="1217" stroke="#f78166" stroke-width="2.5" opacity="1.0"/>
+<text x="464" y="1222" font-size="11" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="end">3d</text>
+<rect x="468" y="1210" width="94" height="14" rx="2" fill="#f78166" stroke="#f78166" stroke-width="0" opacity="0.12"/>
+<line x1="470" y1="1282" x2="560" y2="1282" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="464" y="1287" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">3p</text>
+<line x1="470" y1="1317" x2="560" y2="1317" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="464" y="1322" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">3s</text>
+<line x1="470" y1="1342" x2="560" y2="1342" stroke="#79c0ff" stroke-width="1.5" opacity="0.65"/>
+<text x="464" y="1347" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">2p</text>
+<line x1="470" y1="1365" x2="560" y2="1365" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="464" y="1370" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">2s</text>
+<line x1="470" y1="1385" x2="560" y2="1385" stroke="#f78166" stroke-width="1.5" opacity="0.65"/>
+<text x="464" y="1390" font-size="11" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="end">1s</text>
+<!-- CROSSING CURVES -->
+<path d="M265,1197 C292,1197 428,1217 455,1217" fill="none" stroke="#f78166" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.8"/>
+<path d="M265,1227 C292,1227 428,1187 455,1187" fill="none" stroke="#56d364" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.8"/>
+<rect x="308" y="1197" width="104" height="22" rx="4" fill="#0d1117" stroke="#f0b030" stroke-width="1.0" opacity="1.0"/>
+<text x="360" y="1212" font-size="10" fill="#f0b030" font-weight="700" font-family="sans-serif" text-anchor="middle">energy inversion</text>
+</svg>

@@ -1,8 +1,6 @@
-
 sources
+node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
 
-old
-
-crop*.png
-gen_*.py
-patch_*.py
+legacy
