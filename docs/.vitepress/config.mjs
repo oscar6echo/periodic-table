@@ -73,4 +73,20 @@ export default defineConfig({
     markdown: {
         math: true,
     },
+
+    vite: {
+        build: {
+            chunkSizeWarningLimit: 800,
+            rollupOptions: {
+                output: {
+                    manualChunks(id) {
+                        if (id.includes("/node_modules/d3") ||
+                            id.includes("/node_modules/d3-")) {
+                            return "d3";
+                        }
+                    },
+                },
+            },
+        },
+    },
 });

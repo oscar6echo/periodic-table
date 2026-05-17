@@ -1,3 +1,7 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # The Shapes of Probability (The Angular Solution)
 
 In Chapter 3, we successfully separated the Schrödinger equation into a Radial part ($R$) and an Angular part ($Y$). Now, we dive into the math of the angles.
@@ -109,19 +113,19 @@ The following diagrams, extracted from the Quantum Principles reference sheet, s
 
 * **s-orbital:** Spherical shape, 1 orientation, holds 2 electrons
 
-  <img src="/periodic-table/diagrams/orbital-shapes-s.svg" alt="s-orbital: Sphere" style="width:65%" />
+  <img :src="withBase('/diagrams/orbital-shapes-s.svg')" alt="s-orbital: Sphere" style="width:65%" />
 
 * **p-orbitals:** Dumbbell shape along 3 axes ($p_x, p_y, p_z$), 3 orientations, holds 6 electrons
 
-  <img src="/periodic-table/diagrams/orbital-shapes-p.svg" alt="p-orbital: Dumbbells" style="width:65%" />
+  <img :src="withBase('/diagrams/orbital-shapes-p.svg')" alt="p-orbital: Dumbbells" style="width:65%" />
 
 * **d-orbitals:** Four-lobed shapes, 5 orientations, holds 10 electrons
 
-  <img src="/periodic-table/diagrams/orbital-shapes-d.svg" alt="d-orbital: Cloverleafs" style="width:65%" />
+  <img :src="withBase('/diagrams/orbital-shapes-d.svg')" alt="d-orbital: Cloverleafs" style="width:65%" />
 
 * **f-orbitals:** Complex multi-lobed shapes, 7 orientations, holds 14 electrons
 
-  <img src="/periodic-table/diagrams/orbital-shapes-f.svg" alt="f-orbital: Complex lobes" style="width:65%" />
+  <img :src="withBase('/diagrams/orbital-shapes-f.svg')" alt="f-orbital: Complex lobes" style="width:65%" />
 
 ## 4.7 Summary of the Angular Logic
 

@@ -1,3 +1,7 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # Spin and the Periodic Table
 
 We have navigated through the three spatial dimensions of the atom—the size ($n$), the shape ($l$), and the orientation ($m_l$) of electron orbitals. However, our model is not yet complete. Even with these three quantum numbers, experimental results (like the Stern-Gerlach experiment) showed that electrons have one more property that defines their behavior.
@@ -21,19 +25,19 @@ Every electron in an atom is uniquely described by four quantum numbers. No two 
 
 - **$n$ (Principal):** Energy shell / distance from nucleus. Allowed values: $1, 2, 3, \dots$
 
-  <img src="/periodic-table/diagrams/qn-n.svg" alt="n — Principal quantum number" style="width:60%" />
+  <img :src="withBase('/diagrams/qn-n.svg')" alt="n — Principal quantum number" style="width:60%" />
 
 - **$l$ (Angular Momentum):** Subshell shape. Allowed values: $0$ to $n-1$ ($0=s$, $1=p$, $2=d$, $3=f$)
 
-  <img src="/periodic-table/diagrams/qn-l.svg" alt="l — Angular Momentum quantum number" style="width:60%" />
+  <img :src="withBase('/diagrams/qn-l.svg')" alt="l — Angular Momentum quantum number" style="width:60%" />
 
 - **$m_l$ (Magnetic):** Orbital orientation in space. Allowed values: $-l$ to $+l$ ($2l+1$ values)
 
-  <img src="/periodic-table/diagrams/qn-ml.svg" alt="ml — Magnetic quantum number" style="width:60%" />
+  <img :src="withBase('/diagrams/qn-ml.svg')" alt="ml — Magnetic quantum number" style="width:60%" />
 
 - **$m_s$ (Spin):** Intrinsic electron spin. Only two values: $+1/2$ or $-1/2$
 
-  <img src="/periodic-table/diagrams/qn-ms.svg" alt="ms — Spin quantum number" style="width:60%" />
+  <img :src="withBase('/diagrams/qn-ms.svg')" alt="ms — Spin quantum number" style="width:60%" />
 
 ### Total states in shell $n$
 
@@ -93,11 +97,11 @@ Electrons fill subshells in order of increasing energy:
 > *Example:* 4s ($4+0=4$) vs. 3d ($3+2=5$). Since $4 < 5$, 4s fills first.
 > *Example:* 3d ($3+2=5$) vs. 4p ($4+1=5$). Since the sums are equal, 3d fills first ($n=3$ is lower than $n=4$).
 
-<img src="/periodic-table/diagrams/aufbau-grid.svg" alt="Aufbau diagonal grid" style="width:50%" />
+<img :src="withBase('/diagrams/aufbau-grid.svg')" alt="Aufbau diagonal grid" style="width:50%" />
 
 *Subshell grid — each (n, l) cell is subshell; diagonal arrows trace the Aufbau filling sequence.*
 
-<img src="/periodic-table/diagrams/aufbau-energy.svg" alt="Aufbau energy levels" style="width:85%" />
+<img :src="withBase('/diagrams/aufbau-energy.svg')" alt="Aufbau energy levels" style="width:85%" />
 
 *Energy levels (filling order ↑) — subshells ranked from lowest energy (1s, bottom) to highest (7p, top) in a multi-electron atom.*
 
@@ -105,7 +109,7 @@ The energy diagram reveals the key insight: **4s fills before 3d** because 4s ha
 
 A key concept in understanding the Aufbau filling order is the **crossing of energy levels** in multi-electron atoms. While Hydrogen has degenerate $n$ levels (all $n=3$ subshells have the same energy), multi-electron atoms show a different ordering due to penetration and shielding. As atomic number $Z$ increases, subshell energies shift: $4s$ dips below $3d$ for light atoms, then $3d$ drops back below $4s$ for heavier ones. This resembles — but is **not** — hysteresis: it is a smooth, one-way energy inversion as $Z$ increases (hysteresis would require the system to return via a different path; here the crossing is permanent and monotonic).
 
-<img src="/periodic-table/diagrams/energy-crossing.svg" alt="Energy Level Crossing" style="width:100%" />
+<img :src="withBase('/diagrams/energy-crossing.svg')" alt="Energy Level Crossing" style="width:100%" />
 
 *Energy level inversion — the relative ordering of 4s and 3d flips between light and heavier atoms; the dashed curves trace which orbital is which across the two regimes.*
 
@@ -163,7 +167,7 @@ A direct consequence of Hund's rule is that many atoms have **unpaired electrons
 
 The diagram below shows the orbital filling for the first ten elements. Each box is one orbital; a single arrow (↑) is one electron, a paired arrow pair (↑↓) is two.
 
-<img src="/periodic-table/diagrams/orbital-para-dia.svg" alt="Orbital box diagram — paramagnetism and diamagnetism for H through Ne" style="width:100%;max-width:510px" />
+<img :src="withBase('/diagrams/orbital-para-dia.svg')" alt="Orbital box diagram — paramagnetism and diamagnetism for H through Ne" style="width:100%;max-width:510px" />
 
 Hund's rule is visible in the 2p filling: B through N take one electron each (maximising unpaired spins), then O through F start pairing as the subshell fills. Nitrogen (3 unpaired) is the most paramagnetic in the row. Helium, Beryllium, and Neon have all electrons paired — they are diamagnetic.
 
@@ -195,7 +199,7 @@ Electrons fill subshells in order of increasing $n+l$ (Madelung rule), and withi
 The simplest atom: a single electron in the 1s subshell, occupying the innermost shell.
 The $n=1$ shell can hold 2 electrons; one slot remains unfilled.
 
-<img src="/periodic-table/diagrams/bohr-shells-h.svg" alt="Hydrogen shell diagram" style="width:35%" />
+<img :src="withBase('/diagrams/bohr-shells-h.svg')" alt="Hydrogen shell diagram" style="width:35%" />
 
 *1s¹*
 
@@ -204,7 +208,7 @@ The $n=1$ shell can hold 2 electrons; one slot remains unfilled.
 Neon fills both the $n=1$ and $n=2$ shells completely: 1s², 2s², and all six 2p slots.
 This closed-shell configuration gives neon its chemical inertness.
 
-<img src="/periodic-table/diagrams/bohr-shells-ne.svg" alt="Neon shell diagram" style="width:40%" />
+<img :src="withBase('/diagrams/bohr-shells-ne.svg')" alt="Neon shell diagram" style="width:40%" />
 
 *1s² 2s² 2p⁶*
 
@@ -212,7 +216,7 @@ This closed-shell configuration gives neon its chemical inertness.
 
 Argon completes the $n=3$ s and p subshells but leaves 3d entirely empty — the empty slots are visible in the diagram. This is why argon falls in period 3 despite 3d existing.
 
-<img src="/periodic-table/diagrams/bohr-shells-ar.svg" alt="Argon shell diagram" style="width:50%" />
+<img :src="withBase('/diagrams/bohr-shells-ar.svg')" alt="Argon shell diagram" style="width:50%" />
 
 *1s² 2s² 2p⁶ 3s² 3p⁶*
 
@@ -221,7 +225,7 @@ Argon completes the $n=3$ s and p subshells but leaves 3d entirely empty — the
 Carbon has two electrons in the $n=2$ shell beyond the 1s² core: one in 2s and two in 2p.
 The two 2p electrons occupy separate orbitals (Hund's rule), giving carbon its tetravalency.
 
-<img src="/periodic-table/diagrams/bohr-shells-c.svg" alt="Carbon shell diagram" style="width:45%" />
+<img :src="withBase('/diagrams/bohr-shells-c.svg')" alt="Carbon shell diagram" style="width:45%" />
 
 *1s² 2s² 2p²*
 
@@ -229,7 +233,7 @@ The two 2p electrons occupy separate orbitals (Hund's rule), giving carbon its t
 
 Iron is the canonical transition metal, with a partially filled 3d subshell (3d⁶) alongside two 4s electrons. The incomplete d-shell is responsible for iron's magnetism and variable oxidation states.
 
-<img src="/periodic-table/diagrams/bohr-shells-fe.svg" alt="Iron shell diagram" style="width:75%" />
+<img :src="withBase('/diagrams/bohr-shells-fe.svg')" alt="Iron shell diagram" style="width:75%" />
 
 *1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²*
 
@@ -237,7 +241,7 @@ Iron is the canonical transition metal, with a partially filled 3d subshell (3d�
 
 Selenium fills the 3d subshell completely and adds four electrons to 4p. Its configuration [Ar] 3d¹⁰ 4s² 4p⁴ mirrors sulfur, placing selenium in the same chalcogen group.
 
-<img src="/periodic-table/diagrams/bohr-shells-se.svg" alt="Selenium shell diagram" style="width:75%" />
+<img :src="withBase('/diagrams/bohr-shells-se.svg')" alt="Selenium shell diagram" style="width:75%" />
 
 *1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁴*
 
@@ -245,7 +249,7 @@ Selenium fills the 3d subshell completely and adds four electrons to 4p. Its con
 
 Neodymium is a rare-earth element with four electrons in the 4f subshell, buried inside the atom and shielded from chemistry — but responsible for Nd's exceptional magnetic properties.
 
-<img src="/periodic-table/diagrams/bohr-shells-nd.svg" alt="Neodymium shell diagram" style="width:80%" />
+<img :src="withBase('/diagrams/bohr-shells-nd.svg')" alt="Neodymium shell diagram" style="width:80%" />
 
 *1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f⁴ 5s² 5p⁶ 6s²*
 
@@ -269,7 +273,7 @@ The table is divided into four **blocks** based on which subshell is being fille
 
 In strict quantum order, blocks run **s · f · d · p** left to right within each period. Every fully-filled period spans exactly **2 + 14 + 10 + 6 = 32 elements** — which is why the lanthanides and actinides each hold 14 elements, the transition metals 10, and the main-group p-elements 6. Dashed outlines mark subshells not yet filled in that period.
 
-<img src="/periodic-table/diagrams/block-map-32col.svg" alt="32-column true block map: s·f·d·p ordering" style="width:100%" />
+<img :src="withBase('/diagrams/block-map-32col.svg')" alt="32-column true block map: s·f·d·p ordering" style="width:100%" />
 
 *Empty boxes: subshell exists but is not yet reached in the Aufbau order for that period. Colored bars: first and last element of each filled block.*
 
@@ -277,7 +281,7 @@ In strict quantum order, blocks run **s · f · d · p** left to right within ea
 
 Printing a 32-column table is impractical. The standard solution is to extract the f-block and display it below the main body, collapsing the width to **2 + 10 + 6 = 18 columns**. This is the familiar periodic table that everyone recognises — a layout choice, not a quantum one.
 
-<img src="/periodic-table/diagrams/block-map-18col.svg" alt="18-column practical block map: f-block detached" style="width:58%" />
+<img :src="withBase('/diagrams/block-map-18col.svg')" alt="18-column practical block map: f-block detached" style="width:58%" />
 
 *f-block (14 columns) detached to reduce width — it belongs between s and d in periods 6 and 7.*
 
