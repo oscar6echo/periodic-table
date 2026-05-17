@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="549 355 250 220">
+<rect x="549" y="355" width="250" height="220" fill="#0d1117"/>
+<rect x="554" y="360" width="240" height="210" rx="5" fill="#21262d" stroke="#56d364" stroke-width="1.0" opacity="1.0"/>
+<rect x="560" y="366" width="70" height="16" rx="3" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.2"/>
+<text x="595" y="377" font-size="9" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">d-orbital</text>
+<ellipse cx="689.6" cy="465.6" rx="17" ry="9" transform="rotate(45,689.6,465.6)" fill="#56d364" opacity="0.8"/>
+<ellipse cx="658.4" cy="465.6" rx="17" ry="9" transform="rotate(135,658.4,465.6)" fill="#56d364" opacity="0.8"/>
+<ellipse cx="658.4" cy="434.4" rx="17" ry="9" transform="rotate(225,658.4,434.4)" fill="#56d364" opacity="0.8"/>
+<ellipse cx="689.6" cy="434.4" rx="17" ry="9" transform="rotate(315,689.6,434.4)" fill="#56d364" opacity="0.8"/>
+<ellipse cx="674" cy="450.0" rx="33" ry="9" fill="none" stroke="#56d364" stroke-width="2" opacity="0.4"/>
+<ellipse cx="674" cy="472.0" rx="9" ry="16" fill="#56d364" opacity="0.45"/>
+<ellipse cx="674" cy="428.0" rx="9" ry="16" fill="#56d364" opacity="0.45"/>
+<circle cx="674" cy="450.0" r="3.5" fill="#fff" opacity="0.9"/>
+<text x="674" y="512" font-size="11" fill="#e6edf3" font-weight="600" font-family="sans-serif" text-anchor="middle">Cloverleafs</text>
+<text x="674" y="526" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">5 orientations</text>
+<text x="674" y="537" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">(4+ring shapes)</text>
+<rect x="622" y="542" width="104" height="16" rx="3" fill="#56d364" stroke="#56d364" stroke-width="0.6" opacity="0.2"/>
+<text x="674" y="553" font-size="8" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">5 orbitals × 2 = 10e max</text>
+</svg>

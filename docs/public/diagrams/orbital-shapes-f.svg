@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="811 355 250 220">
+<rect x="811" y="355" width="250" height="220" fill="#0d1117"/>
+<rect x="816" y="360" width="240" height="210" rx="5" fill="#21262d" stroke="#d2a8ff" stroke-width="1.0" opacity="1.0"/>
+<rect x="822" y="366" width="70" height="16" rx="3" fill="#d2a8ff" stroke="#d2a8ff" stroke-width="0.6" opacity="0.2"/>
+<text x="857" y="377" font-size="9" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">f-orbital</text>
+<ellipse cx="961.0" cy="450.0" rx="14" ry="7" transform="rotate(0.0,961.0,450.0)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="951.6" cy="469.5" rx="14" ry="7" transform="rotate(51.42857142857143,951.6,469.5)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="930.4" cy="474.4" rx="14" ry="7" transform="rotate(102.85714285714286,930.4,474.4)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="913.5" cy="460.8" rx="14" ry="7" transform="rotate(154.28571428571428,913.5,460.8)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="913.5" cy="439.2" rx="14" ry="7" transform="rotate(205.71428571428572,913.5,439.2)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="930.4" cy="425.6" rx="14" ry="7" transform="rotate(257.14285714285717,930.4,425.6)" fill="#d2a8ff" opacity="0.70"/>
+<ellipse cx="951.6" cy="430.5" rx="14" ry="7" transform="rotate(308.57142857142856,951.6,430.5)" fill="#d2a8ff" opacity="0.70"/>
+<circle cx="936" cy="450.0" r="3.5" fill="#fff" opacity="0.9"/>
+<text x="936" y="512" font-size="11" fill="#e6edf3" font-weight="600" font-family="sans-serif" text-anchor="middle">Complex lobes</text>
+<text x="936" y="526" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">7 orientations</text>
+<text x="936" y="537" font-size="9" fill="#8b949e" font-weight="400" font-family="sans-serif" text-anchor="middle">(7 shapes)</text>
+<rect x="884" y="542" width="104" height="16" rx="3" fill="#d2a8ff" stroke="#d2a8ff" stroke-width="0.6" opacity="0.2"/>
+<text x="936" y="553" font-size="8" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">7 orbitals × 2 = 14e max</text>
+</svg>

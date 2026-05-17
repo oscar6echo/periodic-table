@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505 454" width="505" height="454">
+<rect width="505" height="454" fill="#0d1117" rx="8"/>
+<rect x="0.5" y="0.5" width="504" height="453" rx="7.5" fill="none" stroke="#30363d" stroke-width="1"/>
+<rect width="505" height="46" fill="#161b22" rx="8"/>
+<rect y="38" width="505" height="8" fill="#161b22"/>
+<line x1="0" y1="46" x2="505" y2="46" stroke="#30363d" stroke-width="1.5" opacity="1.0"/>
+<rect x="0" y="46" width="505" height="40" fill="#161b22"/>
+<rect x="0" y="86" width="505" height="40" fill="#0d1117"/>
+<rect x="0" y="126" width="505" height="40" fill="#161b22"/>
+<rect x="0" y="166" width="505" height="40" fill="#0d1117"/>
+<rect x="0" y="206" width="505" height="40" fill="#161b22"/>
+<rect x="0" y="246" width="505" height="40" fill="#0d1117"/>
+<rect x="0" y="286" width="505" height="40" fill="#161b22"/>
+<rect x="0" y="326" width="505" height="40" fill="#0d1117"/>
+<rect x="0" y="366" width="505" height="40" fill="#161b22"/>
+<rect x="0" y="406" width="505" height="40" fill="#0d1117"/>
+<line x1="0" y1="86" x2="505" y2="86" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<line x1="0" y1="126" x2="505" y2="126" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<line x1="0" y1="166" x2="505" y2="166" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<line x1="0" y1="206" x2="505" y2="206" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<line x1="0" y1="246" x2="505" y2="246" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<line x1="0" y1="286" x2="505" y2="286" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<line x1="0" y1="326" x2="505" y2="326" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<line x1="0" y1="366" x2="505" y2="366" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<line x1="0" y1="406" x2="505" y2="406" stroke="#30363d" stroke-width="0.5" opacity="0.5"/>
+<text x="28" y="23" text-anchor="middle" dominant-baseline="central" fill="#8b949e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">Atom</text>
+<text x="90" y="23" text-anchor="middle" dominant-baseline="central" fill="#e6edf3" font-size="13" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">1s</text>
+<text x="150" y="23" text-anchor="middle" dominant-baseline="central" fill="#e6edf3" font-size="13" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">2s</text>
+<text x="240" y="23" text-anchor="middle" dominant-baseline="central" fill="#e6edf3" font-size="13" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">2p</text>
+<text x="335" y="23" text-anchor="middle" dominant-baseline="central" fill="#8b949e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">Unpaired</text>
+<text x="445" y="23" text-anchor="middle" dominant-baseline="central" fill="#8b949e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">Para/Dia</text>
+<text x="28" y="66" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">H</text>
+<rect x="71" y="53" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="90" y1="75" x2="90" y2="61" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="90,56 86.5,62 93.5,62" fill="#e6edf3"/>
+<rect x="131" y="53" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="178" y="53" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="221" y="53" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="264" y="53" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<text x="335" y="66" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">1</text>
+<rect x="391" y="55" width="108" height="22" rx="4" fill="#f0883e22" stroke="#f0883e" stroke-width="1"/>
+<text x="445" y="66" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">paramagnetic</text>
+<text x="28" y="106" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">He</text>
+<rect x="71" y="93" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="115" x2="84" y2="101" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,96 80.5,102 87.5,102" fill="#e6edf3"/>
+<line x1="96" y1="97" x2="96" y2="111" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,116 92.5,110 99.5,110" fill="#6e7681"/>
+<rect x="131" y="93" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="178" y="93" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="221" y="93" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="264" y="93" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<text x="335" y="106" text-anchor="middle" dominant-baseline="central" fill="#6e7681" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">0</text>
+<rect x="391" y="95" width="108" height="22" rx="4" fill="#58a6ff22" stroke="#58a6ff" stroke-width="1"/>
+<text x="445" y="106" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">diamagnetic</text>
+<text x="28" y="146" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">Li</text>
+<rect x="71" y="133" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="155" x2="84" y2="141" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,136 80.5,142 87.5,142" fill="#e6edf3"/>
+<line x1="96" y1="137" x2="96" y2="151" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,156 92.5,150 99.5,150" fill="#6e7681"/>
+<rect x="131" y="133" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="150" y1="155" x2="150" y2="141" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="150,136 146.5,142 153.5,142" fill="#e6edf3"/>
+<rect x="178" y="133" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="221" y="133" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="264" y="133" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<text x="335" y="146" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">1</text>
+<rect x="391" y="135" width="108" height="22" rx="4" fill="#f0883e22" stroke="#f0883e" stroke-width="1"/>
+<text x="445" y="146" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">paramagnetic</text>
+<text x="28" y="186" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">Be</text>
+<rect x="71" y="173" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="195" x2="84" y2="181" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,176 80.5,182 87.5,182" fill="#e6edf3"/>
+<line x1="96" y1="177" x2="96" y2="191" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,196 92.5,190 99.5,190" fill="#6e7681"/>
+<rect x="131" y="173" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="144" y1="195" x2="144" y2="181" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="144,176 140.5,182 147.5,182" fill="#e6edf3"/>
+<line x1="156" y1="177" x2="156" y2="191" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="156,196 152.5,190 159.5,190" fill="#6e7681"/>
+<rect x="178" y="173" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="221" y="173" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="264" y="173" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<text x="335" y="186" text-anchor="middle" dominant-baseline="central" fill="#6e7681" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">0</text>
+<rect x="391" y="175" width="108" height="22" rx="4" fill="#58a6ff22" stroke="#58a6ff" stroke-width="1"/>
+<text x="445" y="186" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">diamagnetic</text>
+<text x="28" y="226" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">B</text>
+<rect x="71" y="213" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="235" x2="84" y2="221" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,216 80.5,222 87.5,222" fill="#e6edf3"/>
+<line x1="96" y1="217" x2="96" y2="231" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,236 92.5,230 99.5,230" fill="#6e7681"/>
+<rect x="131" y="213" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="144" y1="235" x2="144" y2="221" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="144,216 140.5,222 147.5,222" fill="#e6edf3"/>
+<line x1="156" y1="217" x2="156" y2="231" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="156,236 152.5,230 159.5,230" fill="#6e7681"/>
+<rect x="178" y="213" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="197" y1="235" x2="197" y2="221" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="197,216 193.5,222 200.5,222" fill="#e6edf3"/>
+<rect x="221" y="213" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<rect x="264" y="213" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<text x="335" y="226" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">1</text>
+<rect x="391" y="215" width="108" height="22" rx="4" fill="#f0883e22" stroke="#f0883e" stroke-width="1"/>
+<text x="445" y="226" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">paramagnetic</text>
+<text x="28" y="266" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">C</text>
+<rect x="71" y="253" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="275" x2="84" y2="261" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,256 80.5,262 87.5,262" fill="#e6edf3"/>
+<line x1="96" y1="257" x2="96" y2="271" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,276 92.5,270 99.5,270" fill="#6e7681"/>
+<rect x="131" y="253" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="144" y1="275" x2="144" y2="261" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="144,256 140.5,262 147.5,262" fill="#e6edf3"/>
+<line x1="156" y1="257" x2="156" y2="271" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="156,276 152.5,270 159.5,270" fill="#6e7681"/>
+<rect x="178" y="253" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="197" y1="275" x2="197" y2="261" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="197,256 193.5,262 200.5,262" fill="#e6edf3"/>
+<rect x="221" y="253" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="240" y1="275" x2="240" y2="261" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="240,256 236.5,262 243.5,262" fill="#e6edf3"/>
+<rect x="264" y="253" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<text x="335" y="266" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">2</text>
+<rect x="391" y="255" width="108" height="22" rx="4" fill="#f0883e22" stroke="#f0883e" stroke-width="1"/>
+<text x="445" y="266" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">paramagnetic</text>
+<text x="28" y="306" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">N</text>
+<rect x="71" y="293" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="315" x2="84" y2="301" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,296 80.5,302 87.5,302" fill="#e6edf3"/>
+<line x1="96" y1="297" x2="96" y2="311" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,316 92.5,310 99.5,310" fill="#6e7681"/>
+<rect x="131" y="293" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="144" y1="315" x2="144" y2="301" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="144,296 140.5,302 147.5,302" fill="#e6edf3"/>
+<line x1="156" y1="297" x2="156" y2="311" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="156,316 152.5,310 159.5,310" fill="#6e7681"/>
+<rect x="178" y="293" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="197" y1="315" x2="197" y2="301" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="197,296 193.5,302 200.5,302" fill="#e6edf3"/>
+<rect x="221" y="293" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="240" y1="315" x2="240" y2="301" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="240,296 236.5,302 243.5,302" fill="#e6edf3"/>
+<rect x="264" y="293" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="283" y1="315" x2="283" y2="301" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="283,296 279.5,302 286.5,302" fill="#e6edf3"/>
+<text x="335" y="306" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">3</text>
+<rect x="391" y="295" width="108" height="22" rx="4" fill="#f0883e22" stroke="#f0883e" stroke-width="1"/>
+<text x="445" y="306" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">paramagnetic</text>
+<text x="28" y="346" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">O</text>
+<rect x="71" y="333" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="355" x2="84" y2="341" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,336 80.5,342 87.5,342" fill="#e6edf3"/>
+<line x1="96" y1="337" x2="96" y2="351" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,356 92.5,350 99.5,350" fill="#6e7681"/>
+<rect x="131" y="333" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="144" y1="355" x2="144" y2="341" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="144,336 140.5,342 147.5,342" fill="#e6edf3"/>
+<line x1="156" y1="337" x2="156" y2="351" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="156,356 152.5,350 159.5,350" fill="#6e7681"/>
+<rect x="178" y="333" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="191" y1="355" x2="191" y2="341" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="191,336 187.5,342 194.5,342" fill="#e6edf3"/>
+<line x1="203" y1="337" x2="203" y2="351" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="203,356 199.5,350 206.5,350" fill="#6e7681"/>
+<rect x="221" y="333" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="240" y1="355" x2="240" y2="341" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="240,336 236.5,342 243.5,342" fill="#e6edf3"/>
+<rect x="264" y="333" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="283" y1="355" x2="283" y2="341" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="283,336 279.5,342 286.5,342" fill="#e6edf3"/>
+<text x="335" y="346" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">2</text>
+<rect x="391" y="335" width="108" height="22" rx="4" fill="#f0883e22" stroke="#f0883e" stroke-width="1"/>
+<text x="445" y="346" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">paramagnetic</text>
+<text x="28" y="386" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">F</text>
+<rect x="71" y="373" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="395" x2="84" y2="381" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,376 80.5,382 87.5,382" fill="#e6edf3"/>
+<line x1="96" y1="377" x2="96" y2="391" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,396 92.5,390 99.5,390" fill="#6e7681"/>
+<rect x="131" y="373" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="144" y1="395" x2="144" y2="381" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="144,376 140.5,382 147.5,382" fill="#e6edf3"/>
+<line x1="156" y1="377" x2="156" y2="391" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="156,396 152.5,390 159.5,390" fill="#6e7681"/>
+<rect x="178" y="373" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="191" y1="395" x2="191" y2="381" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="191,376 187.5,382 194.5,382" fill="#e6edf3"/>
+<line x1="203" y1="377" x2="203" y2="391" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="203,396 199.5,390 206.5,390" fill="#6e7681"/>
+<rect x="221" y="373" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="234" y1="395" x2="234" y2="381" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="234,376 230.5,382 237.5,382" fill="#e6edf3"/>
+<line x1="246" y1="377" x2="246" y2="391" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="246,396 242.5,390 249.5,390" fill="#6e7681"/>
+<rect x="264" y="373" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="283" y1="395" x2="283" y2="381" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="283,376 279.5,382 286.5,382" fill="#e6edf3"/>
+<text x="335" y="386" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">1</text>
+<rect x="391" y="375" width="108" height="22" rx="4" fill="#f0883e22" stroke="#f0883e" stroke-width="1"/>
+<text x="445" y="386" text-anchor="middle" dominant-baseline="central" fill="#f0883e" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">paramagnetic</text>
+<text x="28" y="426" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="14" font-weight="700" font-family="ui-monospace,Menlo,Monaco,monospace">Ne</text>
+<rect x="71" y="413" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="84" y1="435" x2="84" y2="421" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="84,416 80.5,422 87.5,422" fill="#e6edf3"/>
+<line x1="96" y1="417" x2="96" y2="431" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="96,436 92.5,430 99.5,430" fill="#6e7681"/>
+<rect x="131" y="413" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="144" y1="435" x2="144" y2="421" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="144,416 140.5,422 147.5,422" fill="#e6edf3"/>
+<line x1="156" y1="417" x2="156" y2="431" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="156,436 152.5,430 159.5,430" fill="#6e7681"/>
+<rect x="178" y="413" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="191" y1="435" x2="191" y2="421" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="191,416 187.5,422 194.5,422" fill="#e6edf3"/>
+<line x1="203" y1="417" x2="203" y2="431" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="203,436 199.5,430 206.5,430" fill="#6e7681"/>
+<rect x="221" y="413" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="234" y1="435" x2="234" y2="421" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="234,416 230.5,422 237.5,422" fill="#e6edf3"/>
+<line x1="246" y1="417" x2="246" y2="431" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="246,436 242.5,430 249.5,430" fill="#6e7681"/>
+<rect x="264" y="413" width="38" height="26" rx="3" fill="#161b22" stroke="#444c56" stroke-width="1.2"/>
+<line x1="277" y1="435" x2="277" y2="421" stroke="#e6edf3" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="277,416 273.5,422 280.5,422" fill="#e6edf3"/>
+<line x1="289" y1="417" x2="289" y2="431" stroke="#6e7681" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="289,436 285.5,430 292.5,430" fill="#6e7681"/>
+<text x="335" y="426" text-anchor="middle" dominant-baseline="central" fill="#6e7681" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif">0</text>
+<rect x="391" y="415" width="108" height="22" rx="4" fill="#58a6ff22" stroke="#58a6ff" stroke-width="1"/>
+<text x="445" y="426" text-anchor="middle" dominant-baseline="central" fill="#58a6ff" font-size="11" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">diamagnetic</text>
+</svg>

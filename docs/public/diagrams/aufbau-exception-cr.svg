@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="330" viewBox="0 0 680 330">
+<rect width="680" height="330" fill="#0d1117"/>
+
+<!-- Title -->
+<text x="340" y="30" font-size="20" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">Cr (Z=24) Chromium</text>
+
+<!-- ===== EXPECTED SECTION ===== -->
+<text x="340" y="53" font-size="14" fill="#8b949e" font-family="sans-serif" text-anchor="middle">Expected by Aufbau:</text>
+<text x="340" y="72" font-size="15" fill="#8b949e" font-family="sans-serif" text-anchor="middle">[Ar] 3d⁴ 4s²</text>
+
+<!-- 4s box: bx=60, by=88, cx=91. Paired: up at 77, down at 105 -->
+<rect x="60" y="88" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="77" y1="142" x2="77" y2="98" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="72,101 82,101 77,92" fill="#79c0ff"/>
+<line x1="105" y1="96" x2="105" y2="140" stroke="#f78166" stroke-width="2.5"/>
+<polygon points="100,137 110,137 105,146" fill="#f78166"/>
+
+<!-- 3d boxes: bx=154,224,294,364,434; by=88 -->
+<!-- box 1: cx=185, single up -->
+<rect x="154" y="88" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="185" y1="142" x2="185" y2="98" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="180,101 190,101 185,92" fill="#79c0ff"/>
+<!-- box 2: cx=255, single up -->
+<rect x="224" y="88" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="255" y1="142" x2="255" y2="98" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="250,101 260,101 255,92" fill="#79c0ff"/>
+<!-- box 3: cx=325, single up -->
+<rect x="294" y="88" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="325" y1="142" x2="325" y2="98" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="320,101 330,101 325,92" fill="#79c0ff"/>
+<!-- box 4: cx=395, single up -->
+<rect x="364" y="88" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="395" y1="142" x2="395" y2="98" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="390,101 400,101 395,92" fill="#79c0ff"/>
+<!-- box 5: empty -->
+<rect x="434" y="88" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+
+<!-- Subshell labels (y = 88+62+15 = 165) -->
+<text x="91" y="165" font-size="14" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">4s</text>
+<text x="325" y="165" font-size="14" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">3d</text>
+
+<!-- Red X at (550, 88+31=119) -->
+<line x1="538" y1="107" x2="562" y2="131" stroke="#f85149" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="562" y1="107" x2="538" y2="131" stroke="#f85149" stroke-width="3.5" stroke-linecap="round"/>
+
+<!-- Separator -->
+<line x1="40" y1="178" x2="620" y2="178" stroke="#30363d" stroke-width="0.7"/>
+
+<!-- ===== ACTUAL SECTION ===== -->
+<text x="340" y="199" font-size="14" fill="#8b949e" font-family="sans-serif" text-anchor="middle">Actual configuration:</text>
+<text x="340" y="218" font-size="16" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">[Ar] 3d⁵ 4s¹</text>
+
+<!-- 4s box: bx=60, by=228, cx=91. Single up -->
+<rect x="60" y="228" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="91" y1="282" x2="91" y2="238" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="86,241 96,241 91,232" fill="#79c0ff"/>
+
+<!-- 3d boxes: all 5 with single up; by=228 -->
+<!-- box 1: cx=185 -->
+<rect x="154" y="228" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="185" y1="282" x2="185" y2="238" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="180,241 190,241 185,232" fill="#79c0ff"/>
+<!-- box 2: cx=255 -->
+<rect x="224" y="228" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="255" y1="282" x2="255" y2="238" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="250,241 260,241 255,232" fill="#79c0ff"/>
+<!-- box 3: cx=325 -->
+<rect x="294" y="228" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="325" y1="282" x2="325" y2="238" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="320,241 330,241 325,232" fill="#79c0ff"/>
+<!-- box 4: cx=395 -->
+<rect x="364" y="228" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="395" y1="282" x2="395" y2="238" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="390,241 400,241 395,232" fill="#79c0ff"/>
+<!-- box 5: cx=465 -->
+<rect x="434" y="228" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8"/>
+<line x1="465" y1="282" x2="465" y2="238" stroke="#79c0ff" stroke-width="2.5"/>
+<polygon points="460,241 470,241 465,232" fill="#79c0ff"/>
+
+<!-- Subshell labels (y = 228+62+15 = 305) -->
+<text x="91" y="305" font-size="14" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">4s</text>
+<text x="325" y="305" font-size="14" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">3d</text>
+
+<!-- Green checkmark at (550, 228+31=259) -->
+<polyline points="534,261 547,278 570,238" fill="none" stroke="#56d364" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

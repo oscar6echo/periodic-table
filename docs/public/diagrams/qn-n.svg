@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 210">
+<rect width="280" height="210" fill="#0d1117"/>
+<rect x="8" y="8" width="264" height="194" rx="6" fill="#21262d" stroke="#e6edf3" stroke-width="1.5"/>
+<rect x="14" y="14" width="72" height="18" rx="4" fill="#e6edf3" fill-opacity="0.2" stroke="#e6edf3" stroke-width="0.8" stroke-opacity="0.4"/>
+<text x="50" y="23" font-size="10" font-weight="bold" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Principal</text>
+<text x="140" y="50" font-size="42" font-weight="bold" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">n</text>
+<text x="140" y="74" font-size="10" fill="#6e7681" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Allowed values:</text>
+<text x="140" y="92" font-size="18" font-weight="bold" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">n = 1, 2, 3 &#x2026;</text>
+<text x="140" y="118" font-size="10" fill="#6e7681" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Physical meaning:</text>
+<text x="140" y="135" font-size="13" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Energy shell / distance from nucleus</text>
+<text x="140" y="155" font-size="10" fill="#6e7681" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Determines:</text>
+<text x="140" y="172" font-size="13" font-weight="bold" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Shell size &amp; base energy</text>
+</svg>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="875" viewBox="0 0 700 875">
+
+<!-- Background -->
+<rect width="700" height="875" fill="#0d1117" />
+
+<!-- ===== B (Z=5)  y_offset=8, by=47 ===== -->
+<text x="350" y="25" font-size="17" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">B (Z=5)</text>
+<text x="350" y="40" font-size="14" fill="#79c0ff" font-family="sans-serif" text-anchor="middle">2p¹</text>
+<rect x="249" y="47" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="319" y="47" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="389" y="47" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<!-- spin-up box 1 (cx=280) -->
+<line x1="280" y1="101" x2="280" y2="69" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="275,72 285,72 280,63" fill="#79c0ff" />
+<text x="280" y="118" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">1</text>
+<text x="350" y="118" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">2</text>
+<text x="420" y="118" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="350" y="130" font-size="13" fill="#8b949e" font-family="sans-serif" text-anchor="middle">1st electron — enters singly</text>
+
+<!-- ===== C (Z=6)  y_offset=148, by=187 ===== -->
+<text x="350" y="165" font-size="17" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">C (Z=6)</text>
+<text x="350" y="180" font-size="14" fill="#79c0ff" font-family="sans-serif" text-anchor="middle">2p²</text>
+<rect x="249" y="187" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="319" y="187" width="62" height="62" rx="4" fill="#1e1800" stroke="#f0b030" stroke-width="1.8" />
+<rect x="389" y="187" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<!-- spin-up box 1 (cx=280), spin-up box 2 (cx=350) -->
+<line x1="280" y1="241" x2="280" y2="209" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="275,212 285,212 280,203" fill="#79c0ff" />
+<line x1="350" y1="241" x2="350" y2="209" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="345,212 355,212 350,203" fill="#79c0ff" />
+<text x="280" y="258" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">1</text>
+<text x="350" y="258" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">2</text>
+<text x="420" y="258" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="350" y="270" font-size="13" fill="#f0b030" font-family="sans-serif" text-anchor="middle">2nd electron — new orbital (Hund's rule)</text>
+
+<!-- ===== N (Z=7)  y_offset=288, by=327 ===== -->
+<text x="350" y="305" font-size="17" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">N (Z=7)</text>
+<text x="350" y="320" font-size="14" fill="#79c0ff" font-family="sans-serif" text-anchor="middle">2p³</text>
+<rect x="249" y="327" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="319" y="327" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="389" y="327" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<!-- spin-up all three -->
+<line x1="280" y1="381" x2="280" y2="349" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="275,352 285,352 280,343" fill="#79c0ff" />
+<line x1="350" y1="381" x2="350" y2="349" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="345,352 355,352 350,343" fill="#79c0ff" />
+<line x1="420" y1="381" x2="420" y2="349" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="415,352 425,352 420,343" fill="#79c0ff" />
+<text x="280" y="398" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">1</text>
+<text x="350" y="398" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">2</text>
+<text x="420" y="398" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="350" y="410" font-size="13" fill="#f0b030" font-family="sans-serif" text-anchor="middle">Half-filled — maximum stability</text>
+
+<!-- ===== O (Z=8)  y_offset=428, by=467 ===== -->
+<text x="350" y="445" font-size="17" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">O (Z=8)</text>
+<text x="350" y="460" font-size="14" fill="#79c0ff" font-family="sans-serif" text-anchor="middle">2p⁴</text>
+<rect x="249" y="467" width="62" height="62" rx="4" fill="#1e1800" stroke="#f0b030" stroke-width="1.8" />
+<rect x="319" y="467" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="389" y="467" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<!-- paired box 1 (bx=249): up cx=266, down cx=294 -->
+<line x1="266" y1="521" x2="266" y2="489" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="261,492 271,492 266,483" fill="#79c0ff" />
+<line x1="294" y1="487" x2="294" y2="519" stroke="#f78166" stroke-width="2.5" />
+<polygon points="289,515 299,515 294,524" fill="#f78166" />
+<!-- spin-up box 2 (cx=350), spin-up box 3 (cx=420) -->
+<line x1="350" y1="521" x2="350" y2="489" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="345,492 355,492 350,483" fill="#79c0ff" />
+<line x1="420" y1="521" x2="420" y2="489" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="415,492 425,492 420,483" fill="#79c0ff" />
+<text x="280" y="538" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">1</text>
+<text x="350" y="538" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">2</text>
+<text x="420" y="538" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="350" y="550" font-size="13" fill="#f0b030" font-family="sans-serif" text-anchor="middle">Must now pair — 4th e⁻ pairs up</text>
+
+<!-- ===== F (Z=9)  y_offset=568, by=607 ===== -->
+<text x="350" y="585" font-size="17" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">F (Z=9)</text>
+<text x="350" y="600" font-size="14" fill="#79c0ff" font-family="sans-serif" text-anchor="middle">2p⁵</text>
+<rect x="249" y="607" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="319" y="607" width="62" height="62" rx="4" fill="#1e1800" stroke="#f0b030" stroke-width="1.8" />
+<rect x="389" y="607" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<!-- paired box 1 (bx=249): up cx=266, down cx=294 -->
+<line x1="266" y1="661" x2="266" y2="629" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="261,632 271,632 266,623" fill="#79c0ff" />
+<line x1="294" y1="627" x2="294" y2="659" stroke="#f78166" stroke-width="2.5" />
+<polygon points="289,655 299,655 294,664" fill="#f78166" />
+<!-- paired box 2 (bx=319): up cx=336, down cx=364 -->
+<line x1="336" y1="661" x2="336" y2="629" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="331,632 341,632 336,623" fill="#79c0ff" />
+<line x1="364" y1="627" x2="364" y2="659" stroke="#f78166" stroke-width="2.5" />
+<polygon points="359,655 369,655 364,664" fill="#f78166" />
+<!-- spin-up box 3 (cx=420) -->
+<line x1="420" y1="661" x2="420" y2="629" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="415,632 425,632 420,623" fill="#79c0ff" />
+<text x="280" y="678" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">1</text>
+<text x="350" y="678" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">2</text>
+<text x="420" y="678" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="350" y="690" font-size="13" fill="#f0b030" font-family="sans-serif" text-anchor="middle">5th electron pairs</text>
+
+<!-- ===== Ne (Z=10)  y_offset=708, by=747 ===== -->
+<text x="350" y="725" font-size="17" fill="#e6edf3" font-weight="700" font-family="sans-serif" text-anchor="middle">Ne (Z=10)</text>
+<text x="350" y="740" font-size="14" fill="#79c0ff" font-family="sans-serif" text-anchor="middle">2p⁶</text>
+<rect x="249" y="747" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="319" y="747" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<rect x="389" y="747" width="62" height="62" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+<!-- paired box 1 (bx=249): up cx=266, down cx=294 -->
+<line x1="266" y1="801" x2="266" y2="769" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="261,772 271,772 266,763" fill="#79c0ff" />
+<line x1="294" y1="767" x2="294" y2="799" stroke="#f78166" stroke-width="2.5" />
+<polygon points="289,795 299,795 294,804" fill="#f78166" />
+<!-- paired box 2 (bx=319): up cx=336, down cx=364 -->
+<line x1="336" y1="801" x2="336" y2="769" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="331,772 341,772 336,763" fill="#79c0ff" />
+<line x1="364" y1="767" x2="364" y2="799" stroke="#f78166" stroke-width="2.5" />
+<polygon points="359,795 369,795 364,804" fill="#f78166" />
+<!-- paired box 3 (bx=389): up cx=406, down cx=434 -->
+<line x1="406" y1="801" x2="406" y2="769" stroke="#79c0ff" stroke-width="2.5" />
+<polygon points="401,772 411,772 406,763" fill="#79c0ff" />
+<line x1="434" y1="767" x2="434" y2="799" stroke="#f78166" stroke-width="2.5" />
+<polygon points="429,795 439,795 434,804" fill="#f78166" />
+<text x="280" y="818" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">1</text>
+<text x="350" y="818" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">2</text>
+<text x="420" y="818" font-size="11" fill="#6e7681" font-family="sans-serif" text-anchor="middle">3</text>
+<text x="350" y="830" font-size="13" fill="#8b949e" font-family="sans-serif" text-anchor="middle">Full subshell — noble gas config</text>
+
+<!-- ===== LEGEND ===== -->
+<rect x="215" y="843" width="270" height="26" rx="4" fill="none" stroke="#30363d" stroke-width="1" />
+<!-- spin-up icon -->
+<line x1="255" y1="861" x2="255" y2="850" stroke="#79c0ff" stroke-width="2" />
+<polygon points="251,852 259,852 255,847" fill="#79c0ff" />
+<text x="266" y="859" font-size="11" fill="#79c0ff" font-family="sans-serif">spin-up (↑)</text>
+<!-- spin-down icon -->
+<line x1="390" y1="850" x2="390" y2="861" stroke="#f78166" stroke-width="2" />
+<polygon points="386,859 394,859 390,864" fill="#f78166" />
+<text x="401" y="859" font-size="11" fill="#f78166" font-family="sans-serif">spin-down (↓)</text>
+
+</svg>

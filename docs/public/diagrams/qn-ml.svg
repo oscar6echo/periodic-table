@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 210">
+<rect width="280" height="210" fill="#0d1117"/>
+<rect x="8" y="8" width="264" height="194" rx="6" fill="#21262d" stroke="#79c0ff" stroke-width="1.5"/>
+<rect x="14" y="14" width="68" height="18" rx="4" fill="#79c0ff" fill-opacity="0.2" stroke="#79c0ff" stroke-width="0.8" stroke-opacity="0.4"/>
+<text x="48" y="23" font-size="10" font-weight="bold" fill="#79c0ff" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Magnetic</text>
+<text x="140" y="50" font-size="42" font-weight="bold" fill="#79c0ff" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">m&#x2097;</text>
+<text x="140" y="74" font-size="10" fill="#6e7681" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Allowed values:</text>
+<text x="140" y="92" font-size="18" font-weight="bold" fill="#79c0ff" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">&#x2212;l to +l</text>
+<text x="140" y="108" font-size="11" fill="#8b949e" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">(2l+1) values</text>
+<text x="140" y="124" font-size="10" fill="#6e7681" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Physical meaning:</text>
+<text x="140" y="139" font-size="13" fill="#e6edf3" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Orbital orientation in space</text>
+<text x="140" y="156" font-size="10" fill="#6e7681" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Determines:</text>
+<text x="140" y="172" font-size="13" font-weight="bold" fill="#79c0ff" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">Which orbital within subshell</text>
+</svg>

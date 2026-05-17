@@ -1,74 +1,82 @@
-# Periodic Table
+# Periodic Table & Quantum Mechanics
 
-A set of hand-crafted SVG reference sheets covering atomic structure, quantum mechanics, and electron configuration — plus a browser-based pan/zoom viewer.
+A VitePress documentation site covering atomic structure, quantum mechanics, and electron configuration — built around two hand-crafted SVG periodic tables and a 6-chapter quantum mechanics course.
 
-**Live viewer → [oscar6echo.github.io/periodic-table](https://oscar6echo.github.io/periodic-table/)**
+**Live site → [oscar6echo.github.io/periodic-table](https://oscar6echo.github.io/periodic-table/)**
 
 ---
 
-## SVG sheets
+## Site overview
 
-| File | Contents |
-| ------ | ---------- |
-| `periodic_table_1_full.svg` | Full 18-column periodic table with electron configurations, blocks, and periods |
-| `periodic_table_2_32col.svg` | 32-column (Janet) layout — s/f/d/p blocks in natural Aufbau order |
-| `periodic_table_3_orbital_shells.svg` | Bohr shell diagrams, orbital box diagrams (paramagnetism), valence electron fills for all 118 elements |
-| `periodic_table_4_quantum_principles.svg` | The four quantum numbers, orbital shapes, Aufbau energy levels, Hund's rule, exceptions (Cr, Cu), block map |
+| Section | URL | Contents |
+| --- | --- | --- |
+| **18-column Table** | `/sheets/table-1` | Interactive pan/zoom viewer — conventional layout with electron configs, blocks, and periods |
+| **32-column Table** | `/sheets/table-2` | Interactive pan/zoom viewer — Janet (long-form) layout, s/f/d/p blocks in Aufbau order |
+| **Chapters 0–7** | `/chapters/…` | Quantum mechanics course from the Schrödinger equation to the periodic table |
+| **Math Annex** | `/annex/math` | Vector calculus, spherical harmonics, formal definitions |
+| **All Elements** | `/annex/all-elements` | Searchable/sortable table of all 118 elements with physical, chemical, and quantum data |
+| **Links** | `/annex/links` | Curated external references |
 
-## Educational Series: Quantum Mechanics
+### Quantum mechanics chapters
 
-A deep dive into the physics that builds the periodic table.
-
-| Chapter | Title | Key Topics |
+| Chapter | Title | Key topics |
 | :--- | :--- | :--- |
-| **[Chapter 1](quantum-mechanics/chap_1.md)** | The Heart of QM | Schrödinger Equation, Wave Functions, Operators |
-| **[Chapter 2](quantum-mechanics/chap_2.md)** | Particle in a 1D Box | Boundary Conditions, Quantization |
-| **[Chapter 3](quantum-mechanics/chap_3.md)** | The 3D Hydrogen Atom | Spherical Coordinates, Separation of Variables |
-| **[Chapter 4](quantum-mechanics/chap_4.md)** | Angular Solutions | Legendre Polynomials, Orbital Shapes ($s, p, d, f$) |
-| **[Chapter 5](quantum-mechanics/chap_5.md)** | Radial Solutions | Laguerre Polynomials, Energy Shells, $r_{mp}$ |
-| **[Chapter 6](quantum-mechanics/chap_6.md)** | The Final Piece | Spin, Pauli Principle, Aufbau, Hund's Rule |
-| **[Annex](quantum-mechanics/annex.md)** | Mathematical Annex | Vector Calculus, Formal Definitions, 3D Visuals |
-| **[Python Scripts](scripts/)** | Scripting & Data | Symbolic wavefunction generation (SymPy) |
-
-The series is supported by a set of **[Python scripts](scripts/)** (`radial_wavefunctions.py` and `angular_wavefunctions.py`) used to generate the symbolic radial and angular wavefunctions.
+| **Introduction** | Setting the scene | Motivation, scope |
+| **1 — The Schrödinger Equation** | The heart of QM | Wave functions, operators, probability |
+| **2 — Particle in a 1D Box** | First quantisation | Boundary conditions, energy levels |
+| **3 — The 3D Hydrogen Atom** | Full solution | Spherical coordinates, separation of variables |
+| **4 — Angular Solutions** | Orbital shapes | Legendre polynomials, $s/p/d/f$ shapes |
+| **5 — Radial Solutions** | Energy shells | Laguerre polynomials, $r_\text{mp}$, shell structure |
+| **6 — Spin & Periodic Table** | The final piece | Spin, Pauli principle, Aufbau, Hund's rule, Mendeleev vs Janet |
+| **Quiz** | Self-assessment | 10 questions covering all chapters |
 
 ---
 
-## Viewer
+## Repository layout
 
-Open the interactive pan/zoom viewer locally:
-
-```bash
-./serve.sh          # serves on http://localhost:8765 and opens the browser
-./serve.sh 9000     # custom port
+```txt
+.
+├── dev/
+│   ├── gen/                     # Python scripts that generate site assets (SVGs, JSON)
+│   └── math/                    # Symbolic wavefunction scripts (SymPy) + output
+├── docs/
+│   ├── .vitepress/
+│   │   ├── config.mjs           # VitePress configuration
+│   │   └── theme/
+│   │       └── components/
+│   │           ├── PanZoomViewer.vue   # Interactive SVG viewer (D3-powered)
+│   │           └── ValenceTable.vue    # Valence fill bar chart component
+│   ├── annex/                   # Math reference, all-elements table, links
+│   ├── chapters/                # QM chapters (Markdown + MathJax)
+│   ├── sheets/                  # Periodic table viewer pages
+│   ├── public/
+│   │   ├── data/
+│   │   │   └── elements.json    # All 118 elements — physical, chemical, quantum data
+│   │   ├── diagrams/            # 24 standalone SVG diagrams (orbitals, Aufbau, Bohr shells…)
+│   │   ├── icons/               # Hero and feature icons
+│   │   └── tables/
+│   │       ├── periodic_table_18col.svg   # 18-column periodic table
+│   │       └── periodic_table_32col.svg   # 32-column (Janet) periodic table
+│   └── index.md                 # Home page
+├── package.json
+└── pnpm-lock.yaml
 ```
 
-Or visit the [GitHub Pages deployment](https://oscar6echo.github.io/periodic-table/) directly.
-
-**Controls:** scroll to zoom · drag to pan · `f` fit · `1` 100% · `+`/`-` step zoom
-
 ---
 
-## Tooling
-
-| Script | Purpose |
-| -------- | --------- |
-| `gen_png_from_svg.py` | Render any SVG to PNG via `rsvg-convert` (`--zoom`, `--dpi` options) |
-| `gen_orbital_section.py` | Generate the orbital box diagram section in sheet 3 |
-| `gen_32col.py` | Generate the 32-column layout (sheet 2) |
-| `gen_orbital.py` | Generate Bohr shell diagrams (sheet 3) |
-| `scripts/radial_wavefunctions.py` | Generate symbolic radial wavefunctions $R_{nl}(r)$ |
-| `scripts/angular_wavefunctions.py` | Generate symbolic angular wavefunctions $Y_{lm}(\theta, \phi)$ |
+## Local development
 
 ```bash
-# Example: render all sheets to PNG at 2× resolution
-/home/olivier/micromamba/envs/wa/bin/python gen_png_from_svg.py periodic_table_*.svg
+pnpm install          # install dependencies (Node 20+, pnpm)
+pnpm docs:dev         # dev server at http://localhost:5173
+pnpm docs:build       # production build → docs/.vitepress/dist
+pnpm docs:preview     # preview production build
 ```
 
 ---
 
 ## Deployment
 
-Pushes to `main` that touch any `.svg`, `view_svg.html`, or `view_svg.js` automatically redeploy to GitHub Pages via the workflow in `.github/workflows/deploy-pages.yml`.
+Pushes to `main` that touch `docs/**`, `package.json`, or `pnpm-lock.yaml` automatically redeploy to GitHub Pages via `.github/workflows/deploy-pages.yml`.
 
-**One-time setup:** in the repo **Settings → Pages → Source**, select **GitHub Actions**.
+**One-time setup:** in repo **Settings → Pages → Source**, select **GitHub Actions**.

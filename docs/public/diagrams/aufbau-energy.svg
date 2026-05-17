@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="455 663 440 320">
+<rect x="455" y="663" width="440" height="320" fill="#0d1117"/>
+<!-- Column type headers -->
+<text x="522" y="676" font-size="10" fill="#f78166" font-weight="700" font-family="sans-serif" text-anchor="middle">s</text>
+<text x="618" y="676" font-size="10" fill="#79c0ff" font-weight="700" font-family="sans-serif" text-anchor="middle">p</text>
+<text x="720" y="676" font-size="10" fill="#56d364" font-weight="700" font-family="sans-serif" text-anchor="middle">d</text>
+<text x="832" y="676" font-size="10" fill="#d2a8ff" font-weight="700" font-family="sans-serif" text-anchor="middle">f</text>
+<!-- Energy axis: vertical magenta line with arrowhead pointing up (low E at bottom, high E at top) -->
+<line x1="478" y1="976" x2="478" y2="684" stroke="#e060b0" stroke-width="1.5"/>
+<polygon points="473,689 483,689 478,680" fill="#e060b0"/>
+<text x="474" y="673" font-size="8" fill="#e060b0" font-weight="600" font-family="sans-serif" text-anchor="middle">energy</text>
+<!-- Energy levels, 16px spacing, 19 levels 1s→7p in filling order -->
+<!-- y=970 (lowest energy) … y=682 (highest shown). Higher on diagram = higher energy. -->
+<!-- 1s  y=970 -->
+<line x1="497" y1="970" x2="547" y2="970" stroke="#f78166" stroke-width="2.2"/>
+<text x="554" y="974" font-size="9" fill="#f78166" font-weight="700" font-family="sans-serif">1s</text>
+<!-- 2s  y=954 -->
+<line x1="497" y1="954" x2="547" y2="954" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="958" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">2s</text>
+<!-- 2p  y=938 -->
+<line x1="595" y1="938" x2="645" y2="938" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="942" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">2p</text>
+<!-- 3s  y=922 -->
+<line x1="497" y1="922" x2="547" y2="922" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="926" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">3s</text>
+<!-- 3p  y=906 -->
+<line x1="595" y1="906" x2="645" y2="906" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="910" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">3p</text>
+<!-- 4s  y=890 (KEY: lower on axis than 3d → fills first) -->
+<line x1="497" y1="890" x2="547" y2="890" stroke="#f78166" stroke-width="2.2"/>
+<text x="554" y="894" font-size="9" fill="#f78166" font-weight="700" font-family="sans-serif">4s</text>
+<!-- 3d  y=874 (higher energy than 4s — sits ABOVE 4s on axis) -->
+<line x1="700" y1="874" x2="750" y2="874" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="757" y="878" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif">3d</text>
+<!-- 4p  y=858 -->
+<line x1="595" y1="858" x2="645" y2="858" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="862" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">4p</text>
+<!-- 5s  y=842 -->
+<line x1="497" y1="842" x2="547" y2="842" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="846" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">5s</text>
+<!-- 4d  y=826 -->
+<line x1="700" y1="826" x2="750" y2="826" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="757" y="830" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif">4d</text>
+<!-- 5p  y=810 -->
+<line x1="595" y1="810" x2="645" y2="810" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="814" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">5p</text>
+<!-- 6s  y=794 -->
+<line x1="497" y1="794" x2="547" y2="794" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="798" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">6s</text>
+<!-- 4f  y=778 -->
+<line x1="810" y1="778" x2="860" y2="778" stroke="#d2a8ff" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="867" y="782" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif">4f</text>
+<!-- 5d  y=762 -->
+<line x1="700" y1="762" x2="750" y2="762" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="757" y="766" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif">5d</text>
+<!-- 6p  y=746 -->
+<line x1="595" y1="746" x2="645" y2="746" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="750" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">6p</text>
+<!-- 7s  y=730 -->
+<line x1="497" y1="730" x2="547" y2="730" stroke="#f78166" stroke-width="1.5"/>
+<text x="554" y="734" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">7s</text>
+<!-- 5f  y=714 -->
+<line x1="810" y1="714" x2="860" y2="714" stroke="#d2a8ff" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="867" y="718" font-size="9" fill="#d2a8ff" font-weight="400" font-family="sans-serif">5f</text>
+<!-- 6d  y=698 -->
+<line x1="700" y1="698" x2="750" y2="698" stroke="#56d364" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="757" y="702" font-size="9" fill="#56d364" font-weight="400" font-family="sans-serif">6d</text>
+<!-- 7p  y=682 -->
+<line x1="595" y1="682" x2="645" y2="682" stroke="#79c0ff" stroke-width="1.5"/>
+<text x="652" y="686" font-size="9" fill="#e6edf3" font-weight="400" font-family="sans-serif">7p</text>
+</svg>

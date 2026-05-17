@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="480 75 140 140">
+<rect x="480" y="75" width="140" height="140" fill="#0d1117"/>
+<circle cx="550" cy="145.0" r="18" fill="none" stroke="#30363d" stroke-width="0.8"/>
+<circle cx="550" cy="145.0" r="40" fill="none" stroke="#30363d" stroke-width="0.8"/>
+<circle cx="550" cy="145.0" r="11.4" fill="#1c2a1c" stroke="#40a040" stroke-width="1"/>
+<text x="550" y="146.0" font-size="7" fill="#80e080" font-family="sans-serif" text-anchor="middle" dominant-baseline="central">10p</text>
+<circle cx="568.0" cy="145.0" r="3.5" fill="#f78166" opacity="0.9"/>
+<text x="580.0" y="145.0" font-size="5.5" fill="#f78166" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">1s</text>
+<circle cx="532.0" cy="145.0" r="3.5" fill="#f78166" opacity="0.9"/>
+<circle cx="565.3" cy="108.0" r="3.5" fill="#f78166" opacity="0.9"/>
+<text x="569.9" y="97.0" font-size="5.5" fill="#f78166" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">2s</text>
+<circle cx="587.0" cy="129.7" r="3.5" fill="#f78166" opacity="0.9"/>
+<circle cx="587.0" cy="160.3" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<text x="598.0" y="164.9" font-size="5.5" fill="#79c0ff" font-family="sans-serif" text-anchor="middle" dominant-baseline="central" font-weight="600">2p</text>
+<circle cx="565.3" cy="182.0" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="534.7" cy="182.0" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="513.0" cy="160.3" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="513.0" cy="129.7" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<circle cx="534.7" cy="108.0" r="3.5" fill="#79c0ff" opacity="0.9"/>
+<text x="570" y="148.0" font-size="5.5" fill="#8b949e" font-family="sans-serif">n=1</text>
+<text x="592" y="148.0" font-size="5.5" fill="#8b949e" font-family="sans-serif">n=2</text>
+</svg>
