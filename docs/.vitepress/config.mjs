@@ -12,7 +12,7 @@ export default defineConfig({
     themeConfig: {
         nav: [
             { text: "Home", link: "/" },
-            { text: "Tables", link: "/sheets/table-1" },
+            { text: "Tables", link: "/tables/table-18col" },
             { text: "Chapters", link: "/chapters/0-introduction" },
             { text: "Annex", link: "/annex/math" },
         ],
@@ -20,8 +20,8 @@ export default defineConfig({
             {
                 text: "Periodic Tables",
                 items: [
-                    { text: "18-column Table", link: "/sheets/table-1" },
-                    { text: "32-column Table", link: "/sheets/table-2" },
+                    { text: "18-column Table", link: "/tables/table-18col" },
+                    { text: "32-column Table", link: "/tables/table-32col" },
                 ],
             },
             {
@@ -30,7 +30,7 @@ export default defineConfig({
                     { text: "Introduction", link: "/chapters/0-introduction" },
                     {
                         text: "1. The Schrödinger Equation",
-                        link: "/chapters/1-heart",
+                        link: "/chapters/1-schrodinger",
                     },
                     {
                         text: "2. Particle in a 1D Box",

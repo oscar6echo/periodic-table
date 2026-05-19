@@ -10,8 +10,8 @@ A VitePress documentation site covering atomic structure, quantum mechanics, and
 
 | Section | URL | Contents |
 | --- | --- | --- |
-| **18-column Table** | `/sheets/table-1` | Interactive pan/zoom viewer — conventional layout with electron configs, blocks, and periods |
-| **32-column Table** | `/sheets/table-2` | Interactive pan/zoom viewer — Janet (long-form) layout, s/f/d/p blocks in Aufbau order |
+| **18-column Table** | `/tables/table-18col` | Interactive pan/zoom viewer — conventional layout with electron configs, blocks, and periods |
+| **32-column Table** | `/tables/table-32col` | Interactive pan/zoom viewer — Janet (long-form) layout, s/f/d/p blocks in Aufbau order |
 | **Chapters 0–7** | `/chapters/…` | Quantum mechanics course from the Schrödinger equation to the periodic table |
 | **Math Annex** | `/annex/math` | Vector calculus, spherical harmonics, formal definitions |
 | **All Elements** | `/annex/all-elements` | Searchable/sortable table of all 118 elements with physical, chemical, and quantum data |
@@ -48,7 +48,7 @@ A VitePress documentation site covering atomic structure, quantum mechanics, and
 │   │           └── ValenceTable.vue    # Valence fill bar chart component
 │   ├── annex/                   # Math reference, all-elements table, links
 │   ├── chapters/                # QM chapters (Markdown + MathJax)
-│   ├── sheets/                  # Periodic table viewer pages
+│   ├── tables/                  # Periodic table viewer pages
 │   ├── public/
 │   │   ├── data/
 │   │   │   └── elements.json    # All 118 elements — physical, chemical, quantum data
