@@ -194,64 +194,16 @@ Each principal shell $n$ holds at most $2n^2$ electrons, distributed across its 
 
 Electrons fill subshells in order of increasing $n+l$ (Madelung rule), and within the same $n+l$ in order of increasing $n$ — the **diagonal rule** from section 6.4.1.
 
-### H — Hydrogen (Z=1)
+### Explore any element
 
-The simplest atom: a single electron in the 1s subshell, occupying the innermost shell.
-The $n=1$ shell can hold 2 electrons; one slot remains unfilled.
+Pick any of the 118 elements below to see two complementary views of its ground-state configuration, both built on the fly from the actual electron configuration:
 
-<img :src="withBase('/diagrams/bohr-shells-h.svg')" alt="Hydrogen shell diagram" style="width:35%" />
+- **Bohr shell model** — electrons as colored dots on concentric shell rings, with a green nucleus labelled by its proton count. Toggle *show all subshells* to reveal every subshell of each occupied shell, including the empty ones, drawn as faint slots in the subshell color.
+- **Subshell energy levels** — the 19 subshells stacked in Aufbau $(n+l)$ filling order, lowest energy at the bottom. Each subshell's orbitals appear as boxes filled with ↑/↓ spin arrows following Hund's rule; the box-group width is proportional to subshell capacity ($s$ narrowest, $f$ widest).
 
-*1s¹*
+For the 10 **Aufbau exceptions** from section 6.4.3, the energy diagram marks the subshells whose actual occupancy differs from the naive $(n+l)$ prediction with a gold ★ — for example chromium's $3d^5\,4s^1$ instead of the predicted $3d^4\,4s^2$.
 
-### Ne — Neon (Z=10)
-
-Neon fills both the $n=1$ and $n=2$ shells completely: 1s², 2s², and all six 2p slots.
-This closed-shell configuration gives neon its chemical inertness.
-
-<img :src="withBase('/diagrams/bohr-shells-ne.svg')" alt="Neon shell diagram" style="width:40%" />
-
-*1s² 2s² 2p⁶*
-
-### Ar — Argon (Z=18)
-
-Argon completes the $n=3$ s and p subshells but leaves 3d entirely empty — the empty slots are visible in the diagram. This is why argon falls in period 3 despite 3d existing.
-
-<img :src="withBase('/diagrams/bohr-shells-ar.svg')" alt="Argon shell diagram" style="width:50%" />
-
-*1s² 2s² 2p⁶ 3s² 3p⁶*
-
-### C — Carbon (Z=6)
-
-Carbon has two electrons in the $n=2$ shell beyond the 1s² core: one in 2s and two in 2p.
-The two 2p electrons occupy separate orbitals (Hund's rule), giving carbon its tetravalency.
-
-<img :src="withBase('/diagrams/bohr-shells-c.svg')" alt="Carbon shell diagram" style="width:45%" />
-
-*1s² 2s² 2p²*
-
-### Fe — Iron (Z=26)
-
-Iron is the canonical transition metal, with a partially filled 3d subshell (3d⁶) alongside two 4s electrons. The incomplete d-shell is responsible for iron's magnetism and variable oxidation states.
-
-<img :src="withBase('/diagrams/bohr-shells-fe.svg')" alt="Iron shell diagram" style="width:75%" />
-
-*1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s²*
-
-### Se — Selenium (Z=34)
-
-Selenium fills the 3d subshell completely and adds four electrons to 4p. Its configuration [Ar] 3d¹⁰ 4s² 4p⁴ mirrors sulfur, placing selenium in the same chalcogen group.
-
-<img :src="withBase('/diagrams/bohr-shells-se.svg')" alt="Selenium shell diagram" style="width:75%" />
-
-*1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁴*
-
-### Nd — Neodymium (Z=60)
-
-Neodymium is a rare-earth element with four electrons in the 4f subshell, buried inside the atom and shielded from chemistry — but responsible for Nd's exceptional magnetic properties.
-
-<img :src="withBase('/diagrams/bohr-shells-nd.svg')" alt="Neodymium shell diagram" style="width:80%" />
-
-*1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 4f⁴ 5s² 5p⁶ 6s²*
+<ElementShellExplorer />
 
 ## 6.7 Valence Fill — All 118 Elements
 

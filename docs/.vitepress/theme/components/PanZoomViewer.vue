@@ -21,7 +21,8 @@ import { withBase } from 'vitepress'
 import * as d3 from 'd3'
 
 const props = defineProps({
-  svgSrc: { type: String, required: true },
+  svgSrc: { type: String, default: '' },
+  svgMarkup: { type: String, default: '' },
 })
 
 const container = ref(null)
@@ -97,7 +98,7 @@ function onKeyDown(e) {
   if (e.key === '-') { e.preventDefault(); zoomOut() }
 }
 
-function loadSVG(src) {
+function renderSvgText(svgText) {
   loading.value = true
   svgLoaded = false
   svgW = 1100
@@ -106,48 +107,63 @@ function loadSVG(src) {
   const svg = d3.select(svgEl.value)
   svg.selectAll('g#content-group').remove()
   svg.selectAll('defs#imported-defs').remove()
+  svg.selectAll('text.svg-error').remove()
 
+  try {
+    const parser = new DOMParser()
+    const doc = parser.parseFromString(svgText, 'image/svg+xml')
+    const srcSvg = doc.querySelector('svg')
+    if (!srcSvg) throw new Error('No <svg> found')
+
+    const vb = srcSvg.getAttribute('viewBox')
+    if (vb) {
+      const parts = vb.trim().split(/[\s,]+/).map(Number)
+      svgW = parts[2] || 1100
+      svgH = parts[3] || 800
+    }
+
+    const importedDefs = document.createElementNS('http://www.w3.org/2000/svg', 'defs')
+    importedDefs.id = 'imported-defs'
+    srcSvg.querySelectorAll('defs').forEach(d => {
+      Array.from(d.children).forEach(child => importedDefs.appendChild(document.importNode(child, true)))
+    })
+    svgEl.value.insertBefore(importedDefs, svgEl.value.firstChild)
+
+    const g = svg.append('g').attr('id', 'content-group')
+    Array.from(srcSvg.children).forEach(child => {
+      if (child.tagName.toLowerCase() !== 'defs') {
+        g.node().appendChild(document.importNode(child, true))
+      }
+    })
+
+    svgLoaded = true
+    setAspectHeight()
+    nextTick(() => fitToView(false))
+    loading.value = false
+  } catch (err) {
+    loading.value = false
+    console.error('SVG render error:', err)
+    showError(`Error rendering SVG: ${err.message}`)
+  }
+}
+
+function showError(message) {
+  d3.select(svgEl.value).append('text')
+    .attr('class', 'svg-error')
+    .attr('x', 20).attr('y', 30)
+    .attr('fill', '#f85149').attr('font-size', '14')
+    .text(message)
+}
+
+function loadSVG(src) {
+  loading.value = true
   fetch(src)
     .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.text() })
-    .then(svgText => {
-      const parser = new DOMParser()
-      const doc = parser.parseFromString(svgText, 'image/svg+xml')
-      const srcSvg = doc.querySelector('svg')
-      if (!srcSvg) throw new Error('No <svg> found')
-
-      const vb = srcSvg.getAttribute('viewBox')
-      if (vb) {
-        const parts = vb.trim().split(/[\s,]+/).map(Number)
-        svgW = parts[2] || 1100
-        svgH = parts[3] || 800
-      }
-
-      const importedDefs = document.createElementNS('http://www.w3.org/2000/svg', 'defs')
-      importedDefs.id = 'imported-defs'
-      srcSvg.querySelectorAll('defs').forEach(d => {
-        Array.from(d.children).forEach(child => importedDefs.appendChild(document.importNode(child, true)))
-      })
-      svgEl.value.insertBefore(importedDefs, svgEl.value.firstChild)
-
-      const g = svg.append('g').attr('id', 'content-group')
-      Array.from(srcSvg.children).forEach(child => {
-        if (child.tagName.toLowerCase() !== 'defs') {
-          g.node().appendChild(document.importNode(child, true))
-        }
-      })
-
-      svgLoaded = true
-      setAspectHeight()
-      nextTick(() => fitToView(false))
-      loading.value = false
-    })
+    .then(renderSvgText)
     .catch(err => {
       loading.value = false
       console.error('SVG load error:', err)
-      svg.append('text')
-        .attr('x', 20).attr('y', 30)
-        .attr('fill', '#f85149').attr('font-size', '14')
-        .text(`Error loading ${src}: ${err.message}`)
+      showError(`Error loading ${src}: ${err.message}`)
     })
 }
 
@@ -155,7 +171,7 @@ onMounted(() => {
   zoom = d3.zoom()
     .scaleExtent([0.05, 40])
     .on('zoom', (event) => {
-      d3.select('#content-group').attr('transform', event.transform)
+      d3.select(svgEl.value).select('#content-group').attr('transform', event.transform)
       zoomLevel.value = event.transform.k
     })
 
@@ -171,7 +187,8 @@ onMounted(() => {
 
   document.addEventListener('fullscreenchange', onFullscreenChange)
   window.addEventListener('keydown', onKeyDown)
-  loadSVG(withBase(props.svgSrc))
+  if (props.svgMarkup) renderSvgText(props.svgMarkup)
+  else if (props.svgSrc) loadSVG(withBase(props.svgSrc))
 })
 
 onBeforeUnmount(() => {
@@ -180,7 +197,8 @@ onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeyDown)
 })
 
-watch(() => props.svgSrc, (src) => loadSVG(withBase(src)))
+watch(() => props.svgSrc, (src) => { if (src) loadSVG(withBase(src)) })
+watch(() => props.svgMarkup, (markup) => { if (markup) renderSvgText(markup) })
 </script>
 
 <style scoped>
