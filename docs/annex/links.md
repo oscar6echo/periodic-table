@@ -2,7 +2,7 @@
 
 ## Wikipedia — Periodic Table
 
-The Wikipedia article on the periodic table is an excellent reference: history, organisation, element properties, and the underlying chemistry.
+The Wikipedia article on the periodic table is an excellent reference: history, organization, element properties, and the underlying chemistry.
 
 [Periodic table — Wikipedia](https://en.wikipedia.org/wiki/Periodic_table)
 
@@ -20,6 +20,6 @@ Another comprehensive reference with element data, compounds, and isotope inform
 
 ## Mendeleev's 1871 Periodic Table (SVG)
 
-The original 1871 table by Dmitri Mendeleev, with German group labels and dashes for the elements he predicted but had not yet been discovered. Public domain. Adapted from the Wikimedia Commons SVG by NikNaks.
+The original 1871 table by Dmitri Mendeleev, with German group labels and dashes marking elements he had predicted but which had not yet been discovered. Public domain. Adapted from the Wikimedia Commons SVG by NikNaks.
 
 [Wikimedia Commons — Periodic table by Mendeleev, 1871](https://commons.wikimedia.org/wiki/File:Periodic_table_by_Mendeleev,_1871.svg)

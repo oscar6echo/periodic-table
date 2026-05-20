@@ -23,7 +23,7 @@ A VitePress documentation site covering atomic structure, quantum mechanics, and
 | :--- | :--- | :--- |
 | **Introduction** | Setting the scene | Motivation, scope |
 | **1 — The Schrödinger Equation** | The heart of QM | Wave functions, operators, probability |
-| **2 — Particle in a 1D Box** | First quantisation | Boundary conditions, energy levels |
+| **2 — Particle in a 1D Box** | First quantization | Boundary conditions, energy levels |
 | **3 — The 3D Hydrogen Atom** | Full solution | Spherical coordinates, separation of variables |
 | **4 — Angular Solutions** | Orbital shapes | Legendre polynomials, $s/p/d/f$ shapes |
 | **5 — Radial Solutions** | Energy shells | Laguerre polynomials, $r_\text{mp}$, shell structure |

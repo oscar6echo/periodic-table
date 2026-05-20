@@ -25,6 +25,8 @@ const props = defineProps({
   svgMarkup: { type: String, default: '' },
 })
 
+const emit = defineEmits(['toggle-fullscreen'])
+
 const container = ref(null)
 const viewport = ref(null)
 const svgEl = ref(null)
@@ -80,8 +82,7 @@ function zoomOut() {
 }
 
 function toggleFullscreen() {
-  if (isFullscreen.value) document.exitFullscreen()
-  else container.value?.requestFullscreen()
+  emit('toggle-fullscreen')
 }
 
 function onFullscreenChange() {
@@ -213,11 +214,8 @@ watch(() => props.svgMarkup, (markup) => { if (markup) renderSvgText(markup) })
   overflow: hidden;
 }
 .viewer-container.fullscreen {
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
   border-radius: 0;
-  height: 100vh !important;
+  flex: 1;
 }
 
 .toolbar {

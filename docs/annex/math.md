@@ -77,15 +77,15 @@ For spherical coordinates, the product $h_r h_\theta h_\phi = r^2\sin\theta$.
 
 ---
 
-## A.4 Associated Legendre Polynomials, $P_l^{m_l}(x)$ {#associated-legendre-polynomials}
+## A.4 Associated Legendre Polynomials, $P_\ell^{m_\ell}(x)$ {#associated-legendre-polynomials}
 
-In Chapter 4, the solution to the $\theta$ equation involves **Associated Legendre Polynomials**, $P_l^{m_l}(\cos\theta)$.
+In Chapter 4, the solution to the $\theta$ equation involves **Associated Legendre Polynomials**, $P_\ell^{m_\ell}(\cos\theta)$.
 
 ### Formal Definition
 
 These polynomials can be expressed using **Rodrigues' Formula**:
 
-$$P_l^{m_l}(x) = \frac{(-1)^{m_l}}{2^l l!} (1-x^2)^{m_l/2} \frac{d^{l+m_l}}{dx^{l+m_l}} (x^2-1)^l$$
+$$P_\ell^{m_\ell}(x) = \frac{(-1)^{m_\ell}}{2^\ell \ell!} (1-x^2)^{m_\ell/2} \frac{d^{\ell+m_\ell}}{dx^{\ell+m_\ell}} (x^2-1)^\ell$$
 
 ### Historical Context
 
@@ -95,30 +95,30 @@ These polynomials were not invented for quantum mechanics. They were developed b
 
 The angular part of the wavefunction, $Y(\theta, \phi)$, depends only on two angles. To visualize it in 3D:
 
-1. **Mapping:** We set the radius $\rho$ in our plots equal to the absolute value: $\rho = |Y_l^{m_l}(\theta, \phi)|$.
+1. **Mapping:** We set the radius $\rho$ in our plots equal to the absolute value: $\rho = |Y_\ell^{m_\ell}(\theta, \phi)|$.
 2. **Interpretation:** The surface "bulge" in a specific direction indicates the probability of finding the electron there.
 3. **Independence:** These shapes represent **only the angular likelihood** and are independent of the radial "shells" $R(r)$ discussed in Chapter 5.
 
 ### Visualizing the Solutions in Desmos 3D
 
 ::: tip Visualize the solutions? 🤔
-**[3D Atomic Orbital Visualizer](https://www.desmos.com/3d/qhbfggpwst)** — Interactive graph plotting angular probability density $|Y_l^{m_l}|^2$.
+**[3D Atomic Orbital Visualizer](https://www.desmos.com/3d/qhbfggpwst)** — Interactive graph plotting angular probability density $|Y_\ell^{m_\ell}|^2$.
 
 **⚠️ Notation alert:** In standard textbooks (and Chapter 4), $\theta$ is polar and $\phi$ is azimuthal. **In Desmos 3D these names are swapped**: `phi` is polar, `theta` is azimuthal. The formulas below use the Desmos convention.
 :::
 
-| Subshell | $m_l$ | Name | Formula (Desmos convention) |
+| Subshell | $m_\ell$ | Name | Formula (Desmos convention) |
 | :---: | :---: | :--- | :--- |
-| $s$ ($l=0$) | $0$ | — | `rho = 1` |
-| $p$ ($l=1$) | $0$ | $p_z$ | `rho = \|cos(phi)\|` |
+| $s$ ($\ell=0$) | $0$ | — | `rho = 1` |
+| $p$ ($\ell=1$) | $0$ | $p_z$ | `rho = \|cos(phi)\|` |
 | | $+1$ | $p_x$ | `rho = \|sin(phi)*cos(theta)\|` |
 | | $-1$ | $p_y$ | `rho = \|sin(phi)*sin(theta)\|` |
-| $d$ ($l=2$) | $0$ | $d_{z^2}$ | `rho = 0.5 * \|3*cos^2(phi) - 1\|` |
+| $d$ ($\ell=2$) | $0$ | $d_{z^2}$ | `rho = 0.5 * \|3*cos^2(phi) - 1\|` |
 | | $+1$ | $d_{xz}$ | `rho = \|2*sin(phi)*cos(phi)*cos(theta)\|` |
 | | $-1$ | $d_{yz}$ | `rho = \|2*sin(phi)*cos(phi)*sin(theta)\|` |
 | | $+2$ | $d_{x^2-y^2}$ | `rho = \|sin^2(phi)*cos(2*theta)\|` |
 | | $-2$ | $d_{xy}$ | `rho = \|sin^2(phi)*sin(2*theta)\|` |
-| $f$ ($l=3$) | $0$ | $f_{z^3}$ | `rho = 0.5 * \|5*cos^3(phi) - 3*cos(phi)\|` |
+| $f$ ($\ell=3$) | $0$ | $f_{z^3}$ | `rho = 0.5 * \|5*cos^3(phi) - 3*cos(phi)\|` |
 | | $+1$ | $f_{xz^2}$ | `rho = 0.73 * \|sin(phi)*(5*cos^2(phi) - 1)*cos(theta)\|` |
 | | $-1$ | $f_{yz^2}$ | `rho = 0.73 * \|sin(phi)*(5*cos^2(phi) - 1)*sin(theta)\|` |
 | | $+2$ | $f_{z(x^2-y^2)}$ | `rho = 2.6 * \|sin^2(phi)*cos(phi)*cos(2*theta)\|` |
@@ -130,7 +130,7 @@ The angular part of the wavefunction, $Y(\theta, \phi)$, depends only on two ang
 
 ## A.5 Associated Laguerre Polynomials, $L_q^p(x)$ {#associated-laguerre-polynomials}
 
-In Chapter 5, the solution to the radial equation involves **Associated Laguerre Polynomials**, $L_{n-l-1}^{2l+1}(x)$.
+In Chapter 5, the solution to the radial equation involves **Associated Laguerre Polynomials**, $L_{n-\ell-1}^{2\ell+1}(x)$.
 
 ### Historical Context
 
@@ -138,15 +138,15 @@ These were developed by the French mathematician **Edmond Laguerre (1834–1886)
 
 ### Physical Interpretation: Onion Layers
 
-The number of **radial nodes** is $n - l - 1$. These are spherical shells where probability is zero. A $2s$ orbital ($1$ node) looks like a sphere inside another sphere.
+The number of **radial nodes** is $n - \ell - 1$. These are spherical shells where probability is zero. A $2s$ orbital ($1$ node) looks like a sphere inside another sphere.
 
 ### Visualizing the Radial Solutions in Desmos 3D
 
 ::: tip Visualize the solutions? 🤔
-**[3D Radial Node Visualizer](https://www.desmos.com/calculator/yngjiz1sk0)** — Plotting isosurfaces of $(R_{nl})^2$ to reveal the "onion-layer" and radial node structure.
+**[3D Radial Node Visualizer](https://www.desmos.com/calculator/yngjiz1sk0)** — Plotting isosurfaces of $(R_{n\ell})^2$ to reveal the "onion-layer" and radial node structure.
 :::
 
-First define $r = \sqrt{x^2 + y^2 + z^2}$. These formulas use atomic units ($a_0 = 1$). Plot $(R_{nl})^2 = c$ (try $c = 0.01$).
+First define $r = \sqrt{x^2 + y^2 + z^2}$. These formulas use atomic units ($a_0 = 1$). Plot $(R_{n\ell})^2 = c$ (try $c = 0.01$).
 
 | Shell | Orbital | Radial function |
 | :---: | :--- | :--- |
@@ -178,6 +178,6 @@ First define $r = \sqrt{x^2 + y^2 + z^2}$. These formulas use atomic units ($a_0
 | Number | Symbol | Allowed Values | Physical Meaning |
 | :--- | :---: | :--- | :--- |
 | **Principal** | $n$ | $1, 2, 3, \dots$ | Shell number, size and energy of the orbital. |
-| **Azimuthal** | $l$ | $0, 1, \dots, n-1$ | Subshell shape ($s, p, d, f$). Orbital angular momentum. |
-| **Magnetic** | $m_l$ | $-l, \dots, +l$ | Orbital orientation in space. |
+| **Azimuthal** | $\ell$ | $0, 1, \dots, n-1$ | Subshell shape ($s, p, d, f$). Orbital angular momentum. |
+| **Magnetic** | $m_\ell$ | $-\ell, \dots, +\ell$ | Orbital orientation in space. |
 | **Spin** | $m_s$ | $+\frac{1}{2}, -\frac{1}{2}$ | Intrinsic angular momentum (Spin-Up or Spin-Down). |

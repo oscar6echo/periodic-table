@@ -17,7 +17,7 @@ Because the particle cannot have infinite energy, the probability of finding it 
 The Schrödinger equation involves second-order derivatives, which can only be calculated if the wave function is **continuous**. If $\psi(x)$ is zero outside the box, it cannot suddenly "jump" to a non-zero value the moment it enters the box.
 
 **Proof by Contradiction:**
-Imagine if $\psi(x)$ *was* discontinuous—meaning it had a sharp, vertical jump at the wall.
+Imagine if $\psi(x)$ *were* discontinuous—meaning it had a sharp, vertical jump at the wall.
 
 1. The first derivative ($d\psi/dx$) at that jump would be an "infinitely sharp" spike (mathematically, a Dirac delta function).
 2. The second derivative ($d^2\psi/dx^2$) would be the derivative of that spike, which is even more extreme.

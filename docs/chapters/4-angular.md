@@ -12,7 +12,7 @@ Solving this equation will reveal why electrons don't just sit in simple spheres
 
 From our separation in Chapter 3, we have the following equation for $Y(\theta, \phi)$:
 
-$$\frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2 \theta} \frac{\partial^2 Y}{\partial \phi^2} = -l(l+1)Y$$
+$$\frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2 \theta} \frac{\partial^2 Y}{\partial \phi^2} = -\ell(\ell+1)Y$$
 
 Notice that this equation is independent of the nucleus's charge ($Z$) or the particle's mass ($m$). This means the *shapes* of orbitals are universal—a $p$-orbital in Hydrogen looks exactly like a $p$-orbital in Gold.
 
@@ -28,68 +28,68 @@ This works because the $\theta$ and $\phi$ operators in the Laplacian are "ortho
 
 By substituting this product into our angular equation and multiplying by $\sin^2\theta / (\Theta\Phi)$, we can pull the $\phi$ terms to one side:
 
-$$\underbrace{\frac{\sin \theta}{\Theta} \frac{d}{d \theta} \left(\sin \theta \frac{d\Theta}{d \theta}\right) + l(l+1)\sin^2 \theta}_{\text{Depends only on } \theta} = \underbrace{-\frac{1}{\Phi} \frac{d^2\Phi}{d\phi^2}}_{\text{Depends only on } \phi}$$
+$$\underbrace{\frac{\sin \theta}{\Theta} \frac{d}{d \theta} \left(\sin \theta \frac{d\Theta}{d \theta}\right) + \ell(\ell+1)\sin^2 \theta}_{\text{Depends only on } \theta} = \underbrace{-\frac{1}{\Phi} \frac{d^2\Phi}{d\phi^2}}_{\text{Depends only on } \phi}$$
 
-Just as before, for both sides to stay equal, they must equal a constant. We call this constant **$m_l^2$**.
+Just as before, for both sides to stay equal, they must equal a constant. We call this constant **$m_\ell^2$**.
 
 ::: tip Why the "Squared" Integer? 🤔
-Mathematically, a second-order derivative that returns the negative of itself ($\Phi'' = -C\Phi$) has sine and cosine solutions. By choosing a squared constant ($m_l^2$), we ensure the solution is in the form of a harmonic wave. And as we'll see in the next section, the "boundary" of $360^\circ$ will force $m_l$ to be a whole integer.
+Mathematically, a second-order derivative that returns the negative of itself ($\Phi'' = -C\Phi$) has sine and cosine solutions. By choosing a squared constant ($m_\ell^2$), we ensure the solution is in the form of a harmonic wave. And as we'll see in the next section, the "boundary" of $360^\circ$ will force $m_\ell$ to be a whole integer.
 :::
 
-## 4.3 Solving for $\phi$: The Magnetic Quantum Number ($m_l$)
+## 4.3 Solving for $\phi$: The Magnetic Quantum Number ($m_\ell$)
 
 The equation for $\Phi$ is the simplest differential equation in quantum mechanics:
 
-$$\frac{d^2\Phi}{d\phi^2} = -m_l^2\Phi$$
+$$\frac{d^2\Phi}{d\phi^2} = -m_\ell^2\Phi$$
 
 The solution is a complex exponential:
 
-$$\Phi(\phi) = \exp(im_l\phi)$$
+$$\Phi(\phi) = \exp(im_\ell\phi)$$
 
 **The Physical Constraint:**
 If you rotate $360^\circ$ ($2\pi$ radians) around an atom, you must end up exactly where you started. Therefore, $\Phi(\phi)$ must equal $\Phi(\phi + 2\pi)$.
 
-$$\exp(im_l\phi) = \exp\!\left[im_l(\phi + 2\pi)\right] \implies \exp(i2\pi m_l) = 1$$
+$$\exp(im_\ell\phi) = \exp\!\left[im_\ell(\phi + 2\pi)\right] \implies \exp(i2\pi m_\ell) = 1$$
 
-This is only true if **$m_l$ is an integer** ($\dots -2, -1, 0, 1, 2 \dots$). This $m_l$ is our second **Quantum Number**, the Magnetic Quantum Number, which determines the orbital's orientation in space.
+This is only true if **$m_\ell$ is an integer** ($\dots -2, -1, 0, 1, 2 \dots$). This $m_\ell$ is our second **Quantum Number**, the Magnetic Quantum Number, which determines the orbital's orientation in space.
 
-## 4.4 Solving for $\theta$: The Orbital Quantum Number ($l$)
+## 4.4 Solving for $\theta$: The Azimuthal Quantum Number ($\ell$)
 
 The equation for $\Theta(\theta)$ is much more challenging:
 
-$$\sin \theta \frac{d}{d \theta} \left(\sin \theta \frac{d\Theta}{d \theta}\right) + [l(l+1)\sin^2 \theta - m_l^2]\Theta = 0$$
+$$\sin \theta \frac{d}{d \theta} \left(\sin \theta \frac{d\Theta}{d \theta}\right) + [\ell(\ell+1)\sin^2 \theta - m_\ell^2]\Theta = 0$$
 
-This is a famous mathematical equation known as the **Associated Legendre Equation**. Its solutions are the **Associated Legendre Polynomials**, $P_l^{m_l}(\cos\theta)$:
+This is a famous mathematical equation known as the **Associated Legendre Equation**. Its solutions are the **Associated Legendre Polynomials**, $P_\ell^{m_\ell}(\cos\theta)$:
 
-$$P_l^{m_l}(x) = \frac{(-1)^{m_l}}{2^l l!} (1-x^2)^{m_l/2} \frac{d^{l+m_l}}{dx^{l+m_l}} (x^2-1)^l$$
+$$P_\ell^{m_\ell}(x) = \frac{(-1)^{m_\ell}}{2^\ell \ell!} (1-x^2)^{m_\ell/2} \frac{d^{\ell+m_\ell}}{dx^{\ell+m_\ell}} (x^2-1)^\ell$$
 
 For a detailed derivation and historical context of these polynomials, see the **[Mathematical Annex](../annex/math.md#associated-legendre-polynomials)**.
 
 **The Physical Constraint:**
-For these polynomials to remain finite (not blow up to infinity at the poles), the constant $l$ must be an integer, and it must satisfy:
+For these polynomials to remain finite (not blow up to infinity at the poles), the constant $\ell$ must be an integer, and it must satisfy:
 
-$$l \geq |m_l|$$
+$$\ell \geq |m_\ell|$$
 
-This gives us our third **Quantum Number**, the Orbital Angular Momentum Quantum Number ($l$). It determines the "subshell" ($s, p, d, f$).
+This gives us our third **Quantum Number**, the **azimuthal quantum number** ($\ell$) — also called the orbital angular-momentum quantum number. It determines the "subshell" ($s, p, d, f$).
 
 ### Quantum Numbers
 
-Because of the restriction $|m_l| \leq l$, each subshell has a specific number of orientations:
+Because of the restriction $|m_\ell| \leq \ell$, each subshell has a specific number of orientations:
 
-* **$l=0$ ($s$-subshell):** $m_l$ can only be $0$. (1 orientation, a sphere)
-* **$l=1$ ($p$-subshell):** $m_l$ can be $-1, 0, 1$. (3 orientations, dumbbells)
-* **$l=2$ ($d$-subshell):** $m_l$ can be $-2, -1, 0, 1, 2$. (5 orientations)
-* **$l=3$ ($f$-subshell):** $m_l$ can be $-3, -2, -1, 0, 1, 2, 3$. (7 orientations)
+* **$\ell=0$ ($s$-subshell):** $m_\ell$ can only be $0$. (1 orientation, a sphere)
+* **$\ell=1$ ($p$-subshell):** $m_\ell$ can be $-1, 0, 1$. (3 orientations, dumbbells)
+* **$\ell=2$ ($d$-subshell):** $m_\ell$ can be $-2, -1, 0, 1, 2$. (5 orientations)
+* **$\ell=3$ ($f$-subshell):** $m_\ell$ can be $-3, -2, -1, 0, 1, 2, 3$. (7 orientations)
 
-::: tip Wait, what about $l \ge 4$? 🤔
-Mathematically, $l$ can be $4, 5, 6 \dots$ ($g, h, i$ subshells). However, none of the 118 known elements in the Periodic Table require these subshells to house their electrons in their ground state. They are mathematically possible but physically unoccupied in the "base model" of our universe.
+::: tip Wait, what about $\ell \ge 4$? 🤔
+Mathematically, $\ell$ can be $4, 5, 6 \dots$ ($g, h, i$ subshells). However, none of the 118 known elements in the Periodic Table require these subshells to house their electrons in their ground state. They are mathematically possible but physically unoccupied in the "base model" of our universe.
 :::
 
-## 4.5 The Spherical Harmonics ($Y_l^{m_l}$)
+## 4.5 The Spherical Harmonics ($Y_\ell^{m_\ell}$)
 
 When we combine $\Theta$ and $\Phi$, we get the **Spherical Harmonics**:
 
-$$Y_l^{m_l}(\theta, \phi) \propto P_l^{m_l}(\cos\theta)\, \exp(im_l\phi)$$
+$$Y_\ell^{m_\ell}(\theta, \phi) \propto P_\ell^{m_\ell}(\cos\theta)\, \exp(im_\ell\phi)$$
 
 These functions are the "building blocks" of atomic shapes. By plotting the probability density ($|Y|^2$), we reveal the specific geometries of the subshells.
 
@@ -98,13 +98,13 @@ Interact with and rotate these exact mathematical shapes: **[3D Atomic Orbital V
 For the explicit formulas, see the **[Mathematical Annex](../annex/math.md#associated-legendre-polynomials)**.
 :::
 
-* **$l=0$ ($s$-orbital):** Spherically symmetric.  
+* **$\ell=0$ ($s$-orbital):** Spherically symmetric.  
 There are no angular nodes, so the probability of finding the electron is identical in every direction from the nucleus.
-* **$l=1$ ($p$-orbitals):** Lobed symmetry.  
+* **$\ell=1$ ($p$-orbitals):** Lobed symmetry.  
 Each has a single nodal plane passing through the nucleus, dividing the orbital into two distinct lobes. These align perfectly along the $x, y,$ or $z$ axes ($p_x, p_y, p_z$).
-* **$l=2$ ($d$-orbitals):** Quadrant symmetry.  
+* **$\ell=2$ ($d$-orbitals):** Quadrant symmetry.  
 Most have two perpendicular nodal planes that cross at the nucleus, creating a four-lobed structure. One exception ($d_{z^2}$) has two conical nodal surfaces, resulting in two lobes with a "toroidal" ring around the center.
-* **$l=3$ ($f$-orbitals):** Octant symmetry.  
+* **$\ell=3$ ($f$-orbitals):** Octant symmetry.  
 These have three nodal surfaces, resulting in highly complex eight-lobed or multi-ringed geometries.
 
 ## 4.6 Orbital Shapes — Visually
@@ -129,8 +129,8 @@ The following diagrams, extracted from the Quantum Principles reference sheet, s
 
 ## 4.7 Summary of the Angular Logic
 
-1. **Boundary Condition (Rotation):** Requires $m_l$ to be an integer.
-2. **Boundary Condition (Finiteness):** Requires $l$ to be an integer $\geq |m_l|$.
+1. **Boundary Condition (Rotation):** Requires $m_\ell$ to be an integer.
+2. **Boundary Condition (Finiteness):** Requires $\ell$ to be an integer $\geq |m_\ell|$.
 3. **The Result:** The geometry of the periodic table blocks ($s, p, d, f$) is a direct physical manifestation of these angular symmetries.
 
 Next, in **Chapter 5**, we will solve the **Radial Equation** to find the energy of these shells and finally understand the "Rows" of the table.

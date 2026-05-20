@@ -94,10 +94,10 @@ Here is the "magic" of the math: the left side of this equation is a function of
 
 If you change $r$, the left side might change, but the right side cannot (because it doesn't have $r$ in it). For both sides to stay equal for *all* points in space, they must both be equal to a fixed number—a **Separation Constant**.
 
-::: tip Why $l(l+1)$? 🤔
-Mathematically, we could call this constant anything (like $C$). However, physicists have already solved the "Angular Side" of this equation. They found that for the angular solutions ($Y$) to be physically valid—meaning they don't go to infinity and they wrap around the sphere smoothly—the constant must take the form $l(l+1)$, where $l$ is an integer ($0, 1, 2, \dots$).
+::: tip Why $\ell(\ell+1)$? 🤔
+Mathematically, we could call this constant anything (like $C$). However, physicists have already solved the "Angular Side" of this equation. They found that for the angular solutions ($Y$) to be physically valid—meaning they don't go to infinity and they wrap around the sphere smoothly—the constant must take the form $\ell(\ell+1)$, where $\ell$ is an integer ($0, 1, 2, \dots$).
 
-By using $l(l+1)$ now, we are "looking ahead" to ensure our atom is physically realistic.
+By using $\ell(\ell+1)$ now, we are "looking ahead" to ensure our atom is physically realistic.
 :::
 
 ## 3.4 The Result: Two Independent Equations
@@ -108,7 +108,7 @@ We have now successfully "ripped" the Schrödinger equation into two manageable 
 
 This equation determines the geometry of the orbital:
 
-$$\frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2 \theta} \frac{\partial^2 Y}{\partial \phi^2} = -l(l+1)Y$$
+$$\frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \left(\sin \theta \frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2 \theta} \frac{\partial^2 Y}{\partial \phi^2} = -\ell(\ell+1)Y$$
 
 Solving this will give us the **Spherical Harmonics**, which define the $s, p, d, f$ shapes.
 
@@ -116,7 +116,7 @@ Solving this will give us the **Spherical Harmonics**, which define the $s, p, d
 
 This equation determines the electron's distance and total energy:
 
-$$\frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) - \frac{2mr^2}{\hbar^2} [V(r) - E]R = l(l+1)R$$
+$$\frac{d}{dr} \left(r^2 \frac{dR}{dr}\right) - \frac{2mr^2}{\hbar^2} [V(r) - E]R = \ell(\ell+1)R$$
 
 Solving this will give us the **Energy Shells** ($n=1, 2, 3 \dots$) and the "rows" of your periodic table.
 

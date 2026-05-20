@@ -14,6 +14,7 @@ const query = ref('')
 const open = ref(false)
 const rootEl = ref(null)
 const listEl = ref(null)
+const isFullscreen = ref(false)
 
 const sliderZ = computed({
   get: () => selected.value?.Z ?? 1,
@@ -67,6 +68,15 @@ function onDocClick(e) {
   if (rootEl.value && !rootEl.value.contains(e.target)) open.value = false
 }
 
+function onFullscreenChange() {
+  isFullscreen.value = !!document.fullscreenElement
+}
+
+function toggleFullscreen() {
+  if (isFullscreen.value) document.exitFullscreen()
+  else rootEl.value?.requestFullscreen()
+}
+
 onMounted(async () => {
   try {
     const [elemRes, energyRes] = await Promise.all([
@@ -80,8 +90,12 @@ onMounted(async () => {
     console.error('ElementShellExplorer: failed to load data', e)
   }
   document.addEventListener('click', onDocClick)
+  document.addEventListener('fullscreenchange', onFullscreenChange)
 })
-onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
+onBeforeUnmount(() => {
+  document.removeEventListener('click', onDocClick)
+  document.removeEventListener('fullscreenchange', onFullscreenChange)
+})
 </script>
 
 <template>
@@ -149,7 +163,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
     </div>
 
     <div v-if="selected" class="ese-panels">
-      <PanZoomViewer :svg-markup="diagramsSvg" />
+      <PanZoomViewer :svg-markup="diagramsSvg" @toggle-fullscreen="toggleFullscreen" />
     </div>
   </div>
 </template>
@@ -332,5 +346,20 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
 
 .ese-panels {
   margin-top: 12px;
+}
+
+.ese-wrapper:fullscreen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  border-radius: 0;
+  padding: 12px;
+}
+.ese-wrapper:fullscreen .ese-panels {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 </style>

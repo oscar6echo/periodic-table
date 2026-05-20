@@ -2,13 +2,13 @@
 
 ## Why This Series?
 
-The periodic table is one of the most recognisable images in all of science. But it is more than a reference chart — it is a mathematical consequence of the laws of quantum mechanics. Every row, every column, every block has a reason rooted in the behaviour of electrons confined inside an atom.
+The periodic table is one of the most recognizable images in all of science. But it is more than a reference chart — it is a mathematical consequence of the laws of quantum mechanics. Every row, every column, every block has a reason rooted in the behavior of electrons confined inside an atom.
 
-This series builds that understanding from the ground up. No hand-waving, no memorisation. The goal is to show, step by step, how solving a single equation — the Schrödinger equation — produces all the structure you see in the periodic table: the shells, the orbital shapes, the filling order, and the 118 elements arranged exactly as they are.
+This series builds that understanding from the ground up. No hand-waving, no memorization. The goal is to show, step by step, how solving a single equation — the Schrödinger equation — produces all the structure you see in the periodic table: the shells, the orbital shapes, the filling order, and the 118 elements arranged exactly as they are.
 
 ## Starting Point
 
-Classical mechanics, Newton's laws included, works extraordinarily well at human scales. A thrown ball follows a parabola; a planet traces an ellipse. But at the scale of an atom, something breaks. Electrons do not follow classical trajectories. Their positions are not definite — only probabilities. Their energies are not continuous — only discrete, quantised values are allowed.
+Classical mechanics, Newton's laws included, works extraordinarily well at human scales. A thrown ball follows a parabola; a planet traces an ellipse. But at the scale of an atom, something breaks. Electrons do not follow classical trajectories. Their positions are not definite — only probabilities. Their energies are not continuous — only discrete, quantized values are allowed.
 
 To handle this, physicists in the 1920s developed quantum mechanics. At its heart is the **Schrödinger equation**, which replaces Newton's $F = ma$ as the fundamental law of motion. Instead of giving a trajectory, it gives a **wave function** $\Psi$ — a mathematical object that encodes all possible information about a quantum system.
 
@@ -16,7 +16,7 @@ To handle this, physicists in the 1920s developed quantum mechanics. At its hear
 
 **Chapter 1 — The Schrödinger Equation**
 
-We meet the master equation in both its time-dependent and time-independent forms. We define the wave function and the key operators (kinetic energy, potential energy, Hamiltonian). The central concept: for a bound system, the Schrödinger equation has solutions only at specific energies — this is the origin of quantisation.
+We meet the master equation in both its time-dependent and time-independent forms. We define the wave function and the key operators (kinetic energy, potential energy, Hamiltonian). The central concept: for a bound system, the Schrödinger equation has solutions only at specific energies — this is the origin of quantization.
 
 **Chapter 2 — Particle in a 1D Box**
 
@@ -46,6 +46,6 @@ By the end of Chapter 6, you will be able to:
 - Derive the energy levels of a particle in a box from scratch.
 - Explain why atomic orbitals have the shapes they do.
 - Predict the electron configuration of any element using Aufbau, Hund, and Pauli.
-- Read the periodic table as a quantum-mechanical map rather than a list to memorise.
+- Read the periodic table as a quantum-mechanical map rather than a list to memorize.
 
 The mathematical annex collects the key formulas and derivations for reference. Proceed to Chapter 1 whenever you are ready.

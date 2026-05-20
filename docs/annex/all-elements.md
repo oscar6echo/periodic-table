@@ -99,7 +99,7 @@ onMounted(async () => {
       <dt>Valence config</dt>
       <dd>outermost subshells only — the chemically active electrons (e.g. 2s²2p⁴ for O)</dd>
       <dt>Anomaly ★</dt>
-      <dd>Aufbau / Madelung exception — 10 elements (Cr, Cu, Nb, Mo, Ru, Rh, Pd, Ag, Pt, Au) adopt a configuration that deviates from the n+ℓ filling rule to gain extra stability via a half-filled or fully filled d subshell (e.g. Cr: [Ar] 3d⁵4s¹ instead of [Ar] 3d⁴4s²)</dd>
+      <dd>Aufbau / Madelung exception — 10 d-block elements (Cr, Cu, Nb, Mo, Ru, Rh, Pd, Ag, Pt, Au) whose ground-state configuration deviates from the n+ℓ filling rule, gaining extra stability from a half-filled or fully filled d subshell (e.g. Cr: [Ar] 3d⁵4s¹ instead of [Ar] 3d⁴4s²). Several lanthanides and actinides are also irregular, but follow a more tangled pattern and are not flagged here.</dd>
       <dt>EN</dt>
       <dd>Pauling electronegativity — dimensionless scale; F = 3.98 (highest), Cs = 0.79 (lowest)</dd>
       <dt>IE1 (eV)</dt>

@@ -4,13 +4,13 @@ import { withBase } from 'vitepress'
 
 # Spin and the Periodic Table
 
-We have navigated through the three spatial dimensions of the atom—the size ($n$), the shape ($l$), and the orientation ($m_l$) of electron orbitals. However, our model is not yet complete. Even with these three quantum numbers, experimental results (like the Stern-Gerlach experiment) showed that electrons have one more property that defines their behavior.
+We have navigated through the three spatial dimensions of the atom—the size ($n$), the shape ($\ell$), and the orientation ($m_\ell$) of electron orbitals. However, our model is not yet complete. Even with these three quantum numbers, experimental results (like the Stern-Gerlach experiment) showed that electrons have one more property that defines their behavior.
 
 To finish the puzzle, we must add the fourth and final quantum number: **Spin**.
 
 ## 6.1 The Fourth Dimension: Spin ($m_s$)
 
-In 1922, Otto Stern and Walther Gerlach discovered that a beam of silver atoms, when passed through a non-uniform magnetic field, split into exactly two distinct paths. This "splitting" couldn't be explained by orbital motion alone. It suggested that electrons possess an intrinsic magnetic moment, as if they were tiny spinning charges.
+In 1922, Otto Stern and Walther Gerlach discovered that a beam of silver atoms, when passed through a non-uniform magnetic field, split into exactly two distinct paths. This "splitting" couldn't be explained by orbital motion alone. It suggested that electrons possess an intrinsic magnetic moment, as if they were tiny spinning charges. Silver is an apt choice here: a silver atom's closed inner shells carry no net angular momentum, so its entire magnetic response comes from a single unpaired outer electron — and because that electron occupies an $s$ orbital ($\ell = 0$), it has no orbital motion to contribute, leaving the two beams to map directly onto its two spin states.
 
 ### The Spin Quantum Number, $m_s$
 
@@ -27,13 +27,13 @@ Every electron in an atom is uniquely described by four quantum numbers. No two 
 
   <img :src="withBase('/diagrams/qn-n.svg')" alt="n — Principal quantum number" style="width:60%" />
 
-- **$l$ (Angular Momentum):** Subshell shape. Allowed values: $0$ to $n-1$ ($0=s$, $1=p$, $2=d$, $3=f$)
+- **$\ell$ (Azimuthal):** Subshell shape. Allowed values: $0$ to $n-1$ ($0=s$, $1=p$, $2=d$, $3=f$)
 
-  <img :src="withBase('/diagrams/qn-l.svg')" alt="l — Angular Momentum quantum number" style="width:60%" />
+  <img :src="withBase('/diagrams/qn-l.svg')" alt="ℓ — Azimuthal quantum number" style="width:60%" />
 
-- **$m_l$ (Magnetic):** Orbital orientation in space. Allowed values: $-l$ to $+l$ ($2l+1$ values)
+- **$m_\ell$ (Magnetic):** Orbital orientation in space. Allowed values: $-\ell$ to $+\ell$ ($2\ell+1$ values)
 
-  <img :src="withBase('/diagrams/qn-ml.svg')" alt="ml — Magnetic quantum number" style="width:60%" />
+  <img :src="withBase('/diagrams/qn-ml.svg')" alt="mℓ — Magnetic quantum number" style="width:60%" />
 
 - **$m_s$ (Spin):** Intrinsic electron spin. Only two values: $+1/2$ or $-1/2$
 
@@ -41,9 +41,9 @@ Every electron in an atom is uniquely described by four quantum numbers. No two 
 
 ### Total states in shell $n$
 
-Each principal shell $n$ contains $n$ subshells ($l = 0, 1, \ldots, n-1$). Each subshell $l$ provides $2l+1$ distinct orientations ($m_l$ values), and each orientation holds 2 electrons (one spin-up, one spin-down). Summing over all subshells:
+Each principal shell $n$ contains $n$ subshells ($\ell = 0, 1, \ldots, n-1$). Each subshell $\ell$ provides $2\ell+1$ distinct orientations ($m_\ell$ values), and each orientation holds 2 electrons (one spin-up, one spin-down). Summing over all subshells:
 
-$$\text{Total electrons in shell } n = 2\sum_{l=0}^{n-1}(2l+1) = 2n^2$$
+$$\text{Total electrons in shell } n = 2\sum_{\ell=0}^{n-1}(2\ell+1) = 2n^2$$
 
 | $n$ | Shell | Subshells | Electrons per subshell | Total $2n^2$ |
 | :---: | :---: | :--- | :--- | :---: |
@@ -55,7 +55,7 @@ $$\text{Total electrons in shell } n = 2\sum_{l=0}^{n-1}(2l+1) = 2n^2$$
 | 6 | P | $6s,\ 6p,\ 6d,\ \ldots$ | 2 + 6 + 10 + 14 + 18 + 22 | **72** |
 | 7 | Q | $7s,\ 7p,\ \ldots$ | 2 + 6 + 10 + 14 + 18 + 22 + 26 | **98** |
 
-**Subshell capacity:** $s=2,\ p=6,\ d=10,\ f=14$ — each equals $2(2l+1)$, i.e. 2 electrons per orientation.
+**Subshell capacity:** $s=2,\ p=6,\ d=10,\ f=14$ — each equals $2(2\ell+1)$, i.e. 2 electrons per orientation.
 
 ## 6.3 The Pauli Exclusion Principle
 
@@ -63,14 +63,14 @@ With four quantum numbers in hand, we can now state the most important rule in c
 
 ::: danger **The Rule:**
 No two electrons in the same atom can have the exact same set of four quantum numbers:  
-($n, l, m_l, m_s$)
+($n, \ell, m_\ell, m_s$)
 :::
 
 ### The Consequence: Orbital Capacity
 
 This principle limits how many electrons can "live" in a single orbital.
 
-1. An orbital is defined by a unique set of ($n, l, m_l$).
+1. An orbital is defined by a unique set of ($n, \ell, m_\ell$).
 2. Inside that orbital, there are only two possible values for $m_s$ ($+1/2$ or $-1/2$).
 3. Therefore, **each orbital can hold a maximum of 2 electrons**, and they must have opposite spins.
 
@@ -82,16 +82,21 @@ To build an atom, we "fill" the orbitals with electrons starting from the lowest
 
 ### 1. The Aufbau Principle (Building Up)
 
-The **Aufbau Principle** (German for "building up") states that electrons fill the lowest available energy subshell first. In multi-electron atoms, subshells of the same principal quantum number $n$ are no longer degenerate: penetration and shielding split them so that $E_{ns} < E_{np} < E_{nd} < E_{nf}$, and this splitting can even make a higher-$n$ subshell (like $4s$) lower in energy than a lower-$n$ one (like $3d$). The **diagonal rule** (Madelung rule) gives a practical mnemonic: fill in order of increasing $n + l$, and for equal $n + l$, in order of increasing $n$.
+The **Aufbau Principle** (German for "building up") states that electrons fill the lowest available energy subshell first. In multi-electron atoms, subshells of the same principal quantum number $n$ are no longer degenerate: penetration and shielding split them so that $E_{ns} < E_{np} < E_{nd} < E_{nf}$, and this splitting can even make a higher-$n$ subshell (like $4s$) lower in energy than a lower-$n$ one (like $3d$). The **diagonal rule** (Madelung rule) gives a practical mnemonic: fill in order of increasing $n + \ell$, and for equal $n + \ell$, in order of increasing $n$.
 
 Electrons fill subshells in order of increasing energy:
 
-**$1s \to 2s \to 2p \to 3s \to 3p \to 4s \to 3d \to 4p \to 5s \to 4d \to 5p \to 6s \to 4f \to 5d \to 6p \to 7s \to 5f \to 6d \to 7p$**
+$$
+\begin{aligned}
+&1s \to 2s \to 2p \to 3s \to 3p \to 4s \to 3d \to 4p \to 5s \to 4d \\
+&\to 5p \to 6s \to 4f \to 5d \to 6p \to 7s \to 5f \to 6d \to 7p
+\end{aligned}
+$$
 
-> **Mnemonic: The $(n + l)$ Rule**
-> To quickly find which subshell has lower energy, calculate the sum of $n$ and $l$.
+> **Mnemonic: The $(n + \ell)$ Rule**
+> To quickly find which subshell has lower energy, calculate the sum of $n$ and $\ell$.
 >
-> 1. The subshell with the **lower $(n + l)$** value fills first.
+> 1. The subshell with the **lower $(n + \ell)$** value fills first.
 > 2. If the values are equal, the subshell with the **lower $n$** fills first.
 >
 > *Example:* 4s ($4+0=4$) vs. 3d ($3+2=5$). Since $4 < 5$, 4s fills first.
@@ -99,7 +104,7 @@ Electrons fill subshells in order of increasing energy:
 
 <img :src="withBase('/diagrams/aufbau-grid.svg')" alt="Aufbau diagonal grid" style="width:50%" />
 
-*Subshell grid — each (n, l) cell is subshell; diagonal arrows trace the Aufbau filling sequence.*
+*Subshell grid — each $(n, \ell)$ cell is a subshell; diagonal arrows trace the Aufbau filling sequence.*
 
 <img :src="withBase('/diagrams/aufbau-energy.svg')" alt="Aufbau energy levels" style="width:85%" />
 
@@ -117,7 +122,7 @@ The diagram shows:
 
 - In **light atoms** ($Z \leq 20$): $4s$ sits below $3d$ in energy — $4s$ fills first (e.g. K: [Ar] 4s¹)
 - In **heavier atoms** ($Z > 20$): once $3d$ starts filling, it drops below $4s$ — the levels permanently invert (e.g. Fe: [Ar] 3d⁶4s²)
-- **Ionization paradox:** Fe is [Ar]3d⁶4s² in the ground state, but when ionised to Fe²⁺ it loses the $4s$ electrons *first*, giving [Ar]3d⁶ (not [Ar]3d⁴4s²). Once $3d$ starts filling it drops below $4s$, making $4s$ the highest-energy electrons — they leave first upon ionisation.
+- **Ionization paradox:** Fe is [Ar]3d⁶4s² in the ground state, but when ionized to Fe²⁺ it loses the $4s$ electrons *first*, giving [Ar]3d⁶ (not [Ar]3d⁴4s²). Once $3d$ starts filling it drops below $4s$, making $4s$ the highest-energy electrons — they leave first upon ionization.
 
 ### 2. Hund's Rule (The Bus Passenger Rule)
 
@@ -141,7 +146,7 @@ Nature occasionally breaks the Aufbau sequence to achieve even greater stability
 
 ![Copper — Aufbau Exception](/diagrams/aufbau-exception-cu.svg)
 
-Experiment has identified **10 elements** where the actual ground-state configuration differs from the naive Aufbau prediction. All occur in the $d$-block, where the $d$ and $s$ subshell energies are close enough that a half-filled or fully-filled $d$-subshell outweighs the cost of leaving the outer $s$-orbital singly occupied:
+Beyond Chromium and Copper, the $d$-block holds **ten well-known Aufbau exceptions** — elements whose measured ground-state configuration differs from the naive Madelung prediction. In each, the $d$ and $s$ subshell energies lie close enough that a half-filled or fully-filled $d$-subshell outweighs the cost of leaving the outer $s$-orbital singly occupied:
 
 | Element | $Z$ | Aufbau prediction | Actual configuration | Gain |
 | :---: | :---: | :--- | :--- | :--- |
@@ -156,7 +161,9 @@ Experiment has identified **10 elements** where the actual ground-state configur
 | Pt | 78 | $[Xe]\ 4f^{14}\ 5d^8\ 6s^2$ | $[Xe]\ 4f^{14}\ 5d^9\ 6s^1$ | exchange energy |
 | Au | 79 | $[Xe]\ 4f^{14}\ 5d^9\ 6s^2$ | $[Xe]\ 4f^{14}\ 5d^{10}\ 6s^1$ | fully-filled $5d$ |
 
-Palladium ($Z=46$) is the most extreme case: it abandons the outer $5s$ electrons entirely in favour of a completely filled $4d^{10}$ subshell — the only element with no electrons in its outermost $s$ orbital at ground state.
+Palladium ($Z=46$) is the most extreme case: it abandons the outer $5s$ electrons entirely in favor of a completely filled $4d^{10}$ subshell — the only element with no electrons in its outermost $s$ orbital at ground state.
+
+The $d$-block is not the whole story. Many lanthanides and actinides are irregular too — there the $4f$, $5d$ and $6s$ levels (or $5f$, $6d$ and $7s$ in the actinides) lie so close together that anomalous configurations are common. Those follow a more tangled pattern and are left out of the table above for clarity.
 
 ## 6.5 Paramagnetism and Diamagnetism
 
@@ -169,7 +176,7 @@ The diagram below shows the orbital filling for the first ten elements. Each box
 
 <img :src="withBase('/diagrams/orbital-para-dia.svg')" alt="Orbital box diagram — paramagnetism and diamagnetism for H through Ne" style="width:100%;max-width:510px" />
 
-Hund's rule is visible in the 2p filling: B through N take one electron each (maximising unpaired spins), then O through F start pairing as the subshell fills. Nitrogen (3 unpaired) is the most paramagnetic in the row. Helium, Beryllium, and Neon have all electrons paired — they are diamagnetic.
+Hund's rule is visible in the 2p filling: B through N take one electron each (maximizing unpaired spins), then O through F start pairing as the subshell fills. Nitrogen (3 unpaired) is the most paramagnetic in the row. Helium, Beryllium, and Neon have all electrons paired — they are diamagnetic.
 
 ::: tip Quick rule
 Count unpaired electrons in the orbital box diagram.  
@@ -192,16 +199,16 @@ Each principal shell $n$ holds at most $2n^2$ electrons, distributed across its 
 | $n=3$ | $3s,\;3p,\;3d$ | $18$ |
 | $n=4$ | $4s,\;4p,\;4d,\;4f$ | $32$ |
 
-Electrons fill subshells in order of increasing $n+l$ (Madelung rule), and within the same $n+l$ in order of increasing $n$ — the **diagonal rule** from section 6.4.1.
+Electrons fill subshells in order of increasing $n+\ell$ (Madelung rule), and within the same $n+\ell$ in order of increasing $n$ — the **diagonal rule** from section 6.4.1.
 
 ### Explore any element
 
 Pick any of the 118 elements below to see two complementary views of its ground-state configuration, both built on the fly from the actual electron configuration:
 
-- **Bohr shell model** — electrons as colored dots on concentric shell rings, with a green nucleus labelled by its proton count. Toggle *show all subshells* to reveal every subshell of each occupied shell, including the empty ones, drawn as faint slots in the subshell color.
+- **Bohr shell model** — electrons as colored dots on concentric shell rings, with a green nucleus labeled by its proton count. Toggle *show all subshells* to reveal every subshell of each occupied shell, including the empty ones, drawn as faint slots in the subshell color.
 - **Subshell energy levels** — occupied subshells placed at their actual DFT orbital energies (NIST LDA data), lowest energy at the bottom. Each subshell's orbitals appear as boxes filled with ↑/↓ spin arrows following Hund's rule; the box-group width is proportional to subshell capacity ($s$ narrowest, $f$ widest). Toggle *show empty subshells* to display unoccupied subshells above the energy scale in schematic Madelung order.
 
-For the 10 **Aufbau exceptions** from section 6.4.3, the energy diagram marks the subshells whose actual occupancy differs from the naive $(n+l)$ prediction with a gold ★ — for example chromium's $3d^5\,4s^1$ instead of the predicted $3d^4\,4s^2$.
+For the 10 **Aufbau exceptions** from section 6.4.3, the energy diagram marks the subshells whose actual occupancy differs from the naive $(n+\ell)$ prediction with a gold ★ — for example chromium's $3d^5\,4s^1$ instead of the predicted $3d^4\,4s^2$.
 
 <ElementShellExplorer />
 
@@ -211,7 +218,7 @@ For the 10 **Aufbau exceptions** from section 6.4.3, the energy diagram marks th
 
 | <span style="white-space:nowrap">Crossing</span> | <span style="white-space:nowrap">Occurs at</span> | Effect |
 | :--- | :--- | :--- |
-| <span style="white-space:nowrap">**4s / 3d**</span> | <span style="white-space:nowrap">Ti (Z = 22)</span> | 4s fills first in K and Ca; 3d drops below 4s at Ti, opening the 3d transition series. Cr (Z = 24) briefly reverses due to its half-filled-3d anomaly. |
+| <span style="white-space:nowrap">**4s / 3d**</span> | <span style="white-space:nowrap">Sc–Ti (Z = 21–22)</span> | 4s fills first in K and Ca; 3d drops below 4s as the transition series opens at Sc–Ti. Cr (Z = 24) briefly reverses due to its half-filled-3d anomaly. |
 | <span style="white-space:nowrap">**5s / 4d**</span> | <span style="white-space:nowrap">Mo (Z = 42)</span> | Exact analogue in the 4d series: 5s fills first in Rb and Sr, then 4d sinks below 5s. Nb (Z = 41) shows a similar transient reversal. |
 | <span style="white-space:nowrap">**6s / 5d**</span> | <span style="white-space:nowrap">La (Z = 57)</span> | 5d drops below 6s at the very start of the lanthanide period, simultaneously with 4f beginning to compete — three subshells near-degenerate. |
 | <span style="white-space:nowrap">**6s / 4f**</span> | <span style="white-space:nowrap">Ce–Sm region</span> | As the lanthanides fill, 4f deepens rapidly below 6s while 5d remains close; this three-way near-degeneracy is why lanthanide configurations are the most complex in the table. |
@@ -227,13 +234,13 @@ Each row is one element. The **s / p / d / f** columns show a fill bar and fract
 
 <ValenceTable />
 
-## 6.8 The Periodic Table Emerges
+## 6.8 The Periodic Table Emerges {#the-periodic-table-emerges}
 
 The entire structure of the periodic table is a direct "map" of these quantum rules.
 
 ### The Blocks
 
-The table is divided into four **blocks** based on which subshell is being filled. The block widths — **s: 2, f: 14, d: 10, p: 6** columns — are exactly the subshell capacities $2(2l+1)$.
+The table is divided into four **blocks** based on which subshell is being filled. The block widths — **s: 2, f: 14, d: 10, p: 6** columns — are exactly the subshell capacities $2(2\ell+1)$.
 
 #### True ordering: 32 columns
 
@@ -245,7 +252,7 @@ In strict quantum order, blocks run **s · f · d · p** left to right within ea
 
 #### Practical layout: 18 columns
 
-Printing a 32-column table is impractical. The standard solution is to extract the f-block and display it below the main body, collapsing the width to **2 + 10 + 6 = 18 columns**. This is the familiar periodic table that everyone recognises — a layout choice, not a quantum one.
+Printing a 32-column table is impractical. The standard solution is to extract the f-block and display it below the main body, collapsing the width to **2 + 10 + 6 = 18 columns**. This is the familiar periodic table that everyone recognizes — a layout choice, not a quantum one.
 
 <img :src="withBase('/diagrams/block-map-18col.svg')" alt="18-column practical block map: f-block detached" style="width:58%" />
 
@@ -270,9 +277,9 @@ The lengths of the periods come directly from the orbital capacities ($s=2, p=6,
 ::: tip Who invented these representations? 🤔
 Two scientists, a century apart, each gave us one of the two layouts above.
 
-**Dmitri Mendeleev** (Russian chemist, 1834–1907) published the first widely recognised periodic table in 1869, arranging the 63 elements then known by increasing atomic weight and lining up similar chemical behaviours in columns. He famously left gaps for undiscovered elements — and predicted their properties with remarkable accuracy (gallium, germanium, and scandium were all found later, matching his forecasts). The 18-column table in common use today is the direct descendant of his arrangement; the name *Mendeleev's periodic table* is still standard in chemistry.
+**Dmitri Mendeleev** (Russian chemist, 1834–1907) published the first widely recognized periodic table in 1869, arranging the 63 elements then known by increasing atomic weight and lining up similar chemical behaviors in columns. He famously left gaps for undiscovered elements — and predicted their properties with remarkable accuracy (gallium, germanium, and scandium were all found later, matching his forecasts). The 18-column table in common use today is the direct descendant of his arrangement; the name *Mendeleev's periodic table* is still standard in chemistry.
 
-**Charles Janet** (French engineer and amateur naturalist, 1849–1932) proposed the 32-column layout in 1928. Working outside academic chemistry, he published it privately, which delayed its recognition by decades. His insight was to arrange elements strictly by the Aufbau / Madelung (n+ℓ) filling rule, placing blocks in the order **s → f → d → p** from left to right so that every row corresponds to one complete quantum shell. The result — sometimes called the *left-step* or *Janet periodic table* — is the truer quantum map. Its one notable quirk: helium moves to group 2 next to beryllium, because its configuration 1s² is s-block, whereas in Mendeleev's table it sits in group 18 for chemical-behaviour reasons.
+**Charles Janet** (French engineer and amateur naturalist, 1849–1932) proposed the 32-column layout in 1928. Working outside academic chemistry, he published it privately, which delayed its recognition by decades. His insight was to arrange elements strictly by the Aufbau / Madelung $(n+\ell)$ filling rule, placing blocks in the order **s → f → d → p** from left to right so that every row corresponds to one complete quantum shell. The result — sometimes called the *left-step* or *Janet periodic table* — is the truer quantum map. Its one notable quirk: helium moves to group 2 next to beryllium, because its configuration 1s² is s-block, whereas in Mendeleev's table it sits in group 18 for chemical-behavior reasons.
 
 In short: **Mendeleev** gave us a tool for chemistry; **Janet** gave us a tool for quantum mechanics.
 :::

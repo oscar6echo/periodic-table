@@ -36,3 +36,11 @@
     width: 525px !important;
     max-width: 100% !important;
 }
+
+/* Display math: VitePress sets `overflow-x: auto`, which makes `overflow-y`
+   compute to `auto` as well — a sub-pixel-tall SVG then triggers a phantom
+   vertical scrollbar (visible on multi-line `aligned` blocks). Pinning
+   `overflow-y` to hidden removes it while keeping horizontal scroll. */
+mjx-container {
+    overflow-y: hidden;
+}
