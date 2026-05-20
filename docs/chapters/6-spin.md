@@ -199,11 +199,25 @@ Electrons fill subshells in order of increasing $n+l$ (Madelung rule), and withi
 Pick any of the 118 elements below to see two complementary views of its ground-state configuration, both built on the fly from the actual electron configuration:
 
 - **Bohr shell model** — electrons as colored dots on concentric shell rings, with a green nucleus labelled by its proton count. Toggle *show all subshells* to reveal every subshell of each occupied shell, including the empty ones, drawn as faint slots in the subshell color.
-- **Subshell energy levels** — the 19 subshells stacked in Aufbau $(n+l)$ filling order, lowest energy at the bottom. Each subshell's orbitals appear as boxes filled with ↑/↓ spin arrows following Hund's rule; the box-group width is proportional to subshell capacity ($s$ narrowest, $f$ widest).
+- **Subshell energy levels** — occupied subshells placed at their actual DFT orbital energies (NIST LDA data), lowest energy at the bottom. Each subshell's orbitals appear as boxes filled with ↑/↓ spin arrows following Hund's rule; the box-group width is proportional to subshell capacity ($s$ narrowest, $f$ widest). Toggle *show empty subshells* to display unoccupied subshells above the energy scale in schematic Madelung order.
 
 For the 10 **Aufbau exceptions** from section 6.4.3, the energy diagram marks the subshells whose actual occupancy differs from the naive $(n+l)$ prediction with a gold ★ — for example chromium's $3d^5\,4s^1$ instead of the predicted $3d^4\,4s^2$.
 
 <ElementShellExplorer />
+
+**Energy scale.** The upper section of the energy ladder is a **linear scale from 0 to −30 eV**, so spatial gaps between subshells reflect real energy differences — a 5 eV separation looks twice as wide as a 2.5 eV one. Orbital energies come from NIST density-functional theory (LDA) calculations for the neutral atom ground state. Deep core levels (below −30 eV) are compressed into the lower band, shown only for completeness; they are chemically inert and never reorder relative to each other. Unoccupied subshells, when shown, appear above the scale in schematic Madelung order without energy claims.
+
+**Energy-level crossings.** Subshell energies shift as $Z$ increases, and several pairs cross — the same physics that creates the 4s/3d inversion shown in section 6.4.1 repeats across the periodic table:
+
+| Crossing | Occurs at | Effect |
+| :--- | :--- | :--- |
+| **4s / 3d** | Ti (Z = 22) | 4s fills first in K and Ca; 3d drops below 4s at Ti, opening the 3d transition series. Cr (Z = 24) briefly reverses due to its half-filled-3d anomaly. |
+| **5s / 4d** | Mo (Z = 42) | Exact analogue in the 4d series: 5s fills first in Rb and Sr, then 4d sinks below 5s. Nb (Z = 41) shows a similar transient reversal. |
+| **6s / 5d** | La (Z = 57) | 5d drops below 6s at the very start of the lanthanide period, simultaneously with 4f beginning to compete — three subshells near-degenerate. |
+| **6s / 4f** | Ce–Sm region | As the lanthanides fill, 4f deepens rapidly below 6s while 5d remains close; this three-way near-degeneracy is why lanthanide configurations are the most complex in the table. |
+| **7s / 5f, 6d** | Th–Pa (Z ≥ 90) | The same pattern recurs in the actinides, compounded by strong relativistic effects at high Z. |
+
+To see a crossing in action, step through the element selector: Ca → Sc → Ti watches the 3d level sink from above 4s to below it; Ba → La shows the 5d/6s inversion.
 
 ## 6.7 Valence Fill — All 118 Elements
 

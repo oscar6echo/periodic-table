@@ -13,7 +13,7 @@ const ENERGY_SCALE = 0.85;
 
 export function buildShellDiagramsSvg(element, config, options = {}) {
   const bohr = drawBohrShell(element, config, options);
-  const energy = drawEnergyLevels(element, config);
+  const energy = drawEnergyLevels(element, config, options);
 
   const bohrW = bohr.width * BOHR_SCALE;
   const bohrH = bohr.height * BOHR_SCALE;

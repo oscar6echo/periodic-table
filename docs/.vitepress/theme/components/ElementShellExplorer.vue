@@ -1,16 +1,27 @@
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, nextTick, onMounted, onBeforeUnmount } from 'vue'
 import { withBase } from 'vitepress'
 import PanZoomViewer from './PanZoomViewer.vue'
 import { parseConfig } from '../lib/electronConfig.js'
 import { buildShellDiagramsSvg } from '../lib/shellDiagramsSvg.js'
 
 const elements = ref([])
+const orbitalEnergies = ref({})
 const selected = ref(null)
 const showAll = ref(true)
+const showEmptySubshells = ref(false)
 const query = ref('')
 const open = ref(false)
 const rootEl = ref(null)
+const listEl = ref(null)
+
+const sliderZ = computed({
+  get: () => selected.value?.Z ?? 1,
+  set: (val) => {
+    const el = elements.value.find(e => e.Z === Number(val))
+    if (el) selected.value = el
+  },
+})
 
 const filtered = computed(() => {
   const q = query.value.trim().toLowerCase()
@@ -27,7 +38,11 @@ const config = computed(() =>
 )
 const diagramsSvg = computed(() =>
   selected.value
-    ? buildShellDiagramsSvg(selected.value, config.value, { showAllSubshells: showAll.value })
+    ? buildShellDiagramsSvg(selected.value, config.value, {
+        showAllSubshells: showAll.value,
+        showEmptySubshells: showEmptySubshells.value,
+        orbitalEnergies: orbitalEnergies.value,
+      })
     : ''
 )
 const isAnomaly = computed(() => selected.value?.['Aufbau anomaly'] === 'Yes (★)')
@@ -42,17 +57,27 @@ function onEnter() {
   if (filtered.value.length) selectElement(filtered.value[0])
 }
 
+async function openDropdown() {
+  open.value = true
+  await nextTick()
+  listEl.value?.querySelector('li.selected')?.scrollIntoView({ block: 'nearest' })
+}
+
 function onDocClick(e) {
   if (rootEl.value && !rootEl.value.contains(e.target)) open.value = false
 }
 
 onMounted(async () => {
   try {
-    const res = await fetch(withBase('/data/elements.json'))
-    elements.value = await res.json()
+    const [elemRes, energyRes] = await Promise.all([
+      fetch(withBase('/data/elements.json')),
+      fetch(withBase('/data/orbital_energies.json')),
+    ])
+    elements.value = await elemRes.json()
+    orbitalEnergies.value = await energyRes.json()
     selected.value = elements.value.find(e => e.symbol === 'Fe') || elements.value[0]
   } catch (e) {
-    console.error('ElementShellExplorer: failed to load elements.json', e)
+    console.error('ElementShellExplorer: failed to load data', e)
   }
   document.addEventListener('click', onDocClick)
 })
@@ -62,41 +87,58 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
 <template>
   <div class="ese-wrapper" ref="rootEl">
     <div class="ese-controls">
-      <div class="ese-combo">
-        <input
-          v-model="query"
-          type="text"
-          class="ese-input"
-          :placeholder="selected ? `${selected.Z} · ${selected.symbol} · ${selected.name}` : 'Search by Z, symbol, or name…'"
-          autocomplete="off"
-          spellcheck="false"
-          @focus="open = true"
-          @keydown.enter.prevent="onEnter"
-          @keydown.esc="open = false"
-        />
-        <ul v-if="open" class="ese-list">
-          <li
-            v-for="el in filtered"
-            :key="el.Z"
-            class="ese-option"
-            :class="{ selected: selected && el.Z === selected.Z }"
-            @click="selectElement(el)"
-          >
-            <span class="opt-z">{{ el.Z }}</span>
-            <span class="opt-sym">{{ el.symbol }}</span>
-            <span class="opt-name">{{ el.name }}</span>
-            <span class="opt-cfg">{{ el['Electron configuration'] }}</span>
-            <span class="opt-pg">{{ el['Period / Group (18-col)'] }}</span>
-            <span class="opt-star">{{ el['Aufbau anomaly'] === 'Yes (★)' ? '★' : '' }}</span>
-          </li>
-          <li v-if="!filtered.length" class="ese-empty">No match</li>
-        </ul>
+      <div class="ese-top-row">
+        <div class="ese-combo">
+          <input
+            v-model="query"
+            type="text"
+            class="ese-input"
+            :placeholder="selected ? `${selected.Z} · ${selected.symbol} · ${selected.name}` : 'Search by Z, symbol, or name…'"
+            autocomplete="off"
+            spellcheck="false"
+            @focus="openDropdown"
+            @keydown.enter.prevent="onEnter"
+            @keydown.esc="open = false"
+          />
+          <ul v-if="open" ref="listEl" class="ese-list">
+            <li
+              v-for="el in filtered"
+              :key="el.Z"
+              class="ese-option"
+              :class="{ selected: selected && el.Z === selected.Z }"
+              @click="selectElement(el)"
+            >
+              <span class="opt-z">{{ el.Z }}</span>
+              <span class="opt-sym">{{ el.symbol }}</span>
+              <span class="opt-name">{{ el.name }}</span>
+              <span class="opt-cfg">{{ el['Electron configuration'] }}</span>
+              <span class="opt-pg">{{ el['Period / Group (18-col)'] }}</span>
+              <span class="opt-star">{{ el['Aufbau anomaly'] === 'Yes (★)' ? '★' : '' }}</span>
+            </li>
+            <li v-if="!filtered.length" class="ese-empty">No match</li>
+          </ul>
+        </div>
+
+        <div class="ese-checks">
+          <label class="ese-toggle">
+            <input type="checkbox" v-model="showAll" />
+            show all subshells
+          </label>
+          <label class="ese-toggle">
+            <input type="checkbox" v-model="showEmptySubshells" />
+            show empty subshells <span class="ese-badge">energy ladder only</span>
+          </label>
+        </div>
       </div>
 
-      <label class="ese-toggle">
-        <input type="checkbox" v-model="showAll" />
-        show all subshells
-      </label>
+      <div class="ese-slider-row">
+        <input type="range" min="1" max="118" v-model="sliderZ" class="ese-slider" />
+        <span class="ese-slider-info">
+          <span class="si-z">{{ selected?.Z }}</span>
+          <span class="si-sym">{{ selected?.symbol }}</span>
+          <span class="si-name">{{ selected?.name }}</span>
+        </span>
+      </div>
     </div>
 
     <div v-if="selected" class="ese-header">
@@ -124,9 +166,14 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
 
 .ese-controls {
   display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.ese-top-row {
+  display: flex;
   align-items: center;
   gap: 16px;
-  flex-wrap: wrap;
 }
 
 .ese-combo {
@@ -134,6 +181,33 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   flex: 1;
   min-width: 240px;
 }
+
+.ese-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ese-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+.ese-slider {
+  flex: 1;
+  accent-color: #58a6ff;
+  cursor: pointer;
+}
+.ese-slider-info {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  min-width: 160px;
+}
+.si-z    { color: #6e7681; font-size: 13px; min-width: 28px; text-align: right; }
+.si-sym  { font-weight: 700; color: #58a6ff; font-size: 15px; min-width: 30px; }
+.si-name { color: #e6edf3; font-size: 13px; }
 
 .ese-input {
   width: 100%;
@@ -163,7 +237,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
   margin: 0;
   padding: 4px;
   list-style: none;
-  max-height: 320px;
+  max-height: 200px;
   overflow-y: auto;
   background: #161b22;
   border: 1px solid #30363d;
@@ -221,6 +295,14 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
 .ese-toggle input {
   cursor: pointer;
   accent-color: #58a6ff;
+}
+.ese-badge {
+  font-size: 10px;
+  color: #8b949e;
+  border: 1px solid #30363d;
+  border-radius: 3px;
+  padding: 1px 5px;
+  margin-left: 2px;
 }
 
 .ese-header {
