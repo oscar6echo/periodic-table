@@ -209,13 +209,13 @@ For the 10 **Aufbau exceptions** from section 6.4.3, the energy diagram marks th
 
 **Energy-level crossings.** Subshell energies shift as $Z$ increases, and several pairs cross — the same physics that creates the 4s/3d inversion shown in section 6.4.1 repeats across the periodic table:
 
-| Crossing | Occurs at | Effect |
+| <span style="white-space:nowrap">Crossing</span> | <span style="white-space:nowrap">Occurs at</span> | Effect |
 | :--- | :--- | :--- |
-| **4s / 3d** | Ti (Z = 22) | 4s fills first in K and Ca; 3d drops below 4s at Ti, opening the 3d transition series. Cr (Z = 24) briefly reverses due to its half-filled-3d anomaly. |
-| **5s / 4d** | Mo (Z = 42) | Exact analogue in the 4d series: 5s fills first in Rb and Sr, then 4d sinks below 5s. Nb (Z = 41) shows a similar transient reversal. |
-| **6s / 5d** | La (Z = 57) | 5d drops below 6s at the very start of the lanthanide period, simultaneously with 4f beginning to compete — three subshells near-degenerate. |
-| **6s / 4f** | Ce–Sm region | As the lanthanides fill, 4f deepens rapidly below 6s while 5d remains close; this three-way near-degeneracy is why lanthanide configurations are the most complex in the table. |
-| **7s / 5f, 6d** | Th–Pa (Z ≥ 90) | The same pattern recurs in the actinides, compounded by strong relativistic effects at high Z. |
+| <span style="white-space:nowrap">**4s / 3d**</span> | <span style="white-space:nowrap">Ti (Z = 22)</span> | 4s fills first in K and Ca; 3d drops below 4s at Ti, opening the 3d transition series. Cr (Z = 24) briefly reverses due to its half-filled-3d anomaly. |
+| <span style="white-space:nowrap">**5s / 4d**</span> | <span style="white-space:nowrap">Mo (Z = 42)</span> | Exact analogue in the 4d series: 5s fills first in Rb and Sr, then 4d sinks below 5s. Nb (Z = 41) shows a similar transient reversal. |
+| <span style="white-space:nowrap">**6s / 5d**</span> | <span style="white-space:nowrap">La (Z = 57)</span> | 5d drops below 6s at the very start of the lanthanide period, simultaneously with 4f beginning to compete — three subshells near-degenerate. |
+| <span style="white-space:nowrap">**6s / 4f**</span> | <span style="white-space:nowrap">Ce–Sm region</span> | As the lanthanides fill, 4f deepens rapidly below 6s while 5d remains close; this three-way near-degeneracy is why lanthanide configurations are the most complex in the table. |
+| <span style="white-space:nowrap">**7s / 5f, 6d**</span> | <span style="white-space:nowrap">Th–Pa (Z ≥ 90)</span> | The same pattern recurs in the actinides, compounded by strong relativistic effects at high Z. |
 
 To see a crossing in action, step through the element selector: Ca → Sc → Ti watches the 3d level sink from above 4s to below it; Ba → La shows the 5d/6s inversion.
 
